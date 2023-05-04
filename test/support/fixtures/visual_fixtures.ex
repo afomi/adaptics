@@ -18,4 +18,21 @@ defmodule Adaptics.VisualFixtures do
 
     node
   end
+
+  @doc """
+  Generate a link.
+  """
+  def link_fixture(attrs \\ %{}) do
+    {:ok, link} =
+      attrs
+      |> Enum.into(%{
+        description: "some description",
+        from_id: 42,
+        name: "some name",
+        to_id: 42
+      })
+      |> Adaptics.Visual.create_link()
+
+    link
+  end
 end

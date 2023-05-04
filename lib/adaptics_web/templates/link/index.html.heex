@@ -1,0 +1,32 @@
+<h1>Listing Links</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>From</th>
+      <th>To</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for link <- @links do %>
+    <tr>
+      <td><%= link.name %></td>
+      <td><%= link.description %></td>
+      <td><%= link.from_id %></td>
+      <td><%= link.to_id %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.link_path(@conn, :show, link) %></span>
+        <span><%= link "Edit", to: Routes.link_path(@conn, :edit, link) %></span>
+        <span><%= link "Delete", to: Routes.link_path(@conn, :delete, link), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Link", to: Routes.link_path(@conn, :new) %></span>

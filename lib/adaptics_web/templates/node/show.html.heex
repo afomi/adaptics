@@ -1,0 +1,18 @@
+<h1>Show Node</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @node.name %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @node.description %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.node_path(@conn, :edit, @node) %></span> |
+<span><%= link "Back", to: Routes.node_path(@conn, :index) %></span>

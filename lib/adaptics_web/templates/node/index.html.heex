@@ -1,0 +1,28 @@
+<h1>Listing Nodes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for node <- @nodes do %>
+    <tr>
+      <td><%= node.name %></td>
+      <td><%= node.description %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.node_path(@conn, :show, node) %></span>
+        <span><%= link "Edit", to: Routes.node_path(@conn, :edit, node) %></span>
+        <span><%= link "Delete", to: Routes.node_path(@conn, :delete, node), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Node", to: Routes.node_path(@conn, :new) %></span>

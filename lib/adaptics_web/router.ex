@@ -17,6 +17,9 @@ defmodule AdapticsWeb.Router do
   scope "/", AdapticsWeb do
     pipe_through :browser
 
+    resources "/nodes", NodeController
+    resources "/links", LinkController
+
     get "/", PageController, :index
   end
 

@@ -20,6 +20,8 @@ defmodule AdapticsWeb.Router do
     resources "/nodes", NodeController
     resources "/links", LinkController
 
+    get "/splines", PageController, :splines
+    get "/voxels", PageController, :voxels
     get "/", PageController, :index
   end
 

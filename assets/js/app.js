@@ -27,9 +27,23 @@ import {LiveSocket} from "phoenix_live_view"
 import topbar from "../vendor/topbar"
 import * as d3 from 'd3';
 import { renderForceDirectedGraph } from './force_directed_graph';
+import { renderSplines } from './render_splines';
+import { renderVoxels } from './voxels';
+
+let Hooks = {};
+Hooks.Splines = {
+  mounted() {
+    // Render the graph when the DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      renderSplines("#graph", data);
+    });
+  }
+};
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
-let liveSocket = new LiveSocket("/live", Socket, {params: {_csrf_token: csrfToken}})
+let liveSocket = new LiveSocket("/live", Socket, {
+  params: { _csrf_token: csrfToken },
+  hooks: Hooks });
 
 // Show progress bar on live navigation and form submits
 topbar.config({barColors: {0: "#29d"}, shadowColor: "rgba(0, 0, 0, .3)"})
@@ -45,7 +59,17 @@ liveSocket.connect()
 // >> liveSocket.disableLatencySim()
 window.liveSocket = liveSocket
 
-// Render the graph when the DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
+
+// Load /
+window.nodeGraph = function splines() {
   renderForceDirectedGraph('#graph', data);
-});
+}
+
+// Load /splines
+window.splines = function splines() {
+  renderSplines("#graph", data);
+}
+
+window.voxels = function() {
+  renderVoxels("#graph", data);
+}

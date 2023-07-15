@@ -32,3 +32,9 @@ adaptics-*.tar
 npm-debug.log
 /assets/node_modules/
 
+
+# For OSX-specific development
+.DS_Store
+
+# Ignore installed npm packages
+/node_modules

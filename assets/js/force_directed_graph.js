@@ -2,8 +2,8 @@ import * as d3 from 'd3';
 
 export function renderForceDirectedGraph(selector, data) {
   // Set width and height for the SVG
-  const width = 800;
-  const height = 600;
+  const width = window.innerWidth;
+  const height = window.innerHeight;
 
   // Create the SVG container
   const svg = d3.select(selector)

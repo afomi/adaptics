@@ -49,7 +49,8 @@ export function renderSplines(selector, data) {
       1,
       10000
     );
-    camera.position.set(0, 250, 1000);
+    camera.position.set(1000, 1500, 1000);
+
     scene.add(camera);
 
     scene.add(new THREE.AmbientLight(0xf0f0f0, 3));
@@ -221,9 +222,9 @@ export function renderSplines(selector, data) {
 
     for (let i = 0; i < data.nodes.length; i++) {
       // var car = data.nodes[i];
-      var x = Math.floor(Math.random() * 1000);
+      var x = Math.floor(Math.random() * 1000) - 500;
       var y = Math.floor(Math.random() * 1000);
-      var z = Math.floor(Math.random() * 1000);
+      var z = Math.floor(Math.random() * 1000 - 500);
       let vector = new THREE.Vector3(
         x,
         y,

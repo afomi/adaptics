@@ -1,25 +1,15 @@
-<script>
-  window.data = {
-    nodes: [
-    <%= for node <- @nodes do %>
-    { id: <%= node.id %> },
-    <% end %>
-    ],
-    links: [
-    <%= for link <- @links do %>
-    { source: <%= link.from_id %>,
-      target: <%= link.to_id %>,
-      value: 1
-    },
-    <% end %>
-    ],
-  };
-</script>
+<h1>
+  Adaptics
+</h1>
 
-<div id="graph"></div>
-
-<script>
-  window.addEventListener("DOMContentLoaded", (event) => {
-    window.nodeGraph();
-  });
-</script>
+<ul>
+  <li>
+    <%= link("ivn", to: "/ivn") %>
+  </li>
+  <li>
+    <%= link("splines", to: "/splines") %>
+  </li>
+  <li>
+    <%= link("voxels", to: "/voxels") %>
+  </li>
+</ul>

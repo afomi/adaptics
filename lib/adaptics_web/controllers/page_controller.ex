@@ -6,9 +6,13 @@ defmodule AdapticsWeb.PageController do
   alias Adaptics.Visual.Link
 
   def index(conn, _params) do
+    render(conn, "index.html", passSomeVariableKey: "Some Variable Value")
+  end
+
+  def nodes(conn, _params) do
     nodes = Visual.list_nodes()
     links = Visual.list_links()
-    render(conn, "index.html", nodes: nodes, links: links)
+    render(conn, "nodes.html", nodes: nodes, links: links)
   end
 
   def splines(conn, _params) do

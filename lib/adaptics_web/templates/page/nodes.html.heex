@@ -1,0 +1,25 @@
+<script>
+  window.data = {
+    nodes: [
+    <%= for node <- @nodes do %>
+    { id: <%= node.id %> },
+    <% end %>
+    ],
+    links: [
+    <%= for link <- @links do %>
+    { source: <%= link.from_id %>,
+      target: <%= link.to_id %>,
+      value: 1
+    },
+    <% end %>
+    ],
+  };
+</script>
+
+<div id="graph"></div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    window.nodeGraph();
+  });
+</script>

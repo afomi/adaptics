@@ -15,6 +15,7 @@ import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
+import { CSS3DRenderer, CSS3DObject } from "three/addons/renderers/CSS3DRenderer.js";
 
 export function renderNodes(selector, data) {
   let container;
@@ -25,6 +26,10 @@ export function renderNodes(selector, data) {
 
   const positions = []; // Nodes
   const nodes = []; // Nodes
+
+  const labels = []; // CSS Labels
+  const cssRenderer = new CSS3DRenderer();
+
   const point = new THREE.Vector3();
 
   const raycaster = new THREE.Raycaster();
@@ -400,6 +405,8 @@ export function renderNodes(selector, data) {
     camera.lookAt(3000, 2000, -9000);
     camera.position.set(3000, 2000, 8000);
 
+    camera.position.set(3000, 2000, 2000);
+
     // Right-side perspective
     // camera.lookAt(9000, 1550, 0);
 
@@ -508,7 +515,7 @@ export function renderNodes(selector, data) {
     var items = window.meshes;
     var sourceNode = findNodeByHash(currentLink.source);
     var targetNode = findNodeByHash(currentLink.target);
-    debugger
+    // debugger
     // var var1 = Math.floor(Math.random() * items.length);
     // var var2 = Math.floor(Math.random() * items.length);
     // console.log("Var1&2 ", var1, var2)
@@ -589,16 +596,18 @@ export function renderNodes(selector, data) {
     return mesh;
   }
 
+  // Create the node objects
   function drawNodes() {
-    // Create the node objects
-    // let nodes = [];
     let nodes = window.data.nodes;
-    debugger
 
     for (var i = 0; nodes.length > i; i++) {
       var currentNode = nodes[i];
       var mesh = drawNode(currentNode);
       mesh.userData.hash = currentNode.hash;
+      mesh.userData.id = currentNode.id;
+      mesh.userData.name = currentNode.name;
+      mesh.userData.description = currentNode.description;
+
       window.meshes.push(mesh);
     }
 
@@ -606,19 +615,40 @@ export function renderNodes(selector, data) {
   }
 
   function drawLabels() {
-    const labels = [];
     window.meshes.forEach((mesh, index) => {
       const div = document.createElement("div");
       div.className = "label";
-      div.textContent = `Mesh ${index + 1}`;
+      // div.textContent = `Mesh ${index + 1}`;
+      div.textContent = mesh.userData.name;
       div.style.marginTop = "-1em";
-
-      const label = new THREE.CSS3DObject(div);
+      const label = new CSS3DObject(div);
       label.position.copy(mesh.position);
       labels.push(label);
       scene.add(label);
     });
 
+    // add the CSS Renderer as an HTML element (overlay)
+    cssRenderer.setSize(window.innerWidth, window.innerHeight);
+    cssRenderer.domElement.style.position = "absolute";
+    cssRenderer.domElement.style.top = "0px";
+    cssRenderer.domElement.className = "css-renderer";
+
+    document.body.appendChild(cssRenderer.domElement);
+  }
+
+  function undrawLabels() {
+    for(var i = 0; i < labels.length; i++) {
+      var label = labels[i];
+      scene.remove(label);
+
+      if (label.element) {
+        debugger
+        // label.element.parentNode.removeChild(label.element);
+        label.element.remove();
+      }
+    }
+    // assumes one .css-renderer element is visible
+    document.body.getElementsByClassName("css-renderer")[0].remove()
   }
 
   function drawLinks() {
@@ -635,6 +665,13 @@ export function renderNodes(selector, data) {
   }
 
   function render() {
+
+    labels.forEach((label) => {
+      label.lookAt(camera.position);
+    });
+
+    cssRenderer.render(scene, camera);
+
     // splines.uniform.mesh.visible = params.uniform;
     // splines.centripetal.mesh.visible = params.centripetal;
     // splines.chordal.mesh.visible = params.chordal;
@@ -684,4 +721,5 @@ export function renderNodes(selector, data) {
 
   init();
   window.camera = camera;
+  return [scene, drawLabels, undrawLabels];
 }

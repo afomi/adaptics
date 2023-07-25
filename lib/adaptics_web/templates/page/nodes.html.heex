@@ -3,6 +3,9 @@
     nodes: [
     <%= for node <- @nodes do %>
     { id: <%= node.id %> },
+    { name: <%= node.name %> },
+    { description: <%= node.description%> },
+    { hash: <%= node.hash %> },
     <% end %>
     ],
     links: [

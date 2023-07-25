@@ -72,7 +72,23 @@ window.splines = function splines() {
 }
 
 window.three_d = function three_d() {
-  renderNodes("#graph", data);
+  var [scene, drawLabels, undrawLabels] = renderNodes("#graph", data);
+
+  // start with labels off
+  var labelsOff = true;
+  document.getElementsByClassName("toggle-button")[0]
+    .addEventListener
+      ("click", function() {
+        if (labelsOff) {
+          alert('toggling css labels ON');
+          drawLabels();
+          labelsOff = false;
+        } else  {
+          alert('toggling css labels OFF');
+          undrawLabels();
+          labelsOff = true;
+        }
+      })
 }
 
 window.voxels = function() {

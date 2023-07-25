@@ -26,9 +26,9 @@ defmodule Adaptics.Visual do
   @spec list_wardley_nodes :: any
   def list_wardley_nodes do
     Repo.all(from u in "nodes",
-          limit: 1000,
+          limit: 100,
           where: u.wardley_x > 0,
-          select: [:id, :wardley_x, :wardley_y, :wardley_text, :hash])
+          select: [:id, :wardley_x, :wardley_y, :wardley_text, :hash, :name, :description])
   end
 
   @doc """

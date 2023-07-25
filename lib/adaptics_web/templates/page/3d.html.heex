@@ -7,6 +7,8 @@
       wardley_x: <%= node.wardley_x %>,
       wardley_y: <%= node.wardley_y %>,
       wardley_text: "<%= node.wardley_text %>",
+      name: "<%= node.name %>",
+      description: "<%= node.name %>",
       hash: "<%= node.hash %>"
     },
     <% end %>
@@ -31,8 +33,33 @@
   a {
     color: #08f;
   }
+
+  .label {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0.1em;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    /* opacity: 0.9; */
+    opacity: 1.0;
+  }
+
+  .css-renderer {
+    border: 2px solid red;
+    position: "absolute";
+    top: "0";
+  }
+
+  .toggle-button {
+    position: absolute;
+    bottom: 12px;
+    left: 24px;
+    z-index: 9000;
+  }
 </style>
 
+<button class="toggle-button">Toggle CSS labels for nodes</button>
 <div>
   <div id="graph"></div>
 </div>

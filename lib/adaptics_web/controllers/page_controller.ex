@@ -21,6 +21,12 @@ defmodule AdapticsWeb.PageController do
     render(conn, "splines.html", nodes: nodes, links: links)
   end
 
+  def three_d(conn, _params) do
+    nodes = Visual.list_wardley_nodes()
+    links = Visual.list_wardley_links()
+    render(conn, "3d.html", nodes: nodes, links: links)
+  end
+
   def voxels(conn, _params) do
     nodes = Visual.list_nodes()
     links = Visual.list_links()

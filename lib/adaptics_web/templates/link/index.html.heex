@@ -7,6 +7,8 @@
       <th>Description</th>
       <th>From</th>
       <th>To</th>
+      <th>From hash</th>
+      <th>To hash</th>
 
       <th></th>
     </tr>
@@ -18,6 +20,8 @@
       <td><%= link.description %></td>
       <td><%= link.from_id %></td>
       <td><%= link.to_id %></td>
+      <td><%= link.from_hash %></td>
+      <td><%= link.to_hash %></td>
 
       <td>
         <span><%= link "Show", to: Routes.link_path(@conn, :show, link) %></span>

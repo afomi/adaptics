@@ -22,6 +22,7 @@ defmodule AdapticsWeb.Router do
 
     get "/ivn", PageController, :nodes
     get "/splines", PageController, :splines
+    get "/3d", PageController, :three_d
     get "/voxels", PageController, :voxels
     get "/", PageController, :index
   end

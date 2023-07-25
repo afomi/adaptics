@@ -7,8 +7,8 @@
     ],
     links: [
     <%= for link <- @links do %>
-    { source: <%= link.from_id %>,
-      target: <%= link.to_id %>,
+    { source: <%= Enum.random(@nodes).id %>,
+      target: <%= Enum.random(@nodes).id %>,
       value: 1
     },
     <% end %>

@@ -2,13 +2,20 @@
   window.data = {
     nodes: [
     <%= for node <- @nodes do %>
-    { id: <%= node.id %> },
+    {
+      id: <%= node.id %>,
+      wardley_x: <%= node.wardley_x %>,
+      wardley_y: <%= node.wardley_y %>,
+      wardley_text: "<%= node.wardley_text %>",
+      hash: "<%= node.hash %>"
+    },
     <% end %>
     ],
     links: [
     <%= for link <- @links do %>
-    { source: '<%= link.from_hash %>',
-      target: '<%= link.to_hash %>',
+    {
+      source: "<%= link.from_hash %>",
+      target: "<%= link.to_hash %>",
       value: 1
     },
     <% end %>
@@ -32,6 +39,6 @@
 
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
-    window.voxels();
+    window.three_d();
   });
 </script>

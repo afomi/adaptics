@@ -28,6 +28,7 @@ import topbar from "../vendor/topbar"
 import * as d3 from 'd3';
 import { renderForceDirectedGraph } from './force_directed_graph';
 import { renderSplines } from './render_splines';
+import { renderNodes } from './nodes';
 import { renderVoxels } from './voxels';
 
 let Hooks = {};
@@ -68,6 +69,10 @@ window.nodeGraph = function splines() {
 // Load /splines
 window.splines = function splines() {
   renderSplines("#graph", data);
+}
+
+window.three_d = function three_d() {
+  renderNodes("#graph", data);
 }
 
 window.voxels = function() {

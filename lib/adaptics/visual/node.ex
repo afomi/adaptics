@@ -5,6 +5,11 @@ defmodule Adaptics.Visual.Node do
   schema "nodes" do
     field :description, :string
     field :name, :string
+    field :hash, :string
+
+    field :wardley_x, :float
+    field :wardley_y, :float
+    field :wardley_text, :string
 
     timestamps()
   end
@@ -12,7 +17,7 @@ defmodule Adaptics.Visual.Node do
   @doc false
   def changeset(node, attrs) do
     node
-    |> cast(attrs, [:name, :description])
+    |> cast(attrs, [:name, :description, :wardley_x, :wardley_y, :wardley_text])
     |> validate_required([:name, :description])
   end
 end

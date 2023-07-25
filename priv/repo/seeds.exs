@@ -1,3 +1,4 @@
+require IEx
 # Script for populating the database. You can run it as:
 #
 #     mix run priv/repo/seeds.exs
@@ -11,28 +12,46 @@
 # and so on) as they will fail if something goes wrong.
 import Ecto.Query
 
+
 Adaptics.Repo.delete_all Adaptics.Visual.Node
 Adaptics.Repo.delete_all Adaptics.Visual.Link
 
-(1..100) |> Enum.each(fn i ->
-  Adaptics.Repo.insert! %Adaptics.Visual.Node{
-    name: "Name #{i}",
-    description: "Description #{i}"
-  }
-end)
+defmodule Adaptics.Helper do
+  def insert_node(record_data) do
+    %Adaptics.Visual.Node{
+      name: record_data["name"],
+      description: record_data["description"],
+      hash: record_data["hash"],
+      wardley_x: :rand.uniform() * 100,
+      wardley_y: :rand.uniform() * 100,
+      wardley_text: record_data["name"]
+    }
+    |> Adaptics.Repo.insert()
+  end
 
-nodes = from Adaptics.Visual.Node,
-            order_by: fragment("RANDOM()"),
-            limit: 1
+  def insert_link(record_data) do
+    %Adaptics.Visual.Link{
+      from_hash: record_data["from_hash"],
+      to_hash: record_data["to_hash"]
+    }
+    |> Adaptics.Repo.insert()
+  end
+end
 
-(1..100) |> Enum.each(fn i ->
-  to_record = Adaptics.Repo.one(nodes)
-  from_record = Adaptics.Repo.one(nodes)
+file_path = "unique_sources.json"
+file_path
+  |> File.read!()
+  |> Jason.decode!()
+  |> Enum.each(&Adaptics.Helper.insert_node/1)
 
-  Adaptics.Repo.insert! %Adaptics.Visual.Link{
-    name: "Name #{i}",
-    description: "Description #{i}",
-    from_id: from_record.id,
-    to_id: to_record.id
-  }
-end)
+file_path = "unique_components.json"
+file_path
+  |> File.read!()
+  |> Jason.decode!()
+  |> Enum.each(&Adaptics.Helper.insert_node/1)
+
+file_path = "ivn_links.json"
+file_path
+  |> File.read!()
+  |> Jason.decode!()
+  |> Enum.each(&Adaptics.Helper.insert_link/1)

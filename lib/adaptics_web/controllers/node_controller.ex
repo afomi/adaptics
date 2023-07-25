@@ -3,6 +3,7 @@ defmodule AdapticsWeb.NodeController do
 
   alias Adaptics.Visual
   alias Adaptics.Visual.Node
+  import Ecto.Query, warn: false
 
   def index(conn, _params) do
     nodes = Visual.list_nodes()
@@ -28,7 +29,13 @@ defmodule AdapticsWeb.NodeController do
 
   def show(conn, %{"id" => id}) do
     node = Visual.get_node!(id)
-    render(conn, "show.html", node: node)
+    hash = node.hash
+
+    links = Adaptics.Repo.all(from u in "links",
+          where: u.to_hash == ^hash or u.from_hash == ^hash,
+          select: [:id, :to_hash, :from_hash, :name, :description, :from_id, :to_id])
+
+    render(conn, "show.html", node: node, links: links)
   end
 
   def edit(conn, %{"id" => id}) do

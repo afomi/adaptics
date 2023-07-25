@@ -5,6 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Description</th>
+      <th>Hash</th>
 
       <th></th>
     </tr>
@@ -14,6 +15,7 @@
     <tr>
       <td><%= node.name %></td>
       <td><%= node.description %></td>
+      <td><%= node.hash %></td>
 
       <td>
         <span><%= link "Show", to: Routes.node_path(@conn, :show, node) %></span>

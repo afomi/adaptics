@@ -22,6 +22,16 @@
     <%= @link.to_id %>
   </li>
 
+  <li>
+    <strong>From hash:</strong>
+    <%= @link.from_hash %>
+  </li>
+
+  <li>
+    <strong>To hash:</strong>
+    <%= @link.to_hash %>
+  </li>
+
 </ul>
 
 <span><%= link "Edit", to: Routes.link_path(@conn, :edit, @link) %></span> |

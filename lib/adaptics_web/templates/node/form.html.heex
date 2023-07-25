@@ -9,9 +9,33 @@
   <%= text_input f, :name %>
   <%= error_tag f, :name %>
 
+  <%= label f, :hash %>
+  <%= text_input f, :hash %>
+  <%= error_tag f, :hash %>
+
   <%= label f, :description %>
   <%= text_input f, :description %>
   <%= error_tag f, :description %>
+
+  <h3>Wardley fields</h3>
+
+  <%= label f, :wardley_x %>
+  <p>
+    Genesis 0-25, Internal 26-50, Product 51-74, Commodity 75-100
+  </p>
+  <%= text_input f, :wardley_x %>
+  <%= error_tag f, :wardley_x %>
+
+  <%= label f, :wardley_y %>
+  <p>
+    Visibility to customer (100), non-visible (0)
+  </p>
+  <%= text_input f, :wardley_y %>
+  <%= error_tag f, :wardley_y %>
+
+  <%= label f, :wardley_text %>
+  <%= text_input f, :wardley_text %>
+  <%= error_tag f, :wardley_text %>
 
   <div>
     <%= submit "Save" %>

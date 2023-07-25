@@ -12,7 +12,64 @@
     <%= @node.description %>
   </li>
 
+  <li>
+    <strong>Wardley Y:</strong>
+    <%= @node.wardley_y %>
+  </li>
+
+  <li>
+    <strong>Wardley X:</strong>
+    <%= @node.wardley_x %>
+  </li>
+
+  <li>
+    <strong>Wardley Text:</strong>
+    <%= @node.wardley_text %>
+  </li>
+
+  <li>
+    <strong>Hash:</strong>
+    <%= @node.hash %>
+  </li>
+
 </ul>
 
 <span><%= link "Edit", to: Routes.node_path(@conn, :edit, @node) %></span> |
 <span><%= link "Back", to: Routes.node_path(@conn, :index) %></span>
+
+<br>
+<br>
+<br>
+
+<h1>Listing Links</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>From</th>
+      <th>To</th>
+      <th>From hash</th>
+      <th>To hash</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for link <- @links do %>
+    <tr>
+      <td><%= link.name %></td>
+      <td><%= link.description %></td>
+      <td><%= link.from_id %></td>
+      <td><%= link.to_id %></td>
+      <td><%= link.from_hash %></td>
+      <td><%= link.to_hash %></td>
+
+
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Link", to: Routes.link_path(@conn, :new) %></span>

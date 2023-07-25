@@ -9,13 +9,14 @@ const project = getProject('THREE.js x Theatre.js')
 
 // Create a sheet
 const sheet = project.sheet('Animated scene')
+window.meshes = []
 
 import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
 
-export function renderSplines(selector, data) {
+export function renderNodes(selector, data) {
   let container;
   let camera, scene, renderer;
 
@@ -23,6 +24,7 @@ export function renderSplines(selector, data) {
   let splinePointsLength = 4;
 
   const positions = []; // Nodes
+  const nodes = []; // Nodes
   const point = new THREE.Vector3();
 
   const raycaster = new THREE.Raycaster();
@@ -74,7 +76,11 @@ export function renderSplines(selector, data) {
       );
 
       // Wardley Map Camera position
-      camera.position.set(2500, 2550, 9000);
+      // Front on X, Y, Z
+      camera.position.set(3000, 2550, 8000);
+
+      // Right-side perspective
+      // camera.position.set(9000, 2550, 0);
 
       scene.add(camera);
     }
@@ -112,8 +118,8 @@ export function renderSplines(selector, data) {
     }
 
     function drawGridHelper() {
-      const gridHelper = new THREE.GridHelper(4000, 100);
-      gridHelper.position.x = 2500;
+      const gridHelper = new THREE.GridHelper(6000, 100);
+      gridHelper.position.x = 2750;
       gridHelper.material.opacity = 0.25;
       gridHelper.material.transparent = true;
       scene.add(gridHelper);
@@ -160,7 +166,10 @@ export function renderSplines(selector, data) {
 
     function drawTransformControls() {
       let transformControl = new TransformControls(camera, renderer.domElement);
-      transformControl.addEventListener("change", render);
+      transformControl.addEventListener("change", function() {
+        drawLinks();
+        render();
+      });
       transformControl.addEventListener("dragging-changed", function (event) {
         orbitControl.enabled = !event.value;
       });
@@ -242,6 +251,94 @@ export function renderSplines(selector, data) {
         positions.push(splineHelperObjects[i].position);
       }
 
+      for (let i = 0; i < window.data.links.length; i++) {
+        // debugger
+        // Draw a link between two nodes
+        // positions.push(splineHelperObjects[i].position);
+        // alert('hi')
+      }
+
+      const geometry = new THREE.BufferGeometry();
+      geometry.setAttribute(
+        "position",
+        new THREE.BufferAttribute(new Float32Array(ARC_SEGMENTS * 3), 3)
+      );
+
+      function drawRedLine() {
+        let curve = new THREE.CatmullRomCurve3(positions);
+        curve.curveType = "catmullrom";
+        curve.mesh = new THREE.Line(
+          geometry.clone(),
+          new THREE.LineBasicMaterial({
+            color: 0xff0000,
+            opacity: 0.35,
+          })
+        );
+        curve.mesh.castShadow = true;
+        splines.uniform = curve;
+      }
+
+      function drawNodeLine() {
+        console.log("drawing Node");
+        let curve = new THREE.CatmullRomCurve3(positions);
+        console.log("POSITIONS====", positions);
+        curve.curveType = "catmullrom";
+        curve.mesh = new THREE.Line(
+          geometry.clone(),
+          new THREE.LineBasicMaterial({
+            color: 0xffff00,
+            opacity: 0.35,
+          })
+        );
+        curve.mesh.castShadow = true;
+        splines.uniform = curve;
+      }
+
+      // drawRedLine();
+      // drawNodeLine();
+
+      // curve = new THREE.CatmullRomCurve3(positions);
+      // curve.curveType = "centripetal";
+      // curve.mesh = new THREE.Line(
+      //   geometry.clone(),
+      //   new THREE.LineBasicMaterial({
+      //     color: 0x00ff00,
+      //     opacity: 0.35,
+      //   })
+      // );
+      // curve.mesh.castShadow = true;
+      // splines.centripetal = curve;
+
+      // curve = new THREE.CatmullRomCurve3(positions);
+      // curve.curveType = "chordal";
+      // curve.mesh = new THREE.Line(
+      //   geometry.clone(),
+      //   new THREE.LineBasicMaterial({
+      //     color: 0x0505ff,
+      //     opacity: 0.05,
+      //   })
+      // );
+      // curve.mesh.castShadow = true;
+      // splines.chordal = curve;
+
+      for (const k in splines) {
+        debugger;
+        const spline = splines[k];
+        scene.add(spline.mesh);
+      }
+    }
+
+    function drawCurves2() {
+      for (let i = 0; i < splinePointsLength; i++) {
+        addSplineObject(positions[i]);
+      }
+
+      positions.length = 0;
+
+      for (let i = 0; i < splinePointsLength; i++) {
+        positions.push(splineHelperObjects[i].position);
+      }
+
       const geometry = new THREE.BufferGeometry();
       geometry.setAttribute(
         "position",
@@ -260,62 +357,58 @@ export function renderSplines(selector, data) {
       curve.mesh.castShadow = true;
       splines.uniform = curve;
 
-      curve = new THREE.CatmullRomCurve3(positions);
-      curve.curveType = "centripetal";
-      curve.mesh = new THREE.Line(
-        geometry.clone(),
-        new THREE.LineBasicMaterial({
-          color: 0x00ff00,
-          opacity: 0.35,
-        })
-      );
-      curve.mesh.castShadow = true;
-      splines.centripetal = curve;
+      // curve = new THREE.CatmullRomCurve3(positions);
+      // curve.curveType = "centripetal";
+      // curve.mesh = new THREE.Line(
+      //   geometry.clone(),
+      //   new THREE.LineBasicMaterial({
+      //     color: 0x00ff00,
+      //     opacity: 0.35,
+      //   })
+      // );
+      // curve.mesh.castShadow = true;
+      // splines.centripetal = curve;
 
-      curve = new THREE.CatmullRomCurve3(positions);
-      curve.curveType = "chordal";
-      curve.mesh = new THREE.Line(
-        geometry.clone(),
-        new THREE.LineBasicMaterial({
-          color: 0x0000ff,
-          opacity: 0.35,
-        })
-      );
-      curve.mesh.castShadow = true;
-      splines.chordal = curve;
+      // curve = new THREE.CatmullRomCurve3(positions);
+      // curve.curveType = "chordal";
+      // curve.mesh = new THREE.Line(
+      //   geometry.clone(),
+      //   new THREE.LineBasicMaterial({
+      //     color: 0x0000ff,
+      //     opacity: 0.35,
+      //   })
+      // );
+      // curve.mesh.castShadow = true;
+      // splines.chordal = curve;
 
       for (const k in splines) {
         const spline = splines[k];
+        debugger;
         scene.add(spline.mesh);
       }
     }
 
     drawCurves();
     // camera.lookAt(-2500, 10000, 10000);
-    camera.lookAt(2500, 1550, 7000);
 
-    // Create the node objects
-    let nodes = [];
-    for (let i = 0; i < data.nodes.length; i++) {
-      var node = data.nodes[i];
-      // debugger
-      // var x = node.wardley_x || parseInt(Math.floor(Math.random() * 1000) - 500);
-      // var x = node.wardley_x || Math.random();
 
-      // var y = parseInt(Math.floor(Math.random() * 1000));
+    // ========================================================================
+    //
+    // 2c. Set Camera
+    //
+    // Front-on perspective:
+    camera.lookAt(3000, 2000, -9000);
+    camera.position.set(3000, 2000, 8000);
 
-      // Wardley Layout
-      var x = node.wardley_x ? node.wardley_x * 50 : Math.random() * 5000;
-      var y = node.wardley_y ? node.wardley_y * 31 : Math.random() * 3100;
-      var z = 100 * Math.random();
-      // var z = node.wardley_y ? node.wardley_y * 50 : 50;
+    // Right-side perspective
+    // camera.lookAt(9000, 1550, 0);
 
-      let vector = new THREE.Vector3(x, y, z);
-      nodes.push(vector);
-    }
+    // ========================================================================
+
 
     // Load them / draw them
-    load(nodes);
+    drawNodes();
+    render();
   }
 
 
@@ -397,52 +490,148 @@ export function renderSplines(selector, data) {
     prompt("copy and paste code", code);
   }
 
-  function load(nodes) {
+  function findNodeByHash(hash) {
+    var matches = window.meshes.filter(function (mesh) {
+      return mesh.userData.hash === hash;
+    });
+
+    if (matches.length > 0) {
+      // console.log('finding match for ', hash, matches)
+      return matches[0];
+    } else {
+      return null;
+    }
+  }
+
+  function drawLink(currentLink) {
+    const points = [];
+    var items = window.meshes;
+    var sourceNode = findNodeByHash(currentLink.source);
+    var targetNode = findNodeByHash(currentLink.target);
+    debugger
+    // var var1 = Math.floor(Math.random() * items.length);
+    // var var2 = Math.floor(Math.random() * items.length);
+    // console.log("Var1&2 ", var1, var2)
+    // var sourceNode = items[var1];
+    // var targetNode = items[var2];
+    console.log(
+      "soruce node",
+      sourceNode,
+      currentLink.source,
+      targetNode,
+      currentLink.target
+    );
+    if (!sourceNode || !targetNode) {
+      // console.log("Can't find match for", currentLink, sourceNode, targetNode);
+      return false;
+    }
+    points.push(
+      new THREE.Vector3(
+        sourceNode.position.x,
+        sourceNode.position.y,
+        sourceNode.position.z
+      )
+    );
+    points.push(
+      new THREE.Vector3(
+        targetNode.position.x,
+        targetNode.position.y,
+        targetNode.position.z
+      )
+    );
+    const material = new THREE.LineBasicMaterial({
+      color: 0x0000ff
+    });
+    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+    const line = new THREE.Line(geometry, material);
+    line.class = "line";
+
+    scene.add(line);
+    return line;
+  }
+
+  function drawNode(currentNode) {
+    // Draw a node
+
+    currentNode.x = currentNode.wardley_x * 50;
+    currentNode.y = currentNode.wardley_y * 31 + 500
+    var width = 2000;
+    currentNode.z = width * Math.random() - width / 2;
+
+    const mesh = addPoint2(currentNode);
+    mesh.position.setX(currentNode.x);
+    mesh.position.setY(currentNode.y);
+    mesh.position.setZ(currentNode.z);
+    // console.log("addingPoint", mesh.position)
+
+    function drawTheatreControl() {
+      const theatreControl = sheet.object(`Nodes/node-${currentNode.x}`, {
+        position: types.compound({
+          x: types.number(mesh.position.x),
+          y: types.number(mesh.position.y),
+          z: types.number(mesh.position.z),
+        }),
+      });
+
+      theatreControl.onValuesChange((values) => {
+        const { x, y, z } = values.position;
+        mesh.position.set(x, y, z);
+        // mesh.rotation.set(x, y, z);
+        updateSplineOutline();
+        render();
+      });
+      return theatreControl;
+    }
+
+    // scene.add(mesh);
+
+    drawTheatreControl()
+    return mesh;
+  }
+
+  function drawNodes() {
+    // Create the node objects
+    // let nodes = [];
+    let nodes = window.data.nodes;
+    debugger
+
     for (var i = 0; nodes.length > i; i++) {
       var currentNode = nodes[i];
-
-      // Draw a node
-      const mesh = addPoint2(currentNode);
-      mesh.position.setX(currentNode.x);
-      mesh.position.setY(currentNode.y);
-      mesh.position.setZ(currentNode.z);
-      // console.log("addingPoint", mesh.position)
-
-      function drawTheatreControl() {
-        const theatreControl = sheet.object(`Nodes/node-${currentNode.x}`, {
-          position: types.compound({
-            x: types.number(mesh.position.x),
-            y: types.number(mesh.position.y),
-            z: types.number(mesh.position.z),
-          }),
-        });
-
-        theatreControl.onValuesChange((values) => {
-          const { x, y, z } = values.position;
-          mesh.position.set(x, y, z);
-          // mesh.rotation.set(x, y, z);
-          debugger;
-          updateSplineOutline();
-          render();
-        });
-        return theatreControl;
-      }
-
-      let theatreControl = drawTheatreControl();
-      // ensure the mesh object has a way to lookup its corresponding theatre.js sheet
-      mesh.theatreControl = theatreControl;
+      var mesh = drawNode(currentNode);
+      mesh.userData.hash = currentNode.hash;
+      window.meshes.push(mesh);
     }
 
-    while (nodes.length < positions.length) {
-      removePoint();
+    drawLinks();
+  }
+
+  function drawLabels() {
+    const labels = [];
+    window.meshes.forEach((mesh, index) => {
+      const div = document.createElement("div");
+      div.className = "label";
+      div.textContent = `Mesh ${index + 1}`;
+      div.style.marginTop = "-1em";
+
+      const label = new THREE.CSS3DObject(div);
+      label.position.copy(mesh.position);
+      labels.push(label);
+      scene.add(label);
+    });
+
+  }
+
+  function drawLinks() {
+    var lines = scene.getObjectsByProperty("class", "line");
+    for (var i = 0; lines.length > i; i++) {
+      var line = lines[i];
+      scene.remove(line);
     }
 
-    for (let i = 0; i < positions.length; i++) {
-      positions[i].copy(nodes[i]);
+    for (var i = 0; window.data.links.length > i; i++) {
+      var currentLink = window.data.links[i];
+      drawLink(currentLink);
     }
-
-    updateSplineOutline();
-    render();
   }
 
   function render() {

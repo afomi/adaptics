@@ -9,6 +9,7 @@ defmodule Adaptics.Visual.Node do
 
     field :wardley_x, :float
     field :wardley_y, :float
+    field :z, :float
     field :wardley_text, :string
 
     timestamps()
@@ -17,7 +18,7 @@ defmodule Adaptics.Visual.Node do
   @doc false
   def changeset(node, attrs) do
     node
-    |> cast(attrs, [:name, :description, :wardley_x, :wardley_y, :wardley_text])
+    |> cast(attrs, [:name, :description, :wardley_x, :wardley_y, :z, :wardley_text])
     |> validate_required([:name, :description])
   end
 end

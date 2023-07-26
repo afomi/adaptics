@@ -26,9 +26,9 @@ defmodule Adaptics.Visual do
   @spec list_wardley_nodes :: any
   def list_wardley_nodes do
     Repo.all(from u in "nodes",
-          limit: 100,
+          # limit: 1000,
           where: u.wardley_x > 0,
-          select: [:id, :wardley_x, :wardley_y, :wardley_text, :hash, :name, :description])
+          select: [:id, :wardley_x, :wardley_y, :z, :wardley_text, :hash, :name, :description])
   end
 
   @doc """
@@ -126,13 +126,14 @@ defmodule Adaptics.Visual do
   def list_links do
     Link
     |> limit(2100)
+    # |> limit(200)
     |> Repo.all()
   end
 
   def list_wardley_links do
     Repo.all(from u in "links",
       where: not is_nil(u.to_hash),
-      limit: 2000,
+      limit: 1000,
       select: [:id, :from_id, :to_id, :from_hash, :to_hash, :description])
   end
 

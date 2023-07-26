@@ -24,6 +24,7 @@ defmodule Adaptics.Helper do
       hash: record_data["hash"],
       wardley_x: :rand.uniform() * 100,
       wardley_y: :rand.uniform() * 100,
+      z: :rand.uniform() * 100,
       wardley_text: record_data["name"]
     }
     |> Adaptics.Repo.insert()

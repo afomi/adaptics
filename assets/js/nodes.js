@@ -172,7 +172,7 @@ export function renderNodes(selector, data) {
     function drawTransformControls() {
       let transformControl = new TransformControls(camera, renderer.domElement);
       transformControl.addEventListener("change", function() {
-        drawLinks();
+        // drawLinks();
         render();
       });
       transformControl.addEventListener("dragging-changed", function (event) {
@@ -522,7 +522,7 @@ export function renderNodes(selector, data) {
     // var sourceNode = items[var1];
     // var targetNode = items[var2];
     console.log(
-      "soruce node",
+      "source node",
       sourceNode,
       currentLink.source,
       targetNode,
@@ -558,12 +558,13 @@ export function renderNodes(selector, data) {
   }
 
   function drawNode(currentNode) {
-    // Draw a node
 
     currentNode.x = currentNode.wardley_x * 50;
     currentNode.y = currentNode.wardley_y * 31 + 500
-    var width = 2000;
-    currentNode.z = width * Math.random() - width / 2;
+    // var width = 200;
+    // currentNode.z = width * Math.random() - width / 2;
+    // currentNode.z = currentNode.z * 30;
+    currentNode.z = currentNode.z * 50 - 500;
 
     const mesh = addPoint2(currentNode);
     mesh.position.setX(currentNode.x);
@@ -592,7 +593,7 @@ export function renderNodes(selector, data) {
 
     // scene.add(mesh);
 
-    drawTheatreControl()
+    // drawTheatreControl()
     return mesh;
   }
 
@@ -652,11 +653,7 @@ export function renderNodes(selector, data) {
   }
 
   function drawLinks() {
-    var lines = scene.getObjectsByProperty("class", "line");
-    for (var i = 0; lines.length > i; i++) {
-      var line = lines[i];
-      scene.remove(line);
-    }
+    undrawLinks()
 
     for (var i = 0; window.data.links.length > i; i++) {
       var currentLink = window.data.links[i];
@@ -664,13 +661,23 @@ export function renderNodes(selector, data) {
     }
   }
 
+  function undrawLinks() {
+    var lines = scene.getObjectsByProperty("class", "line");
+    debugger
+    for (var i = 0; lines.length > i; i++) {
+      var line = lines[i];
+      scene.remove(line);
+    }
+  }
+
   function render() {
 
-    labels.forEach((label) => {
-      label.lookAt(camera.position);
-    });
-
-    cssRenderer.render(scene, camera);
+    if (cssRenderer) {
+      labels.forEach((label) => {
+        label.lookAt(camera.position);
+      });
+      cssRenderer.render(scene, camera);
+    }
 
     // splines.uniform.mesh.visible = params.uniform;
     // splines.centripetal.mesh.visible = params.centripetal;
@@ -689,9 +696,12 @@ export function renderNodes(selector, data) {
 
     if (onDownPosition.distanceTo(onUpPosition) === 0) {
       transformControl.detach();
+      transformControlActive = false;
       render();
     }
   }
+
+  let transformControlActive = false;
 
   function onPointerMove(event) {
     pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
@@ -704,8 +714,9 @@ export function renderNodes(selector, data) {
     if (intersects.length > 0) {
       const object = intersects[0].object;
 
-      if (object !== transformControl.object) {
+      if (object !== transformControl.object && !transformControlActive) {
         transformControl.attach(object);
+        transformControlActive = true;
       }
     }
   }
@@ -721,5 +732,5 @@ export function renderNodes(selector, data) {
 
   init();
   window.camera = camera;
-  return [scene, drawLabels, undrawLabels];
+  return [scene, drawLabels, undrawLabels, drawLinks, undrawLinks];
 }

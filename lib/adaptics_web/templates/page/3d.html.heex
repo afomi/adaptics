@@ -6,6 +6,7 @@
       id: <%= node.id %>,
       wardley_x: <%= node.wardley_x %>,
       wardley_y: <%= node.wardley_y %>,
+      z: <%= node.z %>,
       wardley_text: "<%= node.wardley_text %>",
       name: "<%= node.name %>",
       description: "<%= node.name %>",
@@ -51,15 +52,21 @@
     top: "0";
   }
 
-  .toggle-button {
+  .button-bar {
     position: absolute;
     bottom: 12px;
     left: 24px;
     z-index: 9000;
   }
+  .toggle-button {
+    position: relative;
+  }
 </style>
 
-<button class="toggle-button">Toggle CSS labels for nodes</button>
+<div class="button-bar">
+  <button class="toggle-button id-toggle-button-labels">Toggle CSS labels for nodes</button>
+  <button class="toggle-button id-toggle-button-lines">Toggle lines</button>
+</div>
 <div>
   <div id="graph"></div>
 </div>

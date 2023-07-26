@@ -72,21 +72,37 @@ window.splines = function splines() {
 }
 
 window.three_d = function three_d() {
-  var [scene, drawLabels, undrawLabels] = renderNodes("#graph", data);
+  var [scene, drawLabels, undrawLabels, drawLinks, undrawLinks] = renderNodes("#graph", data);
 
   // start with labels off
   var labelsOff = true;
-  document.getElementsByClassName("toggle-button")[0]
+  document.getElementsByClassName("id-toggle-button-labels")[0]
     .addEventListener
       ("click", function() {
         if (labelsOff) {
-          alert('toggling css labels ON');
           drawLabels();
           labelsOff = false;
+          alert('toggling css labels ON');
         } else  {
-          alert('toggling css labels OFF');
           undrawLabels();
           labelsOff = true;
+          alert('toggling css labels OFF');
+        }
+      })
+
+      // start with lines on
+  var linesOff = false
+  document.getElementsByClassName("id-toggle-button-lines")[0]
+    .addEventListener
+      ("click", function() {
+        if (linesOff) {
+          drawLinks();
+          linesOff = false;
+          alert("toggling drawing lines ON");
+        } else {
+          undrawLinks();
+          linesOff = true;
+          alert("toggling drawing lines OFF");
         }
       })
 }

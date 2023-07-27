@@ -6,6 +6,7 @@ defmodule Adaptics.Visual.Node do
     field :description, :string
     field :name, :string
     field :hash, :string
+    field :kind, :string
 
     field :wardley_x, :float
     field :wardley_y, :float

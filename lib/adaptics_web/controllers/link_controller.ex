@@ -3,10 +3,12 @@ defmodule AdapticsWeb.LinkController do
 
   alias Adaptics.Visual
   alias Adaptics.Visual.Link
+  import Ecto.Query, warn: false
 
   def index(conn, _params) do
     links = Visual.list_links()
-    render(conn, "index.html", links: links)
+    link_count = Adaptics.Repo.one(from p in Adaptics.Visual.Link, select: count("*"))
+    render(conn, "index.html", links: links, link_count: link_count)
   end
 
   def new(conn, _params) do

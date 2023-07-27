@@ -7,7 +7,8 @@ defmodule AdapticsWeb.NodeController do
 
   def index(conn, _params) do
     nodes = Visual.list_nodes()
-    render(conn, "index.html", nodes: nodes)
+    node_count = Adaptics.Repo.one(from p in Adaptics.Visual.Node, select: count("*"))
+    render(conn, "index.html", nodes: nodes, node_count: node_count)
   end
 
   def new(conn, _params) do

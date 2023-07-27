@@ -420,9 +420,23 @@ export function renderNodes(selector, data) {
 
 
   function addSplineObject(position) {
-    const material = new THREE.MeshLambertMaterial({
-      color: Math.random() * 0xffffff,
-    });
+    let material;
+    // if(position && position.kind === 'source') {
+      material = new THREE.MeshLambertMaterial({
+        // color: Math.random() * 0xffffff,
+        color: 0xff00ff,
+      });
+    // }
+    // debugger
+    console.log('----------->position', position)
+    debugger
+
+    if(position && position.kind === 'component') {
+       material = new THREE.MeshLambertMaterial({
+        // color: Math.random() * 0xffffff,
+        color: 0x00f0ff,
+      });
+    }
     const object = new THREE.Mesh(geometry, material);
 
     object.castShadow = true;
@@ -442,9 +456,9 @@ export function renderNodes(selector, data) {
     return mesh;
   }
 
-  function addPoint2() {
+  function addPoint2(currentNode) {
     splinePointsLength++;
-    const mesh = addSplineObject();
+    const mesh = addSplineObject(currentNode);
     positions.push(mesh.position);
     updateSplineOutline();
     return mesh;
@@ -564,7 +578,7 @@ export function renderNodes(selector, data) {
     // var width = 200;
     // currentNode.z = width * Math.random() - width / 2;
     // currentNode.z = currentNode.z * 30;
-    currentNode.z = currentNode.z * 50 - 500;
+    currentNode.z = currentNode.z * 100 - 5000;
 
     const mesh = addPoint2(currentNode);
     mesh.position.setX(currentNode.x);

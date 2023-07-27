@@ -17,11 +17,26 @@ Adaptics.Repo.delete_all Adaptics.Visual.Node
 Adaptics.Repo.delete_all Adaptics.Visual.Link
 
 defmodule Adaptics.Helper do
-  def insert_node(record_data) do
+  def insert_source_node(record_data) do
     %Adaptics.Visual.Node{
       name: record_data["name"],
       description: record_data["description"],
       hash: record_data["hash"],
+      kind: "source",
+      wardley_x: :rand.uniform() * 100,
+      wardley_y: :rand.uniform() * 100,
+      z: :rand.uniform() * 100,
+      wardley_text: record_data["name"]
+    }
+    |> Adaptics.Repo.insert()
+  end
+
+  def insert_component_node(record_data) do
+    %Adaptics.Visual.Node{
+      name: record_data["name"],
+      description: record_data["description"],
+      hash: record_data["hash"],
+      kind: "component",
       wardley_x: :rand.uniform() * 100,
       wardley_y: :rand.uniform() * 100,
       z: :rand.uniform() * 100,
@@ -43,13 +58,13 @@ file_path = "unique_sources.json"
 file_path
   |> File.read!()
   |> Jason.decode!()
-  |> Enum.each(&Adaptics.Helper.insert_node/1)
+  |> Enum.each(&Adaptics.Helper.insert_source_node/1)
 
 file_path = "unique_components.json"
 file_path
   |> File.read!()
   |> Jason.decode!()
-  |> Enum.each(&Adaptics.Helper.insert_node/1)
+  |> Enum.each(&Adaptics.Helper.insert_component_node/1)
 
 file_path = "ivn_links.json"
 file_path

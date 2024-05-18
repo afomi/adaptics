@@ -2,16 +2,18 @@
   window.data = {
     nodes: [
     <%= for node <- @nodes do %>
-    { id: <%= node.id %> },
-    { name: <%= node.name %> },
-    { description: <%= node.description%> },
-    { hash: <%= node.hash %> },
+    {
+      id: "<%= node.hash %>",
+      name: "<%= node.name %>",
+      description: "<%= node.description %>",
+    },
     <% end %>
     ],
     links: [
     <%= for link <- @links do %>
-    { source: <%= Enum.random(@nodes).id %>,
-      target: <%= Enum.random(@nodes).id %>,
+    {
+      source: "<%= Enum.random(@nodes).hash %>",
+      target: "<%= Enum.random(@nodes).hash %>",
       value: 1
     },
     <% end %>
@@ -19,10 +21,11 @@
   };
 </script>
 
+<div id="info" style="position: absolute; display: none; background-color: white; border: 1px solid black; padding: 10px; width: 300px; font-size: 11px;"></div>
 <div id="graph"></div>
 
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
-    window.nodeGraph();
+    window.nodeGraph(window.data);
   });
 </script>

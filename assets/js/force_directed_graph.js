@@ -40,6 +40,15 @@ export function renderForceDirectedGraph(selector, data) {
       .on('drag', dragged)
       .on('end', dragended));
 
+  node.on("mouseover", function (event, d) {
+    var infoDiv = d3.select("#info");
+    infoDiv
+      .style("display", "block")
+      .style("left", event.pageX + 10 + "px")
+      .style("top", event.pageY - 20 + "px")
+      .html("Name: " + d.name + "<br>Description: " + d.description);
+  });
+
   // Set the tick function for the simulation
   simulation.nodes(data.nodes)
     .on('tick', ticked);

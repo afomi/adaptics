@@ -67,7 +67,7 @@ window.nodeGraph = function splines() {
 }
 
 // Load /splines
-window.splines = function splines() {
+window.splines = function splines(data) {
   renderSplines("#graph", data);
 }
 

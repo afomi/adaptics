@@ -9,7 +9,8 @@ To start your Phoenix server:
 
 In your browser, you can now visit:
 
-* [`localhost:4000`](http://localhost:4000)
-* [`localhost:4000`](http://localhost:4000/ivn)
-* [`localhost:4000`](http://localhost:4000/splines)
-* [`localhost:4000`](http://localhost:4000/voxels)
+* [home](http://localhost:4000) - a home page with links
+* [/ivn](http://localhost:4000/ivn) - a node graph
+* [/3d](http://localhost:4000/3d) - a 3d wardley map
+* [/splines](http://localhost:4000/splines)
+* [/voxels](http://localhost:4000/voxels) - stackable three.js demo

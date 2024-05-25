@@ -15,10 +15,10 @@ export function renderForceDirectedGraph(selector, data) {
   const simulation = d3.forceSimulation(data.nodes)
     .force('link', d3.forceLink(data.links).id(d => d.id))
     // .force('charge', d3.forceManyBody())
-    .force("charge", d3.forceManyBody().strength(d => -50 - d.degree * 15))
-    .force('center', d3.forceCenter(width / 2, 200 + height / 2))
-    .force("x", d3.forceX(d => (d.degree * 20)).strength(1.5))
-    .force("y", d3.forceY(d => (-d.degree * 100)).strength(2.8))
+    .force("charge", d3.forceManyBody().strength(d => -1 - d.degree * 15))
+    .force('center', d3.forceCenter(width / 2, 160 + height / 2))
+    .force("x", d3.forceX(d => (d.degree * 0)).strength(0.4))
+    .force("y", d3.forceY(d => (-d.degree * 80)).strength(0.6))
     .force("custom", d3.forceRadial(d => d.degree * 360, width / 2, height / 2).strength(0.05));
 
 
@@ -78,7 +78,40 @@ export function renderForceDirectedGraph(selector, data) {
       .style("left", event.pageX + 10 + "px")
       .style("top", event.pageY - 20 + "px")
       .html("Name: " + d.name + "<br>Description: " + d.description + "<br><br>Degree: " + d.degree);
+
+    d3.select(this).attr("stroke", "black").attr("stroke-width", 5);
+    d3.select(this).attr("fill", "green").attr("stroke-width", 5);
+
+    // Highlight the connected links and nodes
+    link.style("stroke-opacity", function (l) {
+      return l.source.id === d.id || l.target.id === d.id ? 1 : 0.1;
+    });
+    node.style("opacity", function (n) {
+      if (n.id === d.id) {
+        return true;
+      }
+      return connected(d, n) ? 1 : 0.1;
+    });
+
   });
+
+  node.on("mouseout", function (event, d) {
+     d3.select(this).attr("stroke", null).attr("stroke-width", null);
+     link.style("stroke-opacity", 1);
+     node.style("opacity", 1);
+
+     d3.select(this).attr("fill", "green").attr("stroke-width", 5);
+  });
+
+  function connected(a, b) {
+    return data.links.some(function (l) {
+      return (
+        (l.source.id === a.id && l.target.id === b.id) ||
+        (l.source.id === b.id && l.target.id === a.id)
+      );
+    });
+  }
+
 
   // Set the tick function for the simulation
   simulation.nodes(data.nodes)

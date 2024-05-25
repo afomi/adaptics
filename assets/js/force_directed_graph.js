@@ -14,8 +14,34 @@ export function renderForceDirectedGraph(selector, data) {
   // Define the force simulation
   const simulation = d3.forceSimulation(data.nodes)
     .force('link', d3.forceLink(data.links).id(d => d.id))
-    .force('charge', d3.forceManyBody())
-    .force('center', d3.forceCenter(width / 2, height / 2));
+    // .force('charge', d3.forceManyBody())
+    .force("charge", d3.forceManyBody().strength(d => -50 - d.degree * 15))
+    .force('center', d3.forceCenter(width / 2, 200 + height / 2))
+    .force("x", d3.forceX(d => (d.degree * 20)).strength(1.5))
+    .force("y", d3.forceY(d => (-d.degree * 100)).strength(2.8))
+    .force("custom", d3.forceRadial(d => d.degree * 360, width / 2, height / 2).strength(0.05));
+
+
+  // Calculate centrality
+  data.links.forEach(function (link) {
+    var foundObject = data.nodes.find(function(node) {
+        return node.id === link.source.id;
+    });
+
+    var foundObject2 = data.nodes.find(function(node) {
+      return node.id === link.target.id;
+    });
+
+    if (foundObject) {
+      foundObject.degree++;
+      foundObject.degree = foundObject.degree * 1.05;
+    }
+
+    if (foundObject2) {
+      foundObject2.degree++
+      foundObject2.degree = foundObject2.degree * 1.05;
+    }
+  });
 
   // Create the link elements
   const link = svg.append('g')
@@ -28,17 +54,22 @@ export function renderForceDirectedGraph(selector, data) {
     .attr('stroke', 'black');
 
   // Create the node elements
-  const node = svg.append('g')
-    .selectAll('circle')
+  const node = svg
+    .append("g")
+    .selectAll("circle")
     .data(data.nodes)
     .enter()
-    .append('circle')
-    .attr('r', 5)
-    .attr('fill', 'blue')
-    .call(d3.drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended));
+    .append("circle")
+    // .attr("r", 5)
+    .attr("r", (d) => d.degree * 1.61) // Adjust node size based on degree centrality
+    .attr("fill", "blue")
+    .call(
+      d3
+        .drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended)
+    );
 
   node.on("mouseover", function (event, d) {
     var infoDiv = d3.select("#info");
@@ -46,7 +77,7 @@ export function renderForceDirectedGraph(selector, data) {
       .style("display", "block")
       .style("left", event.pageX + 10 + "px")
       .style("top", event.pageY - 20 + "px")
-      .html("Name: " + d.name + "<br>Description: " + d.description);
+      .html("Name: " + d.name + "<br>Description: " + d.description + "<br><br>Degree: " + d.degree);
   });
 
   // Set the tick function for the simulation

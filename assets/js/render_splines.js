@@ -1,14 +1,4 @@
 import * as THREE from 'three';
-import { getProject, types } from "@theatre/core";
-
-// https://www.theatrejs.com/docs/latest/getting-started/with-three-js
-import studio from "@theatre/studio";
-studio.initialize();
-
-const project = getProject('THREE.js x Theatre.js')
-
-// Create a sheet
-const sheet = project.sheet('Animated scene')
 
 import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 

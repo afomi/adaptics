@@ -1,0 +1,46 @@
+<style>
+  body {
+    background-color: #f0f0f0;
+    color: #444;
+  }
+  a {
+    color: #08f;
+  }
+
+  .label {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0.1em;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    /* opacity: 0.9; */
+    opacity: 1.0;
+  }
+
+  .css-renderer {
+    border: 2px solid red;
+    position: "absolute";
+    top: "0";
+  }
+
+  .button-bar {
+    position: absolute;
+    bottom: 12px;
+    left: 24px;
+    z-index: 9000;
+  }
+  .toggle-button {
+    position: relative;
+  }
+</style>
+
+<div>
+  <div id="graph"></div>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    window.vortex();
+  });
+</script>

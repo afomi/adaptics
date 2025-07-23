@@ -27,12 +27,15 @@ import { Socket } from "phoenix";
 import { LiveSocket } from "phoenix_live_view";
 import topbar from "../vendor/topbar";
 import * as d3 from "d3";
+import { renderPool } from "./pool";
 import { renderForceDirectedGraph } from "./force_directed_graph";
 import { renderSplines } from "./render_splines";
+import { renderEcosystem } from "./render_ecosystem";
 import { renderGraph } from "./render_graph";
 import { renderNodes } from "./nodes";
 import { renderVoxels } from "./voxels";
-import { renderVortex } from "./vortex";
+import { renderBunkbed } from "./bunkbed";
+import { renderUnwriter } from "./unwriter";
 import * as BpmnJS from "bpmn-js";
 import BpmnViewer from "bpmn-js/dist/bpmn-navigated-viewer.production.min";
 
@@ -80,9 +83,18 @@ window.nodeGraph = function splines(data) {
   renderForceDirectedGraph("#graph", data);
 };
 
+window.pool = function () {
+  renderPool("#graph");
+};
+
 // Load /splines
 window.splines = function splines() {
   renderSplines("#graph", data);
+};
+
+// Load /ecosystem
+window.ecosystem = function ecosystem() {
+  renderEcosystem();
 };
 
 // Load /splines
@@ -130,7 +142,15 @@ window.three_d = function three_d() {
 };
 
 window.vortex = function () {
-  renderVortex("#graph");
+  // renderVortex("#graph");
+};
+
+window.unwriter = function () {
+  renderUnwriter("c");
+};
+
+window.bunkbed = function () {
+  renderBunkbed("c");
 };
 
 window.voxels = function () {

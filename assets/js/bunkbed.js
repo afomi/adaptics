@@ -8,7 +8,6 @@ export function renderBunkbed(selector, data = {}) {
   /** --------- units & constants --------- */
   const FT = 0.3048;
   const IN = 0.0254;
-  // const IN = 1.0 / 12.0;
 
   const TOTAL_HEIGHT = 6 * FT;
 
@@ -144,8 +143,7 @@ export function renderBunkbed(selector, data = {}) {
 
   const longRail2 = rail(bedLen, railTh, 'bottom_longRail2');
   longRail2.position.set(0, bottomY,  bedW/2 - railTh/2);
-  // DISPLACE optional rail outward so the bed "floats"
-  longRail2.position.z += 2.5; // push it out of the frame visually
+  longRail2.position.z += 2.5; // displaced outward
 
   const shortRail1 = rail(bedW, railTh, 'bottom_shortRail1');
   shortRail1.rotation.y = Math.PI/2;
@@ -168,8 +166,17 @@ export function renderBunkbed(selector, data = {}) {
 
   topFrame.add(longRailT1, longRailT2, shortRailT1, shortRailT2);
 
-  const ladder = new THREE.Group();
-  ladder.name = 'ladder';
+  // ---- Top mattress ----
+  const mattTh = 8 * IN;
+  const topMattGeo = new THREE.BoxGeometry(bedLen - railTh*0.5, mattTh, bedW - railTh*0.5);
+  topMattGeo.computeBoundingBox();
+  const topMatt = new THREE.Mesh(topMattGeo, new THREE.MeshStandardMaterial({ color: 0x3366aa, opacity: 0.85, transparent: true }));
+  topMatt.position.set(0, topY + mattTh/2 + slatTh, 0);
+  addLabeled(topMatt, 'top_mattress');
+  topFrame.add(topMatt);
+
+  // Ladder (parallel to short rails)
+  const ladder = new THREE.Group(); ladder.name = 'ladder';
   const rungCount = 5;
   const rungSpacing = (topY - bottomY) / (rungCount + 1);
   const rungLen = bedW * 0.5;
@@ -181,11 +188,10 @@ export function renderBunkbed(selector, data = {}) {
   const sideGeo = new THREE.BoxGeometry(railTh, sideLen, railTh);
   sideGeo.computeBoundingBox();
 
-  // Put ladder at NEGATIVE Z side, rotated so its length is along X (parallel to short rails)
-  // ladder.rotation.y = Math.PI / 2; // rotate to make rungs parallel to short rails
   ladder.position.x = -0.5
   ladder.position.z = 1.2
-  const ladderZ = -bedW/2 - 0.15; // just off the frame
+  // ladder.rotation.y = Math.PI / 2;
+  const ladderZ = -bedW/2 - 0.15;
   const ladderXCenter = 0;
   const ladderYBase = bottomY - railTh;
 
@@ -208,39 +214,25 @@ export function renderBunkbed(selector, data = {}) {
   const floatBed = new THREE.Group(); floatBed.name = 'floatingTwinXL';
   bunkbed.add(floatBed);
 
-  const fbY = bottomY + 0.05; // same plane as bottom frame
-  // Place it so its far short rail (its width side) touches longRail1 (negative Z side)
-  // We'll orient it so its LONG dimension goes along +Z (perpendicular to main bed X axis)
+  const fbY = bottomY + 0.05;
   const fbRailTh = railTh;
 
-  // Frame rails for floating bed
-  // short rails (across X, width=twinW)
-  const fbShortRail1 = rail(twinW, fbRailTh, 'float_shortRail_far'); // the one touching longRail1
-  // fbShortRail1.rotation.y = Math.PI/2;
-  // position X later; Z align with longRail1.z
+  // Frame rails
+  const fbShortRail1 = rail(twinW, fbRailTh, 'float_shortRail_far'); // touches longRail1
   const fbShortRail2 = rail(twinW, fbRailTh, 'float_shortRail_near');
-  // fbShortRail2.rotation.y = Math.PI/2;
-
-  // long rails (along Z, length=twinL)
-  const fbLongRail1 = rail(twinL, fbRailTh, 'float_longRail_left');
-  const fbLongRail2 = rail(twinL, fbRailTh, 'float_longRail_right');
+  const fbLongRail1  = rail(twinL, fbRailTh, 'float_longRail_left');
+  const fbLongRail2  = rail(twinL, fbRailTh, 'float_longRail_right');
   fbLongRail1.rotation.y = Math.PI/2;
   fbLongRail2.rotation.y = Math.PI/2;
 
-  // Compute positions
-  const contactZ = longRail1.position.z; // negative side rail
+  const contactZ = longRail1.position.z;
   const fbHalfW = twinW/2;
   const fbHalfL = twinL/2;
 
-  // right-aligned: far short rail flush with longRail1; shift so bed sticks out where longRail2 would be
-  // Long rails run along Z: place center so that far short rail (fbShortRail1) at contactZ
-  // since fbShortRail1 thickness is fbRailTh, center of bed in Z = contactZ + fbRailTh/2 + fbHalfL
   const fbCenterZ = contactZ + fbRailTh/2 + fbHalfL;
-  // Align right edge (positive X) with bedLen/2 - railTh/2
   const rightEdgeX = bedLen/2 - railTh/2;
   const fbCenterX = rightEdgeX - fbHalfW;
 
-  // position pieces
   fbShortRail1.position.set(fbCenterX, fbY, contactZ);
   fbShortRail2.position.set(fbCenterX, fbY, contactZ + twinL);
   fbLongRail1.position.set(fbCenterX - fbHalfW + fbRailTh/2, fbY, fbCenterZ);
@@ -248,7 +240,7 @@ export function renderBunkbed(selector, data = {}) {
 
   floatBed.add(fbShortRail1, fbShortRail2, fbLongRail1, fbLongRail2);
 
-  // Slats for floating bed
+  // Slats
   const fbSlatCount = Math.max(6, Math.floor(twinL / 0.25));
   const fbSlatGeo = new THREE.BoxGeometry(twinW - fbRailTh*2, slatTh, fbRailTh);
   fbSlatGeo.computeBoundingBox();
@@ -260,13 +252,86 @@ export function renderBunkbed(selector, data = {}) {
     floatBed.add(slat);
   }
 
+  // ---- TwinXL mattress ----
+  const twinMattGeo = new THREE.BoxGeometry(twinW - fbRailTh*0.5, mattTh, twinL - fbRailTh*0.5);
+  twinMattGeo.computeBoundingBox();
+  const twinMatt = new THREE.Mesh(twinMattGeo, new THREE.MeshStandardMaterial({ color: 0x224488, opacity: 0.85, transparent: true }));
+  twinMatt.position.set(fbCenterX, fbY + mattTh/2 + slatTh, fbCenterZ);
+  addLabeled(twinMatt, 'twinXL_mattress');
+  floatBed.add(twinMatt);
+
+  // ---- TwinXL legs (10" off ground) ----
+  const legH = 10 * IN;
+  const legGeo = new THREE.BoxGeometry(postTh, legH, postTh);
+  legGeo.computeBoundingBox();
+  const legPositions = [
+    [fbCenterX - fbHalfW + postTh/2, legH/2, fbCenterZ - fbHalfL + postTh/2],
+    [fbCenterX + fbHalfW - postTh/2, legH/2, fbCenterZ - fbHalfL + postTh/2],
+    [fbCenterX - fbHalfW + postTh/2, legH/2, fbCenterZ + fbHalfL - postTh/2],
+    [fbCenterX + fbHalfW - postTh/2, legH/2, fbCenterZ + fbHalfL - postTh/2],
+  ];
+  legPositions.forEach((p,i)=>{
+    const leg = new THREE.Mesh(legGeo, postMat);
+    leg.position.set(...p);
+    addLabeled(leg, `twinXL_leg_${i+1}`);
+    floatBed.add(leg);
+  });
+
+  // ---- 16" desk shelf above bottom_shortRail1 ----
+  const shelfDepth = 16 * IN;
+  const shelfTh = 12 * IN;
+  const shelfGeo = new THREE.BoxGeometry(bedW, shelfTh, shelfDepth);
+  shelfGeo.computeBoundingBox();
+  const shelfMat = new THREE.MeshStandardMaterial({ color: 0x444444 });
+  const shelf = new THREE.Mesh(shelfGeo, shelfMat);
+  shelf.rotation.y = shortRail1.rotation.y; // same orientation
+  shelf.position.set(
+    shortRail1.position.x -  shelfDepth/2,
+    shortRail1.position.y + 12 * IN, // vertically above by 16"
+    shortRail1.position.z
+  );
+  addLabeled(shelf, 'desk_shelf_12in');
+  bunkbed.add(shelf);
+
+
+  const shelfDepth2 = 24 * IN;
+  const shelfTh2 = 12 * IN;
+  const shelfGeo2 = new THREE.BoxGeometry(bedW, shelfTh2, shelfDepth2);
+  shelfGeo2.computeBoundingBox();
+  const shelfMat2 = new THREE.MeshStandardMaterial({ color: 0x444444 });
+  const shelf2 = new THREE.Mesh(shelfGeo2, shelfMat2);
+  shelf2.rotation.y = shortRail1.rotation.y; // same orientation
+  shelf2.position.set(
+    shortRail1.position.x - shelfDepth2 / 2,
+    shortRail1.position.y, // vertically above by 16"
+    shortRail1.position.z
+  );
+  addLabeled(shelf2, 'desk_shelf_18in');
+  bunkbed.add(shelf2);
+
+  const shelfDepth3 = 8 * IN;
+  const shelfTh3 = 12 * IN;
+  const shelfGeo3 = new THREE.BoxGeometry(bedW, shelfTh3, shelfDepth3);
+  shelfGeo3.computeBoundingBox();
+  const shelfMat3 = new THREE.MeshStandardMaterial({ color: 0x444444 });
+  const shelf3 = new THREE.Mesh(shelfGeo3, shelfMat3);
+  shelf3.rotation.y = shortRail1.rotation.y; // same orientation
+  shelf3.position.set(
+    shortRail1.position.x - shelfDepth3 / 2,
+    shortRail1.position.y + 24 * IN, // vertically above by 16"
+    shortRail1.position.z
+  );
+  addLabeled(shelf3, 'desk_shelf_adjusted');
+  bunkbed.add(shelf3);
+
+
   /** lighting */
   scene.add(new THREE.AmbientLight(0xffffff, 0.4));
   const dir = new THREE.DirectionalLight(0xffffff, 0.8);
   dir.position.set(5,10,7);
   scene.add(dir);
 
-  /** optional framePlane demo you had */
+  /** optional framePlane */
   const framesParent = new THREE.Object3D();
   scene.add(framesParent);
   const framePlane = gridPlane(6, 14, 0.3, 0x00aa00, 0.5);

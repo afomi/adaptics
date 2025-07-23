@@ -20,10 +20,19 @@ defmodule AdapticsWeb.Router do
     resources "/nodes", NodeController
     resources "/links", LinkController
 
+    get "/pool", PageController, :pool
     get "/ivn", PageController, :nodes
+    get "/flow", PageController, :flow
+    get "/graph", PageController, :graph
     get "/splines", PageController, :splines
     get "/3d", PageController, :three_d
     get "/voxels", PageController, :voxels
+    get "/link", PageController, :link
+    get "/vortex", PageController, :vortex
+    get "/unwriter", PageController, :unwriter
+    get "/bunkbed", PageController, :bunkbed
+    get "/ecosystem", PageController, :ecosystem
+    live "/desktop", DesktopLive, :index
     get "/", PageController, :index
   end
 

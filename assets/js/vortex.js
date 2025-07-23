@@ -20,10 +20,12 @@ export function renderVortex(selector, data) {
   let oppositeParticles;
   let vortexHeight = 1.61;
 
+  let vortex1;
+  let vortex2;
+
   const objects = [];
 
   init();
-  render();
 
   function addParticles() {
     const particlesGeometry = new THREE.BufferGeometry();
@@ -81,6 +83,7 @@ export function renderVortex(selector, data) {
     // camera.position.set(500, 800, 10);
     // camera.position.set(0, 0, 15); // from the side
     camera.position.set(0, vortexHeight / 2, 10); // from the side
+    // camera.position.set(0, 10, 10); // from the side
     // camera.position.set(0, 20, 10); // from above
     // camera.position.z = 10;
 
@@ -93,7 +96,7 @@ export function renderVortex(selector, data) {
     const gridHelper = new THREE.GridHelper(1000, 20);
     // scene.add(gridHelper);
 
-    raycaster = new THREE.Raycaster();
+    // raycaster = new THREE.Raycaster();
     pointer = new THREE.Vector2();
 
     const geometry = new THREE.PlaneGeometry(1000, 1000);
@@ -104,17 +107,15 @@ export function renderVortex(selector, data) {
       new THREE.MeshBasicMaterial({ visible: false })
     );
     scene.add(plane);
-
     objects.push(plane);
-
 
 
 
     const coneGeometry = new THREE.ConeGeometry(1, 1.61, 32); // radius, height, segments
     const coneMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
-    const vortex1 = new THREE.Mesh(coneGeometry, coneMaterial);
+    vortex1 = new THREE.Mesh(coneGeometry, coneMaterial);
     scene.add(vortex1);
-    vortex1.position.y = vortexHeight / 2;
+    vortex1.position.y = (vortexHeight / 2) / 1.61;
 
     // Rotate the cone to point upwards
     vortex1.rotation.x = Math.PI;
@@ -124,9 +125,9 @@ export function renderVortex(selector, data) {
 
     const oppositeConeGeometry = new THREE.ConeGeometry(1, 1.61, 32); // radius, height, segments
     const oppositeConeMaterial = new THREE.MeshBasicMaterial({ color: 0x00ffff, wireframe: true });
-    const vortex2 = new THREE.Mesh(oppositeConeGeometry, oppositeConeMaterial);
+    vortex2 = new THREE.Mesh(oppositeConeGeometry, oppositeConeMaterial);
     debugger
-    vortex2.position.y = vortexHeight / 2;
+    vortex2.position.y = (vortexHeight / 2)  * 1.61;
     scene.add(vortex2);
 
     // Rotate the cone to point upwards
@@ -135,11 +136,7 @@ export function renderVortex(selector, data) {
 
 
 
-
-
-
     // lights
-
     const ambientLight = new THREE.AmbientLight(0x606060, 3);
     scene.add(ambientLight);
 
@@ -160,6 +157,8 @@ export function renderVortex(selector, data) {
     //
 
     window.addEventListener("resize", onWindowResize);
+
+    render();
   }
 
   function onWindowResize() {
@@ -175,78 +174,155 @@ export function renderVortex(selector, data) {
   function render() {
     renderer.render(scene, camera);
     animate();
-
   }
 
-    function animate() {
-      requestAnimationFrame(animate);
+  function animate() {
+    requestAnimationFrame(animate);
 
-      // Update particle positions
-      const positions = particles.geometry.attributes.position.array;
-      for (let i = 0; i < particleCount; i++) {
-          const x = positions[i * 3];
-          const y = positions[i * 3 + 1];
-          const z = positions[i * 3 + 2];
+    let positions1 = particles.geometry.attributes.position.array;
+    let positions2 = oppositeParticles.geometry.attributes.position.array;
 
-          // Convert to polar coordinates
-          const r = Math.sqrt(x * x + z * z);
-          const theta = Math.atan2(z, x);
+    for (let i = 0; i < particleCount; i++) {
+        // Vortex 1 particle
+        let x1 = positions1[i * 3];
+        let y1 = positions1[i * 3 + 1];
+        let z1 = positions1[i * 3 + 2];
 
-          // Increment theta for spin and adjust y for upward motion
-          const thetaNew = theta + 0.01; // spin rate
-          const yNew = y + 0.01; // downward motion
+        // Vortex 2 particle
+        let x2 = positions2[i * 3];
+        let y2 = positions2[i * 3 + 1];
+        let z2 = positions2[i * 3 + 2];
 
-          // Convert back to Cartesian
-          positions[i * 3] = r * Math.cos(thetaNew);
-          positions[i * 3 + 1] = yNew;
-          positions[i * 3 + 2] = r * Math.sin(thetaNew);
+        // Convert Vortex 1 to polar coordinates
+        let r1 = Math.sqrt(x1 * x1 + z1 * z1);
+        let theta1 = Math.atan2(z1, x1);
 
-          // Reset if out of bounds
-          if (yNew > vortexHeight) {
-              positions[i * 3 + 1] = 0; // reset height
-          }
-      }
-      particles.geometry.attributes.position.needsUpdate = true;
+        // Update Vortex 1 particle (upward spiral)
+        theta1 += 0.01; // Spin rate
+        y1 += 0.01; // Upward motion
 
-      animateOpposing();
+        x1 = r1 * Math.cos(theta1);
+        z1 = r1 * Math.sin(theta1);
 
-      renderer.render(scene, camera);
-   }
+        // if (y1 > vortexHeight) y1 = 0; // Reset height
+        if (y1 > vortex1.position.y + vortexHeight) y1 = 0; // Reset height
 
-    function animateOpposing() {
-      // requestAnimationFrame(animate);
+        // Convert Vortex 2 to polar coordinates
+        let r2 = Math.sqrt(x2 * x2 + z2 * z2);
+        let theta2 = Math.atan2(z2, x2);
 
-      // Update particle positions
-      const oppositePositions = oppositeParticles.geometry.attributes.position.array;
-      for (let i = 0; i < particleCount; i++) {
-          const x = oppositePositions[i * 3];
-          const y = oppositePositions[i * 3 + 1];
-          const z = oppositePositions[i * 3 + 2];
+        // Update Vortex 2 particle (downward spiral)
+        theta2 += 0.01; // Reverse spin rate
+        y2 -= 0.01; // Downward motion
 
-          // Convert to polar coordinates
-          const r = Math.sqrt(x * x + z * z);
-          const theta = Math.atan2(z, x);
+        x2 = r2 * Math.cos(theta2);
+        z2 = r2 * Math.sin(theta2);
 
-          // Increment theta for spin and adjust y for upward motion
-          const thetaNew = theta + 0.01; // opposite spin rate
-          const yNew = y - 0.01; // upward motion
+        // if (y2 < 0) y2 = vortexHeight; // Reset height
+        if (y2 < vortex2.position.y - vortexHeight) y2 = vortexHeight; // Reset height
 
-          // Convert back to Cartesian
-          oppositePositions[i * 3] = r * Math.cos(thetaNew);
-          oppositePositions[i * 3 + 1] = yNew;
-          oppositePositions[i * 3 + 2] = r * Math.sin(thetaNew);
+        // **Entanglement Effect**
+        // Calculate the average position
+        const avgX = (x1 + x2) / 2;
+        const avgY = (y1 + y2) / 1.2;
+        const avgZ = (z1 + z2) / 2;
 
-          // Reset if out of bounds
-          // if (-yNew > vortexHeight) {
-          //     oppositePositions[i * 3 + 1] = 0; // reset height
-          // }
-          if (-yNew > 0) {
-              oppositePositions[i * 3 + 1] = vortexHeight; // reset height
-          }
-      }
-      oppositeParticles.geometry.attributes.position.needsUpdate = true;
+        // Pull particles toward the average position
+        const entangleStrength = 0.01; // Adjust for stronger or weaker influence
+        x1 += (avgX - x1) * entangleStrength;
+        y1 += (avgY - y1) * entangleStrength;
+        z1 += (avgZ - z1) * entangleStrength;
 
-      renderer.render(scene, camera);
+        x2 += (avgX - x2) * entangleStrength;
+        y2 += (avgY - y2) * entangleStrength;
+        z2 += (avgZ - z2) * entangleStrength;
+
+        // Update positions back to arrays
+        positions1[i * 3] = x1;
+        positions1[i * 3 + 1] = y1;
+        positions1[i * 3 + 2] = z1;
+
+        positions2[i * 3] = x2;
+        positions2[i * 3 + 1] = y2;
+        positions2[i * 3 + 2] = z2;
+    }
+
+    particles.geometry.attributes.position.needsUpdate = true;
+    oppositeParticles.geometry.attributes.position.needsUpdate = true;
+
+    renderer.render(scene, camera);
+  }
+
+
+  function animate3() {
+    requestAnimationFrame(animate);
+
+    // Update particle positions
+    const positions = particles.geometry.attributes.position.array;
+    for (let i = 0; i < particleCount; i++) {
+        const x = positions[i * 3];
+        const y = positions[i * 3 + 1];
+        const z = positions[i * 3 + 2];
+
+        // Convert to polar coordinates
+        const r = Math.sqrt(x * x + z * z);
+        const theta = Math.atan2(z, x);
+
+        // Increment theta for spin and adjust y for upward motion
+        const thetaNew = theta + 0.01; // spin rate
+        const yNew = y + 0.01; // downward motion
+
+        // Convert back to Cartesian
+        positions[i * 3] = r * Math.cos(thetaNew);
+        positions[i * 3 + 1] = yNew;
+        positions[i * 3 + 2] = r * Math.sin(thetaNew);
+
+        // Reset if out of bounds
+        if (yNew > vortexHeight) {
+            positions[i * 3 + 1] = 0; // reset height
+        }
+    }
+    particles.geometry.attributes.position.needsUpdate = true;
+
+    animateOpposing();
+
+    renderer.render(scene, camera);
+  }
+
+  function animateOpposing() {
+    // requestAnimationFrame(animate);
+
+    // Update particle positions
+    const oppositePositions = oppositeParticles.geometry.attributes.position.array;
+    for (let i = 0; i < particleCount; i++) {
+        const x = oppositePositions[i * 3];
+        const y = oppositePositions[i * 3 + 1];
+        const z = oppositePositions[i * 3 + 2];
+
+        // Convert to polar coordinates
+        const r = Math.sqrt(x * x + z * z);
+        const theta = Math.atan2(z, x);
+
+        // Increment theta for spin and adjust y for upward motion
+        const thetaNew = theta + 0.01; // opposite spin rate
+        const yNew = y - 0.01; // upward motion
+
+        // Convert back to Cartesian
+        oppositePositions[i * 3] = r * Math.cos(thetaNew);
+        oppositePositions[i * 3 + 1] = yNew;
+        oppositePositions[i * 3 + 2] = r * Math.sin(thetaNew);
+
+        // Reset if out of bounds
+        // if (-yNew > vortexHeight) {
+        //     oppositePositions[i * 3 + 1] = 0; // reset height
+        // }
+        if (-yNew > 0) {
+            oppositePositions[i * 3 + 1] = vortexHeight; // reset height
+        }
+    }
+    oppositeParticles.geometry.attributes.position.needsUpdate = true;
+
+    renderer.render(scene, camera);
   }
 
   function drawOrbitControls() {

@@ -86,7 +86,7 @@
   // zoom state: 0 = fully zoomed out (all rings visible), 1 = fully zoomed in (runway arc)
   let zoom = 0;
   let targetZoom = 0;
-  let W, H, cx, cy, baseR;
+  let W, H, cx, cy, baseR, originCx, originCy;
 
   // label fade
   let showLabels = true;
@@ -94,8 +94,8 @@
   function resize() {
     W = canvas.width  = window.innerWidth;
     H = canvas.height = window.innerHeight;
-    cx = W / 2;
-    cy = H / 2;
+    originCx = W / 2;
+    originCy = H / 2;
     baseR = Math.min(W, H) * 0.42;
   }
 
@@ -116,8 +116,6 @@
   }
 
   function drawRing(alt, zoomEased) {
-    // as zoom increases, rings shrink outward / off screen; runway ring expands to fill
-    // camera follows the runway ring: at zoom=1, runway ring radius = baseR * 8 (zoomed way in)
     const ZOOM_SCALE = 1 + zoomEased * 7;
     const r = alt.r * baseR * ZOOM_SCALE;
 
@@ -160,6 +158,13 @@
     // smooth zoom
     zoom += (targetZoom - zoom) * 0.06;
     const zoomEased = easeInOut(zoom);
+
+    // shift circle center leftward so the right edge of the runway ring
+    // stays anchored at ~65% of screen width
+    const runwayR = 0.27 * baseR * (1 + zoomEased * 7);
+    const anchorX = W * 0.65;
+    cx = anchorX - runwayR;
+    cy = originCy;
 
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = '#f5f5f3';

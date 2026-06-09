@@ -72,11 +72,16 @@
     { label: 'runway',    horizon: 'daily',            note: 'current actions / day', r: 0.27, width: 2.0, alpha: 0.85, zoomTarget: 1.00, fadeAt: 999  },
   ];
 
-  let zoom = 0;
-  let targetZoom = 0;
   let hoveredIndex = -1;
-  let selectedIndex = 0; // which ring is the "outer" target; runway is always inner
+  let selectedIndex = 0;
   let W, H, cx, cy, baseR, originCy;
+
+  // smooth camera state — lerped each frame toward target
+  let currentScale = 1;
+  let currentCx    = 0;
+  let targetScale  = 1;
+  let targetCx     = 0;
+  const LERP = 0.07; // lower = smoother but slower
 
   // For a selected ring index, compute the scale and cx that places:
   //   runway right edge  at W * 1/8
@@ -98,8 +103,18 @@
     return { scale, frameCx };
   }
 
-  // zoomed-out state: rings centered in left 2/3, scale=1
-  const OUT_SCALE = 1;
+  function setTarget(idx) {
+    selectedIndex = idx;
+    if (idx === 0) {
+      // fully zoomed out: rings centered in left 2/3 at natural scale
+      targetScale = 1;
+      targetCx    = W / 3;
+    } else {
+      const { scale, frameCx } = frameForIndex(idx);
+      targetScale = scale;
+      targetCx    = frameCx;
+    }
+  }
 
   function resize() {
     W = canvas.width  = window.innerWidth;
@@ -117,33 +132,25 @@
     return alt.r * baseR * scale;
   }
 
-  // find which ring index the point (px, py) is nearest to, within a threshold
-  function nearestRing(px, py, zoomEased) {
-    const dist = Math.sqrt((px - cx) ** 2 + (py - cy) ** 2);
-    let best = -1;
-    let bestDelta = Infinity;
-    for (let i = 0; i < ALTITUDES.length; i++) {
-      const r = ringRadius(ALTITUDES[i], zoomEased);
-      const delta = Math.abs(dist - r);
-      const threshold = Math.max(12, ALTITUDES[i].width * 6);
-      if (delta < threshold && delta < bestDelta) {
-        bestDelta = delta;
-        best = i;
-      }
-    }
-    return best;
-  }
-
-  // find nearest ring using current live scale
   function nearestRing(px, py) {
     const dist = Math.sqrt((px - cx) ** 2 + (py - cy) ** 2);
     let best = -1;
     let bestDelta = Infinity;
     for (let i = 0; i < ALTITUDES.length; i++) {
       const r = ringRadius(ALTITUDES[i], currentScale);
-      const delta = Math.abs(dist - r);
-      const threshold = Math.max(14, ALTITUDES[i].width * 6);
-      if (delta < threshold && delta < bestDelta) {
+
+      // arc hit: generous band around the circle line
+      const arcDelta = Math.abs(dist - r);
+      const arcThreshold = 40;
+
+      // label hit: rectangle just outside the ring's right edge, straddling cy
+      const ringRight = Math.min(cx + r, W - 120);
+      const inLabelX = px >= ringRight && px <= ringRight + 140;
+      const inLabelY = Math.abs(py - cy) < 24;
+      const labelDelta = inLabelX && inLabelY ? 0 : Infinity;
+
+      const delta = Math.min(arcDelta, labelDelta);
+      if (delta < arcThreshold && delta < bestDelta) {
         bestDelta = delta;
         best = i;
       }
@@ -159,29 +166,48 @@
   canvas.addEventListener('click', (e) => {
     const idx = nearestRing(e.clientX, e.clientY);
     if (idx >= 0) {
-      selectedIndex = idx;
-      targetZoom = ALTITUDES[idx].zoomTarget;
+      scrollPos = idx;
+      setTarget(idx);
       subtitle.textContent = ALTITUDES[idx].label;
     }
   });
 
-  // scroll nudges targetZoom for fine control
+  // continuous scroll: move a fractional position along the altitude list
+  // scrollPos 0 = fully zoomed out (index 0), 5 = runway (index 5)
+  let scrollPos = 0;
+
+  function applyScrollPos(pos) {
+    // find the two bracketing indices and lerp between their frames
+    const lo = Math.floor(pos);
+    const hi = Math.min(lo + 1, ALTITUDES.length - 1);
+    const t  = pos - lo;
+
+    const loFrame = lo === 0
+      ? { scale: 1, frameCx: W / 3 }
+      : frameForIndex(lo);
+    const hiFrame = hi === 0
+      ? { scale: 1, frameCx: W / 3 }
+      : frameForIndex(hi);
+
+    targetScale = loFrame.scale + t * (hiFrame.scale - loFrame.scale);
+    targetCx    = loFrame.frameCx + t * (hiFrame.frameCx - loFrame.frameCx);
+
+    // update selectedIndex to nearest for label + fade purposes
+    selectedIndex = Math.round(pos);
+    subtitle.textContent = ALTITUDES[selectedIndex].label;
+  }
+
   window.addEventListener('wheel', (e) => {
     e.preventDefault();
-    targetZoom = Math.max(0, Math.min(1, targetZoom + e.deltaY * 0.0008));
-    // find nearest altitude snap
-    let nearIdx = 0;
-    let nearDist = Infinity;
-    for (let i = 0; i < ALTITUDES.length; i++) {
-      const d = Math.abs(ALTITUDES[i].zoomTarget - targetZoom);
-      if (d < nearDist) { nearDist = d; nearIdx = i; }
-    }
-    selectedIndex = nearIdx;
+    // normalize delta across devices — trackpads send small values, wheels send large ones
+    const raw   = Math.abs(e.deltaY) > 50 ? e.deltaY / 200 : e.deltaY / 80;
+    scrollPos = Math.max(0, Math.min(ALTITUDES.length - 1, scrollPos + raw));
+    applyScrollPos(scrollPos);
     hoveredIndex = -1;
   }, { passive: false });
 
   function drawRing(alt, idx, zoomEased) {
-    const r = ringRadius(alt, zoomEased);
+    const r = ringRadius(alt, currentScale);
     const isHovered = idx === hoveredIndex;
     const isRunway = alt.label === 'runway';
 
@@ -211,38 +237,45 @@
     ctx.stroke();
 
     // two-line label: altitude + time horizon
-    if (alpha > 0.06 && r < W * 1.2) {
+    // always render if ring is visible; pin to right margin when ring extends off-screen
+    if (alpha > 0.06) {
       const labelAlpha = isHovered ? Math.min(alpha, 0.9) : Math.min(alpha * 1.4, 0.7);
       const horizonAlpha = labelAlpha * 0.6;
-      const lx = cx + r + 10;
-      if (lx < W - 10) {
-        ctx.save();
-        ctx.textAlign = 'left';
+      // right edge of ring in screen space; clamp so label stays inside canvas
+      const ringRight = cx + r;
+      const lx = Math.min(ringRight + 10, W - 120);
 
-        // primary label
-        ctx.font = isHovered
-          ? `500 11px 'Helvetica Neue', Helvetica, Arial, sans-serif`
-          : `11px 'Helvetica Neue', Helvetica, Arial, sans-serif`;
-        ctx.fillStyle = `rgba(60, 60, 60, ${labelAlpha})`;
-        ctx.textBaseline = 'bottom';
-        ctx.fillText(alt.label, lx, cy - 2);
+      ctx.save();
+      ctx.textAlign = 'left';
 
-        // horizon sub-label
-        ctx.font = `10px 'Helvetica Neue', Helvetica, Arial, sans-serif`;
-        ctx.fillStyle = `rgba(120, 120, 120, ${horizonAlpha})`;
-        ctx.textBaseline = 'top';
-        ctx.fillText(alt.horizon, lx, cy + 2);
+      ctx.font = isHovered
+        ? `500 11px 'Helvetica Neue', Helvetica, Arial, sans-serif`
+        : `11px 'Helvetica Neue', Helvetica, Arial, sans-serif`;
+      ctx.fillStyle = `rgba(60, 60, 60, ${labelAlpha})`;
+      ctx.textBaseline = 'bottom';
+      ctx.fillText(alt.label, lx, cy - 2);
 
-        ctx.restore();
-      }
+      ctx.font = `10px 'Helvetica Neue', Helvetica, Arial, sans-serif`;
+      ctx.fillStyle = `rgba(120, 120, 120, ${horizonAlpha})`;
+      ctx.textBaseline = 'top';
+      ctx.fillText(alt.horizon, lx, cy + 2);
+
+      ctx.restore();
     }
   }
 
   function frame() {
-    zoom += (targetZoom - zoom) * 0.06;
-    const zoomEased = easeInOut(zoom);
-    cx = computeCx(zoomEased);
+    // lerp camera directly — no intermediate zoom variable
+    currentScale += (targetScale - currentScale) * LERP;
+    currentCx    += (targetCx    - currentCx)    * LERP;
+
+    cx = currentCx;
     cy = originCy;
+
+    // derive a 0..1 fade proxy from scale for ring alpha calculations
+    // scale=1 → zoomEased=0, scale=targetScale for runway → zoomEased=1
+    const { scale: maxScale } = frameForIndex(ALTITUDES.length - 1);
+    const zoomEased = Math.max(0, Math.min(1, (currentScale - 1) / (maxScale - 1)));
 
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = '#f5f5f3';
@@ -257,6 +290,8 @@
 
   window.addEventListener('resize', resize);
   resize();
+  currentCx = targetCx = W / 3;
+  currentScale = targetScale = 1;
   frame();
 })();
 </script>

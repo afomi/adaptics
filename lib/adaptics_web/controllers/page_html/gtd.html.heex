@@ -1,0 +1,180 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f5f5f3;
+  }
+
+  #gtd-canvas {
+    display: block;
+    position: fixed;
+    inset: 0;
+  }
+
+  #gtd-ui {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  #gtd-wordmark {
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+    font-weight: 400;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  #gtd-subtitle {
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    color: #999;
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  #gtd-zoom-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+    color: #bbb;
+    text-transform: uppercase;
+  }
+</style>
+
+<canvas id="gtd-canvas"></canvas>
+
+<div id="gtd-ui">
+  <div id="gtd-wordmark">GTD</div>
+  <div id="gtd-subtitle">
+    50,000 ft<br />
+    scroll to zoom
+  </div>
+  <div id="gtd-zoom-hint">scroll or pinch to zoom</div>
+</div>
+
+<script>
+(function () {
+  const canvas = document.getElementById('gtd-canvas');
+  const ctx = canvas.getContext('2d');
+
+  // GTD altitudes: outermost = 50k ft, innermost = runway (day)
+  const ALTITUDES = [
+    { label: '50,000 ft', note: 'purpose & principles',  r: 1.00, width: 1.2, alpha: 0.55 },
+    { label: '40,000 ft', note: 'vision',                r: 0.82, width: 1.2, alpha: 0.52 },
+    { label: '30,000 ft', note: '3–5 year goals',        r: 0.66, width: 1.2, alpha: 0.50 },
+    { label: '20,000 ft', note: '1–2 year goals',        r: 0.52, width: 1.2, alpha: 0.48 },
+    { label: '10,000 ft', note: 'areas of focus',        r: 0.39, width: 1.2, alpha: 0.46 },
+    { label: 'runway',    note: 'current actions / day', r: 0.27, width: 2.0, alpha: 0.85 },
+  ];
+
+  // zoom state: 0 = fully zoomed out (all rings visible), 1 = fully zoomed in (runway arc)
+  let zoom = 0;
+  let targetZoom = 0;
+  let W, H, cx, cy, baseR;
+
+  // label fade
+  let showLabels = true;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+    cx = W / 2;
+    cy = H / 2;
+    baseR = Math.min(W, H) * 0.42;
+  }
+
+  // scroll/pinch zoom
+  window.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    targetZoom = Math.max(0, Math.min(1, targetZoom + e.deltaY * 0.0008));
+    document.getElementById('gtd-subtitle').textContent =
+      targetZoom < 0.15 ? '50,000 ft\nscroll to zoom' :
+      targetZoom < 0.35 ? '40,000 ft' :
+      targetZoom < 0.52 ? '30,000 ft' :
+      targetZoom < 0.67 ? '20,000 ft' :
+      targetZoom < 0.82 ? '10,000 ft' : 'runway';
+  }, { passive: false });
+
+  function easeInOut(t) {
+    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  }
+
+  function drawRing(alt, zoomEased) {
+    // as zoom increases, rings shrink outward / off screen; runway ring expands to fill
+    // camera follows the runway ring: at zoom=1, runway ring radius = baseR * 8 (zoomed way in)
+    const ZOOM_SCALE = 1 + zoomEased * 7;
+    const r = alt.r * baseR * ZOOM_SCALE;
+
+    // fade out rings that aren't the runway as we zoom in
+    let alpha = alt.alpha;
+    if (alt.label !== 'runway') {
+      alpha *= Math.max(0, 1 - zoomEased * 2.5);
+    } else {
+      // runway ring gets bolder as we zoom in
+      alpha = 0.85 + zoomEased * 0.15;
+    }
+    if (alpha <= 0.005) return;
+
+    const lineWidth = alt.width + (alt.label === 'runway' ? zoomEased * 4 : 0);
+
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.strokeStyle = `rgba(20, 20, 20, ${alpha})`;
+    ctx.lineWidth = lineWidth;
+    ctx.stroke();
+
+    // draw label on the right side of each ring, fades with alpha
+    if (alpha > 0.08 && r < W * 0.9) {
+      const labelAlpha = Math.min(alpha * 1.4, 0.7);
+      ctx.save();
+      ctx.font = `${10 + lineWidth}px 'Helvetica Neue', Helvetica, Arial, sans-serif`;
+      ctx.fillStyle = `rgba(80, 80, 80, ${labelAlpha})`;
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'middle';
+      const lx = cx + r + 8;
+      const ly = cy;
+      if (lx < W - 10) {
+        ctx.fillText(alt.label, lx, ly);
+      }
+      ctx.restore();
+    }
+  }
+
+  function frame() {
+    // smooth zoom
+    zoom += (targetZoom - zoom) * 0.06;
+    const zoomEased = easeInOut(zoom);
+
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#f5f5f3';
+    ctx.fillRect(0, 0, W, H);
+
+    // draw rings from outermost in, so runway is on top
+    for (let i = 0; i < ALTITUDES.length; i++) {
+      drawRing(ALTITUDES[i], zoomEased);
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+  frame();
+})();
+</script>

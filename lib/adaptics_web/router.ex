@@ -48,7 +48,9 @@ defmodule AdapticsWeb.Router do
     get "/math", PageController, :math
     get "/hydrogen", PageController, :hydrogen
     get "/lens", PageController, :lens
+    get "/coherence", PageController, :coherence
     get "/gtd", PageController, :gtd
+    get "/spheres", PageController, :spheres
     get "/adaptics", PageController, :adaptics
     get "/timeline", PageController, :timeline
     live "/canvas", CanvasLive, :index

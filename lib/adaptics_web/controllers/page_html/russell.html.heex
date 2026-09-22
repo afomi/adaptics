@@ -1,0 +1,52 @@
+<style>
+  .russell-panel {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
+    width: 280px;
+    padding: 20px 22px;
+    color: #d8dcec;
+    background: rgba(11, 14, 26, 0.84);
+    border: 1px solid rgba(216, 210, 192, 0.18);
+    border-radius: 4px;
+    backdrop-filter: blur(6px);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .russell-title {
+    margin: 0 0 2px 0;
+    font-family: Palatino, "Iowan Old Style", Georgia, serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #e8e4d4;
+  }
+  .russell-hint {
+    margin: 10px 0 0 0;
+    font-size: 10px;
+    color: #6a7288;
+  }
+</style>
+
+<div
+  id="russell-container"
+  style="width: 100%; height: 100vh; background: #0b0e1a;">
+</div>
+
+<div
+  class="russell-panel">
+  <h3
+    class="russell-title">
+    Russell
+  </h3>
+  <p
+    class="russell-hint">
+    Drag to orbit, scroll to zoom.
+  </p>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.russell = window.renderRussell();
+  });
+</script>

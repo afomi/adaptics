@@ -14,6 +14,11 @@ defmodule Adaptics.Application do
       AdapticsWeb.Telemetry,
       # Start the PubSub system
       {Phoenix.PubSub, name: Adaptics.PubSub},
+      AdapticsWeb.Presence,
+      # Start the Task Supervisor for async work
+      {Task.Supervisor, name: Adaptics.TaskSupervisor},
+      # Start Oban for persistent background jobs
+      {Oban, Application.fetch_env!(:adaptics, Oban)},
       # Start the Endpoint (http/https)
       AdapticsWeb.Endpoint
       # Start a worker by calling: Adaptics.Worker.start_link(arg)

@@ -23,6 +23,12 @@ config :adaptics, AdapticsWeb.Endpoint,
 # In test we don't send emails.
 config :adaptics, Adaptics.Mailer, adapter: Swoosh.Adapters.Test
 
+# Oban: use inline testing mode (jobs execute synchronously)
+config :adaptics, Oban, testing: :inline
+
+# Deterministic fake embeddings — no backend needed in tests
+config :adaptics, Adaptics.Embeddings, adapter: Adaptics.Embeddings.Fake
+
 # Print only warnings and errors during test
 config :logger, level: :warn
 

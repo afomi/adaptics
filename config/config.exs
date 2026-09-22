@@ -13,7 +13,7 @@ config :adaptics,
 # Configures the endpoint
 config :adaptics, AdapticsWeb.Endpoint,
   url: [host: "localhost"],
-  render_errors: [view: AdapticsWeb.ErrorView, accepts: ~w(html json), layout: false],
+  render_errors: [formats: [html: AdapticsWeb.ErrorHTML, json: AdapticsWeb.ErrorJSON], layout: false],
   pubsub_server: Adaptics.PubSub,
   live_view: [signing_salt: "totNZ643"]
 
@@ -31,10 +31,16 @@ config :swoosh, :api_client, false
 
 # Configure esbuild (the version is required)
 config :esbuild,
-  version: "0.14.29",
+  version: "0.25.5",
   default: [
     args:
-      ~w(js/app.js --bundle --target=es2017 --outdir=../priv/static/assets --external:/fonts/* --external:/images/*),
+      ~w(js/app.js --bundle --target=esnext --outdir=../priv/static/assets --external:/fonts/* --external:/images/*),
+    cd: Path.expand("../assets", __DIR__),
+    env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
+  ],
+  excalidraw: [
+    args:
+      ~w(js/excalidraw_css.js --bundle --target=esnext --outdir=../priv/static/assets --external:*.woff2 --external:*.woff --external:*.ttf --conditions=development),
     cd: Path.expand("../assets", __DIR__),
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
@@ -56,6 +62,38 @@ config :tailwind, version: "3.4.3", default: [
   ),
   cd: Path.expand("../assets", __DIR__)
 ]
+
+# Oban background job processing
+config :adaptics, Oban,
+  repo: Adaptics.Repo,
+  queues: [documents: 5, embeddings: 2]
+
+# Text embeddings (semantic axes) — local Ollama by default.
+# Requires the model pulled in Ollama (`ollama pull qwen3-embedding:8b`);
+# the app degrades gracefully (embedding features report unavailable) when
+# Ollama is not running. Axes record the model they were computed with —
+# recompute axes and rescore nodes after switching models.
+config :adaptics, Adaptics.Embeddings,
+  adapter: Adaptics.Embeddings.Ollama,
+  url: "http://localhost:11434",
+  model: "qwen3-embedding:8b"
+
+# Entity extraction configuration
+config :adaptics, :entity_extraction,
+  python_path: "python3",
+  script_path: Path.expand("../priv/python/extract_entities.py", __DIR__),
+  venv_path: Path.expand("../priv/python/.venv", __DIR__)
+
+# Geocoding configuration
+config :adaptics, :geocoding,
+  enabled: false,
+  base_url: "https://nominatim.openstreetmap.org",
+  user_agent: "adaptics/0.1.0"
+
+# Document storage configuration
+config :adaptics, :document_storage,
+  adapter: Adaptics.Documents.Storage.Local,
+  path: Path.expand("../priv/uploads/documents", __DIR__)
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

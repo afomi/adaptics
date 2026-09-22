@@ -63,6 +63,33 @@ if config_env() == :prod do
     ],
     secret_key_base: secret_key_base
 
+  # Document storage — use S3 in production
+  if System.get_env("AWS_S3_BUCKET") do
+    config :adaptics, :document_storage,
+      adapter: Adaptics.Documents.Storage.S3,
+      bucket: System.get_env("AWS_S3_BUCKET"),
+      prefix: System.get_env("AWS_S3_PREFIX") || "documents"
+
+    config :ex_aws,
+      access_key_id: System.get_env("AWS_ACCESS_KEY_ID"),
+      secret_access_key: System.get_env("AWS_SECRET_ACCESS_KEY"),
+      region: System.get_env("AWS_REGION") || "us-east-1"
+  end
+
+  # Entity extraction — override python path for release
+  config :adaptics, :entity_extraction,
+    python_path: System.get_env("PYTHON_PATH") || "/app/priv/python/.venv/bin/python3",
+    script_path: "/app/priv/python/extract_entities.py",
+    venv_path: "/app/priv/python/.venv"
+
+  # Geocoding — enable in production if desired
+  if System.get_env("GEOCODING_ENABLED") == "true" do
+    config :adaptics, :geocoding,
+      enabled: true,
+      base_url: System.get_env("GEOCODING_URL") || "https://nominatim.openstreetmap.org",
+      user_agent: System.get_env("GEOCODING_USER_AGENT") || "adaptics/0.1.0"
+  end
+
   # ## Configuring the mailer
   #
   # In production you need to configure the mailer to use a different adapter.

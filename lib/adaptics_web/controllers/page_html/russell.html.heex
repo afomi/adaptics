@@ -45,6 +45,51 @@
   </p>
 </div>
 
+<div
+  class="fixed bottom-6 left-6 z-[100] flex flex-col items-start gap-2">
+  <button
+    id="russell-camera-toggle"
+    type="button"
+    data-mode="perspective"
+    class="group flex items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+    <span
+      class="h-2 w-2 rounded-sm bg-slate-500 transition-colors group-data-[mode=isometric]:bg-amber-400">
+    </span>
+    <span
+      id="russell-camera-label">
+      Perspective
+    </span>
+  </button>
+
+  <button
+    id="russell-focus-toggle"
+    type="button"
+    data-focused="false"
+    class="group flex items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+    <span
+      class="h-2 w-2 rounded-sm bg-slate-500 transition-colors group-data-[focused=true]:bg-amber-400">
+    </span>
+    <span
+      id="russell-focus-label">
+      All cubes
+    </span>
+  </button>
+
+  <button
+    id="russell-coil-toggle"
+    type="button"
+    data-running="true"
+    class="group flex items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+    <span
+      class="h-2 w-2 rounded-sm bg-slate-500 transition-colors group-data-[running=true]:bg-amber-400">
+    </span>
+    <span
+      id="russell-coil-label">
+      Coil running
+    </span>
+  </button>
+</div>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     window.russell = window.renderRussell();

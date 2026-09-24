@@ -128,6 +128,8 @@ export function renderRussell(containerId) {
 
   const CUBE_COLOR = 0xe8a33d;
   const WAVE_COLOR = 0x5ad1c8;
+  const COIL_COLOR = 0xe8595a;      // cathode -- compressing
+  const COIL_ANODE_COLOR = 0x5a8fe8; // anode -- expanding
   const NEIGHBOR_DIM_OPACITY = 0.12;
 
   // One geometry shared by every cube: the outline is identical for all seven,
@@ -158,6 +160,18 @@ export function renderRussell(containerId) {
     opacity: 1,
   });
 
+  // Coils get the same centre/neighbour pair, so focus dims them too. Each
+  // phase has its own colour: the cathode wave compressing, its anode
+  // counterpart expanding.
+  const coilMaterials = [
+    new THREE.LineBasicMaterial({ color: COIL_COLOR }),
+    new THREE.LineBasicMaterial({ color: COIL_ANODE_COLOR }),
+  ];
+  const neighborCoilMaterials = [
+    new THREE.LineBasicMaterial({ color: COIL_COLOR, transparent: true, opacity: 1 }),
+    new THREE.LineBasicMaterial({ color: COIL_ANODE_COLOR, transparent: true, opacity: 1 }),
+  ];
+
   // --- S waves --------------------------------------------------------------
   // One wave per space diagonal of the centre cube: corner to opposing corner.
   // Each is an S of two quarter-circle arcs joined where their tangents align,
@@ -187,7 +201,11 @@ export function renderRussell(containerId) {
   // arc 1 centred at (0, r) from -90 to 0 degrees, arc 2 centred at (2r, r)
   // from 180 to 90 degrees. The local frame is rotated 45 degrees so the chord
   // lands along the diagonal.
-  function sWavePoints(from, to, segments) {
+  // flip mirrors the S through its own diagonal: the counterpart leaves the
+  // corner bending the other way (down where the first goes up), crosses at
+  // the centre and still lands on the opposing corner. The pair encloses a
+  // lens, and both pass through the cube's centre.
+  function sWavePoints(from, to, segments, flip = false) {
     const chord = new THREE.Vector3().subVectors(to, from);
     const length = chord.length();
     const along = chord.clone().normalize();
@@ -200,6 +218,7 @@ export function renderRussell(containerId) {
     }
     normal.normalize();
     const across = new THREE.Vector3().crossVectors(normal, along).normalize();
+    if (flip) across.negate();
 
     const r = length / (2 * Math.SQRT2);
     const c = Math.SQRT1_2;
@@ -234,11 +253,16 @@ export function renderRussell(containerId) {
   //
   // The wave geometries, like the outline geometry, are computed once and
   // shared: every cube is the same size, so the curves are the same curves.
-  const waveGeometries = WAVE_CORNERS.map((corner) => {
+  // Two S waves per diagonal: one bending each way out of the corner. Eight
+  // curves over the four diagonals, every one of them through the centre.
+  const waveGeometries = WAVE_CORNERS.flatMap((corner) => {
     const from = new THREE.Vector3(...corner).multiplyScalar(CUBE_SIZE / 2);
     const to = from.clone().negate(); // the opposing corner
-    return new THREE.BufferGeometry().setFromPoints(
-      sWavePoints(from, to, WAVE_SEGMENTS)
+    return [false, true].map(
+      (flip) =>
+        new THREE.BufferGeometry().setFromPoints(
+          sWavePoints(from, to, WAVE_SEGMENTS, flip)
+        )
     );
   });
 
@@ -252,11 +276,31 @@ export function renderRussell(containerId) {
   // from that midpoint, so the spiral pulls tight to nothing at the centre and
   // opens out towards the corners, and the winding runs faster where it is
   // tight. Animating the phase makes the coil travel along the diagonal.
-  const COIL_SEGMENTS = 600;
-  const COIL_TURNS = 9;
-  const COIL_MAX_RADIUS = 0.17;
+  // Sampling has to outrun the winding: at the top of the turns range the
+  // helix needs enough points per revolution to stay smooth rather than
+  // degenerating into a polygon.
+  const COIL_SEGMENTS = 2000;
+
+  // The coil's qualities, live rather than fixed. Each is a distinct property
+  // of the wave, so each can be varied on its own:
+  //
+  //   turns    how many times the helix circles the S
+  //   radius   how far it stands off the spine at its widest
+  //   taper    radius profile from centre to corner. 1 is a sine swell;
+  //            below 1 the coil fattens early, above 1 it stays pinched
+  //            longer. The radius is always exactly zero at the centre.
+  //   bunching how turns distribute. 1 spaces them evenly; below 1 crowds
+  //            them towards the centre, which is the compressed look in
+  //            Russell's chart.
+  // Cathode and anode each carry their own set, so the two waves of a pair can
+  // be shaped independently -- one tightly wound and slim, the other open and
+  // broad, as Russell's compressing and expanding waves differ.
+  const coilParams = {
+    cathode: { turns: 9, radius: 0.17, taper: 1, bunching: 1 / 3, speed: 0.6 },
+    anode: { turns: 9, radius: 0.17, taper: 1, bunching: 1 / 3, speed: 0.6 },
+  };
   const COIL_ORIGIN = new THREE.Vector3(-6, 0, 0);
-  const COIL_SPEED = 0.6;
+  // Speed lives per phase (below), so the pair can travel at different rates.
 
   // Sample the S densely, then carry a rotation-minimising frame along it so
   // the coil does not twist arbitrarily where the curve bends. A naive
@@ -286,81 +330,169 @@ export function renderRussell(containerId) {
   }
 
   // The spine is the S itself, sampled finely enough for a smooth coil.
-  const coilSpines = WAVE_CORNERS.map((corner) => {
+  const coilSpines = WAVE_CORNERS.flatMap((corner) => {
     const from = new THREE.Vector3(...corner).multiplyScalar(CUBE_SIZE / 2);
-    return sWavePoints(from, from.clone().negate(), COIL_SEGMENTS);
+    const to = from.clone().negate();
+    return [false, true].map((flip) =>
+      sWavePoints(from, to, COIL_SEGMENTS, flip)
+    );
   });
   const coilFrameSets = coilSpines.map(coilFrames);
 
-  const coilMaterial = new THREE.LineBasicMaterial({ color: 0xe8595a });
   const coilCenterMaterial = new THREE.LineBasicMaterial({
     color: 0xffffff,
     transparent: true,
     opacity: 0.35,
   });
 
-  const coils = new THREE.Group();
-  coils.position.copy(COIL_ORIGIN);
+  // Each diagonal carries a PAIR of coils in counter-phase: Russell's cathode
+  // wave compressing towards the centre while its anode counterpart expands
+  // away from it, the two balanced at the zero point between them. The pair
+  // traces the same path, so they are distinguished only by motion -- frozen,
+  // they would sit on top of each other.
+  const COIL_PHASES = [
+    { key: "cathode", direction: 1 },
+    { key: "anode", direction: -1 },
+  ];
 
-  // The bare S, drawn faintly underneath, so the coil's spine stays legible.
-  for (const spine of coilSpines) {
-    coils.add(
-      new THREE.Line(
-        new THREE.BufferGeometry().setFromPoints(spine),
-        coilCenterMaterial
-      )
-    );
+  // The coil is identical in every cube's local space -- same size, same
+  // diagonals -- so all seven cubes share ONE set of geometries per phase,
+  // animated once per frame. Each cube's Group transform places its copy.
+  // Seven cubes drawing the same eight buffers costs eight buffer updates,
+  // not fifty-six.
+  const coilGeometries = COIL_PHASES.map(() =>
+    coilSpines.map((spine) => {
+      const geometry = new THREE.BufferGeometry();
+      const attribute = new THREE.BufferAttribute(new Float32Array(spine.length * 3), 3);
+      attribute.setUsage(THREE.DynamicDrawUsage);
+      geometry.setAttribute("position", attribute);
+      return geometry;
+    })
+  );
+
+  // Faint spine geometries, also shared. One per diagonal: the pair share a path.
+  const coilSpineGeometries = coilSpines.map((spine) =>
+    new THREE.BufferGeometry().setFromPoints(spine)
+  );
+
+  // Build one cube's worth of coil lines, reusing the shared geometries.
+  // materials[0] is the cathode (compressing), materials[1] the anode.
+  function createCoilGroup({ coilMats, spineMat }) {
+    const group = new THREE.Group();
+
+    const spines = new THREE.Group();
+    for (const geometry of coilSpineGeometries) {
+      spines.add(new THREE.Line(geometry, spineMat));
+    }
+    group.add(spines);
+
+    // Each phase lives in its own sub-group, so showing or hiding cathode and
+    // anode is one flag each rather than index arithmetic over the children.
+    const phases = COIL_PHASES.map(({ key }, phase) => {
+      const phaseGroup = new THREE.Group();
+      phaseGroup.name = key;
+      for (const geometry of coilGeometries[phase]) {
+        const line = new THREE.Line(geometry, coilMats[phase]);
+        line.frustumCulled = false; // positions change; initial bounds would lie
+        phaseGroup.add(line);
+      }
+      group.add(phaseGroup);
+      return phaseGroup;
+    });
+
+    group.userData = { spines, phases };
+    return group;
   }
-
-  // One coil per diagonal. Positions are rewritten every frame, so the
-  // geometry is allocated once with a dynamic attribute.
-  const coilLines = coilSpines.map((spine) => {
-    const geometry = new THREE.BufferGeometry();
-    const array = new Float32Array(spine.length * 3);
-    const attribute = new THREE.BufferAttribute(array, 3);
-    attribute.setUsage(THREE.DynamicDrawUsage);
-    geometry.setAttribute("position", attribute);
-    const line = new THREE.Line(geometry, coilMaterial);
-    line.frustumCulled = false; // positions change; the initial bounds would lie
-    coils.add(line);
-    return line;
-  });
 
   // Rebuild every coil for a given phase. Kept as a function of time alone so
   // the animation has no accumulated state to drift.
   const coilPoint = new THREE.Vector3();
+  const lerpAxis = new THREE.Vector3();
+  const lerpAxis2 = new THREE.Vector3();
+  let lastCoilTime = 0;
+
+  // Each phase carries its own accumulated travel rather than multiplying the
+  // clock by speed at the point of use. Accumulating means a speed change
+  // alters the rate from here on; multiplying would rewrite all of history and
+  // make the coil jump to a new phase the instant the slider moved.
+  const coilPhaseTime = COIL_PHASES.map(() => 0);
+
   function updateCoils(time) {
-    coilSpines.forEach((spine, w) => {
-      const frames = coilFrameSets[w];
-      const attribute = coilLines[w].geometry.attributes.position;
-      const mid = (spine.length - 1) / 2;
+    const dt = Math.max(0, Math.min(0.1, time - lastCoilTime));
+    COIL_PHASES.forEach(({ key }, phase) => {
+      coilPhaseTime[phase] += dt * coilParams[key].speed;
+    });
+    lastCoilTime = time;
+    COIL_PHASES.forEach(({ direction, key }, phase) => {
+      const params = coilParams[key];
+      coilSpines.forEach((spine, w) => {
+        const frames = coilFrameSets[w];
+        const attribute = coilGeometries[phase][w].attributes.position;
+        const mid = (spine.length - 1) / 2;
 
-      for (let i = 0; i < spine.length; i++) {
-        // u is -1 at one corner, 0 at the cube's centre, +1 at the other.
-        const u = (i - mid) / mid;
+        for (let i = 0; i < spine.length; i++) {
+          // Samples are placed where the turns are, not spread evenly along
+          // the diagonal. Low bunching crowds the winding into the centre, so
+          // a uniform walk would spend most of its points on the sparse outer
+          // stretch and facet badly through the dense middle. Warping the
+          // sample parameter by the same exponent that drives the winding puts
+          // roughly constant turns between consecutive samples.
+          const even = (i - mid) / mid; // -1 .. +1, uniform
+          const u =
+            Math.sign(even) * Math.pow(Math.abs(even), 1 / params.bunching);
 
-        // Amplitude vanishes at the centre and swells towards the corners.
-        const radius = COIL_MAX_RADIUS * Math.sin(Math.abs(u) * Math.PI * 0.5);
+          // Position and frame are interpolated between the spine's own
+          // uniformly spaced points, since u no longer lands on one.
+          const f = (u + 1) * mid;
+          const i0 = Math.max(0, Math.min(spine.length - 1, Math.floor(f)));
+          const i1 = Math.min(spine.length - 1, i0 + 1);
+          const frac = f - i0;
 
-        // Winding accelerates near the centre: phase advances with u^(1/3),
-        // which is steepest at zero, so turns bunch where the coil is tight.
-        const wind = Math.sign(u) * Math.pow(Math.abs(u), 1 / 3);
-        const angle = wind * COIL_TURNS * Math.PI + time * COIL_SPEED;
+          // Amplitude vanishes at the centre and swells towards the corners.
+          const radius =
+            params.radius *
+            Math.pow(Math.sin(Math.abs(u) * Math.PI * 0.5), params.taper);
 
-        const { normal, binormal } = frames[i];
-        coilPoint
-          .copy(spine[i])
-          .addScaledVector(normal, Math.cos(angle) * radius)
-          .addScaledVector(binormal, Math.sin(angle) * radius);
+          // Winding accelerates near the centre: phase advances with u^(1/3),
+          // which is steepest at zero, so turns bunch where the coil is tight.
+          const wind =
+            Math.sign(u) * Math.pow(Math.abs(u), params.bunching);
 
-        attribute.setXYZ(i, coilPoint.x, coilPoint.y, coilPoint.z);
-      }
-      attribute.needsUpdate = true;
+          // The counterpart runs the phase term the other way, so one coil's
+          // turns travel towards the centre while the other's travel out.
+          // Both meet at u = 0, where the radius is zero and the two coincide:
+          // Russell's balanced interchange point.
+          const angle =
+            wind * params.turns * Math.PI + direction * coilPhaseTime[phase];
+
+          const { normal, binormal } = frames[i0];
+          const n1 = frames[i1];
+          coilPoint
+            .copy(spine[i0])
+            .lerp(spine[i1], frac)
+            .addScaledVector(
+              lerpAxis.copy(normal).lerp(n1.normal, frac).normalize(),
+              Math.cos(angle) * radius
+            )
+            .addScaledVector(
+              lerpAxis2.copy(binormal).lerp(n1.binormal, frac).normalize(),
+              Math.sin(angle) * radius
+            );
+
+          attribute.setXYZ(i, coilPoint.x, coilPoint.y, coilPoint.z);
+        }
+        attribute.needsUpdate = true;
+      });
     });
   }
 
-  // The same cube outline around the coil, so it reads as the same cube seen a
-  // third way: lattice, decomposed into pyramids, and resolved into its waves.
+  // The standalone prototype at COIL_ORIGIN: the same cube seen a third way --
+  // lattice, decomposed into pyramids, and resolved into its coiled waves.
+  const coils = createCoilGroup({
+    coilMats: coilMaterials,
+    spineMat: coilCenterMaterial,
+  });
+  coils.position.copy(COIL_ORIGIN);
   coils.add(new THREE.LineSegments(cubeGeometry, coilCenterMaterial));
 
   updateCoils(0);
@@ -386,7 +518,7 @@ export function renderRussell(containerId) {
   // Each cube gets an outline material and a wave material. They are passed in
   // rather than looked up, so the centre can stay lit while the neighbours
   // share a dimmable pair.
-  function createCube(position, { edgeMaterial, waveMaterial }) {
+  function createCube(position, { edgeMaterial, waveMaterial, coilMats }) {
     const group = new THREE.Group();
     group.position.copy(position);
 
@@ -399,7 +531,14 @@ export function renderRussell(containerId) {
     }
     group.add(waves);
 
-    group.userData = { outline, waves };
+    // Every cube can show its waves coiled. Hidden until switched on, so the
+    // lattice stays readable by default; the geometries are shared, so an
+    // unused coil group costs nothing to keep around.
+    const coil = createCoilGroup({ coilMats, spineMat: waveMaterial });
+    coil.visible = false;
+    group.add(coil);
+
+    group.userData = { outline, waves, coil };
     scene.add(group);
     return group;
   }
@@ -410,6 +549,7 @@ export function renderRussell(containerId) {
   const cube = createCube(new THREE.Vector3(0, 0, 0), {
     edgeMaterial: cubeMaterial,
     waveMaterial: waveMaterial,
+    coilMats: coilMaterials,
   });
 
   const neighbors = AXES.flatMap(({ unit }) =>
@@ -417,6 +557,7 @@ export function renderRussell(containerId) {
       createCube(unit.clone().multiplyScalar(sign * CUBE_SIZE), {
         edgeMaterial: neighborMaterial,
         waveMaterial: neighborWaveMaterial,
+        coilMats: neighborCoilMaterials,
       })
     )
   );
@@ -524,6 +665,7 @@ export function renderRussell(containerId) {
     const opacity = focused ? NEIGHBOR_DIM_OPACITY : 1;
     neighborMaterial.opacity = opacity;
     neighborWaveMaterial.opacity = opacity;
+    for (const m of neighborCoilMaterials) m.opacity = opacity;
     if (focusToggle) focusToggle.dataset.focused = String(focused);
     if (focusLabel) focusLabel.textContent = focused ? "Focused" : "All cubes";
     return focused;
@@ -532,6 +674,109 @@ export function renderRussell(containerId) {
   if (focusToggle) {
     focusToggle.addEventListener("click", () => setFocus(!focused));
   }
+
+  // --- coils on the lattice -------------------------------------------------
+  // Show the coiled form on all seven cubes. The plain S waves are swapped out
+  // when coils come on, so the two readings of the same diagonal do not fight
+  // for the same space.
+  const allCubes = [cube, ...neighbors];
+  let latticeCoiled = false;
+  const latticeCoilToggle = document.getElementById("russell-lattice-coil-toggle");
+  const latticeCoilLabel = document.getElementById("russell-lattice-coil-label");
+
+  function setLatticeCoiled(next) {
+    latticeCoiled = Boolean(next);
+    for (const c of allCubes) {
+      c.userData.coil.visible = latticeCoiled;
+      c.userData.waves.visible = !latticeCoiled;
+    }
+    if (latticeCoilToggle) latticeCoilToggle.dataset.coiled = String(latticeCoiled);
+    if (latticeCoilLabel) {
+      latticeCoilLabel.textContent = latticeCoiled ? "Coiled waves" : "Plain waves";
+    }
+    return latticeCoiled;
+  }
+  setLatticeCoiled(false);
+
+  if (latticeCoilToggle) {
+    latticeCoilToggle.addEventListener("click", () => setLatticeCoiled(!latticeCoiled));
+  }
+
+  // --- coil phases ----------------------------------------------------------
+  // Cathode and anode can be shown independently: both, either alone, or
+  // neither. Every cube's coil group plus the standalone prototype carry the
+  // same two phase sub-groups, so one flag per phase covers all of them.
+  const allCoilGroups = [
+    ...allCubes.map((c) => c.userData.coil),
+    coils,
+  ];
+
+  const phaseVisible = COIL_PHASES.map(() => true);
+
+  function setPhaseVisible(phase, next) {
+    phaseVisible[phase] = Boolean(next);
+    for (const group of allCoilGroups) {
+      group.userData.phases[phase].visible = phaseVisible[phase];
+    }
+    const { key } = COIL_PHASES[phase];
+    const button = document.getElementById(`russell-${key}-toggle`);
+    const labelEl = document.getElementById(`russell-${key}-label`);
+    if (button) button.dataset.on = String(phaseVisible[phase]);
+    if (labelEl) {
+      labelEl.textContent = key === "cathode" ? "Cathode" : "Anode";
+    }
+    return phaseVisible[phase];
+  }
+
+  // Changing a quality redraws at the current phase, so edits are visible
+  // even while the animation is paused.
+  // Describe bunching in plain terms rather than as an exponent: below 1 the
+  // turns crowd into the centre, above 1 they spread out to the corners.
+  function bunchingLabel(b) {
+    return b < 0.95 ? "centre" : b > 1.05 ? "corners" : "even";
+  }
+
+  // patch applies to one phase ("cathode" / "anode"), or to both when no
+  // phase is named.
+  function setCoilParams(patch, phaseKey = null) {
+    const keys = phaseKey ? [phaseKey] : COIL_PHASES.map((p) => p.key);
+    for (const k of keys) Object.assign(coilParams[k], patch);
+    updateCoils(lastCoilTime);
+
+    for (const k of COIL_PHASES.map((p) => p.key)) {
+      const set = coilParams[k];
+      const turnsValue = document.getElementById(`russell-${k}-turns-value`);
+      if (turnsValue) turnsValue.textContent = set.turns.toFixed(0);
+      const radiusValue = document.getElementById(`russell-${k}-radius-value`);
+      if (radiusValue) radiusValue.textContent = set.radius.toFixed(2);
+      const bunchingValue = document.getElementById(`russell-${k}-bunching-value`);
+      if (bunchingValue) bunchingValue.textContent = bunchingLabel(set.bunching);
+    }
+    return { ...coilParams };
+  }
+
+  // One slider per quality per phase, wired by naming convention.
+  for (const { key } of COIL_PHASES) {
+    for (const quality of ["turns", "radius", "bunching"]) {
+      const slider = document.getElementById(`russell-${key}-${quality}`);
+      if (!slider) continue;
+      slider.value = String(coilParams[key][quality]);
+      slider.addEventListener("input", (e) =>
+        setCoilParams({ [quality]: Number(e.target.value) }, key)
+      );
+    }
+  }
+  setCoilParams({});
+
+  COIL_PHASES.forEach(({ key }, phase) => {
+    setPhaseVisible(phase, true);
+    const button = document.getElementById(`russell-${key}-toggle`);
+    if (button) {
+      button.addEventListener("click", () =>
+        setPhaseVisible(phase, !phaseVisible[phase])
+      );
+    }
+  });
 
   // Each axis is a full line of length AXIS_LENGTH centered on the origin, so
   // it runs -5..+5 and extends 4 past the outer cubes' far faces (which sit at
@@ -579,6 +824,12 @@ export function renderRussell(containerId) {
     pyramids,
     coils,
     setCoilRunning,
+    setLatticeCoiled,
+    get latticeCoiled() { return latticeCoiled; },
+    setPhaseVisible,
+    get phaseVisible() { return [...phaseVisible]; },
+    coilParams,
+    setCoilParams,
     get coilRunning() { return coilRunning; },
     setMode,
     setFocus,

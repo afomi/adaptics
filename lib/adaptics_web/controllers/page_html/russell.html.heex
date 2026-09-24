@@ -88,6 +88,193 @@
       Coil running
     </span>
   </button>
+
+  <button
+    id="russell-lattice-coil-toggle"
+    type="button"
+    data-coiled="false"
+    class="group flex items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+    <span
+      class="h-2 w-2 rounded-sm bg-slate-500 transition-colors group-data-[coiled=true]:bg-amber-400">
+    </span>
+    <span
+      id="russell-lattice-coil-label">
+      Plain waves
+    </span>
+  </button>
+
+  <div
+    class="flex w-[190px] gap-2">
+    <button
+      id="russell-cathode-toggle"
+      type="button"
+      data-on="true"
+      class="group flex flex-1 items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+      <span
+        class="h-2 w-2 shrink-0 rounded-sm bg-slate-600 transition-colors group-data-[on=true]:bg-[#e8595a]">
+      </span>
+      <span
+        id="russell-cathode-label">
+        Cathode
+      </span>
+    </button>
+
+    <button
+      id="russell-anode-toggle"
+      type="button"
+      data-on="true"
+      class="group flex flex-1 items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+      <span
+        class="h-2 w-2 shrink-0 rounded-sm bg-slate-600 transition-colors group-data-[on=true]:bg-[#5a8fe8]">
+      </span>
+      <span
+        id="russell-anode-label">
+        Anode
+      </span>
+    </button>
+  </div>
+
+  <div
+    class="w-[190px] rounded border border-white/20 border-l-2 border-l-[#e8595a] bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur">
+    <div
+      class="mb-1 text-[10px] uppercase tracking-[0.14em] text-[#e8595a]">
+      Cathode
+    </div>
+
+    <label
+      for="russell-cathode-turns"
+      class="mb-1 flex items-center justify-between">
+      <span>
+        Turns
+      </span>
+      <span
+        id="russell-cathode-turns-value"
+        class="text-amber-300">
+        9
+      </span>
+    </label>
+    <input
+      id="russell-cathode-turns"
+      type="range"
+      min="1"
+      max="80"
+      step="1"
+      value="9"
+      class="w-full accent-[#e8595a]" />
+
+    <label
+      for="russell-cathode-radius"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        End radius
+      </span>
+      <span
+        id="russell-cathode-radius-value"
+        class="text-amber-300">
+        0.17
+      </span>
+    </label>
+    <input
+      id="russell-cathode-radius"
+      type="range"
+      min="0.02"
+      max="0.5"
+      step="0.01"
+      value="0.17"
+      class="w-full accent-[#e8595a]" />
+
+    <label
+      for="russell-cathode-bunching"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        Turns gather
+      </span>
+      <span
+        id="russell-cathode-bunching-value"
+        class="text-amber-300">
+        centre
+      </span>
+    </label>
+    <input
+      id="russell-cathode-bunching"
+      type="range"
+      min="0.2"
+      max="3"
+      step="0.05"
+      value="0.333"
+      class="w-full accent-[#e8595a]" />
+  </div>
+
+  <div
+    class="w-[190px] rounded border border-white/20 border-l-2 border-l-[#5a8fe8] bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur">
+    <div
+      class="mb-1 text-[10px] uppercase tracking-[0.14em] text-[#5a8fe8]">
+      Anode
+    </div>
+
+    <label
+      for="russell-anode-turns"
+      class="mb-1 flex items-center justify-between">
+      <span>
+        Turns
+      </span>
+      <span
+        id="russell-anode-turns-value"
+        class="text-amber-300">
+        9
+      </span>
+    </label>
+    <input
+      id="russell-anode-turns"
+      type="range"
+      min="1"
+      max="80"
+      step="1"
+      value="9"
+      class="w-full accent-[#5a8fe8]" />
+
+    <label
+      for="russell-anode-radius"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        End radius
+      </span>
+      <span
+        id="russell-anode-radius-value"
+        class="text-amber-300">
+        0.17
+      </span>
+    </label>
+    <input
+      id="russell-anode-radius"
+      type="range"
+      min="0.02"
+      max="0.5"
+      step="0.01"
+      value="0.17"
+      class="w-full accent-[#5a8fe8]" />
+
+    <label
+      for="russell-anode-bunching"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        Turns gather
+      </span>
+      <span
+        id="russell-anode-bunching-value"
+        class="text-amber-300">
+        centre
+      </span>
+    </label>
+    <input
+      id="russell-anode-bunching"
+      type="range"
+      min="0.2"
+      max="3"
+      step="0.05"
+      value="0.333"
+      class="w-full accent-[#5a8fe8]" />
+  </div>
 </div>
 
 <script>

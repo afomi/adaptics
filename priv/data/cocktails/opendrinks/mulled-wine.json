@@ -1,0 +1,33 @@
+{
+  "name": "Mulled Wine",
+  "description": "Warm, spicy and a bit sweet.",
+  "keywords": [
+    "christmas",
+    "holiday"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mulled-wine",
+  "ingredients": [
+    {
+      "name": "red wine, such as burgundy",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "orange or lemon",
+      "quantity": "1",
+      "measure": "sliced"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "4",
+      "measure": "sticks"
+    },
+    {
+      "name": "sugar, honey or maple syrup",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

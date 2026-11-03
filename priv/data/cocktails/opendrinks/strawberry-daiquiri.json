@@ -1,0 +1,50 @@
+{
+  "name": "Strawberry Daiquiri",
+  "description": "A frosty blender full of strawberry-citrus slush. You will enjoy this with or without the rum!",
+  "keywords": [
+    "daiquiri",
+    "Slush",
+    "rum",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-daiquiri",
+  "ingredients": [
+    {
+      "name": "ice",
+      "quantity": "6",
+      "measure": "cups"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "rum",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "frozen strawberries",
+      "quantity": "4",
+      "measure": "ounces"
+    },
+    {
+      "name": "lemon-lime flavoured carbonated beverage",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/8",
+      "measure": "cup"
+    }
+  ]
+}

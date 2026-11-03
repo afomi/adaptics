@@ -1,0 +1,30 @@
+{
+  "name": "Pink Creole",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "pink-creole",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

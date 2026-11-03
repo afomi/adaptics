@@ -1,0 +1,31 @@
+{
+  "name": "Bay Breeze",
+  "description": "A tropical, refreshing cocktail based on the classic Cape Cod.",
+  "keywords": [
+    "alcoholic",
+    "juice",
+    "vodka",
+    "fruit",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bay-breeze",
+  "ingredients": [
+    {
+      "name": "cranberry juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

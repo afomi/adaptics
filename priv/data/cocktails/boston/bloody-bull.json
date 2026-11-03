@@ -1,0 +1,25 @@
+{
+  "name": "Bloody Bull",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bloody-bull",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold beef bouillon",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

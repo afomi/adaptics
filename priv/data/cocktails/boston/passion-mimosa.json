@@ -1,0 +1,15 @@
+{
+  "name": "Passion Mimosa",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "passion-mimosa",
+  "ingredients": [
+    {
+      "name": "Chilled Passion Fruit Juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Tuxedo",
+  "description": "An IBA Official Cocktail composed of gin, dry Vermouth, orange bitters, maraschino and Absinthe.",
+  "keywords": [
+    "absinthe",
+    "vintage"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tuxedo",
+  "ingredients": [
+    {
+      "name": "Old Tom Gin",
+      "quantity": "2.25",
+      "measure": "oz"
+    },
+    {
+      "name": "Dry Vermouth",
+      "quantity": "2.25",
+      "measure": "oz"
+    },
+    {
+      "name": "Maraschino Liquer",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Absinthe",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Orange Bitters",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Aromatic Bitters",
+      "quantity": "2",
+      "measure": "teaspoon"
+    }
+  ]
+}

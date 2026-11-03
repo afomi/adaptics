@@ -1,0 +1,28 @@
+{
+  "name": "Monaco",
+  "description": "A monaco is an alcoholic beverage made up of beer mixed with lemonade and grenadine syrup.",
+  "keywords": [
+    "beer",
+    "lemonade"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "monaco",
+  "ingredients": [
+    {
+      "name": "Beer",
+      "quantity": "5",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine syrup",
+      "quantity": "0.3",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemonade",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

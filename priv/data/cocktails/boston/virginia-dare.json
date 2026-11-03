@@ -1,0 +1,30 @@
+{
+  "name": "Virginia Dare",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "virginia-dare",
+  "ingredients": [
+    {
+      "name": "Ripe pear",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

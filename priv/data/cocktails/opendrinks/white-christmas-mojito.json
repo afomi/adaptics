@@ -1,0 +1,55 @@
+{
+  "name": "White Christmas Mojito",
+  "description": "A simple drink perfect for parties.",
+  "keywords": [
+    "rum",
+    "coconut",
+    "mojito",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-christmas-mojito",
+  "ingredients": [
+    {
+      "name": "lime: juiced",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "8",
+      "measure": "pieces"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "white rum",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "coconut rum",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "canned coconut milk",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "sparkling water for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "pomegranate arils: for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sherry-and-Egg Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sherry-and-egg-cocktail",
+  "ingredients": [
+    {
+      "name": "cream sherry",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

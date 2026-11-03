@@ -1,0 +1,46 @@
+{
+  "name": "Lavender Basil Lemonade",
+  "description": "Refreshing and perfect for summertime sipping!",
+  "keywords": [
+    "lavender",
+    "basil",
+    "lemonade",
+    "non-alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lavender-basil-lemonade",
+  "ingredients": [
+    {
+      "name": "dried lavender",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "basil: roughly chopped and more for garnishing",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "honey or coconut or granulated sugar",
+      "quantity": "1/3 - 1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "5",
+      "measure": "cups"
+    },
+    {
+      "name": "freshly squeezed lemon juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ice for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

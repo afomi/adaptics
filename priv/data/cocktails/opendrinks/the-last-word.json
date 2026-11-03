@@ -1,0 +1,49 @@
+{
+  "name": "The Last Word",
+  "description": "A classic equal-parts gin cocktail with green Chartreuse, maraschino liqueur, and lime juice.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "gin",
+    "green chartreuse",
+    "maraschino",
+    "lime",
+    "equal parts",
+    "classic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-last-word",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "green Chartreuse",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "maraschino liqueur (e.g., Luxardo)",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "brandied cherry (optional garnish)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

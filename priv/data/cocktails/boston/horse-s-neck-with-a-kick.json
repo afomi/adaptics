@@ -1,0 +1,25 @@
+{
+  "name": "Horse's Neck (With A Kick)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "horse-s-neck-with-a-kick",
+  "ingredients": [
+    {
+      "name": "Wide spiral of lemon zest",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger ale",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

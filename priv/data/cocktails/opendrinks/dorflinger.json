@@ -1,0 +1,31 @@
+{
+  "name": "Dorflinger",
+  "description": "A classic pre prohibition drink that offers a unique taste, named after famed glass maker, Christian Dorflinger.",
+  "keywords": [
+    "absinthe",
+    "classic",
+    "gin",
+    "orange bitters",
+    "pre prohibition"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dorflinger",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Absinthe",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Bitters",
+      "quantity": "1 - 2",
+      "measure": "dash"
+    }
+  ]
+}

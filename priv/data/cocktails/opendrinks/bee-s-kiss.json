@@ -1,0 +1,36 @@
+{
+  "name": "Bee's Kiss",
+  "description": "This creamy after-dinner cocktail is an adaptation of a gin-based cocktail named the Bee’s Knees. Originally from the Ritz Bar in Paris (1936).",
+  "keywords": [
+    "alcoholic",
+    "rum",
+    "cream",
+    "honey",
+    "nutmeg"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bee-s-kiss",
+  "ingredients": [
+    {
+      "name": "white rum",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "cream",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tsp"
+    },
+    {
+      "name": "nutmeg",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

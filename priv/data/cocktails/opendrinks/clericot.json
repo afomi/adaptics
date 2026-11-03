@@ -1,0 +1,36 @@
+{
+  "name": "Clericot",
+  "description": "Clericot is a refreshing Uruguayan drink! It is basically composed of white wine and fruits. Perfect for the summer!",
+  "keywords": [
+    "alcoholic",
+    "citrus",
+    "fruit",
+    "wine",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "clericot",
+  "ingredients": [
+    {
+      "name": "Dry white wine",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon soda",
+      "quantity": "200",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Fruits of your choice",
+      "quantity": "2",
+      "measure": "cups"
+    }
+  ]
+}

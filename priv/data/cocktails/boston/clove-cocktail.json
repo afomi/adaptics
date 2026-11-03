@@ -1,0 +1,25 @@
+{
+  "name": "Clove Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "clove-cocktail",
+  "ingredients": [
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sloe gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Muscatel Wine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

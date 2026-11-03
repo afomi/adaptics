@@ -1,0 +1,47 @@
+{
+  "name": "Barnamint Bailey's",
+  "description": "This original TGI Friday's cocktail is named after the Barnum & Bailey Circus, which also inspired the red and white awnings outside Friday's restaurants.",
+  "keywords": [
+    "alcoholic",
+    "baileys",
+    "creme de menthe",
+    "ice cream",
+    "milk",
+    "oreo"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "barnamint-bailey-s",
+  "ingredients": [
+    {
+      "name": "baileys",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "creme de menthe",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "milk",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "oreo cookies",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "vanilla ice cream",
+      "quantity": "2",
+      "measure": "scoops"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "1",
+      "measure": "scoop"
+    }
+  ]
+}

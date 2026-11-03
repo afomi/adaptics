@@ -1,0 +1,34 @@
+{
+  "name": "Bourbon Old Fashioned",
+  "description": "When you get right down to it, the Bourbon Old Fashioned is little more than a slug of whiskey, seasoned and sweetened.",
+  "keywords": [
+    "bourbon",
+    "bourbon old-fashioned",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bourbon-old-fashioned",
+  "ingredients": [
+    {
+      "name": "sugar",
+      "quantity": "1/2",
+      "measure": "tsp"
+    },
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "orange peel",
+      "quantity": "1",
+      "measure": "whole"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Night Cap",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "night-cap",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

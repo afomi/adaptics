@@ -1,0 +1,25 @@
+{
+  "name": "Whiskey Toddy (cold)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "whiskey-toddy-cold",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Water",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blended whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

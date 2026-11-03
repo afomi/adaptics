@@ -1,0 +1,30 @@
+{
+  "name": "No. 8",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "no-8",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Palo cortado or oloroso sherry",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

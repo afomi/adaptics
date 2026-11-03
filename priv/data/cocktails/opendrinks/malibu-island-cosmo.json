@@ -1,0 +1,40 @@
+{
+  "name": "Malibu Island Cosmo",
+  "description": "This cocktail is a variant of Cosmo, with a different taste. A tropical twist on the deliciously fun and fruity cocktail.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "alcoholic",
+    "coconut"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "malibu-island-cosmo",
+  "ingredients": [
+    {
+      "name": "Malibu original",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Absolut citron",
+      "quantity": "1/3",
+      "measure": "part"
+    },
+    {
+      "name": "Fresh lime juice",
+      "quantity": "1/3",
+      "measure": "part"
+    },
+    {
+      "name": "Pomegranate juice",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

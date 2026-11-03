@@ -1,0 +1,25 @@
+{
+  "name": "Vodka Gimlet",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-gimlet",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hawaiin Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hawaiin-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "The Debonair",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "the-debonair",
+  "ingredients": [
+    {
+      "name": "Single-malt Scotch whisky",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

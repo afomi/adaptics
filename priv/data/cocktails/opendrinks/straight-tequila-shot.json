@@ -1,0 +1,21 @@
+{
+  "name": "Straight Tequila Shot",
+  "description": "A simple tequila shot served neat, often with salt and lime on the side.",
+  "keywords": [
+    "shot",
+    "tequila",
+    "simple",
+    "strong",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "straight-tequila-shot",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    }
+  ]
+}

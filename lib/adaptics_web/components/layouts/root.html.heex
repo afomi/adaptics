@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="csrf-token" content={get_csrf_token()}/>
+
+    <%!-- SEO Meta Tags --%>
+    <meta
+      name="description"
+      content={assigns[:meta_description] || "Adaptics is a collection of interactive experiments for mapping relationships, flows, and networks in information environments."}/>
+    <meta
+      name="keywords"
+      content="visualization, 3D, mapping, networks, information, adaptation, interactive"/>
+    <meta
+      name="author"
+      content="Adaptics"/>
+
+    <%!-- Open Graph / Facebook --%>
+    <meta
+      property="og:type"
+      content="website"/>
+    <meta
+      property="og:url"
+      content={"https://adaptics.app#{assigns[:current_path] || "/"}"}/>
+    <meta
+      property="og:title"
+      content={assigns[:page_title] || "Adaptics"}/>
+    <meta
+      property="og:description"
+      content={assigns[:meta_description] || "Interactive experiments for mapping relationships, flows, and networks in information environments."}/>
+    <meta
+      property="og:image"
+      content="https://adaptics.app/images/adaptics-screenshot-3d.png"/>
+    <meta
+      property="og:site_name"
+      content="Adaptics"/>
+
+    <%!-- Twitter --%>
+    <meta
+      name="twitter:card"
+      content="summary_large_image"/>
+    <meta
+      name="twitter:site"
+      content="@randw"/>
+    <meta
+      name="twitter:creator"
+      content="@randw"/>
+    <meta
+      name="twitter:title"
+      content={assigns[:page_title] || "Adaptics"}/>
+    <meta
+      name="twitter:description"
+      content={assigns[:meta_description] || "Interactive experiments for mapping relationships, flows, and networks in information environments."}/>
+    <meta
+      name="twitter:image"
+      content="https://adaptics.app/images/adaptics-screenshot-3d.png"/>
+
+    <%!-- Canonical URL --%>
+    <link
+      rel="canonical"
+      href={"https://adaptics.app#{assigns[:current_path] || "/"}"}/>
+
+    <.live_title suffix=" · Tools for Adaptation">
+      {assigns[:page_title] || "Adaptics"}
+    </.live_title>
+
+    <link
+      phx-track-static
+      rel="stylesheet"
+      href={~p"/assets/app.css"}/>
+    <script
+      defer
+      phx-track-static
+      type="text/javascript"
+      src={~p"/assets/app.js"}></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@bpmn-io/properties-panel/dist/assets/properties-panel.css"/>
+  </head>
+  <body>
+    <%= unless assigns[:hide_nav] do %>
+      <AdapticsWeb.CoreComponents.site_nav dark={assigns[:dark_nav] || false} />
+    <% end %>
+    <%= @inner_content %>
+  </body>
+</html>

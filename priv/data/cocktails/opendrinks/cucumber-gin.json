@@ -1,0 +1,45 @@
+{
+  "name": "Cucumber Gin",
+  "description": "Original and refreshing, discover the gin tonic with cucumber, mint and lime! A delicate and fragrant cocktail that is perfect for the aperitif.",
+  "keywords": [
+    "gin",
+    "tonic",
+    "cucumber",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cucumber-gin",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "12",
+      "measure": "cl"
+    },
+    {
+      "name": "Tonic water",
+      "quantity": "32",
+      "measure": "cl"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Fresh cucumber",
+      "quantity": "3",
+      "measure": "Strips"
+    },
+    {
+      "name": "mint syrup",
+      "quantity": "8",
+      "measure": "cl"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

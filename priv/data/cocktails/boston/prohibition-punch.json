@@ -1,0 +1,40 @@
+{
+  "name": "Prohibition Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "prohibition-punch",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grand Marnier",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Passion Fruit Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Champagne",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

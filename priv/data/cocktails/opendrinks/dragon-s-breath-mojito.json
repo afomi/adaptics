@@ -1,0 +1,51 @@
+{
+  "name": "Dragon's Breath Mojito",
+  "description": "A fiery twist on the classic mojito, combining spicy chili, refreshing mint, and cooling lime to create a unique summer drink.",
+  "keywords": [
+    "spicy",
+    "mint",
+    "lime",
+    "rum",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dragon-s-breath-mojito",
+  "ingredients": [
+    {
+      "name": "white rum",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh mint leaves",
+      "quantity": "4-5",
+      "measure": ""
+    },
+    {
+      "name": "red chili (sliced thinly, seeds removed for less spice)",
+      "quantity": "1",
+      "measure": "small"
+    },
+    {
+      "name": "club soda (to top)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "ice (as needed)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

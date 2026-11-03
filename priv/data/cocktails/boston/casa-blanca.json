@@ -1,0 +1,30 @@
+{
+  "name": "Casa Blanca",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "casa-blanca",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

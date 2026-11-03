@@ -1,0 +1,25 @@
+{
+  "name": "Sunday Confession",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "sunday-confession",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Limoncello",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

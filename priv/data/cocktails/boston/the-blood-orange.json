@@ -1,0 +1,20 @@
+{
+  "name": "The Blood Orange",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-blood-orange",
+  "ingredients": [
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

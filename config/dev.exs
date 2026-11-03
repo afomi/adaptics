@@ -28,6 +28,7 @@ config :adaptics, AdapticsWeb.Endpoint,
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     esbuild_excalidraw: {Esbuild, :install_and_run, [:excalidraw, ~w(--sourcemap=inline --watch)]},
+    esbuild_tldraw: {Esbuild, :install_and_run, [:tldraw, ~w(--watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
   ]
 

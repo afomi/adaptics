@@ -12,6 +12,10 @@ defmodule AdapticsWeb.Endpoint do
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
 
+  socket "/socket", AdapticsWeb.UserSocket,
+      websocket: true,
+      longpoll: false
+
   # Serve at "/" the static files from "priv/static" directory.
   #
   # You should set gzip to true if you are running phx.digest
@@ -20,7 +24,7 @@ defmodule AdapticsWeb.Endpoint do
     at: "/",
     from: :adaptics,
     gzip: false,
-    only: ~w(assets fonts images favicon.ico robots.txt)
+    only: ~w(assets fonts images models uploads fixtures favicon.ico robots.txt)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.

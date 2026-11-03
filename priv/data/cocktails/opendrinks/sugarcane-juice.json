@@ -1,0 +1,34 @@
+{
+  "name": "Sugarcane Juice",
+  "description": "Sugarcane Juice is another very common yet beloved drink of the people of the country. The juice extracted from the sugarcane is sweet which is topped with some black salt to make it the right combination of sweet and salty, making it yet another favourite Indian summer drink.",
+  "keywords": [
+    "sugarcane",
+    "summer drink",
+    "cane juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sugarcane-juice",
+  "ingredients": [
+    {
+      "name": "cubed sugarcane",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "grated ginger",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "water",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

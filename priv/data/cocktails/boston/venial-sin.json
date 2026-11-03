@@ -1,0 +1,35 @@
+{
+  "name": "Venial Sin",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "venial-sin",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mezcal",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Elderflower liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

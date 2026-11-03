@@ -1,0 +1,41 @@
+{
+  "name": "The Salty Dog",
+  "description": "The Salty Dog is a lot friendlier than it sounds. This classic cocktail is a modified Greyhound that is differentiated by the drink’s salted rim.",
+  "keywords": [
+    "gin",
+    "salty",
+    "cold",
+    "grapefruit",
+    "juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-salty-dog",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "5½",
+      "measure": "ounces"
+    },
+    {
+      "name": "grapefruit juice",
+      "quantity": "3",
+      "measure": "ounces"
+    },
+    {
+      "name": "coarse salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "grapefruit slice",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "3",
+      "measure": ""
+    }
+  ]
+}

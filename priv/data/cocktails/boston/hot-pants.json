@@ -1,0 +1,30 @@
+{
+  "name": "Hot Pants",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "hot-pants",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peppermint schnapps",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Irish Shillelagh",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "irish-shillelagh",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sloe gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh raspberries and strawberries, 2 peach slices, maraschino cherry",
+      "measure": "1",
+      "quantity": null
+    }
+  ]
+}

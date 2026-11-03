@@ -1,0 +1,25 @@
+{
+  "name": "Apple Rum Rickey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "apple-rum-rickey",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

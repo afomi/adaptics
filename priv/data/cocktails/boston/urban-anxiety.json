@@ -1,0 +1,30 @@
+{
+  "name": "Urban Anxiety",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum",
+  "slug": "urban-anxiety",
+  "ingredients": [
+    {
+      "name": "Cachaca",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cynar",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

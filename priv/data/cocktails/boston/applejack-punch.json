@@ -1,0 +1,30 @@
+{
+  "name": "Applejack Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "applejack-punch",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "16 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

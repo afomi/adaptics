@@ -1,0 +1,43 @@
+{
+  "name": "Pink Lady",
+  "description": "An exotic cocktail for aperitif.",
+  "keywords": [
+    "gin",
+    "pink",
+    "lemon",
+    "fresh",
+    "grenadine",
+    "vegan",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pink-lady",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh egg white",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "liquid crème fraîche",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

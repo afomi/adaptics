@@ -1,0 +1,40 @@
+{
+  "name": "Company B",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "company-b",
+  "ingredients": [
+    {
+      "name": "Whole strawberry, hulled",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar, strawberry slice",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Palm Sugar Sharbat",
+  "description": "This sharbat is a popular Indian drink to beat the summer in India, made using palm sugar. ",
+  "keywords": [
+    "sharbat",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "palm-sugar-sharbat",
+  "ingredients": [
+    {
+      "name": "Natural Palm Sugar",
+      "quantity": "2",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Cumin Seeds",
+      "quantity": "2",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Coconut Water",
+      "quantity": "3",
+      "measure": "Cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "2",
+      "measure": "Cup"
+    },
+    {
+      "name": "Soaked Basil Seeds",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Brown Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "brown-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

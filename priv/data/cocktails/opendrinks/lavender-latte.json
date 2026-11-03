@@ -1,0 +1,43 @@
+{
+  "name": "Lavender Latte",
+  "description": "Lavender lattes are the perfect blend of calming, sweet, and creamy. They can be served hot or iced making them excellent for any type of weather!",
+  "keywords": [
+    "lavender",
+    "latte"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lavender-latte",
+  "ingredients": [
+    {
+      "name": "dried lavender (can use lavender extract as well)",
+      "quantity": "1/8-1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1/4-1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "strong brewed coffee",
+      "quantity": "2/3",
+      "measure": "cup"
+    },
+    {
+      "name": "lavender syrup",
+      "quantity": "1-2",
+      "measure": "tablespoons"
+    }
+  ]
+}

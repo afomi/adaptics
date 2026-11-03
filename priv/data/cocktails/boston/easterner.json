@@ -1,0 +1,25 @@
+{
+  "name": "Easterner",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "easterner",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grapefruit juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

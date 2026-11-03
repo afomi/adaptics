@@ -1,0 +1,40 @@
+{
+  "name": "Milk Punch",
+  "description": "First recorded in 1688, this cold, milk-based beverage is a refreshing, modern take on the original.",
+  "keywords": [
+    "homemade",
+    "milk punch",
+    "cream",
+    "bourbon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "milk-punch",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "2",
+      "measure": "Oz"
+    },
+    {
+      "name": "Heavy cream",
+      "quantity": "3",
+      "measure": "Oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "1",
+      "measure": "Oz"
+    },
+    {
+      "name": "Vanilla Extract",
+      "quantity": "1",
+      "measure": "Splash"
+    },
+    {
+      "name": "Ground Nutmeg",
+      "quantity": "1",
+      "measure": "Sprinkle"
+    }
+  ]
+}

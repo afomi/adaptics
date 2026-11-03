@@ -1,0 +1,38 @@
+{
+  "name": "Kiba - A german smoothie",
+  "description": "Kiba is a smoothie made with bananas, cherries, and milk. It is a popular smoothie during warms days in Germany.",
+  "keywords": [
+    "banana",
+    "cherry",
+    "smoothie",
+    "fruit",
+    "vegan",
+    "non-alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kiba-a-german-smoothie",
+  "ingredients": [
+    {
+      "name": "frozen bananas",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "banana, peeled and sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "almond milk",
+      "quantity": "400",
+      "measure": "ml"
+    },
+    {
+      "name": "A large handful of cherries, pitted",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

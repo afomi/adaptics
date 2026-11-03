@@ -1,0 +1,50 @@
+{
+  "name": "Calamity Jane",
+  "description": "Fruity tequila cocktail with a spicy aftertaste.",
+  "keywords": [
+    "alcoholic",
+    "ancho reyes",
+    "tequila",
+    "spicy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "calamity-jane",
+  "ingredients": [
+    {
+      "name": "lime slice",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "fresno chili",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "strawberry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "tequila",
+      "quantity": "1.25",
+      "measure": "oz"
+    },
+    {
+      "name": "orange liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "ancho reyes",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "basil",
+      "quantity": "1",
+      "measure": "leaf"
+    }
+  ]
+}

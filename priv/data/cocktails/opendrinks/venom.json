@@ -1,0 +1,35 @@
+{
+  "name": "Venom",
+  "description": "A sweet and refreshing heavy hitter.",
+  "keywords": [
+    "southern comfort",
+    "triple Sec",
+    "orange juice",
+    "blue WKD"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "venom",
+  "ingredients": [
+    {
+      "name": "Southern Comfort",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue WKD",
+      "quantity": "1",
+      "measure": "bottle"
+    }
+  ]
+}

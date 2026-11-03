@@ -1,0 +1,30 @@
+{
+  "name": "Fancy Brandy",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "fancy-brandy",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

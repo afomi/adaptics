@@ -1,0 +1,57 @@
+{
+  "name": "Red Velvet Hot Chocolate",
+  "description": "Red Velvet Cake in hot chocolate form",
+  "keywords": [
+    "chocolate"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "red-velvet-hot-chocolate",
+  "ingredients": [
+    {
+      "name": "cream cheese",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "cream",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "white chocolate chips",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "unsweetened cocoa powder",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "pure vanilla extract",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "red food coloring",
+      "quantity": "4",
+      "measure": "drops"
+    }
+  ]
+}

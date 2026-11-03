@@ -1,0 +1,43 @@
+{
+  "name": "Paan Shot",
+  "description": "A refreshing drink that is made using paan (betel leaves).",
+  "keywords": [
+    "non-alcoholic",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "paan-shot",
+  "ingredients": [
+    {
+      "name": "calcutta betel leaves (paan)",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "gulkand (sweet preserve of rose petals)",
+      "quantity": "4",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "fennel seeds",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "paan masala",
+      "quantity": "2.5",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "vanilla ice cream",
+      "quantity": "2.5",
+      "measure": "cups"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "10",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Swedish Libre",
+  "description": "A staple of the Swedish Christmas celebrations.",
+  "keywords": [
+    "rum",
+    "Swedish",
+    "christmas"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "swedish-libre",
+  "ingredients": [
+    {
+      "name": "Ice cubes",
+      "quantity": "2-4",
+      "measure": "large"
+    },
+    {
+      "name": "Dark Rum",
+      "quantity": "6",
+      "measure": "Cl"
+    },
+    {
+      "name": "Julmust",
+      "quantity": "0.50",
+      "measure": "Liter"
+    }
+  ]
+}

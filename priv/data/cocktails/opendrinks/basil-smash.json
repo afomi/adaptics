@@ -1,0 +1,36 @@
+{
+  "name": "Basil Smash",
+  "description": "Enjoy a summer breezed basil flavoured cocktail.",
+  "keywords": [
+    "gin",
+    "lemon juice",
+    "sugar syrup",
+    "basil",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "basil-smash",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "2",
+      "measure": "cl"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "basil leaves",
+      "quantity": "1",
+      "measure": "bunch"
+    }
+  ]
+}

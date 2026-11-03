@@ -1,0 +1,87 @@
+{
+  "name": "Cold Relief Tea",
+  "description": "A great yet simple way to treat mild cold or a sore throat",
+  "keywords": [
+    "Cardamom",
+    "healthy",
+    "honey",
+    "milk",
+    "sugar",
+    "turmeric"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cold-relief-tea",
+  "ingredients": [
+    {
+      "name": "Milk",
+      "quantity": "3",
+      "measure": "Quarter Cups"
+    },
+    {
+      "name": "Water",
+      "quantity": "1",
+      "measure": "Quarter Cup"
+    },
+    {
+      "name": "Tea Leaves",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2-3",
+      "measure": "Teaspoons"
+    },
+    {
+      "name": "Lemongrass",
+      "quantity": "1-2",
+      "measure": "Stalks"
+    },
+    {
+      "name": "Grated Ginger",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Cardamom",
+      "quantity": "1-2",
+      "measure": "Nos"
+    },
+    {
+      "name": "Tulsi Leaves",
+      "quantity": "5-6",
+      "measure": "Nos"
+    },
+    {
+      "name": "Black Pepper Powder",
+      "quantity": "1/2",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Turmeric Powder",
+      "quantity": "1/4th",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Cloves",
+      "quantity": "1-2",
+      "measure": "Nos"
+    },
+    {
+      "name": "Cinnamon",
+      "quantity": "1/2",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Honey",
+      "quantity": "2",
+      "measure": "Teaspoons"
+    },
+    {
+      "name": "Jaggery",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    }
+  ]
+}

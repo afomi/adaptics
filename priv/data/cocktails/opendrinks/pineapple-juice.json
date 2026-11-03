@@ -1,0 +1,28 @@
+{
+  "name": "Pineapple Juice",
+  "description": "Pineapple juice is a healthy and delicious drink. Pineapple juice contains bromelain which helps digestion, making it ideal for a meal cover.",
+  "keywords": [
+    "pineapple",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pineapple-juice",
+  "ingredients": [
+    {
+      "name": "pineapple",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "of mineral water",
+      "quantity": "2",
+      "measure": "glasses"
+    },
+    {
+      "name": "Granulated sugar to taste, or can be replaced with coco pandan syrup.",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

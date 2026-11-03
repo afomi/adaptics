@@ -1,0 +1,49 @@
+{
+  "name": "Limoncello Spritz",
+  "description": "A sunny spritz made with limoncello, prosecco, and a splash of soda water.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "spritz",
+    "limoncello",
+    "prosecco",
+    "soda water",
+    "lemon",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "limoncello-spritz",
+  "ingredients": [
+    {
+      "name": "limoncello",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "prosecco (chilled)",
+      "quantity": "90",
+      "measure": "ml"
+    },
+    {
+      "name": "soda water",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lemon slice (garnish)",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "mint sprig (optional garnish)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

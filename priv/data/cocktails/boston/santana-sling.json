@@ -1,0 +1,35 @@
+{
+  "name": "Santana Sling",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "santana-sling",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cherry Heering",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Batavia arrack or light rum",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger beer",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

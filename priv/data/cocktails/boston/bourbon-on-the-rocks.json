@@ -1,0 +1,15 @@
+{
+  "name": "Bourbon On The Rocks",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bourbon-on-the-rocks",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

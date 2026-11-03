@@ -1,0 +1,40 @@
+{
+  "name": "Embuscade",
+  "description": "A French beer-based cocktail from Normandy. Refreshing and slightly sweet.",
+  "keywords": [
+    "beer",
+    "blackcurrant",
+    "calvados",
+    "french"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "embuscade",
+  "ingredients": [
+    {
+      "name": "cold lager",
+      "quantity": "10",
+      "measure": "cl"
+    },
+    {
+      "name": "white wine, preferably dry",
+      "quantity": "6",
+      "measure": "cl"
+    },
+    {
+      "name": "Calvados apple brandy",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "blackcurrant syrup",
+      "quantity": "2",
+      "measure": "cl"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "2",
+      "measure": "cl"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Brandy Sour",
+  "description": "The earliest Sour on record, dating back to the 1850s.",
+  "keywords": [
+    "brandy",
+    "angostura bitters",
+    "lemon",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brandy-sour",
+  "ingredients": [
+    {
+      "name": "brandy",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "angostura bitters",
+      "quantity": "2-4",
+      "measure": "drops"
+    }
+  ]
+}

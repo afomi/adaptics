@@ -1,0 +1,30 @@
+{
+  "name": "Sherry Sangaree",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sherry-sangaree",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Water",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cream sherry",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Port",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

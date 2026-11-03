@@ -1,0 +1,32 @@
+{
+  "name": "Snake Bite",
+  "description": "A snakebite is an alcoholic drink from the UK, a refreshing addition on the average Stout.",
+  "keywords": [
+    "sweet",
+    "sour",
+    "savory",
+    "apple",
+    "beer",
+    "fall"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "snake-bite",
+  "ingredients": [
+    {
+      "name": "Hard Cider",
+      "quantity": "7",
+      "measure": "oz"
+    },
+    {
+      "name": "Your choice of Stout or Lager",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Black Currant Syrup",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Restless Native",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "restless-native",
+  "ingredients": [
+    {
+      "name": "Coconut rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Toreador",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "toreador",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

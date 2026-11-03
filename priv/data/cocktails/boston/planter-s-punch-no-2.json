@@ -1,0 +1,35 @@
+{
+  "name": "Planter's Punch No. 2",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "planter-s-punch-no-2",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh Lime Juice, jamaica rum, grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh lemon juice, triple sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Planter's Punch No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "planter-s-punch-no-1",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Soda water",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

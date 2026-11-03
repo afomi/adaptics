@@ -1,0 +1,44 @@
+{
+  "name": "Watermelon Smoothie",
+  "description": "A simple, light, sweet and refreshing drink. Perfect for summer!",
+  "keywords": [
+    "watermelon",
+    "non-alcoholic",
+    "smoothie"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "watermelon-smoothie",
+  "ingredients": [
+    {
+      "name": "fresh watermelon",
+      "quantity": "5",
+      "measure": "cups"
+    },
+    {
+      "name": "lime",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "frozen strawberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "hemp seeds",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "almond milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Sweetener of your choice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

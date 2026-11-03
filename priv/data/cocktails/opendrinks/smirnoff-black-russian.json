@@ -1,0 +1,28 @@
+{
+  "name": "Smirnoff Black Russian",
+  "description": "Mixing the purity of Smirnoff No. 21 Vodka, and the colour of dark coffee liqueur, this combination of just two ingredients delivers a drink with flavour and great looks.",
+  "keywords": [
+    "coffee",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "smirnoff-black-russian",
+  "ingredients": [
+    {
+      "name": "Smirnoff No. 21® Vodka",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Baileys® Coffee Irish Cream Liqueur",
+      "quantity": "25",
+      "measure": "ml"
+    },
+    {
+      "name": "of alcohol per serve",
+      "quantity": "2.3",
+      "measure": "units"
+    }
+  ]
+}

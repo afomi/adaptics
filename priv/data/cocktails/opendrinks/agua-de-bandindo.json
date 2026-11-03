@@ -1,0 +1,28 @@
+{
+  "name": "Agua de bandindo",
+  "description": "cheap drink and great for university parties.",
+  "keywords": [
+    "corote",
+    "brazil"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "agua-de-bandindo",
+  "ingredients": [
+    {
+      "name": "Lemon flavored corote ",
+      "quantity": "1",
+      "measure": "500ml"
+    },
+    {
+      "name": "strawberry juice powder",
+      "quantity": "1",
+      "measure": "25g"
+    },
+    {
+      "name": "frozen strawberry juice",
+      "quantity": "1",
+      "measure": "200ml"
+    }
+  ]
+}

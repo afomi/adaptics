@@ -1,0 +1,35 @@
+{
+  "name": "Ringo Starr",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "ringo-starr",
+  "ingredients": [
+    {
+      "name": "Red grapes",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "6",
+      "quantity": null
+    },
+    {
+      "name": "Sugar cube",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "African rum",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

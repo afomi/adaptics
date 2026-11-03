@@ -1,0 +1,45 @@
+{
+  "name": "Kokum Stings",
+  "description": "Kokum Stings, a drink inspired from Pedro's jaunts to the sea, this concoction is a tribute to the beautiful jellyfish & love for Goa's favourite sour fruit.",
+  "keywords": [
+    "cocktail",
+    "indian",
+    "fruit",
+    "Goa's favourite"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kokum-stings",
+  "ingredients": [
+    {
+      "name": "rum",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "kokum syrup",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "curry leaves",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "one slice of ginger",
+      "quantity": "28",
+      "measure": "gm"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Corn Juice",
+  "description": "Besides being rich in carbohydrates, corn also has many benefits such as increasing endurance to prevent heart disease and anemia. Therefore this menu is a recommendation to be given to toddlers.",
+  "keywords": [
+    "corn",
+    "vegan",
+    "sugar",
+    "salt",
+    "non-alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "corn-juice",
+  "ingredients": [
+    {
+      "name": "sweet corn",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "Sugar as needed",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Salt as needed",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

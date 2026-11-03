@@ -1,0 +1,25 @@
+{
+  "name": "Xanthia Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "xanthia-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

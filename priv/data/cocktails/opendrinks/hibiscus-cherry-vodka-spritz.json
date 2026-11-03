@@ -1,0 +1,52 @@
+{
+  "name": "Hibiscus Cherry Vodka Spritz",
+  "description": "Delicious and perfect for warm summer days.",
+  "keywords": [
+    "tequila",
+    "summer",
+    "vodka",
+    "alcoholic",
+    "cherry",
+    "hibiscus"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hibiscus-cherry-vodka-spritz",
+  "ingredients": [
+    {
+      "name": "fresh cherries",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "dried hibiscus flowers",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "honey",
+      "quantity": "1-2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "lemon: juiced",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "vodka",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "sparkling water for topping",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

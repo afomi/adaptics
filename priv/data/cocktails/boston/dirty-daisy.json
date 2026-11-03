@@ -1,0 +1,35 @@
+{
+  "name": "Dirty Daisy",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "dirty-daisy",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White Curacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Olive brine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Balsamic vinegar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

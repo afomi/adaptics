@@ -1,0 +1,40 @@
+{
+  "name": "Underneath The Mango Tree",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "underneath-the-mango-tree",
+  "ingredients": [
+    {
+      "name": "Lime wedge, Sweet Chili Powder",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Mango-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger ale",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Chupa Cabra",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "chupa-cabra",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grapefruit juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters, lime wheel",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

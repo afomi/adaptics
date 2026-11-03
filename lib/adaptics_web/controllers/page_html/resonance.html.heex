@@ -1,0 +1,279 @@
+<style>
+  .res-panel {
+    position: absolute;
+    top: 56px;
+    left: 20px;
+    z-index: 100;
+    width: 320px;
+    max-height: calc(100vh - 76px);
+    overflow-y: auto;
+    padding: 18px 20px;
+    color: #d3d8ea;
+    background: rgba(9, 10, 20, 0.84);
+    border: 1px solid rgba(220, 210, 180, 0.16);
+    border-radius: 6px;
+    backdrop-filter: blur(6px);
+    font: 12px/1.5 system-ui, sans-serif;
+  }
+  .res-title {
+    margin: 0;
+    font-family: Palatino, "Iowan Old Style", Georgia, serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #f0e8d2;
+  }
+  .res-subtitle {
+    margin: 2px 0 12px 0;
+    color: #8a91aa;
+  }
+  .res-label {
+    margin: 14px 0 6px 0;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a99f86;
+  }
+  .res-scenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .res-btn {
+    padding: 3px 8px;
+    color: #c9cfe2;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .res-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .res-btn[aria-current="true"] {
+    color: #111;
+    background: #f0d38a;
+    border-color: #f0d38a;
+  }
+  .res-hint {
+    margin: 10px 0 0 0;
+    padding: 8px 10px;
+    color: #e6e0cc;
+    background: rgba(240, 211, 138, 0.08);
+    border-left: 2px solid #f0d38a;
+  }
+  .res-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+  }
+  .res-row > span:first-child {
+    width: 82px;
+    color: #9aa1b8;
+  }
+  .res-row input[type="range"] {
+    flex: 1;
+  }
+  .res-dial {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(to right, hsl(0 75% 60%), hsl(60 75% 60%), hsl(120 75% 60%), hsl(180 75% 60%), hsl(240 75% 60%), hsl(300 75% 60%), hsl(360 75% 60%));
+  }
+  .res-meter {
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.06);
+  }
+  .res-meter > div {
+    transition: width 0.3s;
+  }
+  .res-small {
+    margin: 4px 0 0 0;
+    color: #8a91aa;
+    font-size: 11px;
+  }
+  .res-legend {
+    margin: 0;
+    padding-left: 16px;
+    color: #8a91aa;
+    font-size: 11px;
+  }
+</style>
+
+<div
+  id="res-container"
+  style="width: 100%; height: 100vh; background: #07080f;">
+</div>
+
+<div
+  class="res-panel">
+  <h1
+    class="res-title">
+    Resonance
+  </h1>
+  <p
+    class="res-subtitle">
+    Visions emanate.
+    Where they overlap, they amplify or cancel.
+  </p>
+
+  <div
+    class="res-label">
+    Scenes
+  </div>
+  <div
+    id="res-scenes"
+    class="res-scenes">
+    <button
+      :for={{id, title} <- [{"two", "Two visions"}, {"opposed", "Opposed"}, {"different", "Different, not opposed"}, {"goal", "A shared goal"}, {"team", "A team"}]}
+      type="button"
+      class="res-btn"
+      data-scene={id}>
+      {title}
+    </button>
+  </div>
+  <p
+    id="res-hint"
+    class="res-hint">
+  </p>
+
+  <div
+    class="res-label">
+    The field
+  </div>
+  <div
+    class="res-meter">
+    <div
+      id="res-constructive"
+      style="background: #f0c060; width: 0;">
+    </div>
+    <div
+      id="res-destructive"
+      style="background: #e8414f; width: 0;">
+    </div>
+  </div>
+  <p
+    id="res-numbers"
+    class="res-small">
+  </p>
+  <p
+    id="res-story"
+    class="res-small">
+  </p>
+
+  <div
+    id="res-selected"
+    hidden>
+    <div
+      id="res-sel-name"
+      class="res-label">
+    </div>
+    <label
+      class="res-row">
+      <span>Vision</span>
+      <input
+        id="res-vision"
+        class="res-dial"
+        type="range"
+        min="0"
+        max="359"
+        step="1" />
+    </label>
+    <label
+      class="res-row">
+      <span>Reach</span>
+      <input
+        id="res-reach"
+        type="range"
+        min="0.8"
+        max="4.5"
+        step="0.1" />
+    </label>
+    <label
+      id="res-stubborn-row"
+      class="res-row">
+      <span>Stubbornness</span>
+      <input
+        id="res-stubborn"
+        type="range"
+        min="0"
+        max="1"
+        step="0.05" />
+    </label>
+    <p
+      id="res-relations"
+      class="res-small">
+    </p>
+    <button
+      id="res-remove"
+      type="button"
+      class="res-btn">
+      Remove
+    </button>
+  </div>
+
+  <div
+    class="res-label">
+    Dynamics
+  </div>
+  <label
+    class="res-row">
+    <input
+      id="res-move"
+      type="checkbox"
+      checked />
+    <span>Move — resonance attracts, dissonance repels</span>
+  </label>
+  <label
+    class="res-row">
+    <input
+      id="res-influence"
+      type="checkbox" />
+    <span>Influence — visions drift toward neighbors</span>
+  </label>
+  <div
+    class="res-row">
+    <button
+      id="res-add-person"
+      type="button"
+      class="res-btn">
+      + person
+    </button>
+    <button
+      id="res-add-goal"
+      type="button"
+      class="res-btn">
+      + goal ◆
+    </button>
+  </div>
+
+  <div
+    class="res-label">
+    Reading it
+  </div>
+  <ul
+    class="res-legend">
+    <li>Color is vision: nearby colors, similar visions.</li>
+    <li>Glow is reach: how far a vision emanates.</li>
+    <li>Gold where visions add up; red where they cancel.</li>
+    <li>A dot grows with energy and points toward its strongest resonance.</li>
+    <li>◆ is a goal: a vision that holds still.</li>
+  </ul>
+  <p
+    class="res-small">
+    Drag a dot to move it.
+    Click one to change its vision.
+    Drag empty space to orbit; scroll to zoom.
+  </p>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.resonance = window.resonanceField();
+  });
+</script>

@@ -1,0 +1,49 @@
+{
+  "name": "Elderflower Cooler",
+  "description": "Long hot afternoons in the garden are often better shared, just like Elderflower Cooler. One of most refreshing Gin out there.",
+  "keywords": [
+    "gin",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "elderflower-cooler",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Bottlegreen elderflower cordial",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Cubed ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cucumber",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Mint to garnish",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Soda",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "of alcohol per tall glass",
+      "quantity": "1.9",
+      "measure": "units"
+    }
+  ]
+}

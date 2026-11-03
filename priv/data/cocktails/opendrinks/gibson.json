@@ -1,0 +1,31 @@
+{
+  "name": "Gibson",
+  "description": "A cousin of the ubiquitous martini.",
+  "keywords": [
+    "gin",
+    "vermouth",
+    "onion",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gibson",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Dry Vermouth",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Pickled onion",
+      "quantity": "1",
+      "measure": "peace"
+    }
+  ]
+}

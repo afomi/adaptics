@@ -1,0 +1,25 @@
+{
+  "name": "Aunt Jemima",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "aunt-jemima",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

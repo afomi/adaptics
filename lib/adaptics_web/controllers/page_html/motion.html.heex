@@ -1,0 +1,71 @@
+<style>
+  body {
+    background: #0f0f1a;
+    color: #e2e8f0;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #a78bfa;
+    margin-bottom: 0.5rem;
+  }
+
+  p.subtitle {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  #remotion-player-container {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1e1e2e;
+    box-shadow: 0 4px 32px rgba(124, 58, 237, 0.2);
+  }
+
+  .info {
+    margin-top: 1.5rem;
+    color: #64748b;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .info a {
+    color: #7c3aed;
+    text-decoration: none;
+  }
+
+  .info a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="page-container">
+  <h1>Motion</h1>
+  <p class="subtitle">
+    Animated compositions built with Remotion — React-based programmatic video.
+  </p>
+
+  <div
+    id="remotion-player-container"
+    phx-hook="RemotionPlayer"
+    phx-update="ignore"></div>
+
+  <p class="info">
+    Built with <a href="https://www.remotion.dev" target="_blank" rel="noopener">Remotion</a>.
+    This composition renders a looping animation of the adaptics feedback cycle — sense, decide, act, learn, adapt.
+    Use the player controls to pause, scrub, or replay.
+  </p>
+</div>
+

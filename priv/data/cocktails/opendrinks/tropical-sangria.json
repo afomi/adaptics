@@ -1,0 +1,53 @@
+{
+  "name": "Tropical Sangria",
+  "description": "Sangria only needs two main ingredients: wine and fruit but you can also add club soda or other clear soda for a refreshing effervescence.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "wine",
+    "plum",
+    "grape",
+    "watermelon",
+    "pineapple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tropical-sangria",
+  "ingredients": [
+    {
+      "name": "Plum",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Seedless Watermelon",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Fresh and peeled pineapple",
+      "quantity": "1/4",
+      "measure": ""
+    },
+    {
+      "name": "Kiwi sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Rose wine",
+      "quantity": "1",
+      "measure": "bootle"
+    },
+    {
+      "name": "Frozen green grape",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

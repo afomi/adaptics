@@ -1,0 +1,25 @@
+{
+  "name": "Alexander Cocktail No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "alexander-cocktail-no-1",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Cacao (White)",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

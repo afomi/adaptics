@@ -1,0 +1,43 @@
+{
+  "name": "Thai Tea with almond milk",
+  "description": "Thai tea is popular in Asia. To make it more healthy by using almond milk and low sugar",
+  "keywords": [
+    "thai tea",
+    "almond milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "thai-tea-with-almond-milk",
+  "ingredients": [
+    {
+      "name": "Thai tea",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Boiling water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Sweetened condensed milk",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Almond milk",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Crushed ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Japanese",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "japanese",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "orgeat or almond syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

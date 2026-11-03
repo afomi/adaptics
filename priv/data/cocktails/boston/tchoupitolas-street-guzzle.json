@@ -1,0 +1,15 @@
+{
+  "name": "Tchoupitolas Street Guzzle",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tchoupitolas-street-guzzle",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Stinger",
+  "description": "Nice after meal cocktail. A classic.",
+  "keywords": [
+    "brandy",
+    "classic",
+    "simple",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "stinger",
+  "ingredients": [
+    {
+      "name": "brandy",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "white creme de menthe",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "mint leaf",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

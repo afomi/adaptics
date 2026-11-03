@@ -1,0 +1,39 @@
+{
+  "name": "Mint Citrus Water",
+  "description": "This is a very healthy and tasty infused water recipe, good for hot summer days and when you have guests over.",
+  "keywords": [
+    "lemon",
+    "lime",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mint-citrus-water",
+  "ingredients": [
+    {
+      "name": "Mint Leaves",
+      "quantity": "1/2",
+      "measure": "Cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "2",
+      "measure": "Quarts"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Limes",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Cucumber",
+      "quantity": "1/2",
+      "measure": ""
+    }
+  ]
+}

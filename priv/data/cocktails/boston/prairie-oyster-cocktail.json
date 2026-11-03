@@ -1,0 +1,40 @@
+{
+  "name": "Prairie Oyster Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "prairie-oyster-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Catsup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vinegar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pepper",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk, 1 oz",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Tequila Smash",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequila-smash",
+  "ingredients": [
+    {
+      "name": "Blueberries",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bing cherries",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

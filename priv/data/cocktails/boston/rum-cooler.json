@@ -1,0 +1,25 @@
+{
+  "name": "Rum Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "rum-cooler",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Soda water",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

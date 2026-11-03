@@ -1,0 +1,30 @@
+{
+  "name": "Red Apple",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "red-apple",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

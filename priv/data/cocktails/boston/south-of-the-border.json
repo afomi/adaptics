@@ -1,0 +1,25 @@
+{
+  "name": "South Of The Border",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "south-of-the-border",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

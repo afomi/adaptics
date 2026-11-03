@@ -1,0 +1,30 @@
+{
+  "name": "Jamaica Glow Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "jamaica-glow-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Claret",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Jamaica Rum",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

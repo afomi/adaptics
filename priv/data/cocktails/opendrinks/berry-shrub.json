@@ -1,0 +1,33 @@
+{
+  "name": "Berry Shrub",
+  "description": "A delicious berry cocktail shrub.",
+  "keywords": [
+    "cocktail",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "berry-shrub",
+  "ingredients": [
+    {
+      "name": "fresh or frozen raspberries",
+      "quantity": "1",
+      "measure": "pint"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "thyme",
+      "quantity": "1",
+      "measure": "sprig"
+    },
+    {
+      "name": "white balsamic vinegar",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

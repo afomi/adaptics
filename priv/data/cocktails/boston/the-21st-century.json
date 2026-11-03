@@ -1,0 +1,35 @@
+{
+  "name": "The 21st Century",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-21st-century",
+  "ingredients": [
+    {
+      "name": "Absinthe",
+      "measure": "splash",
+      "quantity": null
+    },
+    {
+      "name": "Absinthe",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

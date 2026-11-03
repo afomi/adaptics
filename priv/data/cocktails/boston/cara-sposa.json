@@ -1,0 +1,25 @@
+{
+  "name": "Cara Sposa",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "cara-sposa",
+  "ingredients": [
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

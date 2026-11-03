@@ -1,0 +1,31 @@
+{
+  "name": "Lemon Stylus",
+  "description": "One adult lemonade, if you will.",
+  "keywords": [
+    "citrus",
+    "vodka",
+    "sprite",
+    "simple",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lemon-stylus",
+  "ingredients": [
+    {
+      "name": "Lemon Vodka",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Lemonade",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "Lemon-Lime Soda",
+      "quantity": "1",
+      "measure": "part"
+    }
+  ]
+}

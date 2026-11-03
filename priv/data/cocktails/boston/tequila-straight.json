@@ -1,0 +1,25 @@
+{
+  "name": "Tequila Straight",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequila-straight",
+  "ingredients": [
+    {
+      "name": "Coarse salt",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime wedge",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

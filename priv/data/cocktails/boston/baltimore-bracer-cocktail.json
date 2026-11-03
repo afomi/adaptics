@@ -1,0 +1,25 @@
+{
+  "name": "Baltimore Bracer Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "baltimore-bracer-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Anisette",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

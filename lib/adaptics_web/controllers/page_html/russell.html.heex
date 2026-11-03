@@ -71,7 +71,21 @@
     </span>
     <span
       id="russell-focus-label">
-      All cubes
+      Cross
+    </span>
+  </button>
+
+  <button
+    id="russell-lattice-toggle"
+    type="button"
+    data-extent="1"
+    class="group flex items-center gap-2 rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 backdrop-blur transition-colors hover:border-amber-400/60 hover:bg-slate-900/90 hover:text-amber-300">
+    <span
+      class="h-2 w-2 rounded-sm bg-slate-500 transition-colors group-data-[extent=1]:bg-amber-400 group-data-[extent=2]:bg-amber-300">
+    </span>
+    <span
+      id="russell-lattice-label">
+      27 cubes
     </span>
   </button>
 
@@ -203,6 +217,27 @@
       step="0.05"
       value="0.333"
       class="w-full accent-[#e8595a]" />
+
+    <label
+      for="russell-cathode-speed"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        Speed
+      </span>
+      <span
+        id="russell-cathode-speed-value"
+        class="text-amber-300">
+        0.60
+      </span>
+    </label>
+    <input
+      id="russell-cathode-speed"
+      type="range"
+      min="0"
+      max="40"
+      step="0.25"
+      value="0.6"
+      class="w-full accent-[#e8595a]" />
   </div>
 
   <div
@@ -273,6 +308,27 @@
       max="3"
       step="0.05"
       value="0.333"
+      class="w-full accent-[#5a8fe8]" />
+
+    <label
+      for="russell-anode-speed"
+      class="mb-1 mt-2 flex items-center justify-between">
+      <span>
+        Speed
+      </span>
+      <span
+        id="russell-anode-speed-value"
+        class="text-amber-300">
+        0.60
+      </span>
+    </label>
+    <input
+      id="russell-anode-speed"
+      type="range"
+      min="0"
+      max="40"
+      step="0.25"
+      value="0.6"
       class="w-full accent-[#5a8fe8]" />
   </div>
 </div>

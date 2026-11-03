@@ -1,0 +1,25 @@
+{
+  "name": "Bourbon A La Creme",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "bourbon-a-la-creme",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark creme de cacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vanilla liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

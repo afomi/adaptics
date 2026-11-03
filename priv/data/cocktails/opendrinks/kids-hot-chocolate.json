@@ -1,0 +1,35 @@
+{
+  "name": "Kids Hot Chocolate",
+  "description": "Yummy hot chocolate for kids",
+  "keywords": [
+    "non-alcoholic",
+    "milk",
+    "hot",
+    "chocolate"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kids-hot-chocolate",
+  "ingredients": [
+    {
+      "name": "hot cocoa mix",
+      "quantity": "1",
+      "measure": "packet"
+    },
+    {
+      "name": "milk",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "heavy whipping cream",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "powdered sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

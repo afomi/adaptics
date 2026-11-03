@@ -1,0 +1,25 @@
+{
+  "name": "Godfather",
+  "description": "An IBA official cocktail with a smokey but refreshing flavour.",
+  "keywords": [
+    "amaretto",
+    "alcoholic",
+    "cocktail",
+    "iba"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "godfather",
+  "ingredients": [
+    {
+      "name": "Amaretto",
+      "quantity": "35",
+      "measure": "ml"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "35",
+      "measure": "ml"
+    }
+  ]
+}

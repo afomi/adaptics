@@ -1,0 +1,35 @@
+{
+  "name": "Cinnamon Maple Whiskey Sour",
+  "description": "Meet the best whiskey sour recipe—it’s full of bourbon and fresh lemon, sweetened with maple syrup and includes a hint of cinnamon.",
+  "keywords": [
+    "cinnamon",
+    "maple syrup",
+    "whiskey",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cinnamon-maple-whiskey-sour",
+  "ingredients": [
+    {
+      "name": "Bulleit bourbon or your bourbon of choice",
+      "quantity": "3",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Fresh lemon juice",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Maple Syrup ",
+      "quantity": "2-4",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Ground cinnamon",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

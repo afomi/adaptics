@@ -1,0 +1,44 @@
+{
+  "name": "Classic Whiskey Sour",
+  "description": "A delicious Classic Whiskey Sour recipe from thekitchn.com",
+  "keywords": [
+    "whiskey",
+    "whiskey-sour",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "classic-whiskey-sour",
+  "ingredients": [
+    {
+      "name": "bourbon whiskey",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "freshly squeezed lemon juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "egg white",
+      "quantity": "1",
+      "measure": "small to medium"
+    },
+    {
+      "name": "ice",
+      "quantity": "1",
+      "measure": "shaker worth of"
+    },
+    {
+      "name": "maraschino cherry",
+      "quantity": "1",
+      "measure": "whole"
+    }
+  ]
+}

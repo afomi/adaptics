@@ -1,0 +1,30 @@
+{
+  "name": "The Summer Of Love",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-summer-of-love",
+  "ingredients": [
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rose water",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Blanc",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Black raspberry liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

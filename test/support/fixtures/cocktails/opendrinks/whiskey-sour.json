@@ -1,0 +1,14 @@
+{
+  "slug": "whiskey-sour",
+  "name": "Whiskey Sour",
+  "source": "opendrinks",
+  "category": null,
+  "description": "A sour with bourbon.",
+  "keywords": ["whiskey"],
+  "ingredients": [
+    {"name": "Bourbon whiskey", "quantity": "2", "measure": "oz"},
+    {"name": "Juice of lemon", "quantity": "1", "measure": "oz"},
+    {"name": "Simple syrup", "quantity": "1/2", "measure": "oz"},
+    {"name": "Egg white", "quantity": "1", "measure": null}
+  ]
+}

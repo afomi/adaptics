@@ -1,0 +1,175 @@
+<link
+  rel="preconnect"
+  href="https://fonts.googleapis.com"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+/>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f9fafb;
+    font-family: 'Patrick Hand', system-ui, sans-serif;
+  }
+
+  #factor-container {
+    position: fixed;
+    inset: 0;
+  }
+
+  #factor-header {
+    position: fixed;
+    top: 1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  #factor-input {
+    font: inherit;
+    font-size: 2.6rem;
+    color: #1b1b1b;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px dashed transparent;
+    width: 12ch;
+    outline: none;
+  }
+
+  #factor-input:hover,
+  #factor-input:focus {
+    border-bottom-color: #c3c2b7;
+  }
+
+  #factor-error {
+    font-size: 0.95rem;
+    color: #e34948;
+    min-height: 1.2rem;
+  }
+
+  #factor-stats {
+    font-size: 1rem;
+    color: #52514e;
+  }
+
+  #factor-strategies {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  #factor-strategies button {
+    font: inherit;
+    font-size: 1rem;
+    background: #fff;
+    border: 2px solid #c3c2b7;
+    border-radius: 6px;
+    padding: 0.15rem 0.8rem;
+    cursor: pointer;
+    color: #52514e;
+  }
+
+  #factor-strategies button:hover {
+    border-color: #52514e;
+  }
+
+  #factor-strategies button.active {
+    border-color: #1b1b1b;
+    color: #1b1b1b;
+    background: #e9e9e7;
+  }
+
+  #factor-hint {
+    position: fixed;
+    bottom: 1.4rem;
+    left: 2rem;
+    z-index: 10;
+    max-width: 320px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #898781;
+  }
+
+  #factor-hint button {
+    font: inherit;
+    margin-top: 0.5rem;
+    background: none;
+    border: 1px dashed #c3c2b7;
+    border-radius: 4px;
+    color: #898781;
+    padding: 0.1rem 0.6rem;
+    cursor: pointer;
+  }
+</style>
+
+<div id="factor-container"></div>
+
+<div id="factor-header">
+  <input
+    id="factor-input"
+    type="text"
+    value="3^8"
+    spellcheck="false"
+    autocomplete="off"
+    aria-label="Expression to factor"
+  />
+  <div id="factor-error"></div>
+  <div id="factor-strategies">
+    <button
+      data-strategy="balanced"
+      title="Pair neighbours level by level — log depth"
+    >
+      balanced
+    </button>
+    <button
+      data-strategy="chain"
+      title="Left fold: ((3 × 3) × 3) × … — one multiplication at a time"
+    >
+      chain
+    </button>
+    <button
+      data-strategy="shared"
+      title="Reuse identical products — repeated squaring as a DAG"
+    >
+      shared
+    </button>
+    <button
+      data-strategy="manual"
+      title="Start from the factors and compose by dragging"
+    >
+      manual
+    </button>
+  </div>
+  <div id="factor-stats"></div>
+</div>
+
+<div id="factor-hint">
+  Type an expression: 3^8, 2^5 x 3^2, or a number like 360 to factor it.
+  Drag any box and its arrows follow.
+  Drop one open box onto another to multiply them; double-click an open product to undo it.
+  <br />
+  <button id="factor-relayout">
+    re-layout
+  </button>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const factor = window.factor();
+    document.getElementById("factor-relayout").addEventListener("click", () => factor.relayout());
+    document.addEventListener("keydown", (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "z" && document.activeElement.id !== "factor-input") {
+        e.preventDefault();
+        factor.undo();
+      }
+    });
+  });
+</script>

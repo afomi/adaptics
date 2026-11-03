@@ -1,0 +1,29 @@
+{
+  "name": "Rum and Coke",
+  "description": "Easy Rum and Coke recipe.",
+  "keywords": [
+    "lime",
+    "coke",
+    "rum"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rum-and-coke",
+  "ingredients": [
+    {
+      "name": "lime",
+      "quantity": "1",
+      "measure": "wedge"
+    },
+    {
+      "name": "Rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Coke",
+      "quantity": "3",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cherry Limeade",
+  "description": "This refreshing drink is pure goodness with no high fructose corn syrup and no artificial colors or flavors.",
+  "keywords": [
+    "non-alcoholic",
+    "sweet",
+    "fresh",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cherry-limeade",
+  "ingredients": [
+    {
+      "name": "Sugar",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cherries pitted",
+      "quantity": "1.5",
+      "measure": "cups"
+    }
+  ]
+}

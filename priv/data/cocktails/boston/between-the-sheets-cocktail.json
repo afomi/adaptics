@@ -1,0 +1,30 @@
+{
+  "name": "Between-The-Sheets Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "between-the-sheets-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Godchild",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "godchild",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Heavy cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

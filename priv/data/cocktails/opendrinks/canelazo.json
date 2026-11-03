@@ -1,0 +1,49 @@
+{
+  "name": "Canelazo",
+  "description": "Cinnamon hot cocktail (para el chachay de Ecuador)",
+  "keywords": [
+    "aguardiente",
+    "Ecuador",
+    "cinnamon",
+    "hot",
+    "puntas",
+    "lime",
+    "orange",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "canelazo",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cinnamon",
+      "quantity": "4",
+      "measure": "sticks"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Aguardiente or puntas(alcoholic drink from Ecuador)",
+      "quantity": "3",
+      "measure": "oz"
+    }
+  ]
+}

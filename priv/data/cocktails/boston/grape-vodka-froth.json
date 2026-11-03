@@ -1,0 +1,30 @@
+{
+  "name": "Grape Vodka Froth",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "grape-vodka-froth",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grape Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

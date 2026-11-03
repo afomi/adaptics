@@ -1,0 +1,28 @@
+{
+  "name": "Red wine spritzer",
+  "description": "What I call it when I cut red wine with Sierra Mist Cranberry Splash.",
+  "keywords": [
+    "wine",
+    "cranberry juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "red-wine-spritzer",
+  "ingredients": [
+    {
+      "name": "red wine, from a box is fine",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "sierra mist cranberry splash",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Adios Motherfucker (AMF)",
+  "description": "You say goodbye, we say hello, and also, Adios Motherfucker!",
+  "keywords": [
+    "vodka",
+    "rum",
+    "gin",
+    "tequila",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "adios-motherfucker-amf",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet and Sour Mix",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue Curaçao",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

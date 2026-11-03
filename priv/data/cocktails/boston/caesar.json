@@ -1,0 +1,35 @@
+{
+  "name": "Caesar",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "caesar",
+  "ingredients": [
+    {
+      "name": "Lemon wedge, celery salt",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato-clam juice",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Prepared horseradish",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Worcestershire Sauce, salt, ground black pepper",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

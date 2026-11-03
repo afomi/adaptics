@@ -1,0 +1,30 @@
+{
+  "name": "Hole-in-One Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hole-in-one-cocktail",
+  "ingredients": [
+    {
+      "name": "Desmond & Duff Scotch Whisky",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

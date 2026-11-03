@@ -1,0 +1,36 @@
+{
+  "name": "Woo Woo",
+  "description": "The Woo Woo is a fun cocktail on many levels. Every time you make or order it, you get to say \"Woo Woo\"!",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "vodka",
+    "peach",
+    "fruity"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "woo-woo",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Peach Schnapps",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry Juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Garnish: Lime Wedge",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tomato Ricard",
+  "description": "Simple cocktail With Ricard and grenadine syrup.",
+  "keywords": [
+    "Ricard",
+    "Grenadine",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tomato-ricard",
+  "ingredients": [
+    {
+      "name": "Ricard",
+      "quantity": "4",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "grenadine syrup",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "water",
+      "quantity": "4.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "2",
+      "measure": "units"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Ginger Lemon Tea",
+  "description": "A healthy drink that's great for digestion, soothing and healing",
+  "keywords": [
+    "digestion",
+    "healthy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ginger-lemon-tea",
+  "ingredients": [
+    {
+      "name": "Ginger root",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Water",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "Fresh lime juice",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Honey",
+      "quantity": "1-2",
+      "measure": "tablespoons"
+    }
+  ]
+}

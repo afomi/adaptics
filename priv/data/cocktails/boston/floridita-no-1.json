@@ -1,0 +1,35 @@
+{
+  "name": "Floridita No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "floridita-no-1",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

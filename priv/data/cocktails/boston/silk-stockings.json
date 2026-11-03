@@ -1,0 +1,30 @@
+{
+  "name": "Silk Stockings",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "silk-stockings",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Heavy cream",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

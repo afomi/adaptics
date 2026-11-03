@@ -1,0 +1,30 @@
+{
+  "name": "Huntsman Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "huntsman-cocktail",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Jamaica Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Argentinian Mate",
+  "description": "Mate is an extremely popular beverage in Argentina. Made from a bitter herb, called yerba mate, the drink has an extensive history and a wealth of rituals and customs surrounding its consumption. Most foreigners find mate bitter, perhaps even unsavory, but Argentines adore it.",
+  "keywords": [
+    "Mate",
+    "Hot",
+    "Argentina",
+    "Popular",
+    "Friendly"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "argentinian-mate",
+  "ingredients": [
+    {
+      "name": "Yerba Mate",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Hot Water",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

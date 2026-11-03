@@ -1,0 +1,43 @@
+{
+  "name": "Lafayette",
+  "description": "The Lafayette is an embellishment of the “Perfect Manhattan” (sometimes called “Medium Manhattan”), which is a Manhattan with half the sweet Italian vermouth replaced with dry French vermouth.",
+  "keywords": [
+    "whiskey",
+    "manhattan",
+    "sweet",
+    "vermouth",
+    "dubonnet",
+    "vegan",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lafayette",
+  "ingredients": [
+    {
+      "name": "Rye Whiskey",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Dry Vermouth",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Dubonnet",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Maraschino Berry",
+      "quantity": "1",
+      "measure": "whole"
+    }
+  ]
+}

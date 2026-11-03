@@ -1,0 +1,25 @@
+{
+  "name": "Hair Raiser Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hair-raiser-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston 100 proof Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Rock and Rye",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

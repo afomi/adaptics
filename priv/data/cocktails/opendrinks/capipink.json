@@ -1,0 +1,54 @@
+{
+  "name": "Capipink",
+  "description": "The pink version of the traditional caipirinha.",
+  "keywords": [
+    "croft",
+    "pink",
+    "caipirinha"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "capipink",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "",
+      "measure": "Croft Pink"
+    },
+    {
+      "name": "strawberries",
+      "quantity": "3",
+      "measure": "units"
+    },
+    {
+      "name": "raspberries",
+      "quantity": "3",
+      "measure": "units"
+    },
+    {
+      "name": "blueberries",
+      "quantity": "3",
+      "measure": "units"
+    },
+    {
+      "name": "",
+      "quantity": "2",
+      "measure": "lime wedges"
+    },
+    {
+      "name": "water",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar",
+      "quantity": "500",
+      "measure": "gr"
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "measure": "crushed ice"
+    }
+  ]
+}

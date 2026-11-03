@@ -1,0 +1,25 @@
+{
+  "name": "Lugger",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "lugger",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apricot Flavored Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

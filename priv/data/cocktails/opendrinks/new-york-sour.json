@@ -1,0 +1,41 @@
+{
+  "name": "New York Sour",
+  "description": "The whiskey sour with red wine on the top.",
+  "keywords": [
+    "alcoholic",
+    "whiskey",
+    "egg",
+    "cocktail",
+    "wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "new-york-sour",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "egg white",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Red wine",
+      "quantity": "1/2",
+      "measure": "part"
+    }
+  ]
+}

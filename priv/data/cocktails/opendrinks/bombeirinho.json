@@ -1,0 +1,38 @@
+{
+  "name": "Bombeirinho",
+  "description": "The most famous drink at pubs in Brazil, very simple to prepare and it taste like sugar when drunk.",
+  "keywords": [
+    "red",
+    "gooseberry",
+    "liqueur",
+    "cachaça",
+    "lemon",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bombeirinho",
+  "ingredients": [
+    {
+      "name": "Red Gooseberry Liquor",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "White Cachaça (Cachaça Branca)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Ice, optional",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

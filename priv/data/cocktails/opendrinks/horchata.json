@@ -1,0 +1,48 @@
+{
+  "name": "Horchata",
+  "description": "A deliciously milky drink from Valencia made with tiger nuts. You can add Gin and make it a Horchata-libre",
+  "keywords": [
+    "horchata",
+    "milk",
+    "nuts",
+    "creamy",
+    "cinnamon",
+    "sugar",
+    "Gin"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "horchata",
+  "ingredients": [
+    {
+      "name": "Tiger nuts",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "cold water",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "cinnamon powder",
+      "quantity": "1/4",
+      "measure": "tsp"
+    },
+    {
+      "name": "lemon zest",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "cups"
+    }
+  ]
+}

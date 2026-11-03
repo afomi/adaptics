@@ -1,0 +1,54 @@
+{
+  "name": "Grilled Grapefruit Paloma Cocktail",
+  "description": "Here's a fired up twist on a traditional Mexican cocktail. You'll grill the grapefruit and lime to caramelize the fruit and give the juice a subtle smoky edge. Stir it up with tequila or mezcal and top with club soda for a refreshing drink that's perfect all summer long.",
+  "keywords": [
+    "tequila",
+    "paloma",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grilled-grapefruit-paloma-cocktail",
+  "ingredients": [
+    {
+      "name": "Limes",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "White sugar",
+      "quantity": "1/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "Red grapefruit, halved widthwise",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Kosher salt",
+      "quantity": "1/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Tequila or mezcal",
+      "quantity": "4",
+      "measure": "Oz"
+    },
+    {
+      "name": "SImple syrup",
+      "quantity": "2",
+      "measure": "Tablespoons"
+    },
+    {
+      "name": "Club soda",
+      "quantity": "44",
+      "measure": "Oz"
+    }
+  ]
+}

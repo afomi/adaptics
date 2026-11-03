@@ -1,0 +1,20 @@
+{
+  "name": "Orange Gin Collins",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "orange-gin-collins",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Orange Flavored Gin",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Harvest Moon",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "harvest-moon",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Blanc",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green Chartreuse",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

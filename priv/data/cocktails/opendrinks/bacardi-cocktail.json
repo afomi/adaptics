@@ -1,0 +1,30 @@
+{
+  "name": "Bacardi Cocktail",
+  "description": "The Bacardí Cocktail became one of the most popular drinks of the period immediately following the repeal of Prohibition. It is a variation of the Daiquiri that involves rum, lime and grenadine. It is rare on menus today but was a stalwart of the 1930s bar repertoire.",
+  "keywords": [
+    "rum",
+    "bacardi",
+    "lime",
+    "grenadine syrup"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bacardi-cocktail",
+  "ingredients": [
+    {
+      "name": "Bacardi rum",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "grenadine syrup",
+      "quantity": "5",
+      "measure": "ml"
+    }
+  ]
+}

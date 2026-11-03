@@ -1,0 +1,66 @@
+{
+  "name": "Es Sarang Burung",
+  "description": "Es Sarang Burung is a type of drink typical of Lombok with a mixture of ice cubes that can add a fresh taste sensation when enjoyed.",
+  "keywords": [
+    "ice",
+    "indonesia",
+    "syrup",
+    "tropical",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "es-sarang-burung",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "4",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Red gelatin powder",
+      "quantity": "1",
+      "measure": "pack"
+    },
+    {
+      "name": "Melon, pick up the fruit with a baller",
+      "quantity": "1/2",
+      "measure": "fruit"
+    },
+    {
+      "name": "Kiwi, cut into pieces",
+      "quantity": "2",
+      "measure": "pcs"
+    },
+    {
+      "name": "Nata de coco",
+      "quantity": "200",
+      "measure": "gr"
+    },
+    {
+      "name": "Basil seeds, soak in a little warm water",
+      "quantity": "1",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Red syrup",
+      "quantity": "1/2",
+      "measure": "bottle"
+    },
+    {
+      "name": "Water",
+      "quantity": "1",
+      "measure": "l"
+    },
+    {
+      "name": "Ice",
+      "quantity": "sufficiently",
+      "measure": "blok"
+    }
+  ]
+}

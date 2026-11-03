@@ -1,0 +1,30 @@
+{
+  "name": "West Side",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "west-side",
+  "ingredients": [
+    {
+      "name": "lemon-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "6",
+      "quantity": null
+    }
+  ]
+}

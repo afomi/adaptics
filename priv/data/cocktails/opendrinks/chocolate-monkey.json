@@ -1,0 +1,45 @@
+{
+  "name": "Chocolate Monkey",
+  "description": "A liquid version of a chocolate covered banana, with a bit of a punch.",
+  "keywords": [
+    "chocolate",
+    "banana",
+    "ice cream",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chocolate-monkey",
+  "ingredients": [
+    {
+      "name": "banana liqueur",
+      "quantity": "1.25",
+      "measure": "shots"
+    },
+    {
+      "name": "crème de cacao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "chocolate syrup",
+      "quantity": "0.25",
+      "measure": "cup"
+    },
+    {
+      "name": "chocolate ice cream",
+      "quantity": "3",
+      "measure": "scoops"
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "whipped cream",
+      "quantity": "0.25",
+      "measure": "cup"
+    }
+  ]
+}

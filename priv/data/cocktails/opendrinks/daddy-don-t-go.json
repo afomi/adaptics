@@ -1,0 +1,35 @@
+{
+  "name": "Daddy don't go",
+  "description": "A really great cocktail from the Caribbean.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "fresh",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "daddy-don-t-go",
+  "ingredients": [
+    {
+      "name": "Ron",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Fruit punch juice (Orange, pineapple and passion fruit)",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Mint",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

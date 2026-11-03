@@ -1,0 +1,31 @@
+{
+  "name": "Daiquiri",
+  "description": "Daiquiri is the granddaddy of rum cocktails having been created over 130 years ago in Havana.",
+  "keywords": [
+    "alcoholic",
+    "sugar",
+    "rum",
+    "lemon juice",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "daiquiri",
+  "ingredients": [
+    {
+      "name": "light rum",
+      "quantity": "2.0",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "1.0",
+      "measure": "oz"
+    },
+    {
+      "name": "Demerara sugar syrup",
+      "quantity": "3/4",
+      "measure": "oz"
+    }
+  ]
+}

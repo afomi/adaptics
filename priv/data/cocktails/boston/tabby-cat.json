@@ -1,0 +1,25 @@
+{
+  "name": "Tabby Cat",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "tabby-cat",
+  "ingredients": [
+    {
+      "name": "Dubonnet Rouge",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

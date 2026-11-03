@@ -1,0 +1,32 @@
+{
+  "name": "Traffic Light Shot",
+  "description": "A colorful layered shooter inspired by a traffic light: red, yellow, and green hues.",
+  "keywords": [
+    "shot",
+    "layered",
+    "grenadine",
+    "curaçao",
+    "orange",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "traffic-light-shot",
+  "ingredients": [
+    {
+      "name": "Grenadine",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue curaçao",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

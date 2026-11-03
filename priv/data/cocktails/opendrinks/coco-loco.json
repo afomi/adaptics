@@ -1,0 +1,37 @@
+{
+  "name": "Coco loco",
+  "description": "A rum and coconut cocktail from the West Indies.",
+  "keywords": [
+    "coconut",
+    "coconut milk",
+    "sugar",
+    "alcoholic",
+    "rum",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coco-loco",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "2",
+      "measure": "cl"
+    },
+    {
+      "name": "Coconut milk",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Milk",
+      "quantity": "6",
+      "measure": "cl"
+    }
+  ]
+}

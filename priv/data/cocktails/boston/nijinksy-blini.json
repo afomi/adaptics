@@ -1,0 +1,30 @@
+{
+  "name": "Nijinksy Blini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "nijinksy-blini",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach schnapps",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach puree",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

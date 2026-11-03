@@ -1,0 +1,35 @@
+{
+  "name": "High Plains Drifter No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "high-plains-drifter-no-1",
+  "ingredients": [
+    {
+      "name": "Campari",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

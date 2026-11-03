@@ -1,0 +1,34 @@
+{
+  "name": "Matcha Latte",
+  "description": "This vegan Matcha Latte is smooth, creamy and lightly sweetened.",
+  "keywords": [
+    "matcha",
+    "vegan",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "matcha-latte",
+  "ingredients": [
+    {
+      "name": "Matcha powder",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "of Agave Negtar or Sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Oat Milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

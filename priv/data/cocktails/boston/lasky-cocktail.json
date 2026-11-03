@@ -1,0 +1,25 @@
+{
+  "name": "Lasky Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "lasky-cocktail",
+  "ingredients": [
+    {
+      "name": "Grape Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Swedish Punch",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Vodka Soda",
+  "description": "Low calorie alcoholic drink used for those counting calories!",
+  "keywords": [
+    "alcoholic",
+    "low calorie"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-soda",
+  "ingredients": [
+    {
+      "name": "Soda Water",
+      "quantity": "12",
+      "measure": "Oz"
+    },
+    {
+      "name": "Vodka (Absolut OR Grey Goose)",
+      "quantity": "2",
+      "measure": "Shot glass"
+    }
+  ]
+}

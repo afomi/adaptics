@@ -1,0 +1,44 @@
+{
+  "name": "Peach and Thyme Whiskey Smash",
+  "description": "The perfect, refreshing whiskey drink for a summer day.",
+  "keywords": [
+    "whiskey",
+    "bourbon",
+    "herbal"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peach-and-thyme-whiskey-smash",
+  "ingredients": [
+    {
+      "name": "Russell’s Reserve Bourbon",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Peach Slices",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "Thyme Sprigs",
+      "quantity": "1-2",
+      "measure": ""
+    },
+    {
+      "name": "Mint Leaves",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "Honey",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    }
+  ]
+}

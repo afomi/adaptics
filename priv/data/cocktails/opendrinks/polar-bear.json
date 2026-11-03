@@ -1,0 +1,28 @@
+{
+  "name": "Polar Bear",
+  "description": "A Polar Bear, After Eight or Peppermint Paddy is a mint chocolate cocktail.",
+  "keywords": [
+    "Crème de cacao",
+    "Peppermint schnapps"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "polar-bear",
+  "ingredients": [
+    {
+      "name": "Crème de cacao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Peppermint schnapps",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Crushed Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

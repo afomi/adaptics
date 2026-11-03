@@ -1,0 +1,25 @@
+{
+  "name": "Tequila Matador",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequila-matador",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

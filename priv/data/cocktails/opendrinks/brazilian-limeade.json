@@ -1,0 +1,43 @@
+{
+  "name": "Brazilian Limeade",
+  "description": "A creamy and refreshing drink made with fresh limes, sweetened condensed milk, and water. This traditional drink is perfect for hot summer days and offers a unique twist on regular limeade.",
+  "keywords": [
+    "brazilian",
+    "limeade",
+    "refreshing",
+    "summer",
+    "non-alcoholic",
+    "creamy",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brazilian-limeade",
+  "ingredients": [
+    {
+      "name": "limes",
+      "quantity": "4",
+      "measure": "whole"
+    },
+    {
+      "name": "sweetened condensed milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "cold water",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

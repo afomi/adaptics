@@ -1,0 +1,40 @@
+{
+  "name": "Ibiza",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "ibiza",
+  "ingredients": [
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pomegranate molasses",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach schnapps",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple schnapps, grapefruit twist",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

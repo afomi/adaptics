@@ -1,0 +1,24 @@
+{
+  "name": "Honey Spearmint Tea",
+  "description": "Tea that helps soothe your throat.",
+  "keywords": [
+    "tea",
+    "sweet",
+    "mint"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "honey-spearmint-tea",
+  "ingredients": [
+    {
+      "name": "Spearmint Tea",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Honey",
+      "quantity": "1-2",
+      "measure": "teaspoon"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Bordeaux Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bordeaux-cocktail",
+  "ingredients": [
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Blanc",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

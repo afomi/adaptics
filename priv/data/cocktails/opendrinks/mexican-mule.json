@@ -1,0 +1,36 @@
+{
+  "name": "Mexican Mule",
+  "description": "Sometimes called El Burro - a take on the traditional Moscow Mule with Mexican flair.",
+  "keywords": [
+    "tequila",
+    "mule",
+    "alcoholic",
+    "ginger beer",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mexican-mule",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Freshly squeezed lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger Beer",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura Bitters",
+      "quantity": "4",
+      "measure": "dashes"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Hi-Fi",
+  "description": "The Hi-Fi is a simple and enjoyable drink. It is a fabulous marriage of vodka with a fizzy orange soda.",
+  "keywords": [
+    "orange soda",
+    "vodka",
+    "ice",
+    "simple",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hi-fi",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Soda",
+      "quantity": "Top up",
+      "measure": "cup"
+    },
+    {
+      "name": "ice",
+      "quantity": "a lot",
+      "measure": "cubes"
+    }
+  ]
+}

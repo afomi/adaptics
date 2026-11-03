@@ -1,0 +1,46 @@
+{
+  "name": "French Pearl",
+  "description": "A refreshingly tart drink suitable for a hot summer day. Great for gin lovers.",
+  "keywords": [
+    "lime",
+    "french",
+    "mint leaves",
+    "gin",
+    "alcoholic",
+    "simple syrup",
+    "absinthe",
+    "sour",
+    "tart",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "french-pearl",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Mint Leaf",
+      "quantity": "1",
+      "measure": "Large"
+    },
+    {
+      "name": "Absinthe",
+      "quantity": "1",
+      "measure": "Dash"
+    }
+  ]
+}

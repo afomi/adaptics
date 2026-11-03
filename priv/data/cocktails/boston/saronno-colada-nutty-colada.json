@@ -1,0 +1,25 @@
+{
+  "name": "Saronno Colada (Nutty Colada)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "saronno-colada-nutty-colada",
+  "ingredients": [
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coconut Milk",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Crushed Pineapple",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

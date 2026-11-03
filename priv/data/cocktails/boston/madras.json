@@ -1,0 +1,25 @@
+{
+  "name": "Madras",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "madras",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

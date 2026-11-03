@@ -1,0 +1,35 @@
+{
+  "name": "Martinique Rose",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "martinique-rose",
+  "ingredients": [
+    {
+      "name": "Aged rhum agricole",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "orgeat or almond syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

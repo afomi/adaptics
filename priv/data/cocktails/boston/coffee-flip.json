@@ -1,0 +1,35 @@
+{
+  "name": "Coffee Flip",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "coffee-flip",
+  "ingredients": [
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Port",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Cream (if desired)",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

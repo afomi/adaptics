@@ -1,0 +1,35 @@
+{
+  "name": "Derby Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "derby-fizz",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1",
+      "quantity": null
+    },
+    {
+      "name": "Scotch",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

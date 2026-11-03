@@ -1,0 +1,29 @@
+{
+  "name": "Hard Apple Cider",
+  "description": "Amazing fall drink that, best served warm.",
+  "keywords": [
+    "alcoholic",
+    "apple",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hard-apple-cider",
+  "ingredients": [
+    {
+      "name": "Trader Joe's Spice Apple Cider or your friendly neighborhood apple cider brand",
+      "quantity": "1",
+      "measure": "Gallon"
+    },
+    {
+      "name": "Fireball Cinnamon Whiskey",
+      "quantity": "3",
+      "measure": "cups"
+    },
+    {
+      "name": "Apple",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

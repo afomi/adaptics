@@ -1,0 +1,46 @@
+{
+  "name": "Michelada Zero Proof",
+  "description": "Non-alcoholic cocktails have found their audience thanks to recipes whose composition gives the impression of drinking an alcoholic beverage! This one is a sort of zero proof Bloody Mary, but with as much salty and spicy energy as the original.",
+  "keywords": [
+    "tomato",
+    "beer",
+    "non-alcoholic",
+    "tabasco",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "michelada-zero-proof",
+  "ingredients": [
+    {
+      "name": "Tomato juice",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Worcestershire sauce",
+      "quantity": "3",
+      "measure": "dashes"
+    },
+    {
+      "name": "Tabasco",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Salt",
+      "quantity": "3",
+      "measure": "pinches"
+    },
+    {
+      "name": "Non-alcoholic beer ",
+      "quantity": "6",
+      "measure": "cl"
+    }
+  ]
+}

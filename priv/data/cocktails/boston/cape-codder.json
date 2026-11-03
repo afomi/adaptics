@@ -1,0 +1,35 @@
+{
+  "name": "Cape Codder",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "cape-codder",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "5 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Anisette",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Purple Mask",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "purple-mask",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Concord grape juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

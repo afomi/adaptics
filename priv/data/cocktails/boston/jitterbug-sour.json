@@ -1,0 +1,40 @@
+{
+  "name": "Jitterbug Sour",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "jitterbug-sour",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 dash",
+      "quantity": null
+    }
+  ]
+}

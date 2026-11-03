@@ -1,0 +1,35 @@
+{
+  "name": "Jackie-O",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "jackie-o",
+  "ingredients": [
+    {
+      "name": "Lime wedge, pink sanding sugar",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "each Citrus-flavored vodka and orange-flavored vodka",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Cassis",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apricot nectar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh lemon juice and cranberry juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

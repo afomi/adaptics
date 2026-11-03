@@ -1,0 +1,30 @@
+{
+  "name": "Soul Kiss Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "soul-kiss-cocktail",
+  "ingredients": [
+    {
+      "name": "Orange Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bourbon",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

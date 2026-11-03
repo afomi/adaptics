@@ -1,0 +1,29 @@
+{
+  "name": "Vesper",
+  "description": "The Vesper or Vesper Martini is a cocktail made of gin vodka, and Kina Lillet.",
+  "keywords": [
+    "Gin",
+    "Vodka",
+    "Lillet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vesper",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lillet Blonde",
+      "quantity": "1/4",
+      "measure": "oz"
+    }
+  ]
+}

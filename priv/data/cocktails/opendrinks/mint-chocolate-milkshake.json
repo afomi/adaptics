@@ -1,0 +1,40 @@
+{
+  "name": "Mint Chocolate Milkshake",
+  "description": "Milkshake made using mint chocolate ice cream as the base",
+  "keywords": [
+    "non-alcoholic",
+    "milkshake",
+    "mint",
+    "chocolate"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mint-chocolate-milkshake",
+  "ingredients": [
+    {
+      "name": "dark chocolate",
+      "quantity": "25",
+      "measure": "g"
+    },
+    {
+      "name": "mint chocolate ice cream",
+      "quantity": "5",
+      "measure": "small scoops"
+    },
+    {
+      "name": "milk",
+      "quantity": "175",
+      "measure": "ml"
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "5",
+      "measure": "g"
+    },
+    {
+      "name": "dark chocolate shavings",
+      "quantity": "5",
+      "measure": "g"
+    }
+  ]
+}

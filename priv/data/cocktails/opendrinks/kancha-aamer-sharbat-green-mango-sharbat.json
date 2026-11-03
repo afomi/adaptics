@@ -1,0 +1,54 @@
+{
+  "name": "Kancha Aamer Sharbat/Green Mango Sharbat",
+  "description": "Made with pureed unripe tart mangoes, sugar and ice, sweet-tangy green mango juice is a popular summer drink in tropical Asia that's so easy to make at home.",
+  "keywords": [
+    "summer",
+    "tropical",
+    "mango",
+    "mint leaves",
+    "lemon",
+    "sour",
+    "sweet",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kancha-aamer-sharbat-green-mango-sharbat",
+  "ingredients": [
+    {
+      "name": "Green Mango",
+      "quantity": "3",
+      "measure": "medium size"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Ginger (grated)",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Fresh Mint Leaves",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Black Salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "medium large"
+    },
+    {
+      "name": "Ice-cool water",
+      "quantity": "5",
+      "measure": "cup"
+    }
+  ]
+}

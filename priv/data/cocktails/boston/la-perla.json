@@ -1,0 +1,25 @@
+{
+  "name": "La Perla",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "la-perla",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Manzanilla sherry",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pear liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

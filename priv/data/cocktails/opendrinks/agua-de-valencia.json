@@ -1,0 +1,41 @@
+{
+  "name": "Agua de valencia",
+  "description": "One of the traditional cocktails of Valencia",
+  "keywords": [
+    "alcoholic",
+    "fruit",
+    "vegan",
+    "orange",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "agua-de-valencia",
+  "ingredients": [
+    {
+      "name": "fresh-squeezed Valencia orange juice",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "cava (or champagne)",
+      "quantity": "300",
+      "measure": "ml"
+    },
+    {
+      "name": "gin",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "vodka",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "spoon"
+    }
+  ]
+}

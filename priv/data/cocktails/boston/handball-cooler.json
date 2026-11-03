@@ -1,0 +1,20 @@
+{
+  "name": "Handball Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "handball-cooler",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

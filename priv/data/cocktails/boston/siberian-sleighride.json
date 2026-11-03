@@ -1,0 +1,30 @@
+{
+  "name": "Siberian Sleighride",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "siberian-sleighride",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

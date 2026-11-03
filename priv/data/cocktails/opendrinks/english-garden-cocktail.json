@@ -1,0 +1,50 @@
+{
+  "name": "English Garden Cocktail",
+  "description": "A fresh sweet drink perfect for summer with gin and elderflower.",
+  "keywords": [
+    "gin",
+    "elderflower",
+    "summer",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "english-garden-cocktail",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "elderflower juice",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "apple juice",
+      "quantity": "8",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime, juice from",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "cucumber, sliced along",
+      "quantity": "0,5",
+      "measure": ""
+    },
+    {
+      "name": "chrushed ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Mint leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

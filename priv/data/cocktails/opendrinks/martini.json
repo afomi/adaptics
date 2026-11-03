@@ -1,0 +1,35 @@
+{
+  "name": "Martini",
+  "description": "A classic Gin / Vodka Drink, Shaken, not stirred.",
+  "keywords": [
+    "classic",
+    "vegan",
+    "simple",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "martini",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lillet Blanc",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon peel",
+      "quantity": "1",
+      "measure": "twist"
+    }
+  ]
+}

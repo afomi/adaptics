@@ -1,0 +1,35 @@
+{
+  "name": "D'artagnan",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "d-artagnan",
+  "ingredients": [
+    {
+      "name": "Armagnac",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grand Marnier",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled Champagne",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

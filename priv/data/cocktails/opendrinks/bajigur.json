@@ -1,0 +1,50 @@
+{
+  "name": "Bajigur",
+  "description": "Bajigur is a warm drink typical of the Sundanese people from the West Java region, Indonesia. Supported ingredients are palm sugar and coconut milk. To add to the enjoyment also mixed with a little ginger, salt and vanilla powder. This hot beverage is usually sold using a stove provided. Bajigur is best for drinking during cold and wet weather after rain. Foods that are often served with bajigur are boiled bananas, boiled yams, or boiled peanuts.",
+  "keywords": [
+    "tea",
+    "fruit",
+    "non-alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bajigur",
+  "ingredients": [
+    {
+      "name": "black coffee",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "brown sugar (fine comb)",
+      "quantity": "100",
+      "measure": "grams"
+    },
+    {
+      "name": "granulated sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Graham (to taste)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "of pandan leaves (tied knot)",
+      "quantity": "2",
+      "measure": "sheets"
+    },
+    {
+      "name": "Cinnamon (to taste, if desired)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

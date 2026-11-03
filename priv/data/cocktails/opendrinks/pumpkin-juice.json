@@ -1,0 +1,42 @@
+{
+  "name": "Pumpkin Juice",
+  "description": "This is the best drink for chilly autumn days. Just grab a warm sweater and a steaming hot pumpkin juice and see the raindrops on your windows.",
+  "keywords": [
+    "pumpkin",
+    "juice",
+    "warm",
+    "cinnamon",
+    "vegan",
+    "pumpkinspice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pumpkin-juice",
+  "ingredients": [
+    {
+      "name": "Pumpkin pie spice",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "vanilla",
+      "quantity": "1/2",
+      "measure": "tsp"
+    },
+    {
+      "name": "apple cider or apple juice",
+      "quantity": "2 1/2 ",
+      "measure": "cups"
+    },
+    {
+      "name": "water or to taste. You can add more if you are looking for something less sweet",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "honey or maple syrup to taste (optional. I don't add it as I find the apple juice is sweet enough on its own)",
+      "quantity": "1",
+      "measure": "portion"
+    }
+  ]
+}

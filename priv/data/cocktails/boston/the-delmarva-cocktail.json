@@ -1,0 +1,30 @@
+{
+  "name": "The Delmarva Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "the-delmarva-cocktail",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

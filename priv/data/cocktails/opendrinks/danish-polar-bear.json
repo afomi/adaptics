@@ -1,0 +1,37 @@
+{
+  "name": "Danish Polar Bear",
+  "description": "Vibrant blue drink popular in 1990's Denmark.",
+  "keywords": [
+    "blue curaçao",
+    "curaçao",
+    "vodka",
+    "blue",
+    "lemon soda",
+    "polar bear"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "danish-polar-bear",
+  "ingredients": [
+    {
+      "name": "vodka (amount customisable)",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "blue curaçao",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "lemon soda",
+      "quantity": "8",
+      "measure": "cl"
+    },
+    {
+      "name": "Ice cubes or crushed ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

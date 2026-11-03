@@ -1,0 +1,30 @@
+{
+  "name": "Pickled Pink",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "pickled-pink",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aquavit",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dill pickle brine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

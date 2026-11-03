@@ -1,0 +1,39 @@
+{
+  "name": "Milo Dinosaur",
+  "description": "Drink made of chocolate-malt, popular in Malaysia and Singapore.",
+  "keywords": [
+    "ice",
+    "chocolate",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "milo-dinosaur",
+  "ingredients": [
+    {
+      "name": "Nestle Milo powder",
+      "quantity": "6",
+      "measure": "tbsp"
+    },
+    {
+      "name": "hot water",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "condensed milk",
+      "quantity": "3/4",
+      "measure": "tbsp"
+    },
+    {
+      "name": "ice",
+      "quantity": "a few",
+      "measure": "cubes"
+    },
+    {
+      "name": "Nestle Milo powder to top it off",
+      "quantity": "3",
+      "measure": "tbsp"
+    }
+  ]
+}

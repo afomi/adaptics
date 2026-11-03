@@ -1,0 +1,25 @@
+{
+  "name": "Stone Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "stone-cocktail",
+  "ingredients": [
+    {
+      "name": "Dry Sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Diddy",
+  "description": "A simple vodka lemonade mix.",
+  "keywords": [
+    "ciroc",
+    "vodka",
+    "lemonade"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-diddy",
+  "ingredients": [
+    {
+      "name": "CIROC Vodka",
+      "quantity": "1.5",
+      "measure": "ounces"
+    },
+    {
+      "name": "lemonade",
+      "quantity": "1.5",
+      "measure": "ounces"
+    }
+  ]
+}

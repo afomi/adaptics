@@ -1,0 +1,744 @@
+Man and the Economy 2016; 3(1): 129–145
+
+Qian Lu*
+
+The Contractual Nature of the City
+DOI 10.1515/me-2016-0013
+
+Abstract: Urbanization is a process in which separated and dispersed property
+rights become concentrated in a specific location. This process involves a large
+volume of contracts to redefine and rearrange various property rights, producing
+various and high transaction costs. Efficient urbanization implies the reduction
+of these costs. This paper studies how efficient urbanization reduces transaction
+costs in the real world, based on a series of contracts rather than the coercive
+power. Specifically, this paper shows that Jiaolong Co. built a city by being a
+central contractor, which acquired planning rights by contract, and signed a
+series of tax sharing contracts with government, farmers, tenants, and business
+enterprises. These contractual arrangements greatly reduced the transaction
+costs and promoted the development.
+Keywords: urbanization, contractual structure, transaction costs
+
+1 Introduction
+Urbanization is a process in which separated and dispersed property rights
+become concentrated in a specific location. This process involves a large volume
+of contracts to redefine and rearrange various property rights. Labor contracts,
+housing contracts, transportation contracts, dining contracts, and loan contracts
+are commonly observed in cities, but not quite widespread in rural areas. The
+redefinition and rearrangement of property rights produces various and high
+transaction costs. Efficient urbanization implies the reduction of these costs.
+Government was often appealed to reduce transaction cost by coercion. Is that
+possible for cities to emerge efficiently with little use of coercive power? If so,
+what is the underlying mechanism to reduce transaction cost?
+This paper investigates these questions from the perspective of contractual
+arrangement. It studies a Chinese city called Jiaolong, located in Shuangliu
+County of Chengdu, capital of Sichuan Province in western China. The city has
+an area of 4.3 km². Before 2004, this area was farmland growing crops. Since
+2004, Jiaolong Co. started to rent land from farmers, built an industrial park,
+*Corresponding author: Qian Lu, School of Economics, Central University of Finance &
+Economics, Beijing, China, E-mail: luqian0807@163.com
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+130
+
+Q. Lu
+
+and further upgraded it into an urbanized city.1 Jiaolong Co. was the primary
+developer of the city: renting land from farmers, removing old buildings, planning cities, investing in infrastructure, building schools, attracting business
+investors, and providing public services. By the end of 2014, Jiaolong has
+achieved annual value of production 20 billion yuan (3 billion U.S. dollars)
+and annual tax 0.4 billion yuan (70 million U.S. dollars). There are around
+100 thousand people residing in the city, with a population density 25,000 per
+km², while the density for Shuangliu Couty is only 7,000 per km².2 Compared to
+most other cities in China, it has achieved a more efficient allocation of
+resources by the standard of per area production and the density of residence.3
+Jiaolong is a city built and operated by a business corporation. This is
+rare in China because in most cases the local city government is in charge of
+urbanization. In almost all cities, government makes land and city planning,
+takes farmers’ land, builds city infrastructure, sells land to housing developers and manufacturers, operates police stations, hospitals, schools and
+universities. By holding the monopoly power of coercion, the government is
+able to pool together resources by fiat and hold transaction costs low.
+Without coercive power, why was Jiaolong able to reduce transaction cost
+involved in urbanization and achieve relatively more efficient urbanization
+than other cities? The government and Jiaolong represent two different ways
+to coordinate resources and reduce transaction costs. Why do we see them
+coexist in the real world? Under what conditions would we see one type or
+the other?
+By studying the contractual structure of Jiaolong, this paper shows that
+Jiaolong reduced transaction costs by being the central contractor of a series of
+contracts. The most critical ones are a series of tax sharing contracts – similar
+to share tenancy studied by Steven Cheung (1969) – among Jiaolong Co., the
+local government, and firms operating in Jiaolong, as well as the contract
+authorizing Jiaolong the planning right. Being a central contractor, Jiaolong
+is able to reduce transaction costs by substituting a series of contracts by one.
+Tax-sharing contracts motivate Jiaolong to invest in infrastructure and provide
+public services. They also motivate the Shuangliu government to protect
+1 Hereafter Jiaolong represents the city, and Jiaolong Co. represents the corporation operating
+the city.
+2 The number comes from “The Introduction to Jiaolong Industrial Park” (2015: 8).
+3 There are around 84 km² of urbanized area in the Shuangliu County, with a population of 0.6
+million people. The number comes from The National Economic and Social Development
+Statistical Reports of Shuangliu County (2015). Ye and Chen (2010) have provided a case
+study of Jiaolong from the perspective of industrial park and land property rights. This study
+complements theirs from the perspective of urbanization and contractual arrangements.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+131
+
+Jiaolong’s property rights and authorize Jiaolong with planning rights. As a
+result, Jiaolong is able to define property rights and achieve efficient urbanization by contract rather than coercive power.
+Section 2 provides a brief history of Jiaolong. Section 3 studies the contractual arrangements of Jiaolong and shows how they reduce transaction costs.
+Section 4 compares Jiaolong with cities operated by governments, and proposes
+a contractual theory of the city. Section 5 discusses why we need an institutional
+approach to study cities.
+
+2 Jiaolong Park
+Yujiao Huang, an entrepreneur from Chongqing, founded Jiaolong Co.. Huang
+has run many small businesses. When he was operating a slaughterhouse, he
+met the difficulty of acquiring land. The local government-run industrial park
+preferred enterprises with large investment, but was not open to small business.
+In 2000, Huang established the first Jiaolong industrial park, targeting small
+business firms in Qingyang District of Chengdu. The district is 1 km² large.
+Huang rent land from farmers, built plants and rent them to small firms.
+Jiaolong in Qingyang accommodated more than 150 firms. In 2003, Shuangliu
+government talked to Huang and promised an area about 4 km² to build an
+industrial park.
+Shuangliu Jiaolong Industrial Park was founded in 2004. It is about 5 km far
+away from Shuangliu County’s urban area, 10 km away from the Shuangliu
+Airport, which serves Chengdu. The park has an area of 4.36 km² (6,540 mu),
+with a factory area of 2,998 mu, residential area 579 mu, supporting facilities
+250 mu, road and green area 1,858 mu. By December 2014, Shuangliu Jiaolong
+Industrial Park has realized a tax revenue of 0.43 billion yuan, accommodated
+1096 business firms, 580 in manufacturing, 499 in distributions and services, 7
+in the financial industry, and 8 in education and training. Around 100,000
+people currently live and work in Jiaolong.
+By 2014, Jiaolong Co. has spent more than 4 billion yuan in infrastructure
+investment. The total investment, including a shopping mall, an aquarium,
+office buildings, hotels, and commercial housings, has been more than 9 billion
+yuan. Jiaolong also set up more than 30 oversea offices to invite business
+investors from abroad.4
+
+4 Number and other information for Jiaolong come from author’s field study, and various
+sources such as “The 2014 Summary and 2015 Vision of Jiaolong Industrial Center”, “The
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+132
+
+Q. Lu
+
+Within 10 years, on an area of 4 km² collective-owned farmland, Jiaolong Co.
+transformed the farmland into a manufacturing park, and further into a commercial and service city. What is the underlying mechanism?
+
+3 The contractual arrangements
+3.1 The fundamental problems of operating city
+There are two problems in building and operating a city. The first is how to
+internalize externalities of infrastructure investment. The second is how to
+coordinate separated property rights. The common approach, at least in China,
+to solve the externality and coordination problems is to seek help from government, because the government can internalize the externality by selling land or
+collecting property tax. Moreover, the government is able to reduce coordination
+cost by taking land with coercive power. Private enterprises do not have these
+privileges.
+To elaborate the externality problem, suppose there are two adjacent land
+parcels A and B, owned by John and Mary respectively. John is preparing to
+build a road on A to attract more human flows. The flows will also benefit Mary
+and raise the value of parcel B. John is not able to benefit from the appreciation
+of B, and thereby lacks investment incentives. The common policy advice is for
+the government to subsidize John for investment, or the government can acquire
+parcel B from Mary and rent it to John. Furthermore, the government can take
+both parcels A and B and develop them itself.
+Coase (1959, 1960) proposed that the existence of externality is due to high
+transaction costs in defining and contracting property rights. As long as property
+rights are clearly defined and contracting cost is sufficiently low, property rights
+can be exchanged and redefined, and externality is eliminated. That is, if John
+buys parcel B from Mary and owns the property rights of both parcels, he can
+build a road on parcel A and obtain the appreciation of the value of both
+parcels. John has investment incentives. The transaction cost in defining and
+contracting property rights, however, is not zero in the real world. Private
+enterprises might have to face hundreds or thousands of residents to acquire
+land. The transaction costs involved might be high enough to stop any development. Why was Jiaolong able to reduce the cost?
+
+Speech in the Excellent Entrepreneurs Party of Jiaolong Park” (2013), “The Introduction to
+Jiaolong Industrial Park” (2015: 8).
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+133
+
+3.2 The contract with Shuangliu government
+In 2003, Jiaolong Co. signed an investment contract with Shuangliu Government.5
+The contract authorized Jiaolong planning rights and shares of tax revenues. The
+contract consists of the following contents:
+
+3.2.1 Investment intensity
+Jiaolong Co. must invest 1 billion yuan over three time periods in the area of
+3 km² development zone. The planning area must accommodate more than 400
+firms, provide an annual tax revenue more than 0.3 billion yuan, and achieve a
+GDP 6 billion yuan. Firms in Jiaolong must register their businesses and pay
+taxes in Shuangliu.
+
+3.2.2 Infrastructure building
+Jiaolong Co. must build a sewage treatment plant, a 6 thousand-ton water plant,
+and a 10,000 kvA switch plant. Jiaolong must design and build pipe networks
+with a 30-meter broad road (including road greens on both sides of the street).
+Jiaolong must build a 10 kv power station, providing all the power supply system
+and underground cable networks. Due to the high investment risk and low
+returns of the infrastructure investment, Jiaolong must (with qualifications)
+design and build all plants, office buildings, and apartments in line with proper
+standards.
+
+3.2.3 Authorization of planning rights
+The Master Plan of Jiaolong must confirm to the Master Plan of Shuangliu
+County. Jiaolong should make plans and put everything on record with relevant
+government agencies.
+3.2.4 Tax sharing
+Shuangliu government should “reward Jiaolong with 25 % of the tax revenues
+received by the government (after taking off the reimbursement for firms), if the
+5 The contract is “The Investment Contract of Chengdu Jiaolong Development Limited
+Corporation builds Shuangliu Jiaolong Industrial Park in Shuangliu” (2003).
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+134
+
+Q. Lu
+
+promised tax rate of 100 yuan/m² is realized in Jiaolong; reward Jiaolong with
+20 % of the tax revenues if the realized tax rate is 80 yuan/m²”.
+
+3.2.5 Government obligation
+Shuangliu Government should set up a leading group, responsible for providing
+Jiaolong with quality services and relevant preferential policy. Government
+should also assist Jiaolong Co. in its dealing with nearby villages and public
+administrations on issues such as taxation, public security, environment protection, industrial and commercial services.6
+The investment contract clearly shows the rights and obligations, and the
+incentive mechanism between the county government and Jiaolong. The contract specifies that Jiaolong should achieve the investment and development
+targets, and build infrastructure. As a return, Jiaolong obtains planning rights,
+tax sharing, and coordination services from the government. The acquisition of
+planning rights and the tax sharing mechanism are crucial in Jiaolong’s
+development.
+
+3.3 The authorization of planning rights
+Most Chinese city governments dominate urban and land planning. The government planning office specifies land usage (industrial, commercial and business
+facilities, residential, administration and public services and so on), intensity
+(floor area ratio, height, density), infrastructure, and spatial environment. In this
+way, government planning actually defines land use rights. The provisions of
+land use in all subsequent land contracts are thereby defined. Planning defines
+the scale of land market. Who holds land planning rights and how land use
+rights are redefined are essential problems for efficient allocation of land.
+Due to high transaction costs in land contracting, land use rights might not
+be allocated efficiently. For example, in the development of urban villages
+(villages that are surrounded by the city), the transfer of land use rights would
+be slow, as the developer has to bargain with hundreds or thousands of residents. Price searching, bargaining, and coordination generate prohibitively high
+transaction costs. One way to reduce transaction costs is to leave the job to the
+government, which uses its privileges, such as government planning and land
+6 All contracts mentioned in the paper come from Jiaolong Co.. Interested readers could ask the
+author for copies.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+135
+
+taking to make it ready for development. In practice, however, planning and
+development do not depend on official planning experts, but upon the development strategy of local government. The vision of local government officials plays
+an important role. Efficient city planning and development require government
+leaders to possess the qualities of excellent entrepreneurs – good judgment and
+decision abilities (Casson 1982). Facing a dynamic and diverse world, government leaders have to collect any possible information to develop proper visions
+and adjust expectation. Moreover, as their vision and expectation are subjective,
+once government leaders leave office, their planning is subject to revision, if not
+complete change once new officials take office. To attract large business enterprises, government officials often have to adjust their planning in line with
+investors’ requirement. In areas with fast economic development, rigid planning
+leads to inefficient allocation of resources, as the lack of planning often does.
+Planning experts and government leaders are unable to collect all local
+information and calculate all future possibilities (Hayek 1945). Just like entrepreneurs, when there are too many detailed issues to consider, government leaders
+are restrained by their knowledge and judgment ability. Experts and leaders’
+judgments and expectations are subject to fallacies. The nature of the problem is
+how to allocate planning rights to use dispersed knowledge in society. The efficient
+allocation of planning rights requires the participation of visionary people.
+One crucial factor that Jiaolong developed fast is the acquisition of planning
+rights. The maximization of land rent in the limited area of 4 km² requires Jiaolong
+to acquire planning rights to efficiently allocate land among different usages,
+including industrial plants, apartments, schools and roads. Industrial upgrading
+and population concentration also lead to the fluctuation of rents and adjustment
+of land use. The investment contract transfers planning rights from the government
+to Jiaolong so that Huang could use his knowledge and vision for more efficient
+planning, according to price signals. In 2010, as more people resided in Jiaolong,
+Huang foresaw the increasing demand for entertainment and leisure, and built the
+first five-star movie theater in Shuangliu County. The theater now ranks top 5 of the
+Pacific Chain, before five more similar theaters emerged in the county. Jiaolong
+also built the first modern shopping mall in Shuangliu. Even though it is not
+located in the center of county, it is able to attract consumers from as far as
+Chengdu because the shopping mall also houses an aquarium and a natural ice
+rink. With many years of business experiences, Huang has a keen vision for urban
+development. If Jiaolong did not acquire the planning rights from the government,
+Huang’s vision could not be fully utilized.
+The development and upgrading of Jiaolong is the result of the combination of
+Huang’s business vision and market price signals. The foundation is the transfer of
+planning rights from Shuanglu government through the investment contract.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+136
+
+Q. Lu
+
+3.4 Tax sharing
+After the acquisition of planning rights, Jiaolong needs to have the right to
+income flow generated there for sustainable investment. Income comes from
+two parts: the rental income from plants, office buildings, and apartments and
+the tax revenue shared with Shuangliu government. A crucial and innovative
+component of the investment contract is that Shuangliu government rewards
+Jiaolong with 25 % tax revenues as long as Jiaolong achieves the promised tax
+target. With this tax reimbursement from the local government, Jiaolong is able
+to design a similar tax-sharing contract with its tenants. As a result, all parties
+involved in the development of Jiaolong, from the local government, to Jiaolong
+Co., to its tenants, are incentivized.
+Incentives from tax sharing are first reflected in the plant rental contract. The
+contract specifies that if a firm which rents a plant in Jiaolong has not achieved
+certain tax goal, the firm makes additional payment to Jiaolong: “the yearly total
+tax should achieve the construction area standard of 15,000 yuan/1,000 m²; otherwise, the firm voluntarily agrees that Jiaolong charges an extra fee of 3 yuan/m²”.
+The office building rental contract further specifies a 50 % tax sharing
+agreement: “for each 100 m² that contributes more than 10,000 yuan tax, the
+firm is entitled to 50 % tax reimbursement, that is, half of the tax revenue paid to
+the local county government will be returned to the firm”.
+For entrepreneurs and individual businesspeople who have achieved certain
+tax target, Jiaolong Co. covers the tuition for their children who attend Jiaolong
+Five Star School, a private school with tuition 2,000–3,000 yuan per semester:
+“1. For firms settling in Jiaolong, and paying an annual tax above 500,000 yuan, one child
+of the employers’ can be enrolled at the private school under a preferential policy for each
+additional increase in tax of 50,000 yuan.
+3. For individual business in the service industry, and paying tax above 50,000 yuan, one
+child of the business owners’ can be enrolled at the private school under a preferential
+policy for each additional increase in tax of 50,000 yuan.”7
+
+These contracts show that Shuangliu Government, Jiaolong Co. and firms
+settling in Jiaolong signed a series of sharing agreement. These contracts make
+government, Jiaolong, and firms share the benefit of urbanization, and motivate
+each party to maximize the total rent above land. The government has incentives
+to provide public services and property right protection for Jiaolong Co. and
+firms. The government also builds an arterial road and residential districts
+7 “On the Development of Education of Jiaolong Park” (Chengdu Jiaolong [2010] No. 074),
+Chengdu Jiaolong Industrial Park Administrative Commission, 2010. 7. 31.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+137
+
+around Jiaolong, so as to facilitate transportation and appreciation of land
+value. The leading group coordinates government administrations, provides
+“one station” registering services, and tries to solve issues in power supply,
+schooling, and land. Tax sharing contracts endogenize the externality of infrastructure investment, and motivate Jiaolong to provide attractive business environment, improve infrastructure, and offer property services.
+Cheung (2014) proposes that the sharing of value-added tax between the
+county and central government motivates China’s regional competition, which is
+essential for China’s economic growth. This paper complements Cheung’s study
+and shows how tax sharing contracts solve the externality problem and provide
+incentives for corporations to operate a city. Free services and free tuition policy
+can also be viewed as other forms of tax sharing provisions.
+
+3.5 The rental contracts of plants, office buildings, and
+apartments
+Rents from plants, office buildings, and apartments are the second important
+source of income. The rental payment consists of two parts: deposits and
+monthly rents (usage fee). The following exhibits payment schedules for three
+types of contracts respectively:
+The 3-year plant rental contract in 2015 states the deposit for a 1,000 m²
+construction area is 40,000 yuan (40 yuan/m²), and the monthly rent is
+15 yuan/m².
+The 40-year office building rental contract in 2011 states for an area of 685 m², the
+monthly rent is 3 yuan/m², and the deposit is 3 million yuan (4286 yuan/m²).
+The 60-year 80 m² apartment rental contract in 2012 (renewed twice) states that
+the deposit is 2,653 yuan/m² (total deposit is 210,000 yuan), and the monthly
+rent is 0.5 yuan/m².
+These contracts show that deposit for plants is lowest, 40 yuan/m² versus 4,286
+yuan/m² for office and 2,653 yuan/m² for apartments, but with highest monthly
+rental rate (15 yuan/m² versus 3 yuan/m² for office and 0.5 yuan/m² for apartments). Jiaolong constantly updates its industrial structure by transforming land
+from industrial use to business or residential use. The terms of contract for plant
+contract is 3 or 5 years, office buildings 5 or 40 years, and apartments 5, 10, or
+60 years.
+There is a default renewal provision in the office building and apartment
+rental contracts. Article 214, Chapter 13 of the Contract Law specifies, “The lease
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+138
+
+Q. Lu
+
+term may not exceed twenty years. If the lease term exceeds twenty years, the
+portion of the lease term beyond the initial twenty-year period is invalid. At the
+end of the lease term, the parties may renew the lease, provided that the
+renewed term may not exceed twenty years commencing on the date of
+renewal.” The default renewal provision is found in office building and apartment contracts. For example, the aforementioned office building contract specifies, “if there is no check out or renewal 7 days before the contract expires,
+the contract will be renewed by default, automatically turning to the second 20year period, and the deposit of the original contract will be turned to the second
+20-year period too”. The office building and apartment contract can be automatically renewed twice by default.
+The contract specifies that after the term expires, Jiaolong Co. returns all
+deposits without interests to the tenant. For apartment contracts, if tenants
+withdraw ahead of the schedule, Jiaolong will keep 50 % of the deposit as
+penalty for early withdrawal.
+The apartment can be subleased and the market is quite active. On the lease
+term, tenants pay 5 % fee to transfer their units. Sellers and buyers negotiate the
+price of transaction freely; but the new tenant needs to apply for a new contract
+from Jiaolong Co.. In the new contract, the contractual terms, including deposit
+and rents, remain the same. When thousands of tenants sign contracts with
+Jiaolong Co., Jiaolong Co. becomes the central contractor in the rental market for
+apartments. The standard rental contracts, the same transfer fee, and the central
+contractor are institutional arrangements to reduce transaction cost in the
+market. These arrangements facilitate Jiaolong Co. to replace the governmental
+housing administration to coordinate market transactions.
+The default renewal provision shows that under the Contract Law, deposit is
+the price for the use right extending over 20 years. Theoretically, both rents and
+sale incomes are payments to transfer use rights, corresponding to different
+contractual structure. The choice of contractual structure depends on laws,
+customs and other constraints. The Land Administration Law permits the market
+of the state-owned land, but forbids the transfer of the use right of collectiveowned land to people outside the collective. As a result, Jiaolong does not have
+legal rights to build apartments for sales. Jiaolong chooses rental contracts
+instead of sales contracts so as to avoid legal restrictions. The default renewal
+provision and the high deposit are designed to facilitate transactions under this
+legal constraint. The government Housing Administration Agent does not provide legal services for housing transactions on collective-owned land, a vacuum
+filled by Jiaolong Co.. Thousands of firms and people have accepted these
+contracts, showing that their expected income from contracting is larger than
+the transaction cost of illegal transactions.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+139
+
+3.6 Land rental contract
+In most cases of urban development in China, cities acquire land by taking.
+Government taking reduces coordination cost in land transfer. But it is not costless. Under Chinese legal system, government taking converts landownership from
+collective to state. It is often reported in China that land taking by the local
+government without giving sufficient compensation to farmers is a major source
+of protest and instability; such social unrest reflects a hidden type of transaction
+cost, in addition to remuneration paid to farmers.
+Jiaolong Co. acquired land use rights by contracting rather than land taking.
+In 2003, farmers from eight villages of Jiujiang and Dongsheng Town assigned
+their land contract rights to village collectives. The collectives then signed land
+rental contracts with Jiaolong Co. The rent is the price of 1,200 jin rice (with 5 %
+increase every 3 years and the conservative price is 2.6 yuan/kg) and the lease
+term is 55 years. In addition, Jiaolong Co. signed house removing and payment
+contracts with sub-district government offices and farmers. One contract in 2004
+shows that the payment (including new apartment and monetary payment) to a
+family with 3 people is 119,000 yuan, and another in 2006 shows that the
+payment is 88,000 yuan. In 2014, the payment for a farmer with a three-room
+house reaches 420,000 yuan.
+In urban development, there are two approaches. The first is to sign contracts with all contractual parties before development starts. The other is
+sequential contracting. That is, the developer signs contracts with some parties
+first. As development continues, it signs contracts with others later. It is difficult
+to have all parties on board, but sequential contracting involves high transaction
+costs because urban development generates spillover effects so that later parties
+may demand high rental price from the developer, raising the contracting cost,
+even if we don’t consider possible hold up problems.
+Consider a simplified example. Suppose John and Mary are owners of
+adjacent land parcels A and B. Before John develops parcel A, John and Mary
+have divergent valuation of parcel B. For example, John values B at 200,000
+yuan and Mary values B at 50,000 yuan. John pays Mary 50,000 yuan to acquire
+the use right of parcel B and receives the surplus value of B. The appreciation of
+B is the payment for John’s business vision and entrepreneurship. If John
+develops parcel A before he acquires parcel B, and the value of A rises, Mary
+will acquire the knowledge from the development and raises her valuation of
+parcel B. In addition, the development of parcel A might attract human flows
+and increase value of parcel B. Suppose Mary’s valuation of Parcel B rises to
+200,000 yuan, then John has to pay a price higher or equal to 200,000 yuan to
+acquire B. But if we consider transaction cost, it might not be profitable for John
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+140
+
+Q. Lu
+
+to buy B now. The existence of transaction cost might impede sequential development and exchange of property rights.
+Signing contracts with all contractual parties before development imply
+high payment to acquire property rights before receiving any earnings. If
+Jiaolong Co. acquires land use rights from all farmers residing in the 4 km²
+area, Jiaolong Co. must pay farmers a lot of money and thereby bear a large
+financial burden and risk. There is a tradeoff between financial burden in the
+early development stage and high price for land in later stage.
+To reduce its financial burden, Jiaolong Co. chooses the strategy of sequential development. Jiaolong Co. signed contracts with some farmers, and after the
+initial development, Jiaolong contracted with other farmers and extended the
+development region. However, the price paid to other farmers gradually rose,
+because more workers came to rent rooms in villages. One household has about
+20 rooms, each with 15 m² and monthly rent 200 yuan. Rental income from
+workers is around 50,000 yuan, higher than the price paid by Jiaolong. As a
+result, by now, there are still 4 villages with 855 mu land (or 570,000 m²) waiting
+to be compensated before Jialong can acquire their land.
+Unlike most cases of urban development in China, Jiaolong acquired land by
+contracting instead of taking, and thus paid higher prices for land use rights. We
+have to keep in mind that contracting parties must find the deal mutually
+beneficial. On the other hand, if the local government first takes land from
+farmers and resells it to the developer, the developer may pay a lower price to
+obtain land use rights. However, farmers may not like the deal; over time their
+cumulated resentment may take a radical form to erupt and imposes a high price
+to the society.
+
+3.7 Jiaolong community
+Above discussions show that Jiaolong Co. is the central contractor of Jiaolong
+Park. The contracts between Jiaolong Co., Shuangliu government, farmers, subdistrict offices, firms, and apartment tenants form a web of contracts in the
+process of urban development. One important participant of urbanization, the
+indigenous Jiaolong Community, however, stands outside the web of contracts.
+Jiaolong Community, covering an area of 3.93 km² and overlapping with Jiaolong
+Park, consists of by 4,013 people from eight natural villages. In addition to these
+original residents, 50,000 people who work in Jiaolong now currently live there.
+Jiaolong Community is a political organization for indigenous farmers. But it
+is not a collective and does not have any collective assets. Jiaolong Co. provides
+infrastructure, schools, and auxiliary police, whereas the Community provides
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+141
+
+public services such as explaining and publicity, government policy, birth
+control, and social security. Employees of the Community does not have administrative establishment, and their wages come from government allowance. The
+economic rights and political rights are separated. By contracting for property
+rights, Jiaolong Co. acquired property rights that could be defined by contracts,
+and the Community kept other rights that are hard to be defined.
+
+4 The contractual nature of city
+The city is a place where a large population with separated and dispersed property
+rights concentrates. These property owners form a close contractual web by a
+series of contracts. People are connected by employment contracts, shopping
+contracts, transportation contracts, marriage contracts and so on. Urbanization
+is a process in which the contractual web grows in density and variety. The
+essential question in urbanization is how to efficiently reallocate property rights.
+With out any planning, property owners freely sign contracts to redefine property rights. The preconditions for efficient urbanization include the clear definition of
+property rights and low contracting costs. The zero transaction cost world, however,
+does not exist. Allocation of resources by the government may reduce transaction
+cost by central contracting and coercion, but it might also make fallacies and
+misallocate resources. The fundamental reason is that millions of citizens have
+special knowledge of their own life. Neither officials nor planning experts are able
+to acquire all of the knowledge. They are unable to predict all future possibilities
+either. Moreover, there is no way to constrain government borrowing or to correct
+their mistakes. Government coordination and coercion would reduce transaction cost
+in urbanization, but it would also raise other costs in urbanization, such as social
+protest, incorrect prediction and shortsighted planning.
+The urbanization of Jiaolong is not based on coercive power, but by a series
+of contracts with Shuangliu government, firms, farmers, residents and other
+relevant parties. As the central contractor, Jiaolong Co. is able to simplify the
+contractual web and reduce coordination cost. The essential contracts are the
+investment contract with the county government to transfer planning rights, and
+a series of contracts with the government and firms to share tax. Tax sharing
+contracts define the income rights for Jiaolong so that Jiaolong could share the
+surplus of urban development and infrastructure construction. Sharing contracts
+also motivate Shuangliu government to provide public services including protection of property rights. A series of contracts transfer planning rights, land use
+rights, and income rights to Jiaolong Co., and thereby endogenize the externality
+of infrastructure building and urban development. From the perspective of
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+142
+
+Q. Lu
+
+institutional change, Jiaolong offers a case of contract-based rather than coercion-based urbanization, the latter being the typical approach in China.
+Yujiao Huang is the central contractor of Jiaolong Co.. Huang has a talent in
+coming up with innovative contracts to solve problems. Huang receives the
+surplus income from developing Jiaolong, and thereby has incentives to make
+efficient planning, invest in infrastructure building, coordinate relevant property
+owners, and provide services for firms. The contractual structure is essential for
+Huang to play a decisive role in the development of Jiaolong. The probabilities
+that Huang makes mistakes, however, also increase as he organizes more and
+more transactions. As Jiaolong organizes more transactions, and as the contractual web becomes more complicated, the contractual cost will rise and challenge
+Huang’s ability. Today, the difficulty in removing the few remaining village
+houses in Jiaolong and the growing financial risk are testing Huang’s operation
+and management ability. The number of transactions Jiaolong Co. could organize and the allocation efficiency depend on the rate of the rising cost vis-à-vis
+Huang’s growing ability in contract innovation.
+The efficiency of a city operated by corporations largely depends on the
+ability of entrepreneurs. By what mechanism can we select able entrepreneurs?
+Before Huang was invited to Shuangliu, he had been operating a 1 km² industrial
+park in Qingyang, a nearby town. Shuangliu government chose him according to
+his prior performance. Tax sharing contracts and the transfer of planning rights
+motivate Huang to invest in infrastructure. Would that be possible to form the
+market of planning rights to select entrepreneurs?
+In most Chinese cities, the local government is a central contractor to organize
+transactions in urbanization. It makes city planning, acquires farmers’ land,
+invests in infrastructure, sells land use rights, and provides public schools,
+hospitals, police security and other services. In return, the government receives
+incomes from selling land and value-added tax. All of these endogenize the
+externality of infrastructure building and public services. As the central contractor, the government defines basic property rights by coordination and coercion.
+Cities operated by governments and Jiaolong are two types of urbanization
+lying on a wide spectrum. Between them exist cities in which the government
+contract and define some property rights, leaving other rights to corporations,
+villages, and farmers. One example is Tianan Cyber Park in Dongguan,
+Guangdong province, which is an industrial park serving small science and
+technology firms. The park occupies an area of 16,000 m², much smaller than
+Jiaolong. In this park, Tianan Co. makes planning, builds road, constructs commercial and residential buildings, sells offices and apartments, and provides
+financial and consulting services. Tianan Co. buys land use rights from the local
+government, which collects incomes from land sales and taxes from firms
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+143
+
+registered there, provides police and other public services. In this case, the local
+government is the central contractor of the city. Tianan Co. organizes some
+transactions, using the basic contractual web organized by the government.
+Another type of city is like Zhengge Zhuang, where village leaders organize farmers on their own land, make planning, build roads, commercial and residential
+buildings, and sell them to the public. All income revenues, except for taxes, go to
+the village. We also observe urban villages in Shenzhen, where some farmers
+construct apartment buildings of 20 stories and rent them to migrant workers. In
+some urban villages, there is no planning or public services, and some farmers’
+rental income reaches even 60,000–100,000 yuan per month. It is difficult, that
+is, expensive, for either the local government or corporations to coordinate so
+many farmers who receive such a large flow of rental income.
+The differences between various types of cities are contractual structures and
+degrees of government involvement in defining property rights. The real question
+is under what conditions one type of contractual arrangements emerges.
+Following Coase (1937), this paper proposes that the minimization of transaction
+costs leads to different contractual structure of the city. On the margin, if the cost
+of organizing an additional transaction (or the exchange or redefinition of property rights) is smaller by contracting with government than contracting with
+corporations, government will organizes more transactions. Otherwise, corporations will organize more transactions. What factors determine the costs? Special
+locations, culture, histories, entrepreneurs, and public opinions can certainly
+influence the contractual choice. But to discover regularity, we need to understand the legal and political institutions underlying the basic resource allocations.
+First, the government owns legitimate coercive power to take farmers’ land.
+Coercion reduces coordination costs among farmers, but also raises the possibilities of social protest. Where coordination costs are high, we expect to see more
+cities develop using coercive government power. in such places, it is less likely
+to observe cities organized by corporations or village leaders. Chengdu’s easygoing culture and quiet collectives is probably one reason why Jiaolong Co. is
+able to emerge as a primary player in local urban development.
+Second, Chinese Land Administration Law forbids the transfer of land use
+rights to people outside the collective.8 As a result, the rural land market is not
+
+8 The Law of Land Administration of the People’s Republic of China. Article 43 Any unit or
+individual that need land for construction purposes should apply for the use of land owned by
+the State according to law, except land owned by peasant collectives used by collective
+economic organizations for building township enterprises or building houses for villagers or
+land owned by peasant collectives approved according to law for use in building public
+facilities or public welfare facilities of townships (towns). Article 63 The land use right of
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+144
+
+Q. Lu
+
+well developed, limiting contract-based urban development. If the Chinese
+government changes its land law and allows the market for collective land use
+rights, we expect to see more contract based city development, following the
+steps of Jiaolong and Zhengge Zhuang. Otherwise, the government will continue
+to be the major force pushing for urbanization, with all its benefits and risks.
+Third, the tax sharing agreement, which is crucial for the success of Jiaolong,
+can be denied by the central or provincial government.9 As the tax sharing contract
+is not protected by law, the default risk is high. If the contractual freedom, that is,
+the right to use tax sharing contract by the local government and private actors, is
+firmly protected by law, we expect to see more cities developed by contract.
+Fourth, Urban and Rural Planning Law requires the overall planning of
+towns shall be established by the government of the town and approved by
+the government at the next higher level. This provision raises the cost that
+corporations face in acquiring rural land and urban development. Jiaolong
+acquired planning rights from the county government, and the plan only
+needs to be put on record of the local planning administration office. If the
+plan must be examined and approved in advance by the county government,
+Jiaolong would have to face a much high cost of acquiring planning rights.
+These political and legal institutions set the context for different urban
+development processes to compete. The minimization of transaction costs in
+achieving highest potential income drives the choice of contractual arrangement, subject to specific local conditions.
+
+5 Conclusion
+Most literature on urbanization treats cities as a black box or production function.
+This perspective, however, ignores that resources, the flow of which constitutes a
+city, are dispersed and separately owned. If we look carefully at daily urban life,
+we will see a large number of transactions and contracts to redefine property
+rights. Steven Cheung’s insights on the contractual nature of the firm (Cheung,
+1983) and share tenancy Cheung (1969) have wider applications. This paper looks
+at the city, particularly, city development, from the contractual perspective. In
+essence, cities are also formed by a series of contracts. To understand different
+
+peasant collectives shall not be leased, transferred or rented for non-agricultural construction,
+except in the case of legal transfer of the land that conforms to the general plan for the
+utilization of land and legally obtained by enterprises due to bankruptcy or acquisition.
+9 In 2014, the State Council forbad local government for tax reimbursement. In 2015, the State
+Council revoked this policy（the State Council Paper [2014] 62).
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+Contractual Nature of the City
+
+145
+
+types of cities, we need to understand their basic contractual structure and the
+underlying transaction costs.
+Jiaolong provides an interesting case to study the contractual nature of the
+city. With no government coercive power, Jiaolong was able to coordinate
+dispersed property owners and overcome externalities in infrastructure investment. The underlying contractual web is essential to understand its success.
+Specifically, the planning rights and tax sharing agreement authorized by the
+county government, and Jiaolong as a central contractor signing a series of
+contracts with various parties, are primary reasons for its success to be a city
+developer. Underlying this contractual structure are institutional arrangements
+such as restrictions on the transfer of collective land use rights. While the local
+government operates most cities in China today, institutional changes in political coercive power, planning law, land law, and tax law, will significant
+change the picture, giving rise to more contract-based urbanization.
+Acknowledgements: I thank Ning Wang for recommendations on writings. I
+thank Qiren Zhou, Ming Lu, Binkai Chen, Yanjing Zhao, Lixing Li, Huiqiang
+Zhang, and participants in the workshop of Peking University, Xiamen
+University, Coase Center of Hongkong University, Annual Conference of New
+Institutional Economics of Zhejiang University.
+
+References
+Casson, M. 1982. The Entrepreneur: An Economic Theory, Oxford: Martin Robertson.
+Cheung, Steven. 1969a. The Theory of Share Tenancy, University of Chicago Press.
+Cheung S. N. S. 1983. “The Contractual Nature of the Firm,” Journal of Law & Economics
+26(1): 1–21.
+Cheung, Steven, N. S. 2014. “China’s Economic System,” Man and the Economy 1(1): 65–113.
+Coase. R. H. 1937. “The Nature of the Firm” Economica. Social Science Electronic Publishing,
+4(16): 386–405.
+Coase R. H. 1959. “The Federal Communication Commission,” Journal of Law & Economics,
+56: 879–915.
+Coase R. H. 1960. “Problem of Social Cost,” Journal of Law and Economics, 1960(3):1–44.
+Hayek F. A. 1945. “The Use of Knowledge in Society,” American Economic Review 35(4): 519–530.
+National Bureau of Statistics of the People’s Republic of China, National Statistical
+Communiqué of the People’s Republic of China on the 2015 National Economic and Social
+Development, 2015.
+Ye Zhang, Linguo Chen. 2010. “The Mystery of Jiaolong Industiral Park,” Decision,
+2010(12): 64–66.
+
+Brought to you by | Tufts University
+Authenticated
+Download Date | 12/9/16 4:49 PM
+
+

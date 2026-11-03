@@ -1,0 +1,25 @@
+{
+  "name": "Champagne Flamingo",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "champagne-flamingo",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled Champagne",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

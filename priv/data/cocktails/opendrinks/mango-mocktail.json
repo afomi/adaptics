@@ -1,0 +1,35 @@
+{
+  "name": "Mango Mocktail",
+  "description": "A refreshing drink which combines maple, ginger, and mango.",
+  "keywords": [
+    "mango",
+    "maple syrup",
+    "mocktail",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-mocktail",
+  "ingredients": [
+    {
+      "name": "pineapple orange juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "frozen mango chunks",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ginger",
+      "quantity": "4",
+      "measure": "1/2 inch slices"
+    },
+    {
+      "name": "maple syrup",
+      "quantity": "2",
+      "measure": "ounces"
+    }
+  ]
+}

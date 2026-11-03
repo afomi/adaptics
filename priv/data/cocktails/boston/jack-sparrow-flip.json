@@ -1,0 +1,35 @@
+{
+  "name": "Jack Sparrow Flip",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "jack-sparrow-flip",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Madeira",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "kokam sherbat",
+  "description": "Basically, a healthy and refreshing cool drink or beverage prepared mainly from the kokum fruit or garcinia indica.",
+  "keywords": [
+    "sherbat",
+    "kokam",
+    "refreshing",
+    "summer",
+    "healthy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kokam-sherbat",
+  "ingredients": [
+    {
+      "name": "kokam",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "2.5",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "cumin powder",
+      "quantity": "1.5",
+      "measure": "tsp"
+    },
+    {
+      "name": "black pepper",
+      "quantity": "1.25",
+      "measure": "tsp"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

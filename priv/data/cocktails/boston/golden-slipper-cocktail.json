@@ -1,0 +1,20 @@
+{
+  "name": "Golden Slipper Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "golden-slipper-cocktail",
+  "ingredients": [
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Apricot Flavored Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

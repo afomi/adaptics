@@ -1,0 +1,35 @@
+{
+  "name": "Rosita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "rosita",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

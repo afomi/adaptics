@@ -1,0 +1,38 @@
+{
+  "name": "The Bengal Tiger",
+  "description": "Light and punchy, Novotel (Kolkata) Ritika Rai's Bengal Tiger is aptly named.",
+  "keywords": [
+    "Indian",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-bengal-tiger",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "brandy",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Pomegranate juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Gondraj lemon",
+      "quantity": "1/2",
+      "measure": "piece"
+    }
+  ]
+}

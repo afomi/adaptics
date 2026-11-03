@@ -1,0 +1,55 @@
+{
+  "name": "Spicy Tamarind Margarita",
+  "description": "A tangy and spicy margarita with tamarind paste and chili for a bold twist.",
+  "keywords": [
+    "tamarind",
+    "margarita",
+    "spicy",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spicy-tamarind-margarita",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "tamarind paste",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "chili powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "lime (for garnish)",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "salt (for rim)",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

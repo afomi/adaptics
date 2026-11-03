@@ -1,0 +1,25 @@
+{
+  "name": "Heather Blush",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "heather-blush",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Strawberry liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled sparkling wine",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Scotch Whisky Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "scotch-whisky-highball",
+  "ingredients": [
+    {
+      "name": "Desmond & Duff Scotch Whisky",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

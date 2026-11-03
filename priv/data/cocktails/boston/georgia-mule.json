@@ -1,0 +1,30 @@
+{
+  "name": "Georgia Mule",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "georgia-mule",
+  "ingredients": [
+    {
+      "name": "Peach slice, skinned",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

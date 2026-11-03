@@ -1,0 +1,35 @@
+{
+  "name": "Mudslide",
+  "description": "Perfect dessert cocktail with rich coffee flavours.",
+  "keywords": [
+    "vodka",
+    "cream",
+    "cocktail",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mudslide",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "coffee liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Baileys Irish Cream",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "heavy cream",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+  <title>Canvas Meta</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #fafafa;
+      color: #1a1a1a;
+      padding: 24px;
+      max-width: 640px;
+    }
+    h1 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 16px;
+    }
+    .error {
+      padding: 12px;
+      background: #fef2f2;
+      color: #991b1b;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+    .empty {
+      color: #999;
+      font-size: 14px;
+      font-style: italic;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    .frame-label {
+      font-size: 11px;
+      color: #888;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    Text
+  </h1>
+
+  <div
+    :if={@error}
+    class="error"
+  >
+    <%= @error %>
+  </div>
+
+  <p
+    :if={@texts == [] and is_nil(@error)}
+    class="empty"
+  >
+    No text content on this canvas.
+  </p>
+
+  <ul :if={@texts != []}>
+    <li :for={entry <- @texts}>
+      <%= entry.text %>
+      <span
+        :if={entry.frame}
+        class="frame-label"
+      >
+        <%= entry.frame %>
+      </span>
+    </li>
+  </ul>
+</body>
+</html>

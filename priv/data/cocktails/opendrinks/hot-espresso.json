@@ -1,0 +1,24 @@
+{
+  "name": "Hot Espresso",
+  "description": "Morning boost espresso shots.",
+  "keywords": [
+    "coffee",
+    "hot",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hot-espresso",
+  "ingredients": [
+    {
+      "name": "of coffee beans",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "of water",
+      "quantity": "30",
+      "measure": "ml"
+    }
+  ]
+}

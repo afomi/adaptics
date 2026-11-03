@@ -1,0 +1,25 @@
+{
+  "name": "Chelsea Sidecar Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "chelsea-sidecar-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

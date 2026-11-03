@@ -1,0 +1,35 @@
+{
+  "name": "Rio Fix",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "rio-fix",
+  "ingredients": [
+    {
+      "name": "Absinthe or pastis",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cachaca",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

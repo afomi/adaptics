@@ -1,0 +1,35 @@
+{
+  "name": "Irish Winter Spiked Coffee",
+  "description": "The Irish winter recipe offers a wonderful way to spike your coffee. It's a subtle transformation of the classic Irish coffee and is so easy to make that you'll be mixing it up regularly.",
+  "keywords": [
+    "coffee",
+    "irish",
+    "winter",
+    "Spiked"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "irish-winter-spiked-coffee",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "coffee liqueur",
+      "quantity": "3/4",
+      "measure": "ounces"
+    },
+    {
+      "name": "Irish cream liqueur",
+      "quantity": "3/4",
+      "measure": "ounces"
+    },
+    {
+      "name": "coffee",
+      "quantity": "4",
+      "measure": "ounces"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Purple Ruby",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "purple-ruby",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pomegranate juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

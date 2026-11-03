@@ -1,0 +1,35 @@
+{
+  "name": "Leaves Of Grass",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "leaves-of-grass",
+  "ingredients": [
+    {
+      "name": "Aquavit",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Tom gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Demerara Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Absinthe",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Amaretto Sour",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cordials and Liqueurs",
+  "slug": "amaretto-sour",
+  "ingredients": [
+    {
+      "name": "Amaretto",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange half-wheel",
+      "measure": "1",
+      "quantity": null
+    }
+  ]
+}

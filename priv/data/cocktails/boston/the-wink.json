@@ -1,0 +1,35 @@
+{
+  "name": "The Wink",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "the-wink",
+  "ingredients": [
+    {
+      "name": "Absinthe",
+      "measure": "1 splash",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud's Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

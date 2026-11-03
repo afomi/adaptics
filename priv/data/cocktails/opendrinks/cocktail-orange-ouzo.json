@@ -1,0 +1,48 @@
+{
+  "name": "Cocktail Orange Ouzo",
+  "description": "Cocktail with some Ouzo and Orange juice.",
+  "keywords": [
+    "alcoholic",
+    "ouzo"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cocktail-orange-ouzo",
+  "ingredients": [
+    {
+      "name": "Ouzo",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "bottle of small water",
+      "quantity": "1",
+      "measure": "unite"
+    },
+    {
+      "name": "fine grain sugar",
+      "quantity": "4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "pink grapefruit",
+      "quantity": "1,5",
+      "measure": "unite"
+    },
+    {
+      "name": "sprigs of fresh mint",
+      "quantity": "4",
+      "measure": "unite"
+    },
+    {
+      "name": "Lime",
+      "quantity": "2",
+      "measure": "unite"
+    }
+  ]
+}

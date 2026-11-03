@@ -1,0 +1,67 @@
+{
+  "name": "Mango Peach Smoothie",
+  "description": "This is an unbelievably delicious smoothie!",
+  "keywords": [
+    "tropical",
+    "mango",
+    "smoothie",
+    "vitamin",
+    "juice",
+    "non-alcoholic",
+    "fruit",
+    "cold",
+    "guava",
+    "passion fruit",
+    "frozen",
+    "peach",
+    "strawberry",
+    "yogurt",
+    "raspberry",
+    "berry",
+    "nectar",
+    "almond milk",
+    "soy milk",
+    "unsweetened",
+    "vanilla"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-peach-smoothie",
+  "ingredients": [
+    {
+      "name": "frozen mango",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "frozen peaches",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "passionfruit nectar",
+      "quantity": "0.25",
+      "measure": "cup"
+    },
+    {
+      "name": "guava nectar",
+      "quantity": "0.25",
+      "measure": "cup"
+    },
+    {
+      "name": "fresh or frozen strawberries or raspberries",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "unsweetened non-dairy milk such as almond or soy milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "vanilla yogurt",
+      "quantity": "0.25",
+      "measure": "cup"
+    }
+  ]
+}

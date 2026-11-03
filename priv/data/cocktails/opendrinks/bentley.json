@@ -1,0 +1,31 @@
+{
+  "name": "Bentley",
+  "description": "This cocktail invented in 1920's in London refers to the famous brand of luxe car. It is referenced in Savoy Cocktail Book from 1930. The legend says that the Bentley Boys (rich and famous British drivers) invented this drink after a win at 24h Le Mans.",
+  "keywords": [
+    "alcoholic",
+    "applejack",
+    "calvados",
+    "dubonnet",
+    "bentley"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bentley",
+  "ingredients": [
+    {
+      "name": "applejack (or calvados)",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Red Dubonnet",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Peychaud's Bitters, optional (or bitter orange)",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Iced Coffee Frappe",
+  "description": "Frappe is just a sweet iced coffee blended with milk and espresso.",
+  "keywords": [
+    "coffee",
+    "espresso",
+    "granulated sugar",
+    "milk",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "iced-coffee-frappe",
+  "ingredients": [
+    {
+      "name": "Instant Espresso Coffee",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Granulated Sugar",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

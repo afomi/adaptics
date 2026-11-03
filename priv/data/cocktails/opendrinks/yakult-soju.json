@@ -1,0 +1,34 @@
+{
+  "name": "Yakult Soju",
+  "description": "A smooth, light drink made from Soju, Yakult and Sprite",
+  "keywords": [
+    "soju",
+    "healthy",
+    "mild"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "yakult-soju",
+  "ingredients": [
+    {
+      "name": "Yakult",
+      "quantity": "2",
+      "measure": "bottle"
+    },
+    {
+      "name": "Soju (Original)",
+      "quantity": "80",
+      "measure": "ml"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "330",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "5-10",
+      "measure": "cube"
+    }
+  ]
+}

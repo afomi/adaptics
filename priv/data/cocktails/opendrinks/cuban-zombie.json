@@ -1,0 +1,57 @@
+{
+  "name": "Cuban Zombie",
+  "description": "A sip of this cocktail can bring the dead back to life.",
+  "keywords": [
+    "rum",
+    "orange juice",
+    "pineapple juice",
+    "lime juice",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cuban-zombie",
+  "ingredients": [
+    {
+      "name": "Havana Club 3 year",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Havana Club 7 year",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Passion fruit",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Peggy Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "peggy-cocktail",
+  "ingredients": [
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anis",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

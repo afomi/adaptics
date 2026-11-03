@@ -1,0 +1,38 @@
+{
+  "name": "Harry Potter Butterbeer",
+  "description": " Butterbeer at The Wizarding World of Harry Potter at Universal Studious in Hollywood or Orlando.",
+  "keywords": [
+    "harry potter",
+    "soda",
+    "butter",
+    "caramel",
+    "sake",
+    "ice",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "harry-potter-butterbeer",
+  "ingredients": [
+    {
+      "name": "Cream Soda",
+      "quantity": "6",
+      "measure": "unit"
+    },
+    {
+      "name": "caramel extract",
+      "quantity": "1",
+      "measure": "spoon"
+    },
+    {
+      "name": "Sake",
+      "quantity": "75",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "pack"
+    }
+  ]
+}

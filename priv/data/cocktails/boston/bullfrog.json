@@ -1,0 +1,20 @@
+{
+  "name": "Bullfrog",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bullfrog",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemonade",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

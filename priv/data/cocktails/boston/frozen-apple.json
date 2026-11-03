@@ -1,0 +1,30 @@
+{
+  "name": "Frozen Apple",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "frozen-apple",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Colombian michelada",
+  "description": "A beery contender for mojitos, daiquiris, and margaritas.",
+  "keywords": [
+    "lime",
+    "salt",
+    "beer",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "colombian-michelada",
+  "ingredients": [
+    {
+      "name": "Lime",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Good summer beer",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

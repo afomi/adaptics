@@ -1,0 +1,20 @@
+{
+  "name": "Highland Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "highland-cooler",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

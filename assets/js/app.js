@@ -44,9 +44,15 @@ import { renderMathNodes } from "./math_nodes";
 import { renderHydrogenEnergy } from "./hydrogen_energy";
 import { renderCoherence } from "./coherence";
 import { renderTariffLoop } from "./tariff_loop";
+import { renderFactor } from "./factor";
 import { renderSpheres } from "./spheres";
 import { renderOrgTopology } from "./org_topology";
+import { renderResonance } from "./resonance";
+import { renderUiMap } from "./ui_map";
+import { renderBusiness } from "./business";
 import { renderRussell } from "./russell";
+import { renderCards } from "./cards";
+import { createCrowdReplay } from "./crowd_replay";
 import { renderSocialNetwork } from "./social_network";
 import { renderTopo } from "./topo";
 import { renderChladni } from "./chladni";
@@ -59,6 +65,8 @@ import { ScopeVisualization } from "./scope";
 import { FabricCanvasHook } from "./fabric_canvas_hook";
 import { TldrawHook, TldrawDataReaderHook } from "./tldraw_hook";
 import { ExcalidrawHook } from "./excalidraw_hook";
+import { TranscriptToc } from "./transcript_toc";
+import { TranscriptAtlas } from "./transcript_atlas";
 import { StageCanvas } from "./stage_hook";
 import { CanvasHook } from "./canvas_hook";
 import * as BpmnJS from "bpmn-js";
@@ -100,6 +108,8 @@ Hooks.ScopeVisualization = ScopeVisualization;
 Hooks.FabricCanvasHook = FabricCanvasHook;
 Hooks.CanvasHook = CanvasHook;
 Hooks.ExcalidrawHook = ExcalidrawHook;
+Hooks.TranscriptToc = TranscriptToc;
+Hooks.TranscriptAtlas = TranscriptAtlas;
 
 Hooks.cubeviz = {
   mounted() {
@@ -280,14 +290,26 @@ window.tariffLoop = function () {
   return renderTariffLoop("tariff-loop-container");
 };
 
+window.factor = function () {
+  return renderFactor("factor-container", {
+    input:        "factor-input",
+    error:        "factor-error",
+    stats:        "factor-stats",
+    strategyAttr: "strategy",
+  });
+};
+
 window.chladni = function () {
-  renderChladni("chladni-container", {
+  return renderChladni("chladni-container", {
     chordLabel:   "chladni-chord-label",
     waveform:     "chladni-waveform",
-    modeBtn:      "chladni-mode-btn",
     soundBtn:     "chladni-sound-btn",
     resetBtn:     "chladni-reset-btn",
     explorePanel: "chladni-explore",
+    autoStrip:    "chladni-ui",
+    noteGrid:     "chladni-note-grid",
+    panel:        "chladni-panel",
+    panelBtn:     "chladni-panel-btn",
   });
 };
 
@@ -297,6 +319,27 @@ window.renderSpheres = function (selector) {
 
 window.renderRussell = function () {
   return renderRussell("russell-container");
+};
+
+window.renderCards = function () {
+  return renderCards("cards-container", {
+    list:       "cards-list",
+    urlForm:    "cards-url-form",
+    urlInput:   "cards-url",
+    viewToggle: "cards-view-toggle",
+  });
+};
+
+window.renderCrowdReplay = function (cards) {
+  return createCrowdReplay(cards, {
+    status: "cards-crowd-status",
+    play:   "cards-crowd-play",
+    speed:  "cards-crowd-speed",
+    scrub:  "cards-crowd-scrub",
+    clock:  "cards-crowd-clock",
+    sample: "cards-crowd-sample",
+    file:   "cards-crowd-file",
+  });
 };
 
 window.orgTopology = function () {
@@ -309,6 +352,64 @@ window.orgTopology = function () {
     meaningfulValue:  "org-meaningful-value",
     playBtn:          "org-play",
     stats:            "org-stats",
+  });
+};
+
+window.uiPyramid = function () {
+  return renderUiMap("uim-stage", {
+    play:      "uim-play",
+    slider:    "uim-slider",
+    level:     "uim-level",
+    levelNote: "uim-level-note",
+    selection: "uim-selection",
+    emergence: "uim-emergence",
+  });
+};
+
+window.resonanceField = function () {
+  return renderResonance("res-container", {
+    scenes:      "res-scenes",
+    hint:        "res-hint",
+    constructive: "res-constructive",
+    destructive: "res-destructive",
+    numbers:     "res-numbers",
+    story:       "res-story",
+    selected:    "res-selected",
+    selName:     "res-sel-name",
+    vision:      "res-vision",
+    reach:       "res-reach",
+    stubborn:    "res-stubborn",
+    stubbornRow: "res-stubborn-row",
+    relations:   "res-relations",
+    remove:      "res-remove",
+    move:        "res-move",
+    influence:   "res-influence",
+    addPerson:   "res-add-person",
+    addGoal:     "res-add-goal",
+  });
+};
+
+window.businessModel = function () {
+  return renderBusiness("biz-container", {
+    models:     "biz-models",
+    template:   "biz-template",
+    add:        "biz-add",
+    editor:     "biz-editor",
+    layouts:    "biz-layouts",
+    views:      "biz-views",
+    time:       "biz-time",
+    timeValue:  "biz-time-value",
+    play:       "biz-play",
+    pin:        "biz-pin",
+    snapshots:  "biz-snapshots",
+    issues:     "biz-issues",
+    stats:      "biz-stats",
+    jsonPanel:  "biz-json-panel",
+    json:       "biz-json",
+    jsonStatus: "biz-json-status",
+    copy:       "biz-copy",
+    load:       "biz-load",
+    reset:      "biz-reset",
   });
 };
 

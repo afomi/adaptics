@@ -1,0 +1,49 @@
+{
+  "name": "1800 Coco Piñarita",
+  "description": "Refreshing Pineapple-Coconut Margarita.",
+  "keywords": [
+    "margarita",
+    "coconut",
+    "pineapple",
+    "tequila",
+    "organic",
+    "lime",
+    "fresh",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "1800-coco-pin-arita",
+  "ingredients": [
+    {
+      "name": "1800 Coconut Tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Dole Pineapple Juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Tres Agaves Organic Margarita Mix",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Margarita Glass",
+      "quantity": "16",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh Pinapple, Coconut or Lime (optional)",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

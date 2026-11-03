@@ -1,0 +1,37 @@
+{
+  "name": "Strawberry Cheesecake Shot",
+  "description": "A creamy dessert shot with strawberry and vanilla notes.",
+  "keywords": [
+    "shot",
+    "sweet",
+    "cream",
+    "strawberry",
+    "vodka",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-cheesecake-shot",
+  "ingredients": [
+    {
+      "name": "Vanilla vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Strawberry liqueur",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Irish cream",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

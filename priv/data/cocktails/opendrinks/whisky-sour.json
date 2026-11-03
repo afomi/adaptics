@@ -1,0 +1,40 @@
+{
+  "name": "Whisky Sour",
+  "description": "The whiskey sour is a mixed drink containing whiskey, lemon juice, sugar, and optionally, a dash of egg white.",
+  "keywords": [
+    "alcoholic",
+    "whiskey",
+    "egg",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "whisky-sour",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "egg white",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Cubed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

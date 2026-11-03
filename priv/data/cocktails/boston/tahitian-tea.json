@@ -1,0 +1,40 @@
+{
+  "name": "Tahitian Tea",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tahitian-tea",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Hot Shot Tropical Fruit Liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "7-Up",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Cranberry Juice and orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

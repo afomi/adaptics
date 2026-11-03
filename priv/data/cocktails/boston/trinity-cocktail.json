@@ -1,0 +1,25 @@
+{
+  "name": "Trinity Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "trinity-cocktail",
+  "ingredients": [
+    {
+      "name": "Sweet Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

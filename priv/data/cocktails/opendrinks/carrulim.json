@@ -1,0 +1,36 @@
+{
+  "name": "Carrulim",
+  "description": "Carrulim is a portmanteau of Caña (Paraguayan sugar cane distillate), Limón (green lime), and Ruda (rue). It is traditionally drank in the beginning of August in Paraguay against bad omens, since that time of the year was known to the indigenous Guarani as the time that takes the old and thin cattle away. Tradition also says it should be drank to avoid getting sick in August.",
+  "keywords": [
+    "caña paraguaya",
+    "rum",
+    "green lime",
+    "alcoholic",
+    "paraguay"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "carrulim",
+  "ingredients": [
+    {
+      "name": "caña paraguaya/rum",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "green lime",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "rue",
+      "quantity": "1",
+      "measure": "handful"
+    },
+    {
+      "name": "honey",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

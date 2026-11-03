@@ -1,0 +1,30 @@
+{
+  "name": "Black Martini",
+  "description": "Black Martini is a famous cocktail beverage served at parties and special occasions, with plenty of variations.",
+  "keywords": [
+    "alcoholic",
+    "gin",
+    "lemon",
+    "sambuca"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "black-martini",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "black sambuca",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon twist",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

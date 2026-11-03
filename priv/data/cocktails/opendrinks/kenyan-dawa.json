@@ -1,0 +1,40 @@
+{
+  "name": "Kenyan Dawa",
+  "description": "Dawa which means medicine in Swahili is used to cure absolutely everything. It is best enjoyed as a sundowner drink.",
+  "keywords": [
+    "vodka",
+    "sugar",
+    "alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kenyan-dawa",
+  "ingredients": [
+    {
+      "name": "vodka (Smirnoff Red preferred)",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "honey",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "tsp brown sugar 1 lime, quartered then cut into chunks, plus lime wheel garnish Ice",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "lime, cut into chunks, plus",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Crushed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

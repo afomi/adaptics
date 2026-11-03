@@ -1,0 +1,57 @@
+{
+  "name": "CoronaRita",
+  "description": "A CoronaRita is simply defined as, an overturned Corona bottle draining into a margarita and it is a popular summertime cocktail drink",
+  "keywords": [
+    "corona",
+    "margarita",
+    "lime",
+    "salt",
+    "alcoholic",
+    "beer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coronarita",
+  "ingredients": [
+    {
+      "name": "limes",
+      "quantity": "7",
+      "measure": ""
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "Ice",
+      "quantity": "8",
+      "measure": "cups"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "triple sec",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "margarita mix",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Sea salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Coronitas",
+      "quantity": "6",
+      "measure": "pack"
+    }
+  ]
+}

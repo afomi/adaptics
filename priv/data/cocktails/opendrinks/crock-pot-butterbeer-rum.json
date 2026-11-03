@@ -1,0 +1,70 @@
+{
+  "name": "Crock-Pot Butterbeer Rum",
+  "description": "Impress all of your friends and make your own butterbeer rum.",
+  "keywords": [
+    "rum",
+    "cinnamon",
+    "cream soda",
+    "vanilla"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "crock-pot-butterbeer-rum",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": "6",
+      "measure": "cup"
+    },
+    {
+      "name": "cans cream soda",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "unsalted butter",
+      "quantity": "1",
+      "measure": "stick"
+    },
+    {
+      "name": "butterscotch syrup, divided",
+      "quantity": "1/2",
+      "measure": "c"
+    },
+    {
+      "name": "cinnamon sticks",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "vanilla",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "spiced rum",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Whipped cream, for serving",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "gold sanding sugar, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

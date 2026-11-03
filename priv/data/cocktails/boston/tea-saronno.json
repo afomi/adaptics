@@ -1,0 +1,25 @@
+{
+  "name": "Tea Saronno",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tea-saronno",
+  "ingredients": [
+    {
+      "name": "Hot Tea",
+      "measure": "6 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whipped cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

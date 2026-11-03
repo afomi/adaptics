@@ -1,0 +1,52 @@
+{
+  "name": "Honey Egg Juice",
+  "description": "One of the Taiwanese classic drink made with egg yolk, honey and some fruit juice.",
+  "keywords": [
+    "taiwan",
+    "non-alcoholic",
+    "fruit",
+    "sweet",
+    "sour",
+    "refreshing"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "honey-egg-juice",
+  "ingredients": [
+    {
+      "name": "egg yolk",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "honey",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Calpis",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

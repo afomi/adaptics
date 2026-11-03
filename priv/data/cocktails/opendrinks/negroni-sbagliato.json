@@ -1,0 +1,36 @@
+{
+  "name": "Negroni sbagliato",
+  "description": "This is a lighter variant of the classic Negroni. Spumante (italian sparkling white wine) replace Gin.",
+  "keywords": [
+    "sparkling",
+    "white wine",
+    "vermouth",
+    "alcoholic",
+    "campari"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "negroni-sbagliato",
+  "ingredients": [
+    {
+      "name": "Spumante",
+      "quantity": "1/3",
+      "measure": ""
+    },
+    {
+      "name": "Campari",
+      "quantity": "1/3",
+      "measure": ""
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "1/3",
+      "measure": ""
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

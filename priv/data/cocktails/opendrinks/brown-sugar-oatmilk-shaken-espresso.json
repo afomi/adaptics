@@ -1,0 +1,36 @@
+{
+  "name": "Brown Sugar Oatmilk Shaken Espresso",
+  "description": "Thick oat milk with freshly made espresso, and finally adding two pumps of brown sugar syrup, and then pour everything into a tall glasses with enough ice then shake. Not only can wake you up for facing the day, but also bring your great mood and energy to finish all the work and stress",
+  "keywords": [
+    "shaken",
+    "espresso",
+    "coffee",
+    "brown sugar",
+    "oatmilk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brown-sugar-oatmilk-shaken-espresso",
+  "ingredients": [
+    {
+      "name": "Fresh Brewed Espresso",
+      "quantity": "2",
+      "measure": "shots"
+    },
+    {
+      "name": "Light Brown Sugar",
+      "quantity": "2",
+      "measure": "Teaspoons"
+    },
+    {
+      "name": "Unsweetened Oatmilk",
+      "quantity": "6",
+      "measure": "Oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1 1/2",
+      "measure": "Cups"
+    }
+  ]
+}

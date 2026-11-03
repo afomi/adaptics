@@ -1,0 +1,37 @@
+{
+  "name": "Negroni",
+  "description": "The Negroni is an iconic Italian cocktail, also considered an apéritif.",
+  "keywords": [
+    "gin",
+    "vermouth",
+    "alcoholic",
+    "classic",
+    "vegan",
+    "simple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "negroni",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

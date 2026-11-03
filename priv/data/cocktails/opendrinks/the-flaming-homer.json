@@ -1,0 +1,53 @@
+{
+  "name": "The Flaming Homer",
+  "description": "The Flaming Homer, also known as the Flaming Moe, is a cocktail drink, accidentally invented by Homer, and stolen by Moe. The Simpsons S3E10",
+  "keywords": [
+    "pop culture",
+    "blueberry",
+    "schnapps",
+    "creme de cassis",
+    "vodka",
+    "whiskey",
+    "simpsons"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-flaming-homer",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Whiskey",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Créme de Cassis",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Blueberry Schnapps",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Lime Soda",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Bacardi 151",
+      "quantity": "1",
+      "measure": "Splash"
+    }
+  ]
+}

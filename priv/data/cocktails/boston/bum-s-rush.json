@@ -1,0 +1,35 @@
+{
+  "name": "Bum's Rush",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "bum-s-rush",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh apple cider",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bucks Fizz (Mimosa)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bucks-fizz-mimosa",
+  "ingredients": [
+    {
+      "name": "Orange Juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

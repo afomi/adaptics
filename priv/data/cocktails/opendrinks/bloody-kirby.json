@@ -1,0 +1,43 @@
+{
+  "name": "Bloody Kirby",
+  "description": "Don’t let the Bloody Mary steal all of the limelight.",
+  "keywords": [
+    "vodka",
+    "tabasco",
+    "vermouth",
+    "tomato juice",
+    "alcoholic",
+    "vegan",
+    "savory"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bloody-kirby",
+  "ingredients": [
+    {
+      "name": "Grey Goose Le Citron vodka",
+      "quantity": "1 1⁄2",
+      "measure": "oz"
+    },
+    {
+      "name": "Kirby cucumber slice, peeled",
+      "quantity": "1 1⁄2",
+      "measure": ""
+    },
+    {
+      "name": "Tabasco sauce",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Dry vermouth",
+      "quantity": "1⁄4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tomato juice",
+      "quantity": "1 1⁄2",
+      "measure": "oz"
+    }
+  ]
+}

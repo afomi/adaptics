@@ -1,0 +1,50 @@
+{
+  "name": "Spicy Orange Juice",
+  "description": "This is a simple recipe for spicing up your Orange Juice. Tabasco Sacue is used in this recipe for an extra kick. Tabasco brand Pepper Sacue is a hot sauce made from Aged Red Peppers. If you love adding hotness to your food, then give this recipe a try. ",
+  "keywords": [
+    "orange juice",
+    "lemon juice",
+    "spicy",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spicy-orange-juice",
+  "ingredients": [
+    {
+      "name": "Orange Juice",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Ice Cubes",
+      "quantity": "4",
+      "measure": "ice cubes"
+    },
+    {
+      "name": "Water",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Original Tabasco Pepper Sauce",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Salt",
+      "quantity": "0.5",
+      "measure": "tsp"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tsp"
+    }
+  ]
+}

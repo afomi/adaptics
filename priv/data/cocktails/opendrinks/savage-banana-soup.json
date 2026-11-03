@@ -1,0 +1,53 @@
+{
+  "name": "Savage Banana Soup",
+  "description": "A smoothie that bites back!",
+  "keywords": [
+    "banana",
+    "kale",
+    "ginger",
+    "fruit",
+    "vegan",
+    "plant-based",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "savage-banana-soup",
+  "ingredients": [
+    {
+      "name": "Spinach or Kale",
+      "quantity": "50",
+      "measure": "g"
+    },
+    {
+      "name": "Ground Ginger",
+      "quantity": "10",
+      "measure": "g"
+    },
+    {
+      "name": "Peanut Butter",
+      "quantity": "30",
+      "measure": "g"
+    },
+    {
+      "name": "Ground Flax/Linseed",
+      "quantity": "10",
+      "measure": "g"
+    },
+    {
+      "name": "Banana, ripe",
+      "quantity": "200",
+      "measure": "g"
+    },
+    {
+      "name": "Blueberries",
+      "quantity": "50",
+      "measure": "g"
+    },
+    {
+      "name": "Almond/Coconut Milk",
+      "quantity": "300",
+      "measure": "ml"
+    }
+  ]
+}

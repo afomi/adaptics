@@ -1,0 +1,25 @@
+{
+  "name": "Russian Bear Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "russian-bear-cocktail",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

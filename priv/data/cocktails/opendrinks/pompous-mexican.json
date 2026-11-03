@@ -1,0 +1,29 @@
+{
+  "name": "Pompous Mexican",
+  "description": "A cocktail made from Mexican beer, gin and lemon juice.",
+  "keywords": [
+    "lime",
+    "beer",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pompous-mexican",
+  "ingredients": [
+    {
+      "name": "Corona lager",
+      "quantity": "",
+      "measure": "12 oz"
+    },
+    {
+      "name": "Tanqueray gin",
+      "quantity": "",
+      "measure": "3/4 oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "",
+      "measure": "3/4 oz"
+    }
+  ]
+}

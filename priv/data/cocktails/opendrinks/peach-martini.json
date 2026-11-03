@@ -1,0 +1,46 @@
+{
+  "name": "Peach Martini",
+  "description": "The martini is a cocktail made with gin and vermouth, and garnished with an olive or a lemon twist. Over the years, the martini has become one of the best-known mixed alcoholic beverages. This recipe is a fun, fruity twist on a classic.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "martini",
+    "alcoholic",
+    "peach"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peach-martini",
+  "ingredients": [
+    {
+      "name": "Peach Schnapps",
+      "quantity": "1",
+      "measure": "Ounce"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "Ounce"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1",
+      "measure": "Ounce"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1/2",
+      "measure": "Ounce"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "1/2",
+      "measure": "Ounce"
+    },
+    {
+      "name": "Peace Slices",
+      "quantity": "6",
+      "measure": "Sliced"
+    }
+  ]
+}

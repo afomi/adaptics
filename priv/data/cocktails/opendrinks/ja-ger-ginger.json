@@ -1,0 +1,35 @@
+{
+  "name": "Jäger Ginger",
+  "description": "Star of the night, it is drunk iced in shot or long drinks, since 85 years. Its incomparable and slightly bitter taste seduces from Berlin to Tokyo.",
+  "keywords": [
+    "jägermeister",
+    "cucumber",
+    "lime",
+    "beer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ja-ger-ginger",
+  "ingredients": [
+    {
+      "name": "Jägermeister",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime wedge",
+      "quantity": "1",
+      "measure": "quarter"
+    },
+    {
+      "name": "Cucumber",
+      "quantity": "1",
+      "measure": "Slice"
+    },
+    {
+      "name": "Ginger Beer",
+      "quantity": "20",
+      "measure": "cl"
+    }
+  ]
+}

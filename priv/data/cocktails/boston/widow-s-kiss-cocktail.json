@@ -1,0 +1,30 @@
+{
+  "name": "Widow's Kiss Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "widow-s-kiss-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

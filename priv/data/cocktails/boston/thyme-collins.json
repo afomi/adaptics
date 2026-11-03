@@ -1,0 +1,40 @@
+{
+  "name": "Thyme Collins",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "thyme-collins",
+  "ingredients": [
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mint syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Thyme sprig",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitter lemon soda",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Long thyme sprigs",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

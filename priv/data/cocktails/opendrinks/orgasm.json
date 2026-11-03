@@ -1,0 +1,42 @@
+{
+  "name": "Orgasm",
+  "description": "The Orgasm is a cocktail that can be served either on the rocks or layered and drunk as a shooter",
+  "keywords": [
+    "cocktail",
+    "amaretto",
+    "cream",
+    "vodka",
+    "kahlúa",
+    "baileys"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "orgasm",
+  "ingredients": [
+    {
+      "name": "Baileys Irish Cream",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Kahlúa",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Amaretto",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cream",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

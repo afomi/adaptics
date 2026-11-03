@@ -1,0 +1,25 @@
+{
+  "name": "French Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "french-martini",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Black raspberry liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bourbon Lemonade",
+  "description": "Little western kick to a summer classic.",
+  "keywords": [
+    "lemonade",
+    "whiskey",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bourbon-lemonade",
+  "ingredients": [
+    {
+      "name": "Bulleit Bourbon",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemonade",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Maraschino Cherries",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

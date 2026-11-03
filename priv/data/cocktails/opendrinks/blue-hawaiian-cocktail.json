@@ -1,0 +1,53 @@
+{
+  "name": "Blue Hawaiian Cocktail",
+  "description": "The Blue Hawaiian is a tropical cocktail filled with rum, pineapple, and coconut!",
+  "keywords": [
+    "blue",
+    "hawaiian",
+    "cocktail",
+    "rum",
+    "pineapple",
+    "coconut",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blue-hawaiian-cocktail",
+  "ingredients": [
+    {
+      "name": "rum",
+      "quantity": "1",
+      "measure": "fluid oz"
+    },
+    {
+      "name": "blue Curacao",
+      "quantity": "1",
+      "measure": "fluid oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "2",
+      "measure": "fluid oz"
+    },
+    {
+      "name": "cream of coconut",
+      "quantity": "1",
+      "measure": "fluid oz"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "pineapple",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "maraschino cherry",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

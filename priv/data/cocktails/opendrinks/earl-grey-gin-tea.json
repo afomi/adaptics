@@ -1,0 +1,54 @@
+{
+  "name": "Earl Grey Gin Tea",
+  "description": "Iced sweet black tea with a hint of bergamot pairs perfectly with the juniper notes in gin. Top with milk of choice if desired.",
+  "keywords": [
+    "earl grey",
+    "tea",
+    "sweet",
+    "honey",
+    "gin",
+    "milk tea",
+    "bergamot",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "earl-grey-gin-tea",
+  "ingredients": [
+    {
+      "name": "earl grey tea",
+      "quantity": "1",
+      "measure": "tbsp (bag)"
+    },
+    {
+      "name": "gin of choice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "boiled water",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "cold water",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "handful"
+    },
+    {
+      "name": "honey or sweetener of choice",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "milk or cream of choice (optional)",
+      "quantity": "1",
+      "measure": "splash"
+    }
+  ]
+}

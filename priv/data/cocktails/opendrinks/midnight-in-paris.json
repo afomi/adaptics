@@ -1,0 +1,52 @@
+{
+  "name": "Midnight in Paris",
+  "description": "A perfect balance between the richness of cognac, the sweetness of blackcurrant liquor and the refreshing acidity of lemon",
+  "keywords": [
+    "cognac",
+    "blackcurrant",
+    "liquor",
+    "raspberries",
+    "lemon",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "midnight-in-paris",
+  "ingredients": [
+    {
+      "name": "cognac",
+      "quantity": "1 1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "blackcurrant liquor",
+      "quantity": "1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "fresh raspberries",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "slice of lemon",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

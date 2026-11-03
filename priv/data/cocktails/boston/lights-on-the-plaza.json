@@ -1,0 +1,40 @@
+{
+  "name": "Lights On The Plaza",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "lights-on-the-plaza",
+  "ingredients": [
+    {
+      "name": "Cucumber slices, chopped",
+      "measure": "2",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Acai berry flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Black raspberry liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sparkling wine, raspberry and cucumber",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

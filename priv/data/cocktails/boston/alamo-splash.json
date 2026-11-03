@@ -1,0 +1,30 @@
+{
+  "name": "Alamo Splash",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "alamo-splash",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon-lime soda",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

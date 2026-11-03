@@ -1,0 +1,51 @@
+{
+  "name": "Jam Band",
+  "description": "A delightfully botanical gin cocktail.",
+  "keywords": [
+    "alcoholic",
+    "gin",
+    "mint",
+    "vegan",
+    "carbonated"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jam-band",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "tart cherry juice/preserves",
+      "quantity": "1.5",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "orange bitters",
+      "quantity": "2",
+      "measure": "dash"
+    },
+    {
+      "name": "mint",
+      "quantity": "5",
+      "measure": "leaves"
+    },
+    {
+      "name": "club soda",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

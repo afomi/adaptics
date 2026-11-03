@@ -1,0 +1,30 @@
+{
+  "name": "Affinity Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "affinity-cocktail",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

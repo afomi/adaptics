@@ -1,0 +1,25 @@
+{
+  "name": "Plain Vermouth Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "plain-vermouth-cocktail",
+  "ingredients": [
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

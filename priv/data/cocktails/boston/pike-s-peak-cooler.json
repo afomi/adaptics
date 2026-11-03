@@ -1,0 +1,25 @@
+{
+  "name": "Pike's Peak Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "pike-s-peak-cooler",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

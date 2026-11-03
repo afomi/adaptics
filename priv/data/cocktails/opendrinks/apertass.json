@@ -1,0 +1,33 @@
+{
+  "name": "Apertass",
+  "description": "Perfect drink for an appetizer.",
+  "keywords": [
+    "alcoholic",
+    "fruit",
+    "vegan",
+    "orange",
+    "soda",
+    "aperol",
+    "carbonated"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apertass",
+  "ingredients": [
+    {
+      "name": "Cedrata Tassoni Soda",
+      "quantity": "70",
+      "measure": "ml"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

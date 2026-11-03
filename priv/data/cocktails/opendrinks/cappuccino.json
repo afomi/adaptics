@@ -1,0 +1,32 @@
+{
+  "name": "Cappuccino",
+  "description": "This recipe is for an authentic Italian cappuccino made with the perfect proportions of espresso, steamed milk, and foamed milk. (And by “perfect,” we mean approximately equal proportions of 1/3 each.) For a larger—or more typical American—cappuccino, double the quantities. For a milkier, or wet, cappuccino, increase the milk to 6 tablespoons. Ever wondered the difference between a cappuccino and a macchiato? The latter has just a small spot of foamed milk, as “macchiato” means “spot” in Italian.",
+  "keywords": [
+    "coffee",
+    "milk",
+    "hot",
+    "non-alcoholic",
+    "tasty",
+    "fancy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cappuccino",
+  "ingredients": [
+    {
+      "name": "rounded tablespoon finely ground coffee, preferably an espresso blend",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "cold milk (whole, 2%, or nonfat)",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "pinch cocoa powder or ground cinnamon, optional",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

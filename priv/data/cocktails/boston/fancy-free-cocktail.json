@@ -1,0 +1,30 @@
+{
+  "name": "Fancy-Free Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "fancy-free-cocktail",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

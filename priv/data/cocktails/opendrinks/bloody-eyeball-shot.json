@@ -1,0 +1,42 @@
+{
+  "name": "Bloody Eyeball Shot",
+  "description": "With a mix of coconut rum, Peach Schnapps, vodka, lychee fruits, and blueberries, you can be sure these boozy Halloween treats will work perfectly for your little haunted parties. Plus, these little creepy Halloween cocktails look like they have real eyes in them!",
+  "keywords": [
+    "halloween"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bloody-eyeball-shot",
+  "ingredients": [
+    {
+      "name": "Coconut Rum",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Peach Schnapps",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Red Food Coloring",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lychee",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Jelly",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

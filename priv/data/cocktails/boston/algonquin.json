@@ -1,0 +1,25 @@
+{
+  "name": "Algonquin",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "algonquin",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Caipiroska",
+  "description": "It's like a Caipirinha but with Vodka.",
+  "keywords": [
+    "vodka",
+    "lime",
+    "cracked-ice",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caipiroska",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "granulated white sugar",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "lime (cuted in quarters)",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "cracked ice",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

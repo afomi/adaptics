@@ -1,0 +1,20 @@
+{
+  "name": "Rum Rickey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "rum-rickey",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

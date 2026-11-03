@@ -1,0 +1,30 @@
+{
+  "name": "Affinity Cocktail (whisky)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "affinity-cocktail-whisky",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

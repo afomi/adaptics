@@ -1,0 +1,33 @@
+{
+  "name": "Dubliner",
+  "description": "This cocktail is adapted from the original recipe of Gary & Mardee Regan (cocktail experts) created in 1999 in New York.",
+  "keywords": [
+    "Whiskey",
+    "Ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dubliner",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Grand Marnier",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Red Vermouth ",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange bitters",
+      "quantity": "2",
+      "measure": "line"
+    }
+  ]
+}

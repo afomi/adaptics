@@ -1,0 +1,42 @@
+{
+  "name": "Vodka Lemonade Punch",
+  "description": "A cocktail popular amongst party goers!",
+  "keywords": [
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-lemonade-punch",
+  "ingredients": [
+    {
+      "name": "Sprite or Lemonade",
+      "quantity": "1.25",
+      "measure": "Quart"
+    },
+    {
+      "name": "Malibu",
+      "quantity": "60",
+      "measure": "mL"
+    },
+    {
+      "name": "Cranberry Juice",
+      "quantity": "80",
+      "measure": "mL"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "80",
+      "measure": "mL"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "180",
+      "measure": "mL"
+    },
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "Cup"
+    }
+  ]
+}

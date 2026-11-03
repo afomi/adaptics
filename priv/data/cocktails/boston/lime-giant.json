@@ -1,0 +1,15 @@
+{
+  "name": "Lime Giant",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "lime-giant",
+  "ingredients": [
+    {
+      "name": "Lime Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

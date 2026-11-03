@@ -1,0 +1,27 @@
+{
+  "name": "Tongba",
+  "description": "Tongba, commonly pronounced as 'tong-baa' or 'tum-baa' by locals is one of the most popular beverage in cooler eastern part of Nepal. It is most common to Mongolians but it is now loved by all people. ",
+  "keywords": [
+    "millet",
+    "raksi",
+    "alcoholic",
+    "light-beer",
+    "vegan",
+    "khesung"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tongba",
+  "ingredients": [
+    {
+      "name": "Millet",
+      "quantity": "1",
+      "measure": "kilos"
+    },
+    {
+      "name": "Khesung(source of molds, bacteria and yeast)",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

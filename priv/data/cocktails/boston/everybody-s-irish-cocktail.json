@@ -1,0 +1,30 @@
+{
+  "name": "Everybody's Irish Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "everybody-s-irish-cocktail",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green Chartreuse",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green olive",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

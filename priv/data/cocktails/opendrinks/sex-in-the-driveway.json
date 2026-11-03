@@ -1,0 +1,40 @@
+{
+  "name": "Sex in the Driveway",
+  "description": "Sweeter variation of Sex on the Beach thats blue in colour.",
+  "keywords": [
+    "vodka",
+    "blue",
+    "sweet",
+    "rum"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sex-in-the-driveway",
+  "ingredients": [
+    {
+      "name": "Peach Shnapps",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Blue Curacao",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Vodka or White Rum",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "60",
+      "measure": "ml"
+    }
+  ]
+}

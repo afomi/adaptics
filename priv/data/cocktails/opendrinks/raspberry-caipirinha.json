@@ -1,0 +1,38 @@
+{
+  "name": "Raspberry Caipirinha",
+  "description": "Traditional Caipirinha but with the sweetness of the strawberry",
+  "keywords": [
+    "cachaca",
+    "raspberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "raspberry-caipirinha",
+  "ingredients": [
+    {
+      "name": "cachaça",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "green lime",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "strawberries",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Crushed Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

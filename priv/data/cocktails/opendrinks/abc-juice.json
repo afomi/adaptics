@@ -1,0 +1,55 @@
+{
+  "name": "ABC Juice",
+  "description": "ABC juice is a vibrant and nutritious blend of Apple, Beetroot, and Carrot, packed with antioxidants and essential nutrients. It's a refreshing detox drink that can be made using a juicer or a blender, and optionally enhanced with lemon, ginger, or chaat masala.",
+  "keywords": [
+    "abc",
+    "apple",
+    "beetroot",
+    "carrot",
+    "juice",
+    "detox",
+    "healthy",
+    "vegan",
+    "mocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "abc-juice",
+  "ingredients": [
+    {
+      "name": "Apples",
+      "quantity": "2",
+      "measure": "pcs"
+    },
+    {
+      "name": "Beetroot",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Carrots",
+      "quantity": "4-5",
+      "measure": ""
+    },
+    {
+      "name": "Ginger (optional)",
+      "quantity": "1",
+      "measure": "inch"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1/2",
+      "measure": "pcs"
+    },
+    {
+      "name": "Water (if using blender)",
+      "quantity": "1/2-3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Salt and Sugar (optional)",
+      "quantity": "to taste",
+      "measure": ""
+    }
+  ]
+}

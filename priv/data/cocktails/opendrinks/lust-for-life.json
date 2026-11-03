@@ -1,0 +1,46 @@
+{
+  "name": "Lust For Life",
+  "description": "This exotic sipper from Imbibe’s 2013 Cocktail Bar of the Year, Pouring Ribbons, is a little smoky, a little nutty and perfectly bright.",
+  "keywords": [
+    "ice",
+    "galliano",
+    "liqueur",
+    "orange",
+    "nutmeg"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lust-for-life",
+  "ingredients": [
+    {
+      "name": "galliano",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "peach liqueur",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "heavy cream",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "grated nutmeg",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

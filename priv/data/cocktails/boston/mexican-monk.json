@@ -1,0 +1,30 @@
+{
+  "name": "Mexican Monk",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "mexican-monk",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

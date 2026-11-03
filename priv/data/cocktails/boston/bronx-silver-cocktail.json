@@ -1,0 +1,30 @@
+{
+  "name": "Bronx SIlver Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bronx-silver-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of Orange",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

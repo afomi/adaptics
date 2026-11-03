@@ -1,0 +1,34 @@
+{
+  "name": "Mr. Peanut Shake",
+  "description": "It's an alcoholic peanut shake made with condensed milk, peanuts and vodka.",
+  "keywords": [
+    "peanuts",
+    "condensed milk",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mr-peanut-shake",
+  "ingredients": [
+    {
+      "name": "condensed milk",
+      "quantity": "13,9",
+      "measure": "oz"
+    },
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "medium cup"
+    },
+    {
+      "name": "some peanut candy, can be cream, paçoquita or crushed peanuts",
+      "quantity": "as much as you want",
+      "measure": ""
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "6",
+      "measure": ""
+    }
+  ]
+}

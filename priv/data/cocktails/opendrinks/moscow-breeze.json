@@ -1,0 +1,37 @@
+{
+  "name": "Moscow Breeze",
+  "description": "Moscow popular yummy cocktail. Sure to put you in a autumn mood. With real honey.",
+  "keywords": [
+    "tequila",
+    "vodka",
+    "gin",
+    "honey",
+    "alcoholic",
+    "moscow"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "moscow-breeze",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tablespoons"
+    }
+  ]
+}

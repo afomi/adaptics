@@ -1,0 +1,30 @@
+{
+  "name": "Minnehaha Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "minnehaha-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of Orange",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

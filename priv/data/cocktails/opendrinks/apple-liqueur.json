@@ -1,0 +1,34 @@
+{
+  "name": "Apple Liqueur",
+  "description": "A sweet apple-flavoured liqueur perfect for the Christmas holidays",
+  "keywords": [
+    "apple",
+    "liqueur",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-liqueur",
+  "ingredients": [
+    {
+      "name": "Apples",
+      "quantity": "4",
+      "measure": "whole"
+    },
+    {
+      "name": "Ethyl Alcohol",
+      "quantity": "500",
+      "measure": "g"
+    },
+    {
+      "name": "Water",
+      "quantity": "350",
+      "measure": "g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "300",
+      "measure": "g"
+    }
+  ]
+}

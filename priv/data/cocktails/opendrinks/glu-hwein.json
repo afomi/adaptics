@@ -1,0 +1,43 @@
+{
+  "name": "Glühwein",
+  "description": "Glühwein is a warm and spice holiday drink traditionally found in German Christmas markets.",
+  "keywords": [
+    "alcoholic",
+    "red wine",
+    "warm",
+    "winter",
+    "christmas",
+    "german",
+    "austrian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "glu-hwein",
+  "ingredients": [
+    {
+      "name": "red wine",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "cinnamon stick",
+      "quantity": "1/2",
+      "measure": "stick"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "cloves",
+      "quantity": "5",
+      "measure": ""
+    },
+    {
+      "name": "orange peel",
+      "quantity": "1/2",
+      "measure": ""
+    }
+  ]
+}

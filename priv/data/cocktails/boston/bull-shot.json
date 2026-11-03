@@ -1,0 +1,35 @@
+{
+  "name": "Bull Shot",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bull-shot",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold beef bouillon",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Salt",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Freshly ground black pepper",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

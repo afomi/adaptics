@@ -1,0 +1,25 @@
+{
+  "name": "Froupe Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "froupe-cocktail",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

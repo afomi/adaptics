@@ -1,0 +1,56 @@
+{
+  "name": "Gingerbread Eggnog",
+  "description": "Everyone's favorite holiday drink gets boozy and a little spicy.",
+  "keywords": [
+    "gingerbread",
+    "eggnog",
+    "vodka",
+    "kahlúa",
+    "molasses"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gingerbread-eggnog",
+  "ingredients": [
+    {
+      "name": "cinnamon sugar",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "eggnog",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Kahlúa",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "molasses",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "ground ginger",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "whipped cream, for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Moscow Mule",
+  "description": "It's a simple, snappy cocktail. Don't forget the mug.",
+  "keywords": [
+    "vodka",
+    "ginger beer",
+    "alcoholic",
+    "classic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "moscow-mule",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice, freshly squeezed",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "ginger beer",
+      "quantity": "6",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sbagliato",
+  "description": "The Spagliato (pronounced with a silent g) is a traditional variation on the Negroni. In 1972, Mirko Stocchetto at the Bar Basso in Milan added sparkling wine instead of the gin by mistake to a Negroni. He then realized that this variation had some sense and this humble mistake led to the creation of a classic cocktail that is still enjoyed all around the world today, and to its name: in fact, in Italian 'sbagliato'  means mistaken. A fantastic variation on a traditional cocktail that leads to a much lighter, brighter taste, making it perfect for a pick me up at the start of a meal, or any time of the day.",
+  "keywords": [
+    "orange",
+    "vermouth",
+    "negroni",
+    "sparkling wine",
+    "prosecco",
+    "italian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sbagliato",
+  "ingredients": [
+    {
+      "name": "Sparkling wine",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

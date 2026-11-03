@@ -1,0 +1,25 @@
+{
+  "name": "Bourbon And Elder",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "bourbon-and-elder",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Elderflower liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

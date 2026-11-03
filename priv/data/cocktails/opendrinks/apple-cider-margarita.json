@@ -1,0 +1,58 @@
+{
+  "name": "Apple Cider Margarita",
+  "description": "These apple cider margaritas are a seasonal twist on a classic cocktail recipe. Sweetened with maple syrup and garnished with a cinnamon sugar rim, these are perfect for Thanksgiving or another holiday gathering.",
+  "keywords": [
+    "apple",
+    "cinnamon",
+    "cocktail",
+    "cointreau",
+    "maple syrup",
+    "salt",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-cider-margarita",
+  "ingredients": [
+    {
+      "name": "apple cider",
+      "quantity": "125",
+      "measure": "ml"
+    },
+    {
+      "name": "silver tequila",
+      "quantity": "31",
+      "measure": "ml"
+    },
+    {
+      "name": "Cointreau or other orange flavored liqueur",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "freshly squeezed lime juice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "maple syrup",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    }
+  ]
+}

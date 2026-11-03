@@ -1,0 +1,41 @@
+{
+  "name": "Queimada",
+  "description": "Queimada is a punch made from Galician aguardiente -a spirit distilled from the rests of winemaking- and flavoured with special herbs or coffee, plus sugar, lemon peel, coffee beans and cinnamon. It is traditionally prepared in a hollow pumpkin.",
+  "keywords": [
+    "Aguardiente",
+    "lemon",
+    "orange",
+    "coffee",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "queimada",
+  "ingredients": [
+    {
+      "name": "White Aguardiente",
+      "quantity": "2",
+      "measure": "67 oz"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "300",
+      "measure": "grams"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "2",
+      "measure": "peels"
+    },
+    {
+      "name": "Orange",
+      "quantity": "1",
+      "measure": "peel"
+    },
+    {
+      "name": "Coffee grains",
+      "quantity": "1",
+      "measure": "handful"
+    }
+  ]
+}

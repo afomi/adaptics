@@ -1,0 +1,25 @@
+{
+  "name": "Harvey Wallbanger",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "harvey-wallbanger",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Galliano",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

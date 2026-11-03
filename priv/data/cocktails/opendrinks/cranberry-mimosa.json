@@ -1,0 +1,26 @@
+{
+  "name": "Cranberry Mimosa",
+  "description": "A nice drink to shake your morning.",
+  "keywords": [
+    "champagne",
+    "cranberry",
+    "juice",
+    "mimosa",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cranberry-mimosa",
+  "ingredients": [
+    {
+      "name": "sweetened cranberry juice",
+      "quantity": "1",
+      "measure": "c."
+    },
+    {
+      "name": "champange",
+      "quantity": "2.5",
+      "measure": "oz"
+    }
+  ]
+}

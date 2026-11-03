@@ -1,0 +1,30 @@
+{
+  "name": "Chinchona",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "chinchona",
+  "ingredients": [
+    {
+      "name": "Anejo tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Rouge",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

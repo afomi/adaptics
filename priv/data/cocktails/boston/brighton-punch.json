@@ -1,0 +1,35 @@
+{
+  "name": "Brighton Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "brighton-punch",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

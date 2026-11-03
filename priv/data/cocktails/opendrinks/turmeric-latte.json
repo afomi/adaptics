@@ -1,0 +1,56 @@
+{
+  "name": "Turmeric Latte",
+  "description": "A great home remedy beverage for cough, congestion, colds and skin problems. This winter replace your usual hot cocoa with an invigorating cup of wellness. Bonus points for jammies and slippers. Turmeric can stain clothing and counter tops, so wear an apron, proceed with caution.",
+  "keywords": [
+    "turmeric",
+    "latte",
+    "milk",
+    "hot",
+    "winter"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "turmeric-latte",
+  "ingredients": [
+    {
+      "name": "ground turmeric",
+      "quantity": "one fourth",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground cardamom",
+      "quantity": "one fourth",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground black pepper",
+      "quantity": "one eight",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground clove",
+      "quantity": "one eight",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground allspice",
+      "quantity": "one eight",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "honey",
+      "quantity": "three fourth",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "one eight",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "milk",
+      "quantity": "one",
+      "measure": "cup"
+    }
+  ]
+}

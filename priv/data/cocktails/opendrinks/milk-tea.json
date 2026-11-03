@@ -1,0 +1,30 @@
+{
+  "name": "Milk Tea",
+  "description": "Traditional homemade milk tea, famous all over the world for color, aroma and taste.",
+  "keywords": [
+    "homemade",
+    "tea",
+    "chai",
+    "milk tea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "milk-tea",
+  "ingredients": [
+    {
+      "name": "Tea powder(chai ki patti)",
+      "quantity": "1",
+      "measure": "Table Spoon"
+    },
+    {
+      "name": "Normal Milk",
+      "quantity": "3/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1/2",
+      "measure": "Table Spoon"
+    }
+  ]
+}

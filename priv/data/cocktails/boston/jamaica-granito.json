@@ -1,0 +1,25 @@
+{
+  "name": "Jamaica Granito",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "jamaica-granito",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon or Orange Sherbet",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

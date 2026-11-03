@@ -1,0 +1,30 @@
+{
+  "name": "Danish Summer",
+  "description": "A pure and refreshing taste of strawberry and rhubarb leaves you think of summertime.",
+  "keywords": [
+    "strawberry",
+    "rhubarb",
+    "sprite",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "danish-summer",
+  "ingredients": [
+    {
+      "name": "Råstoff Strawberry-Rhubarb",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "freshly squeezed lime",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

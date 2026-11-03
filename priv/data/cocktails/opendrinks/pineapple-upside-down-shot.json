@@ -1,0 +1,37 @@
+{
+  "name": "Pineapple Upside Down Shot",
+  "description": "A sweet, fruity shot with pineapple and a grenadine float for a layered look.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "pineapple",
+    "sweet",
+    "layered",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pineapple-upside-down-shot",
+  "ingredients": [
+    {
+      "name": "Vanilla vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

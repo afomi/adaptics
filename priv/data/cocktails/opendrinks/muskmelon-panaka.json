@@ -1,0 +1,41 @@
+{
+  "name": "Muskmelon Panaka",
+  "description": "A tasy Ayurvedic summer cooler made using muskmelon,jaggery and green cardamom",
+  "keywords": [
+    "Summer",
+    "Ayurvedic",
+    "chilled",
+    "refreshing",
+    "Non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "muskmelon-panaka",
+  "ingredients": [
+    {
+      "name": "Chopped muskmelon",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "cold water",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "powdered jaggery",
+      "quantity": "6",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "cardamom powder",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "2",
+      "measure": "tablespoon"
+    }
+  ]
+}

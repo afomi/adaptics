@@ -1,0 +1,37 @@
+{
+  "name": "White Lady",
+  "description": "She may look delicate, but this is one strong woman.",
+  "keywords": [
+    "gin",
+    "lemon",
+    "orange",
+    "strong",
+    "shaken",
+    "classic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-lady",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange liqueur",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh egg white",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

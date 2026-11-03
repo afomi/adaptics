@@ -1,0 +1,40 @@
+{
+  "name": "Bourbon Mule",
+  "description": "Mules are traditionally served in a copper mug, a handsome vessel that keeps them delightfully frigid.",
+  "keywords": [
+    "bourbon mule",
+    "ginger beer",
+    "bourbon",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bourbon-mule",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "light ginger beer, such as Fever-Tree Naturally Light",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "fresh mint sprig",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "lime slice",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

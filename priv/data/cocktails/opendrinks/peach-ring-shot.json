@@ -1,0 +1,37 @@
+{
+  "name": "Peach Ring Shot",
+  "description": "A sweet, candy-inspired shot with peach schnapps and vodka.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "schnapps",
+    "peach",
+    "sweet",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peach-ring-shot",
+  "ingredients": [
+    {
+      "name": "Peach schnapps",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sour mix",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Tijuana Taxi",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tijuana-taxi",
+  "ingredients": [
+    {
+      "name": "Gold tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blue curacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tropical fruit schnapps",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

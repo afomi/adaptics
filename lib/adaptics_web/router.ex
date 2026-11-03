@@ -29,12 +29,16 @@ defmodule AdapticsWeb.Router do
     get "/voxels", PageController, :voxels
     get "/link", PageController, :link
     get "/vortex", PageController, :vortex
+    get "/topo", PageController, :topo
+    get "/topo/:space_slug", PageController, :topo
     get "/unwriter", PageController, :unwriter
     get "/ecosystem", PageController, :ecosystem
+    get "/chladni", PageController, :chladni
     get "/clock", PageController, :clock
     live "/desktop", DesktopLive, :index
     live "/draw", DrawLive, :index
     get "/draw/data", CanvasController, :data
+    get "/draw/data/json", CanvasController, :json_data
     get "/draw/meta", CanvasController, :meta
     post "/draw/data/parse", CanvasController, :parse
     get "/game", PageController, :game
@@ -44,16 +48,33 @@ defmodule AdapticsWeb.Router do
     get "/angles", PageController, :angles
     get "/about", PageController, :about
     get "/neighborhood", PageController, :neighborhood
+    get "/civics", PageController, :civics
+    get "/toroidal-cash-flow", PageController, :toroidal_cash_flow
     get "/rings", PageController, :rings
     get "/math", PageController, :math
     get "/hydrogen", PageController, :hydrogen
     get "/lens", PageController, :lens
     get "/coherence", PageController, :coherence
+    get "/tariffs", PageController, :tariffs
+    get "/factor", PageController, :factor
     get "/gtd", PageController, :gtd
     get "/spheres", PageController, :spheres
+    get "/org", PageController, :org
+    get "/resonance", PageController, :resonance
+    get "/ui-map", PageController, :ui_map
+    get "/business", PageController, :business
+    get "/network", PageController, :network
+    get "/russell", PageController, :russell
+    get "/cards", PageController, :cards
+    get "/agents", PageController, :agents
+    get "/motion", PageController, :motion
+    get "/aframe", PageController, :aframe
+    get "/sketch-data", PageController, :sketch_data
     get "/adaptics", PageController, :adaptics
     get "/timeline", PageController, :timeline
     live "/canvas", CanvasLive, :index
+    live "/canvas/:space_slug", CanvasLive, :index
+    live "/axes", SemanticAxesLive.Index, :index
     live "/gc", GCLive, :index
     live "/documents", DocumentLive.Index, :index
     live "/documents/:id", DocumentLive.Show, :show
@@ -66,6 +87,7 @@ defmodule AdapticsWeb.Router do
     live "/scope", ScopeLive, :index
     live "/sketch/:space_slug", FabricCanvasLive, :index
     live "/tldraw", TldrawLive, :index
+    live "/penpot", PenpotLive, :index
     # live "/games/:id", GameBoardLive, :show
     live "/games/:id", GameBoardLive, :show
     get "/", PageController, :index
@@ -93,6 +115,18 @@ defmodule AdapticsWeb.Router do
   # If your application does not have an admins-only section yet,
   # you can use Plug.BasicAuth to set up some basic authentication
   # as long as you are also using SSL (which you should anyway).
+  # Claude Code transcripts browser — local only, never in a release (TX1).
+  if Mix.env() in [:dev, :test] do
+    scope "/transcripts", AdapticsWeb do
+      pipe_through :browser
+
+      live "/", TranscriptsLive, :index
+      live "/:project", TranscriptsLive, :project
+      live "/:project/map", TranscriptMapLive, :index
+      live "/:project/:id", TranscriptsLive, :show
+    end
+  end
+
   if Mix.env() in [:dev, :test] do
     import Phoenix.LiveDashboard.Router
 

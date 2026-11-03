@@ -1,0 +1,47 @@
+{
+  "name": "Jamaican mule",
+  "description": "A long, rum-based drink with spicy ginger and lime.",
+  "keywords": [
+    "strong",
+    "sour",
+    "spicy",
+    "ginger",
+    "cucumber",
+    "rum"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jamaican-mule",
+  "ingredients": [
+    {
+      "name": "brown rum",
+      "quantity": "6",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Ginger beer",
+      "quantity": "10",
+      "measure": "cl"
+    },
+    {
+      "name": "Cucumber",
+      "quantity": "35",
+      "measure": "g"
+    },
+    {
+      "name": "Ginger root",
+      "quantity": "40",
+      "measure": "g"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "320",
+      "measure": "g"
+    }
+  ]
+}

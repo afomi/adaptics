@@ -1,0 +1,25 @@
+{
+  "name": "Gotham",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "gotham",
+  "ingredients": [
+    {
+      "name": "Absinthe or pastis",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach bitters",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

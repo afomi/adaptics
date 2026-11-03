@@ -1,0 +1,30 @@
+{
+  "name": "Yokahama Romance",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "yokahama-romance",
+  "ingredients": [
+    {
+      "name": "Sake",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Unsprayed rose petal",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

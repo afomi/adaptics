@@ -1,0 +1,20 @@
+<.header>
+  Link {@link.name}
+  <:subtitle>A core generic object — a typed relation between two Nodes.</:subtitle>
+  <:actions>
+    <.link href={~p"/links/#{@link}/edit"}>
+      <.button>Edit link</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Name">{@link.name}</:item>
+  <:item title="Description">{@link.description}</:item>
+  <:item title="From">{@link.from_id}</:item>
+  <:item title="To">{@link.to_id}</:item>
+  <:item title="From hash">{@link.from_hash}</:item>
+  <:item title="To hash">{@link.to_hash}</:item>
+</.list>
+
+<.back navigate={~p"/links"}>Back to links</.back>

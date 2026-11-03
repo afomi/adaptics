@@ -1,0 +1,25 @@
+{
+  "name": "Traditional Martini (Dry)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "traditional-martini-dry",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

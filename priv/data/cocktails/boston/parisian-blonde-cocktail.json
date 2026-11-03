@@ -1,0 +1,25 @@
+{
+  "name": "Parisian Blonde Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "parisian-blonde-cocktail",
+  "ingredients": [
+    {
+      "name": "Sweet Cream",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Jamaica Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Rum Old-Fashioned",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "rum-old-fashioned",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "151-Proof Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

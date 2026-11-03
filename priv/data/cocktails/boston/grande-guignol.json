@@ -1,0 +1,30 @@
+{
+  "name": "Grande Guignol",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "grande-guignol",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cherry Heering",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

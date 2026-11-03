@@ -1,0 +1,45 @@
+{
+  "name": "Lazy Sunday",
+  "description": "An easier version of Vanilla 'Masala Chai' with an American twist for lazy people!",
+  "keywords": [
+    "new york",
+    "nyc",
+    "non-alcholic",
+    "lazy",
+    "hot",
+    "creamer",
+    "tea",
+    "milk",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lazy-sunday",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": "1-2",
+      "measure": "cups"
+    },
+    {
+      "name": "black tea leaves, (thick grain)",
+      "quantity": "2-3",
+      "measure": "teaspons"
+    },
+    {
+      "name": "International Delight French Vanilla flavored Coffee Creamer",
+      "quantity": "1-2",
+      "measure": "cup"
+    },
+    {
+      "name": "Cardamom [optional]",
+      "quantity": "2-3",
+      "measure": "seeds"
+    },
+    {
+      "name": "Cinnamon [optional]",
+      "quantity": "1",
+      "measure": "stick"
+    }
+  ]
+}

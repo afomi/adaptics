@@ -1,0 +1,61 @@
+{
+  "name": "Spicy Grapefruit Margarita",
+  "description": "Spicy twist to your regular margarita.",
+  "keywords": [
+    "tequila",
+    "spicy",
+    "grapefruit",
+    "alcoholic",
+    "jalapeno"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spicy-grapefruit-margarita",
+  "ingredients": [
+    {
+      "name": "silver tequila",
+      "quantity": "1 1/2 - 2",
+      "measure": "ounces"
+    },
+    {
+      "name": "grapefruit juice",
+      "quantity": "2 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "agave nectar: to taste",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "jalapeno: depending on spiciness of drink",
+      "quantity": "1-2",
+      "measure": "slices"
+    },
+    {
+      "name": "chilli powder",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "kosher salt",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "granulated sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "slices of lime + grapefruit: for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

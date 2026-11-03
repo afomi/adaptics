@@ -1,0 +1,30 @@
+{
+  "name": "Fort Lauderdale",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "fort-lauderdale",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of Orange",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Dragon Fruit Smoothie",
+  "description": "A healthy fruit smoothie with red dragon fruit, mango and bananas.",
+  "keywords": [
+    "dragon fruit",
+    "smoothie",
+    "fruit",
+    "ice",
+    "lime",
+    "almond milk",
+    "mango",
+    "banana"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dragon-fruit-smoothie",
+  "ingredients": [
+    {
+      "name": "cubed and frozen dragon fruit",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "cubed and frozen mango",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "frozen bananas (cut into quarters)",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "almond milk",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "whey protein powder",
+      "quantity": "1/2",
+      "measure": "scoop"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "2 - 4",
+      "measure": ""
+    }
+  ]
+}

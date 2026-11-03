@@ -1,0 +1,49 @@
+{
+  "name": "Paper Plane",
+  "description": "A bright, equal-parts modern classic with bourbon, Aperol, Amaro Nonino, and fresh lemon juice.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "bourbon",
+    "aperol",
+    "amaro",
+    "lemon",
+    "equal parts",
+    "modern classic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "paper-plane",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "Amaro Nonino Quintessentia",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lemon twist (optional garnish)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cool Carlos",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cool-carlos",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange curacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sour Mix",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

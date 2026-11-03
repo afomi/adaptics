@@ -1,0 +1,25 @@
+{
+  "name": "Rossini",
+  "description": "It's a kind of alcoholic drink made with sparkling candy and strawberry.",
+  "keywords": [
+    "sparkling",
+    "sweet",
+    "alcoholic",
+    "strawberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rossini",
+  "ingredients": [
+    {
+      "name": "sparkling candy",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "strawberry",
+      "quantity": "1",
+      "measure": "unit"
+    }
+  ]
+}

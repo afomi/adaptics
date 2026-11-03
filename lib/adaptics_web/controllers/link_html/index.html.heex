@@ -1,0 +1,33 @@
+<.header>
+  Listing Links
+  <:subtitle>{@link_count} links</:subtitle>
+  <:actions>
+    <.link href={~p"/links/new"}>
+      <.button>New Link</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.table id="links" rows={@links} row_click={&JS.navigate(~p"/links/#{&1}")}>
+  <:col :let={link} label="Name">{link.name}</:col>
+  <:col :let={link} label="Description">{link.description}</:col>
+  <:col :let={link} label="From">{link.from_id}</:col>
+  <:col :let={link} label="To">{link.to_id}</:col>
+  <:col :let={link} label="From hash">{link.from_hash}</:col>
+  <:col :let={link} label="To hash">{link.to_hash}</:col>
+  <:action :let={link}>
+    <.link navigate={~p"/links/#{link}"}>Show</.link>
+  </:action>
+  <:action :let={link}>
+    <.link navigate={~p"/links/#{link}/edit"}>Edit</.link>
+  </:action>
+  <:action :let={link}>
+    <.link
+      href={~p"/links/#{link}"}
+      method="delete"
+      data-confirm="Are you sure?"
+    >
+      Delete
+    </.link>
+  </:action>
+</.table>

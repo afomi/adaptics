@@ -1,0 +1,30 @@
+{
+  "name": "Sea Of Cortez",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "sea-of-cortez",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Cassis",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange curacao",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

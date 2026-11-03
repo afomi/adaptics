@@ -1,0 +1,40 @@
+{
+  "name": "Matcha Green Tea Smoothie",
+  "description": "This vegan Matcha Smoothie is smooth, low carb and lightly sweetened.",
+  "keywords": [
+    "matcha",
+    "vegan",
+    "smoothie",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "matcha-green-tea-smoothie",
+  "ingredients": [
+    {
+      "name": "Mango",
+      "quantity": "1",
+      "measure": "large"
+    },
+    {
+      "name": "Bananas",
+      "quantity": "2",
+      "measure": "frozen"
+    },
+    {
+      "name": "Bany Spinach",
+      "quantity": "2",
+      "measure": "large handfuls"
+    },
+    {
+      "name": "Matcha Green Tea Powder",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "light coconut milk",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

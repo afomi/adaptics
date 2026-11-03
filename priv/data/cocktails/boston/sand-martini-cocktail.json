@@ -1,0 +1,30 @@
+{
+  "name": "Sand-Martini Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sand-martini-cocktail",
+  "ingredients": [
+    {
+      "name": "Green Chartreuse",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sake",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

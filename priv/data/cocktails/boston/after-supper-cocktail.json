@@ -1,0 +1,25 @@
+{
+  "name": "After Supper Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "after-supper-cocktail",
+  "ingredients": [
+    {
+      "name": "Apricot-Flavored Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

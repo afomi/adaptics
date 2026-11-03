@@ -1,0 +1,40 @@
+{
+  "name": "Grasshopper",
+  "description": "A minty dessert in a glass.",
+  "keywords": [
+    "cold",
+    "sweet",
+    "minty",
+    "alcoholic",
+    "creme de menthe",
+    "creme de cacao",
+    "heavy cream",
+    "ice",
+    "blended"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grasshopper",
+  "ingredients": [
+    {
+      "name": "Creme de Menthe",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "White Creme de Cacao",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "heavy cream",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "ice",
+      "quantity": "3/4",
+      "measure": "cup"
+    }
+  ]
+}

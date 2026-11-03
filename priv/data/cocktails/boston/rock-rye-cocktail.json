@@ -1,0 +1,25 @@
+{
+  "name": "Rock & Rye Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "rock-rye-cocktail",
+  "ingredients": [
+    {
+      "name": "Rock and Rye",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White Port Wine",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

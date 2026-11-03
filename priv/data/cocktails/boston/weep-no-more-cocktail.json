@@ -1,0 +1,30 @@
+{
+  "name": "Weep-No-More Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "weep-no-more-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

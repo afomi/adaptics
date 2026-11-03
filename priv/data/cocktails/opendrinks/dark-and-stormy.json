@@ -1,0 +1,35 @@
+{
+  "name": "Dark and Stormy",
+  "description": "A highball cocktail made with dark rum and ginger beer, served over ice.",
+  "keywords": [
+    "highball",
+    "alcoholic",
+    "halloween",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dark-and-stormy",
+  "ingredients": [
+    {
+      "name": "Dark Rum",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger Beer",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime wedge for garnish",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

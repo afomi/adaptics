@@ -1,0 +1,25 @@
+{
+  "name": "H. P. W. Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "h-p-w-cocktail",
+  "ingredients": [
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

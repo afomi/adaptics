@@ -1,0 +1,50 @@
+{
+  "name": "Es Cendol",
+  "description": "Indonesian tropical drink with coconut milk",
+  "keywords": [
+    "cendol",
+    "sweet",
+    "fresh",
+    "Asian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "es-cendol",
+  "ingredients": [
+    {
+      "name": "rice flour",
+      "quantity": "100",
+      "measure": "gram"
+    },
+    {
+      "name": "sago flour",
+      "quantity": "50",
+      "measure": "gram"
+    },
+    {
+      "name": "water",
+      "quantity": "450",
+      "measure": "ml"
+    },
+    {
+      "name": "water with pandan leaves",
+      "quantity": "75",
+      "measure": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Amanprana Gula Java Coconut blossom sugar",
+      "quantity": "200",
+      "measure": "gr"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "600",
+      "measure": "ml"
+    }
+  ]
+}

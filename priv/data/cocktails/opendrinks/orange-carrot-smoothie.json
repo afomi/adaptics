@@ -1,0 +1,34 @@
+{
+  "name": "Orange Carrot Smoothie",
+  "description": "Here is a quick healthy smoothie loaded with vitamins!",
+  "keywords": [
+    "orange",
+    "carrot",
+    "smoothie",
+    "vitamin",
+    "juice",
+    "non-alcoholic",
+    "fruit",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "orange-carrot-smoothie",
+  "ingredients": [
+    {
+      "name": "orange",
+      "quantity": "1",
+      "measure": "peeled, chopped"
+    },
+    {
+      "name": "peeled, chopped carrots",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "0.5",
+      "measure": "cup"
+    }
+  ]
+}

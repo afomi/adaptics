@@ -1,0 +1,27 @@
+{
+  "name": "Baby Guinness",
+  "description": "A simple and sweet shot that resembles a baby pint of Guinness.",
+  "keywords": [
+    "alcoholic",
+    "guinness",
+    "coffee",
+    "shot",
+    "irish",
+    "irish cream"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "baby-guinness",
+  "ingredients": [
+    {
+      "name": "coffee flavored liqueur",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "irish cream liqueur",
+      "quantity": "0.5",
+      "measure": "oz"
+    }
+  ]
+}

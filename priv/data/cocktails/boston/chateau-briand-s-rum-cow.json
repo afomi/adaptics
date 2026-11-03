@@ -1,0 +1,30 @@
+{
+  "name": "Chateau Briand's Rum Cow",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "chateau-briand-s-rum-cow",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

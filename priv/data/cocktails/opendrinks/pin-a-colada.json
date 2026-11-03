@@ -1,0 +1,39 @@
+{
+  "name": "Piña Colada",
+  "description": "Voted best national drink in 1978 in Puerto Rico.",
+  "keywords": [
+    "rum",
+    "pineapple juice",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pin-a-colada",
+  "ingredients": [
+    {
+      "name": "white rum",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "amber rum",
+      "quantity": "0.5",
+      "measure": "fl oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "5 or 6",
+      "measure": ""
+    }
+  ]
+}

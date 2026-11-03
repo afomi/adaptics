@@ -1,0 +1,50 @@
+{
+  "name": "Lillet Buck",
+  "description": "A wonderfully refreshing drink - perfect to start off your next dinner-party",
+  "keywords": [
+    "cool",
+    "refreshing",
+    "alcoholic",
+    "ginger",
+    "lime",
+    "lime juice",
+    "mint",
+    "white wine",
+    "wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lillet-buck",
+  "ingredients": [
+    {
+      "name": "Lillet Blanc",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger Ale",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice, freshly squeezed",
+      "quantity": "1",
+      "measure": "splash"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lime",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Apple Pie",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cordials and Liqueurs",
+  "slug": "apple-pie",
+  "ingredients": [
+    {
+      "name": "Apple schnapps",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cinnamon schnapps",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "White Elephant",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "white-elephant",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

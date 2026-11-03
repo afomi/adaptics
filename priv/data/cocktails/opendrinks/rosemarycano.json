@@ -1,0 +1,38 @@
+{
+  "name": "Rosemarycano",
+  "description": "An Americano that elevates the usual Campari and vermouth base with the herbal, woody aroma of a bruised rosemary sprig.",
+  "keywords": [
+    "alcoholic",
+    "campari"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rosemarycano",
+  "ingredients": [
+    {
+      "name": "Untreated lemon",
+      "quantity": "0.5",
+      "measure": ""
+    },
+    {
+      "name": "Sprigs rosemary",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Campari",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Antica Formula (or another red vermouth of your choice)",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Tonic Water (preferably Fever-Tree)",
+      "quantity": "10",
+      "measure": "cl"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "The Sfozando",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-sfozando",
+  "ingredients": [
+    {
+      "name": "Mezcal",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rye Whiskey",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chocolate bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

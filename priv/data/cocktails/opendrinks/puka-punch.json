@@ -1,0 +1,59 @@
+{
+  "name": "Puka Punch",
+  "description": "Tiki drinks are famous for including a ton of different rums, but you'd be forgiven if you didn't quite understand what the point of all that rum-blending is. The Puka Punch, from Los Angeles' famous Tiki Ti, answers the question by taking you on a multi-layered rum adventure that starts with fruity honey, continues along to spice and caramel, ending with the dark smoke of the overproof Demerara rum slowly filtering to the bottom of the glass.This drink should be served with a straw, lest the drinker be subjected to a full face of overproof rum at first sip. Drinking from the bottom with the straw allows for the full gradient of rum flavors to come through, slowly blending in the overproof rum.",
+  "keywords": [
+    "refreshing",
+    "alcoholic",
+    "rum"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "puka-punch",
+  "ingredients": [
+    {
+      "name": "Light rum or Aged rum",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "Dark rum or Demerara rum or Spiced rum",
+      "quantity": "3/4",
+      "measure": "part"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "3/4",
+      "measure": "part"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "3/4",
+      "measure": "part"
+    },
+    {
+      "name": "Passion fruit syrup or Passion fruit liqueur",
+      "quantity": "3/4",
+      "measure": "part"
+    },
+    {
+      "name": "Falernum liqueur or Falernum syrup",
+      "quantity": "1/4",
+      "measure": "part"
+    },
+    {
+      "name": "Honey syrup",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Aromatic bitters or Orange bitters or Peach bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Overproof aged rum or Overproof light rum",
+      "quantity": "3/4",
+      "measure": "part"
+    }
+  ]
+}

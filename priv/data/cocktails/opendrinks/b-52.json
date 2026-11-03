@@ -1,0 +1,30 @@
+{
+  "name": "B-52",
+  "description": "Believed to have originated in 1970 by a bartender and fan of the iconic band, the B-52 is classic guilty pleasure armed with three liqueurs. Make this layered shooter in seconds and impress all your friends.",
+  "keywords": [
+    "shot",
+    "layers",
+    "coffee liqueur",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "b-52",
+  "ingredients": [
+    {
+      "name": "Coffee liqueur",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Baileys Irish cream liqueur",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Grand Marnier liqueur",
+      "quantity": "10",
+      "measure": "ml"
+    }
+  ]
+}

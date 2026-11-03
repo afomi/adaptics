@@ -1,0 +1,35 @@
+{
+  "name": "Jungle Juice",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "jungle-juice",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Cranberry Juice, orange juice, pineapple juice, lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

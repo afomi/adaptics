@@ -1,0 +1,58 @@
+{
+  "name": "Crusta",
+  "description": "A New Orleans based cocktail, named after its sugary outside crust.",
+  "keywords": [
+    "brandy",
+    "american",
+    "sugar",
+    "lemon",
+    "liqueur",
+    "curaçao",
+    "simple syrup"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "crusta",
+  "ingredients": [
+    {
+      "name": "brandy",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "curaçao",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Maraschino liqueur",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

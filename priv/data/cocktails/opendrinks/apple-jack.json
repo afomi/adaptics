@@ -1,0 +1,29 @@
+{
+  "name": "Apple Jack",
+  "description": "A year round favorite served warm or cold.",
+  "keywords": [
+    "alcoholic",
+    "apple",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-jack",
+  "ingredients": [
+    {
+      "name": "Jack Daniel's Old No. 7",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Apple juice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Apple",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

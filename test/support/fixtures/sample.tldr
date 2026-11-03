@@ -1,0 +1,227 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {
+      "com.tldraw.store": 5,
+      "com.tldraw.shape": 4,
+      "com.tldraw.page": 1,
+      "com.tldraw.shape.frame": 1,
+      "com.tldraw.shape.geo": 11,
+      "com.tldraw.shape.text": 4,
+      "com.tldraw.shape.arrow": 8,
+      "com.tldraw.shape.note": 12,
+      "com.tldraw.binding.arrow": 1
+    }
+  },
+  "records": [
+    {
+      "id": "page:page1",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page",
+      "meta": {}
+    },
+    {
+      "id": "shape:frame-system1",
+      "type": "frame",
+      "typeName": "shape",
+      "parentId": "page:page1",
+      "x": 100,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a1",
+      "props": {
+        "w": 500,
+        "h": 400,
+        "name": "System 1"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:frame-system2",
+      "type": "frame",
+      "typeName": "shape",
+      "parentId": "page:page1",
+      "x": 700,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a2",
+      "props": {
+        "w": 500,
+        "h": 400,
+        "name": "System 2"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:frame-nested",
+      "type": "frame",
+      "typeName": "shape",
+      "parentId": "shape:frame-system1",
+      "x": 120,
+      "y": 150,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a1",
+      "props": {
+        "w": 200,
+        "h": 150,
+        "name": "Subsystem A"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:rect-audit",
+      "type": "geo",
+      "typeName": "shape",
+      "parentId": "shape:frame-system1",
+      "x": 150,
+      "y": 350,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a2",
+      "props": {
+        "w": 150,
+        "h": 80,
+        "geo": "rectangle",
+        "text": "Audit function"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:rect-monitor",
+      "type": "geo",
+      "typeName": "shape",
+      "parentId": "shape:frame-nested",
+      "x": 130,
+      "y": 170,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a1",
+      "props": {
+        "w": 120,
+        "h": 60,
+        "geo": "rectangle",
+        "text": "Monitor"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:note-policy",
+      "type": "note",
+      "typeName": "shape",
+      "parentId": "shape:frame-system2",
+      "x": 750,
+      "y": 200,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a1",
+      "props": {
+        "text": "Policy review needed"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:text-hello",
+      "type": "text",
+      "typeName": "shape",
+      "parentId": "page:page1",
+      "x": 50,
+      "y": 50,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a3",
+      "props": {
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Hello World"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:dup-audit",
+      "type": "geo",
+      "typeName": "shape",
+      "parentId": "shape:frame-system2",
+      "x": 800,
+      "y": 350,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a2",
+      "props": {
+        "w": 150,
+        "h": 80,
+        "geo": "rectangle",
+        "text": "Audit function"
+      },
+      "meta": {}
+    },
+    {
+      "id": "shape:arrow1",
+      "type": "arrow",
+      "typeName": "shape",
+      "parentId": "page:page1",
+      "x": 400,
+      "y": 300,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "index": "a4",
+      "props": {
+        "start": { "x": 0, "y": 0 },
+        "end": { "x": 300, "y": 0 }
+      },
+      "meta": {}
+    },
+    {
+      "id": "binding:arrow1-start",
+      "typeName": "binding",
+      "type": "arrow",
+      "fromId": "shape:arrow1",
+      "toId": "shape:rect-audit",
+      "props": {
+        "terminal": "start",
+        "normalizedAnchor": { "x": 0.5, "y": 0.5 },
+        "isExact": false,
+        "isPrecise": false
+      },
+      "meta": {}
+    },
+    {
+      "id": "binding:arrow1-end",
+      "typeName": "binding",
+      "type": "arrow",
+      "fromId": "shape:arrow1",
+      "toId": "shape:note-policy",
+      "props": {
+        "terminal": "end",
+        "normalizedAnchor": { "x": 0.5, "y": 0.5 },
+        "isExact": false,
+        "isPrecise": false
+      },
+      "meta": {}
+    }
+  ]
+}

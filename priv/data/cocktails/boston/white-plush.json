@@ -1,0 +1,25 @@
+{
+  "name": "White Plush",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "white-plush",
+  "ingredients": [
+    {
+      "name": "Blended whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

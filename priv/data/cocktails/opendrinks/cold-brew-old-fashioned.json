@@ -1,0 +1,30 @@
+{
+  "name": "Cold Brew Old Fashioned",
+  "description": "This is a new spin on an Old Fashioned. This recipe features Rye, black coffee, bitters, and was adapted from How To Drink's YouTube Channel.",
+  "keywords": [
+    "coffee",
+    "rye",
+    "alcoholic",
+    "orange bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cold-brew-old-fashioned",
+  "ingredients": [
+    {
+      "name": "black coffee",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Rye",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "orange bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Tequila Sunrise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequila-sunrise",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

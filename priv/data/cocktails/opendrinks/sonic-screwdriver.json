@@ -1,0 +1,33 @@
+{
+  "name": "Sonic Screwdriver",
+  "description": "Like a Screwdriver, with a little Timey-Wimey.",
+  "keywords": [
+    "vodka",
+    "soda"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sonic-screwdriver",
+  "ingredients": [
+    {
+      "name": "Blue Curaçao.",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

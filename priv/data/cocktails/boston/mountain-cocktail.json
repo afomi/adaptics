@@ -1,0 +1,35 @@
+{
+  "name": "Mountain Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "mountain-cocktail",
+  "ingredients": [
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blended whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Cherry Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cherry-cooler",
+  "ingredients": [
+    {
+      "name": "Cherry Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

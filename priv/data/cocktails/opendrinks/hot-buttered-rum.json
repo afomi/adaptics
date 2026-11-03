@@ -1,0 +1,58 @@
+{
+  "name": "Hot Buttered Rum",
+  "description": "A deliciously creamy drink with a kick to warm you up! Can be made virgin for the kids.",
+  "keywords": [
+    "hot",
+    "butter",
+    "rum",
+    "creamy",
+    "cinnamon",
+    "nutmeg",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hot-buttered-rum",
+  "ingredients": [
+    {
+      "name": "butter",
+      "quantity": "1",
+      "measure": "pound"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "pound"
+    },
+    {
+      "name": "confectioners sugar",
+      "quantity": "1",
+      "measure": "pound"
+    },
+    {
+      "name": "vanilla ice cream",
+      "quantity": "1",
+      "measure": "quart"
+    },
+    {
+      "name": "ground cinnamon",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "ground nutmeg",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Rum",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Boiling water",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

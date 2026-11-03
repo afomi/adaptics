@@ -1,0 +1,38 @@
+{
+  "name": "Mexican Strawberry Water",
+  "description": "Fresh fruit waters, or Aguas de Frutas, made with crushed or blended fruit are a common and popular drink all over Mexico. This recipe is extremely flavorful and refreshing, especially when fresh strawberries are in season.",
+  "keywords": [
+    "non-alcoholic",
+    "mexican"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mexican-strawberry-water",
+  "ingredients": [
+    {
+      "name": "Strawberry",
+      "quantity": "4",
+      "measure": "Cups"
+    },
+    {
+      "name": "White sugar",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Cold Water",
+      "quantity": "8",
+      "measure": "Cup"
+    },
+    {
+      "name": "Lime (optional)",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Mint Sprig (optional)",
+      "quantity": "8",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Black Widow",
+  "description": "A cocktail perfect for Halloween to impress your friends.",
+  "keywords": [
+    "cocktail",
+    "halloween",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "black-widow",
+  "ingredients": [
+    {
+      "name": "black vodka or frozen raspberries",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "cranberry juice",
+      "quantity": "3",
+      "measure": "ounces"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hurricane",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "hurricane",
+  "ingredients": [
+    {
+      "name": "each Dark rum, light rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Passion Fruit Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Simple Syrup, grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

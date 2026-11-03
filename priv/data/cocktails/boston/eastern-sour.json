@@ -1,0 +1,35 @@
+{
+  "name": "Eastern Sour",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "eastern-sour",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "orgeat or almond syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

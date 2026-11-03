@@ -1,0 +1,30 @@
+{
+  "name": "Easter Elchies",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "easter-elchies",
+  "ingredients": [
+    {
+      "name": "Single-malt Scotch whisky",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cherry Heering",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Punt e Mes",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

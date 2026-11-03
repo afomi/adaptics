@@ -1,0 +1,30 @@
+{
+  "name": "Stone Wall",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "stone-wall",
+  "ingredients": [
+    {
+      "name": "thin Peeled fresh ginger",
+      "measure": "3 slices",
+      "quantity": null
+    },
+    {
+      "name": "Demerara Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh apple cider",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

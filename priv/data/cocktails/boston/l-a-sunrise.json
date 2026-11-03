@@ -1,0 +1,35 @@
+{
+  "name": "L.A. Sunrise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "l-a-sunrise",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de banana",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Medicine Ball Tea",
+  "description": "Perfect for when a cold strikes!",
+  "keywords": [
+    "tea",
+    "non-alcoholic",
+    "sweet",
+    "soothing",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "medicine-ball-tea",
+  "ingredients": [
+    {
+      "name": "hot water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "mint tea",
+      "quantity": "1",
+      "measure": "teabag"
+    },
+    {
+      "name": "green tea",
+      "quantity": "1",
+      "measure": "teabag"
+    },
+    {
+      "name": "honey",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "half"
+    }
+  ]
+}

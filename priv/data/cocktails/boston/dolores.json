@@ -1,0 +1,30 @@
+{
+  "name": "Dolores",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "dolores",
+  "ingredients": [
+    {
+      "name": "Brandy, preferably Spanish",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cherry liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White or dark creme de cacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

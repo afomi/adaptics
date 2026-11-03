@@ -1,0 +1,30 @@
+{
+  "name": "The Final Ward",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "the-final-ward",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green Chartreuse",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

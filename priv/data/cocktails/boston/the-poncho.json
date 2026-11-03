@@ -1,0 +1,30 @@
+{
+  "name": "The Poncho",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-poncho",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud's Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Espanhola",
+  "description": "Espanhola is a 'traditional' brazilian drink, very known in hang outs with friends, it's a bittersweet wine and pineapple drink.",
+  "keywords": [
+    "alcoholic",
+    "condensed milk",
+    "pineapple",
+    "wine",
+    "bittersweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "espanhola",
+  "ingredients": [
+    {
+      "name": "Red or dry wine",
+      "quantity": "1",
+      "measure": "L"
+    },
+    {
+      "name": "Medium pineapple",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Condensed milk",
+      "quantity": "1",
+      "measure": "can"
+    },
+    {
+      "name": "Crushed ice",
+      "quantity": "2 to 3",
+      "measure": "cups"
+    }
+  ]
+}

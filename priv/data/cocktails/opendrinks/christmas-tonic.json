@@ -1,0 +1,43 @@
+{
+  "name": "Christmas Tonic",
+  "description": "This gin and sparkling apple juice makes an easy seasonal twist on a gin and tonic which is ideal to serve at a Christmas party.",
+  "keywords": [
+    "gin",
+    "tonic",
+    "raisin",
+    "lemon",
+    "alcoholic",
+    "christmas",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "christmas-tonic",
+  "ingredients": [
+    {
+      "name": "Gin Bombay Sapphire",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cedilla",
+      "quantity": "0.2",
+      "measure": "oz"
+    },
+    {
+      "name": "Tonic",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Raisins",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

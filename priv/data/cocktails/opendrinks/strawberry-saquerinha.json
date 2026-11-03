@@ -1,0 +1,34 @@
+{
+  "name": "Strawberry Saquerinha",
+  "description": "It is a drink like Brazilian caipirinha but made with sake and strawberry.",
+  "keywords": [
+    "sake",
+    "caipirinha",
+    "strawberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-saquerinha",
+  "ingredients": [
+    {
+      "name": "Strawberry",
+      "quantity": "6",
+      "measure": "unit"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "spoon"
+    },
+    {
+      "name": "Sake",
+      "quantity": "75",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "pack"
+    }
+  ]
+}

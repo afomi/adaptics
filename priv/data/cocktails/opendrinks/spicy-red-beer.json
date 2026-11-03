@@ -1,0 +1,38 @@
+{
+  "name": "Spicy Red Beer",
+  "description": "This is a delicious addition to any meal or just by itself anytime day or night. Yummy and satisfying not to mention the health benefits.",
+  "keywords": [
+    "beer",
+    "spicy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spicy-red-beer",
+  "ingredients": [
+    {
+      "name": "Coors Banquet American Lager",
+      "quantity": "12",
+      "measure": "Fluid Ounces"
+    },
+    {
+      "name": "Tomato Juice",
+      "quantity": "5.5",
+      "measure": "Fluid Ounces"
+    },
+    {
+      "name": "Louisiana-Style Hot Sauce",
+      "quantity": "1/32",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "quantity": "1/32",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Seasoning Salt",
+      "quantity": "1/8",
+      "measure": "Teaspoon"
+    }
+  ]
+}

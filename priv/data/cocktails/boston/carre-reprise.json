@@ -1,0 +1,40 @@
+{
+  "name": "Carre Reprise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "carre-reprise",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cognac",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Elderflower liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud's Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "martini",
+  "name": "Martini",
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "description": null,
+  "keywords": [],
+  "ingredients": [
+    {"name": "Old Mr. Boston Dry Gin", "quantity": null, "measure": "2 oz"},
+    {"name": "Dry vermouth", "quantity": null, "measure": "1/2 oz"}
+  ]
+}

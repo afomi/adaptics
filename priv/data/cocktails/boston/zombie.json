@@ -1,0 +1,40 @@
+{
+  "name": "Zombie",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "zombie",
+  "ingredients": [
+    {
+      "name": "Gold rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "151-Proof Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh Lime Juice, lemon juice, pineapple juie, and passion fruit syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Demerara Syrup",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tiki (such as Bittermen's 'Elemakule) or Angostura bitters (optional) Garnish: Fresh mint sprig",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

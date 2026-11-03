@@ -1,0 +1,84 @@
+{
+  "name": "Burhani/Borhani",
+  "description": "Burhani/Borhani, is a traditional yogurt-like drink from Bangladesh. Burhani is a perfect summer drink. It is considered by some to be a type of lassi.",
+  "keywords": [
+    "classical",
+    "salt",
+    "coriander",
+    "cumin",
+    "yogurt",
+    "mint",
+    "summer",
+    "spicy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "burhani-borhani",
+  "ingredients": [
+    {
+      "name": "Plain Yoghurt",
+      "quantity": ".5",
+      "measure": "Kilogram"
+    },
+    {
+      "name": "White pepper powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Mustard Powder",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Fresh mint leaves paste",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Red Chili Powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Roasted Cumin Powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Roasted Coriander Powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Ginger Paste",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Green Chili Paste",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Black Salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Salt",
+      "quantity": "to taste",
+      "measure": "N/a"
+    },
+    {
+      "name": "Water",
+      "quantity": "1/2",
+      "measure": "Cup"
+    }
+  ]
+}

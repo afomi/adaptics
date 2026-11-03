@@ -1,0 +1,35 @@
+{
+  "name": "The Cinquecento",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-cinquecento",
+  "ingredients": [
+    {
+      "name": "Bison grass vodka (Zubrowka)",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grapefruit juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

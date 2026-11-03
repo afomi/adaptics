@@ -1,0 +1,30 @@
+{
+  "name": "Irish Rickey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "irish-rickey",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Soda water",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime wedge",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

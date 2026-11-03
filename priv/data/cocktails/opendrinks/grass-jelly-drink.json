@@ -1,0 +1,37 @@
+{
+  "name": "Grass Jelly Drink",
+  "description": "Grass jelly drink is a popular Asian drink typically consisting of grass jelly, water, and simple syrup. Grass jelly is jelly made from an herbal plant called mesona chinensis, which has been traditionally thought to have the effect of cooling down the body.",
+  "keywords": [
+    "coffee",
+    "non-alcoholic",
+    "cold",
+    "sweet",
+    "grass jelly",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grass-jelly-drink",
+  "ingredients": [
+    {
+      "name": "grass jelly (fresh or canned)",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "water or soybean milk",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup (sugar and water)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

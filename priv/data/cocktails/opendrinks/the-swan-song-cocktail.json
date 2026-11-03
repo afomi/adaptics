@@ -1,0 +1,33 @@
+{
+  "name": "The Swan Song Cocktail",
+  "description": "Applejack and orange juice celebrate autumn flavors. Brandy and grenadine add extra punch and tingle. The result? A drink that says hello to fall. Even when it’s saying goodbye. ",
+  "keywords": [
+    "cocktail",
+    "swan song"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-swan-song-cocktail",
+  "ingredients": [
+    {
+      "name": "brandy or cognac",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "applejack",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh-squeezed orange juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "grenadine ",
+      "quantity": "1 to 2",
+      "measure": "dash"
+    }
+  ]
+}

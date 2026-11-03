@@ -1,0 +1,45 @@
+{
+  "name": "Malibu Sunset",
+  "description": "An easy and fruity tropical beverage that tastes like an island vacation",
+  "keywords": [
+    "tropical",
+    "fruity",
+    "coconut",
+    "rum"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "malibu-sunset",
+  "ingredients": [
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "handful"
+    },
+    {
+      "name": "pineapple-orange juice",
+      "quantity": "3 to 4",
+      "measure": "ounces"
+    },
+    {
+      "name": "Malibu Coconut Rum",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "1",
+      "measure": "drizzle"
+    },
+    {
+      "name": "maraschino cherries, for garnishing",
+      "quantity": "1 to 2",
+      "measure": ""
+    },
+    {
+      "name": "pineapple and/or slices of orange, for garnishing",
+      "quantity": "1 to 2",
+      "measure": ""
+    }
+  ]
+}

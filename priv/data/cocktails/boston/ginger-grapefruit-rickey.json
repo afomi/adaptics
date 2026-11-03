@@ -1,0 +1,30 @@
+{
+  "name": "Ginger Grapefruit Rickey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "ginger-grapefruit-rickey",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grapefruit juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

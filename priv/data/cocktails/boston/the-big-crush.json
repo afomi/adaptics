@@ -1,0 +1,30 @@
+{
+  "name": "The Big Crush",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-big-crush",
+  "ingredients": [
+    {
+      "name": "Raspberry-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Raspberry-flavored liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

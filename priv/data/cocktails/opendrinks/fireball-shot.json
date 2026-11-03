@@ -1,0 +1,21 @@
+{
+  "name": "Fireball Shot",
+  "description": "A spicy cinnamon whiskey shot that's easy and always a party hit.",
+  "keywords": [
+    "shot",
+    "whiskey",
+    "cinnamon",
+    "strong",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fireball-shot",
+  "ingredients": [
+    {
+      "name": "Cinnamon whiskey",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    }
+  ]
+}

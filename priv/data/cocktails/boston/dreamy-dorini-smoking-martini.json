@@ -1,0 +1,25 @@
+{
+  "name": "Dreamy Dorini Smoking Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "dreamy-dorini-smoking-martini",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Smoky Scotch, such as Laphroaig",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pastis",
+      "measure": "4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Shikanji",
+  "description": "Shikanji or Shikanjvi is an Indian summer drink. This magical drink is a lemon infused drink with some spices, topped with soda or water.",
+  "keywords": [
+    "summer",
+    "Indian",
+    "non-alcoholic",
+    "lemon",
+    "salt",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "shikanji",
+  "ingredients": [
+    {
+      "name": "mint leaves",
+      "quantity": "5",
+      "measure": "leaves"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "black salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "chilled water/soda",
+      "quantity": "2",
+      "measure": "glass"
+    },
+    {
+      "name": "cumin seeds",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "as required",
+      "measure": ""
+    },
+    {
+      "name": "coriander seeds",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "chat masala",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "powdered sugar",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "black peppercorns",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

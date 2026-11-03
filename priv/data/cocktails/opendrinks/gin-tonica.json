@@ -1,0 +1,51 @@
+{
+  "name": "Gin Tonica",
+  "description": "An aromatic spanish gin and tonic containing fruits and herbs for added taste. Traditionally served in a red wine balloon glass.",
+  "keywords": [
+    "gin",
+    "tonic",
+    "fresh",
+    "aromatic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gin-tonica",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Tonic Water",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1/4",
+      "measure": "wedge"
+    },
+    {
+      "name": "Grapefruit",
+      "quantity": "1",
+      "measure": "thin slice"
+    },
+    {
+      "name": "Rosemary",
+      "quantity": "1",
+      "measure": "sprig"
+    },
+    {
+      "name": "Juniper Berries",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Strawberry",
+      "quantity": "1",
+      "measure": "sliced"
+    }
+  ]
+}

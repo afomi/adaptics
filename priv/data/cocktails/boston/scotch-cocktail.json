@@ -1,0 +1,20 @@
+{
+  "name": "Scotch Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "scotch-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Creme de Menthe (White)",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Desmond & Duff Scotch Whisky",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

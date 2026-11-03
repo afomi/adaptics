@@ -1,0 +1,32 @@
+{
+  "name": "Pineapple Shot",
+  "description": "An easy two-ingredient fruity shot with vodka and pineapple juice.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "pineapple",
+    "easy",
+    "alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pineapple-shot",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

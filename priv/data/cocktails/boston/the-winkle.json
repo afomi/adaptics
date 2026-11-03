@@ -1,0 +1,40 @@
+{
+  "name": "The Winkle",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "the-winkle",
+  "ingredients": [
+    {
+      "name": "Fresh sage leaves",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Limoncello",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Raspberries, lemon twist",
+      "measure": "4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Purple Pancho",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "purple-pancho",
+  "ingredients": [
+    {
+      "name": "Lime wedge, superfine sugar",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blue curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sloe gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh lemon juice, simple syrup, 1 lime wheel",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

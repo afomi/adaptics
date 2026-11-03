@@ -1,0 +1,25 @@
+{
+  "name": "Top Banana",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "top-banana",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de banana",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

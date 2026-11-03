@@ -1,0 +1,35 @@
+{
+  "name": "Wiki Waki Woo",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "wiki-waki-woo",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "151-Proof Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Vodka, tequila blanco, triple sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh orange juice, pineapple juice, cranberry juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

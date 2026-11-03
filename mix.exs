@@ -10,7 +10,8 @@ defmodule Adaptics.MixProject do
       compilers: [] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
-      deps: deps()
+      deps: deps(),
+      listeners: [Phoenix.CodeReloader]
     ]
   end
 
@@ -33,23 +34,33 @@ defmodule Adaptics.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.6.15"},
-      {:phoenix_ecto, "~> 4.4"},
-      {:ecto_sql, "~> 3.6"},
-      {:postgrex, ">= 0.0.0"},
-      {:phoenix_html, "~> 3.0"},
-      {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:phoenix_live_view, "~> 0.17.5"},
-      {:floki, ">= 0.30.0", only: :test},
-      {:phoenix_live_dashboard, "~> 0.6"},
-      {:esbuild, "~> 0.4", runtime: Mix.env() == :dev},
-      {:swoosh, "~> 1.3"},
-      {:telemetry_metrics, "~> 0.6"},
-      {:telemetry_poller, "~> 1.0"},
-      {:gettext, "~> 0.18"},
-      {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"},
-      {:tailwind, "~> 0.1", runtime: Mix.env() == :dev}
+      {:esbuild, "~> 0.10", runtime: Mix.env() == :dev},
+      {:floki, ">= 0.38.0", only: :test},
+      {:lazy_html, ">= 0.1.0", only: :test},
+      {:phoenix, "~> 1.8.3"},
+      {:phoenix_html_helpers, "~> 1.0"},
+      {:phoenix_ecto, "~> 4.7"},
+      {:ecto_sql, "~> 3.13.4"},
+      {:postgrex, ">= 0.22.0"},
+      {:phoenix_html, "~> 4.3"},
+      {:phoenix_live_reload, "~> 1.6.2", only: :dev},
+      {:phoenix_live_view, "~> 1.1.20"},
+      {:phoenix_live_dashboard, "~> 0.8.7"},
+      {:swoosh, "~> 1.19.8"},
+      {:telemetry_metrics, "~> 1.1.0"},
+      {:telemetry_poller, "~> 1.3.0"},
+      {:gettext, "~> 1.0"},
+      {:jason, "~> 1.4"},
+      {:plug_cowboy, "~> 2.8"},
+      {:tailwind, "~> 0.4.1", runtime: Mix.env() == :dev},
+      {:ex_aws, "~> 2.5"},
+      {:ex_aws_s3, "~> 2.5"},
+      {:sweet_xml, "~> 0.7"},
+      {:hackney, "~> 1.25"},
+      {:oban, "~> 2.18"},
+      {:req, "~> 0.5"},
+      {:earmark, "~> 1.4"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 
@@ -61,12 +72,12 @@ defmodule Adaptics.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "ecto.setup"],
+      setup: ["deps.get", "ecto.setup", "assets.setup"],
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
-      "assets.deploy": ["tailwind default --minify", "esbuild default --minify", "phx.digest"]
-
+      "assets.setup": ["tailwind.install --if-missing", "esbuild.install --if-missing"],
+      "assets.deploy": ["tailwind default --minify", "esbuild default --minify", "esbuild excalidraw --minify", "esbuild tldraw --minify", "phx.digest"]
     ]
   end
 end

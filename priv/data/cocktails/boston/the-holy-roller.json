@@ -1,0 +1,35 @@
+{
+  "name": "The Holy Roller",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "the-holy-roller",
+  "ingredients": [
+    {
+      "name": "Cachaca",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Champagne or sparkling wine, mint sprig",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

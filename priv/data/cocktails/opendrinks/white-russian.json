@@ -1,0 +1,34 @@
+{
+  "name": "White Russian",
+  "description": "The White Russian is a three-ingredient cocktail based on the erstwhile Black Russian, which turns white on the addition of cream.",
+  "keywords": [
+    "alcoholic",
+    "milk",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-russian",
+  "ingredients": [
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "coffee liqueur",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "vodka",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh cream",
+      "quantity": "3/4",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Golden Friendship",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "golden-friendship",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

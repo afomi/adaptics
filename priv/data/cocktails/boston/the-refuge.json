@@ -1,0 +1,35 @@
+{
+  "name": "The Refuge",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-refuge",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aperol",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bucks Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bucks-fizz",
+  "ingredients": [
+    {
+      "name": "orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

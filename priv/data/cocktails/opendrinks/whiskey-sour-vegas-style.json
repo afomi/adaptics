@@ -1,0 +1,40 @@
+{
+  "name": "Whiskey Sour [Vegas Style]",
+  "description": "Simple to make Whiskey sour. Commonly served at Vegas casinos when gambling.",
+  "keywords": [
+    "vegas",
+    "whiskey",
+    "bourbon",
+    "sour"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "whiskey-sour-vegas-style",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice (Sour Mix)",
+      "quantity": "2.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cubed Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cherry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Orange, Lemon, or Lime",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

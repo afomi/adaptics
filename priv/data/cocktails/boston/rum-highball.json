@@ -1,0 +1,15 @@
+{
+  "name": "Rum Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "rum-highball",
+  "ingredients": [
+    {
+      "name": "Light or dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

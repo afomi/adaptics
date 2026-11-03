@@ -1,0 +1,15 @@
+{
+  "name": "Zero Mint",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "zero-mint",
+  "ingredients": [
+    {
+      "name": "Mr. Boston Creme de menthe",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

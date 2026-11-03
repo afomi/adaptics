@@ -1,0 +1,20 @@
+{
+  "name": "Beer Buster",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "beer-buster",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Hot red pepper sauce",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

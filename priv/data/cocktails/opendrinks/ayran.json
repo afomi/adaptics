@@ -1,0 +1,32 @@
+{
+  "name": "Ayran",
+  "description": "Ayran is a Turkish non-alcoholic drink made of yoghurt and water.",
+  "keywords": [
+    "yogurt",
+    "water",
+    "cold",
+    "non-alcoholic",
+    "mint",
+    "turkish"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ayran",
+  "ingredients": [
+    {
+      "name": "yoghurt",
+      "quantity": "250",
+      "measure": "ml"
+    },
+    {
+      "name": "cold water",
+      "quantity": "250",
+      "measure": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "La Vie en Rose",
+  "description": "Champagne cocktail",
+  "keywords": [
+    "alcoholic",
+    "champagne",
+    "cocktail",
+    "cointreau",
+    "cool",
+    "cranberry",
+    "fruit",
+    "juice",
+    "lime",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "la-vie-en-rose",
+  "ingredients": [
+    {
+      "name": "Lime juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Cointreau",
+      "quantity": "1 1⁄2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry juice",
+      "quantity": "1 1⁄2",
+      "measure": "oz"
+    },
+    {
+      "name": "Champagne",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

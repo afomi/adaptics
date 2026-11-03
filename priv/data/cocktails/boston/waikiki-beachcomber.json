@@ -1,0 +1,25 @@
+{
+  "name": "Waikiki Beachcomber",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "waikiki-beachcomber",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

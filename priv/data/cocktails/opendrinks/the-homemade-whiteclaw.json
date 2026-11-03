@@ -1,0 +1,29 @@
+{
+  "name": "The Homemade Whiteclaw",
+  "description": "This summery drink took America by storm in 2019, now make it at home for a fraction of the cost.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "citrus"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-homemade-whiteclaw",
+  "ingredients": [
+    {
+      "name": "Sobieski Vodka",
+      "quantity": "1.5oz",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "0.2",
+      "measure": "oz"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "5",
+      "measure": "oz"
+    }
+  ]
+}

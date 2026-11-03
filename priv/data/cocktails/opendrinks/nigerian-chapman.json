@@ -1,0 +1,62 @@
+{
+  "name": "Nigerian Chapman",
+  "description": "The Nigerian Chapman is the perfect cocktail for any occasion",
+  "keywords": [
+    "fanta",
+    "fruit",
+    "grenadine",
+    "lemon",
+    "orange",
+    "sprite"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "nigerian-chapman",
+  "ingredients": [
+    {
+      "name": "Grenadine Syrup",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Angostura Aromatic Bitters",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Fanta Orange",
+      "quantity": "350",
+      "measure": "ml"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "350",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Ice Cubes",
+      "quantity": "2 or 3",
+      "measure": "full"
+    },
+    {
+      "name": "Ribena Blackcurrant",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "oranges,cucumbers and apples",
+      "quantity": "3",
+      "measure": "sliced"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Long Island Iced Tea",
+  "description": "A Long Island Iced Tea is a type of alcoholic mixed drink typically made with vodka, tequila, light rum, triple sec, gin, and a splash of cola, which gives the drink the same amber hue as its namesake.",
+  "keywords": [
+    "long island",
+    "iced tea",
+    "alcoholic",
+    "vodka",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "long-island-iced-tea",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "rum",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "gin",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "tequila",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "triple sec (orange-flavored liqueur)",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "sweet and sour mix",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "cola, or to taste",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "lemon slice",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Ko Adang",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "ko-adang",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coconut rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mango nectar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cream of coconut",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice, lime wheel",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

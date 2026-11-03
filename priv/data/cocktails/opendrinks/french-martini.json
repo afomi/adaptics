@@ -1,0 +1,41 @@
+{
+  "name": "French Martini",
+  "description": "A deliciously fruity cocktail that combines Vodka with pineapple juice and Chambord liqueur.",
+  "keywords": [
+    "alcoholic",
+    "fruity",
+    "sweet",
+    "vodka",
+    "chambord"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "french-martini",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "35",
+      "measure": "ml"
+    },
+    {
+      "name": "freshly pressed pineapple juice",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Chambord",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "raspberries",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "cubed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

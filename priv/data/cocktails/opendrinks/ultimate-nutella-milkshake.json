@@ -1,0 +1,45 @@
+{
+  "name": "Ultimate Nutella Milkshake",
+  "description": "A cold concotion for the sweet tooth.",
+  "keywords": [
+    "chocolate",
+    "nutella",
+    "non-alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ultimate-nutella-milkshake",
+  "ingredients": [
+    {
+      "name": "Nutella",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Vanilla Icecream",
+      "quantity": "1",
+      "measure": "scoop"
+    },
+    {
+      "name": "Hazelnut Icecream - Optional",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "chocolate paste",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "whole milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "sprinkles",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

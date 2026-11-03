@@ -1,0 +1,47 @@
+{
+  "name": "Newfoundland Christmas Slush",
+  "description": "A frosty blend of pinapple and citrus frozen together with vodka to create a base for a delicous cocktail from the province of Newfoundland, Canada",
+  "keywords": [
+    "vodka",
+    "holiday",
+    "pineapple juice",
+    "orange",
+    "alcoholic",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "newfoundland-christmas-slush",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "7.5",
+      "measure": "cups>"
+    },
+    {
+      "name": "White sugar",
+      "quantity": "1.5",
+      "measure": "cups"
+    },
+    {
+      "name": "Frozen Lemonade",
+      "quantity": "1",
+      "measure": "Can"
+    },
+    {
+      "name": "Pinapple Juice",
+      "quantity": "1",
+      "measure": "Can"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "26",
+      "measure": "oz"
+    },
+    {
+      "name": "Soda (7up)",
+      "quantity": "To fill",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Hyatt's Jamaican Banana",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hyatt-s-jamaican-banana",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de banana",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vanilla Ice Cream",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Banana",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

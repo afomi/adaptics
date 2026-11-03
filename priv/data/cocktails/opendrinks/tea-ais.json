@@ -1,0 +1,38 @@
+{
+  "name": "Tea Ais",
+  "description": "Tea Ais is Ice Tea with condensed milk. Its name is derived from the pouring of 'pulling' the drink during preparation.",
+  "keywords": [
+    "tea",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tea-ais",
+  "ingredients": [
+    {
+      "name": "black tea bags",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "water, boiling hot",
+      "quantity": "3",
+      "measure": "cups"
+    },
+    {
+      "name": "sweetened condensed milk",
+      "quantity": "4",
+      "measure": "tbs"
+    },
+    {
+      "name": "super (optional)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice cubes as needed",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

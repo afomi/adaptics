@@ -1,0 +1,31 @@
+{
+  "name": "Bruce Wayne Cocktail",
+  "description": "Something magical happens to an iced coffee when you shake it with whiskey and maple syrup: You get a lovely, creamy head of foam on top — almost like a Guinness — that disguises the dark depths below (which contain enough caffeine to power any nocturnal superhero).",
+  "keywords": [
+    "bourbon",
+    "maple syrup",
+    "coffee",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bruce-wayne-cocktail",
+  "ingredients": [
+    {
+      "name": "Cold brew coffee",
+      "quantity": "135",
+      "measure": "ml"
+    },
+    {
+      "name": "Bourbon",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Maple syrup",
+      "quantity": "15",
+      "measure": "ml"
+    }
+  ]
+}

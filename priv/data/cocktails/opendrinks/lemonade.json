@@ -1,0 +1,30 @@
+{
+  "name": "Lemonade",
+  "description": "Lemonade can be any one of a variety of sweetened or unsweetened beverages found throughout the world, but which are traditionally all characterized by a lemon flavor.",
+  "keywords": [
+    "non-alcoholic",
+    "sweet",
+    "fresh",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lemonade",
+  "ingredients": [
+    {
+      "name": "Lemon",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Sugar",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Water",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

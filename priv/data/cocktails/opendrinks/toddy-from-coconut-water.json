@@ -1,0 +1,33 @@
+{
+  "name": "Toddy from Coconut Water",
+  "description": "Toddy is an alcoholic drink got from palm or coconut tree.",
+  "keywords": [
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "toddy-from-coconut-water",
+  "ingredients": [
+    {
+      "name": "Coconut water or tender coconut water ",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "Yeast",
+      "quantity": "1/2",
+      "measure": "tsp"
+    },
+    {
+      "name": "Lukewarm water",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

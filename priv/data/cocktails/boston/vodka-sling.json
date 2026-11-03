@@ -1,0 +1,25 @@
+{
+  "name": "Vodka Sling",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-sling",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

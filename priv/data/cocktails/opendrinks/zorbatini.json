@@ -1,0 +1,24 @@
+{
+  "name": "Zorbatini",
+  "description": "Cocktail with Ouzo and Vodka.",
+  "keywords": [
+    "alcoholic",
+    "ouzo",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "zorbatini",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "ouzo",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

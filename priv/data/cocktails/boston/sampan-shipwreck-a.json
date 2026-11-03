@@ -1,0 +1,35 @@
+{
+  "name": "Sampan Shipwreck A",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "sampan-shipwreck-a",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Canned coconut milk",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold brewed chai tea",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "orgeat or almond syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

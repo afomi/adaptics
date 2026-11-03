@@ -1,0 +1,40 @@
+{
+  "name": "Vodka Irish Coffee",
+  "description": "A cocktail of coffee, vodka, and Irish cream. An alternative to the classic Irish Coffee with whiskey.",
+  "keywords": [
+    "vodka",
+    "coffee",
+    "irish cream",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-irish-coffee",
+  "ingredients": [
+    {
+      "name": "Cold brewed coffee",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Ketel One vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Bailey's Irish cream",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura aromatic bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Ground nutmeg",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

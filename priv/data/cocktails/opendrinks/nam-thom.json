@@ -1,0 +1,30 @@
+{
+  "name": "Nam Thom",
+  "description": "It's the most famous drink for a teenager in the southside of Thailand",
+  "keywords": [
+    "Herb",
+    "chilled",
+    "refreshing",
+    "Non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "nam-thom",
+  "ingredients": [
+    {
+      "name": "kratom leaf",
+      "quantity": "20 - 30",
+      "measure": "leaves"
+    },
+    {
+      "name": "water",
+      "quantity": "1.5 - 2",
+      "measure": "liter"
+    },
+    {
+      "name": "soft drink ex. Pepsi,CocaCola",
+      "quantity": "1.5 - 2",
+      "measure": "liter"
+    }
+  ]
+}

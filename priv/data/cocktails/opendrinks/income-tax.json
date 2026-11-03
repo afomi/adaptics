@@ -1,0 +1,42 @@
+{
+  "name": "Income Tax",
+  "description": "A citrusy gin cocktail.",
+  "keywords": [
+    "gin",
+    "vermouth",
+    "bitters",
+    "orange juice",
+    "citrus",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "income-tax",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "dry vermouth",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

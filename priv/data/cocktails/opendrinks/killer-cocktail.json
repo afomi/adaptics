@@ -1,0 +1,37 @@
+{
+  "name": "Killer Cocktail",
+  "description": "Amaretto and passion fruit dominate this bittersweet sour. Adapted from a recipe created by Tess Posthumus, Amsterdam, The Netherlands.",
+  "keywords": [
+    "amaretto"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "killer-cocktail",
+  "ingredients": [
+    {
+      "name": "Disaronno amaretto",
+      "quantity": "1.5",
+      "measure": "shot"
+    },
+    {
+      "name": "Rutte Dry Gin",
+      "quantity": "1",
+      "measure": "shot"
+    },
+    {
+      "name": "Italian red bitter liqueur",
+      "quantity": "1/3",
+      "measure": "shot"
+    },
+    {
+      "name": "Passion fruit syrup",
+      "quantity": "1/3",
+      "measure": "shot"
+    },
+    {
+      "name": "Freshly squeezed lemon juice",
+      "quantity": "1",
+      "measure": "shot"
+    }
+  ]
+}

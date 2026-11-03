@@ -1,0 +1,40 @@
+{
+  "name": "Kombucha-Vodka Highball",
+  "description": "Take this mule on a kombucha fueled ride.",
+  "keywords": [
+    "alcoholic",
+    "ginger",
+    "lime",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kombucha-vodka-highball",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "3/4",
+      "measure": "ounce"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "ginger-flavored kombucha",
+      "quantity": "3",
+      "measure": "ounces"
+    },
+    {
+      "name": "Lime wedge, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Bloody Scotsman",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "bloody-scotsman",
+  "ingredients": [
+    {
+      "name": "Smoky Scotch whisky, such as Laphroaig",
+      "measure": "24 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Juice",
+      "measure": "24 oz",
+      "quantity": null
+    },
+    {
+      "name": "V8 cocktail juice",
+      "measure": "24 oz",
+      "quantity": null
+    },
+    {
+      "name": "ketchup",
+      "measure": "1c",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup, 3/4 oz",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Pink Paradise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "pink-paradise",
+  "ingredients": [
+    {
+      "name": "Coconut-flavored rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

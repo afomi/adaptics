@@ -1,0 +1,47 @@
+{
+  "name": "Basil Smash Pina Colada",
+  "description": "Perfect frozen cocktail to celebrate the unofficial start of summer!",
+  "keywords": [
+    "cool",
+    "basil",
+    "alcoholic",
+    "summer",
+    "rum",
+    "pina colada"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "basil-smash-pina-colada",
+  "ingredients": [
+    {
+      "name": "lime, quartered",
+      "quantity": "4",
+      "measure": "pieces"
+    },
+    {
+      "name": "basil or mint leaves",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "white rum",
+      "quantity": "8",
+      "measure": "ounces"
+    },
+    {
+      "name": "dark rum",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "pineapple chunks",
+      "quantity": "3 1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "canned coconut cream",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

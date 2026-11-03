@@ -1,0 +1,34 @@
+{
+  "name": "Aviation",
+  "description": "A classic cocktail made with gin, maraschino liqueur, creme de violette (optional), and lemon juice. This drink is meant to be served straight, and in a cocktail glass.",
+  "keywords": [
+    "alcoholic",
+    "citrus",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "aviation",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "maraschino liqueur",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "creme de violette (optional)",
+      "quantity": "15",
+      "measure": "ml"
+    }
+  ]
+}

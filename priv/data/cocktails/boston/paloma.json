@@ -1,0 +1,15 @@
+{
+  "name": "Paloma",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "paloma",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

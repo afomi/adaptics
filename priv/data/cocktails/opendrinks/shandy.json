@@ -1,0 +1,26 @@
+{
+  "name": "Shandy",
+  "description": "This makes for a luscious beer with a hint of lemonade.",
+  "keywords": [
+    "alcoholic",
+    "beer",
+    "lager",
+    "lemonade",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "shandy",
+  "ingredients": [
+    {
+      "name": "Lager-style beer",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "Prepared lemonade",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

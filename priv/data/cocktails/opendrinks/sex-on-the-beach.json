@@ -1,0 +1,43 @@
+{
+  "name": "Sex on the beach",
+  "description": "In the name of a cocktail, beach is equivalent to cranberry juice. It was created by the T.G.I. Friday's.",
+  "keywords": [
+    "vodka",
+    "juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sex-on-the-beach",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "melon syrup",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "chambord",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "cranberry juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

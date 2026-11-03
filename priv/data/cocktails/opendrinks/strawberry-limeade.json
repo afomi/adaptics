@@ -1,0 +1,45 @@
+{
+  "name": "Strawberry Limeade",
+  "description": "This strawberry limeade is a little sweet and a little sour with fresh strawberry puree in the mix. Use fresh lime juice and the sweetest strawberries you can find. It is the perfect summer drink for adults and kids.",
+  "keywords": [
+    "mint",
+    "juice",
+    "strawberry",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-limeade",
+  "ingredients": [
+    {
+      "name": "Lime Juice",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "Sliced Strawberries",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "Mint Leaves",
+      "quantity": "20",
+      "measure": ""
+    },
+    {
+      "name": "Cold Water",
+      "quantity": "2",
+      "measure": "cup"
+    }
+  ]
+}

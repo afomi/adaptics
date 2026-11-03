@@ -1,0 +1,35 @@
+{
+  "name": "Goat's Delight",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "goat-s-delight",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Kirschwasser",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "orgeat or almond syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Absinthe or pastis",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

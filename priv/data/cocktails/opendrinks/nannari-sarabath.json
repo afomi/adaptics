@@ -1,0 +1,34 @@
+{
+  "name": "Nannari Sarabath",
+  "description": "Nannari Sarbath is one of the refreshing drinks to relish every summer",
+  "keywords": [
+    "non-alcoholic",
+    "sweet",
+    "refreshing"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "nannari-sarabath",
+  "ingredients": [
+    {
+      "name": "Nannari Syrup",
+      "quantity": "4",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "water",
+      "quantity": "120",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tablespoons"
+    }
+  ]
+}

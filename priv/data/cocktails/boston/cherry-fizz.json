@@ -1,0 +1,20 @@
+{
+  "name": "Cherry Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cherry-fizz",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

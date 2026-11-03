@@ -1,0 +1,43 @@
+{
+  "name": "Gin fizz",
+  "description": "Mix a sparkling gin fizz cocktail (or two) for when you're entertaining. With just a handful of ingredients you can create a refreshing drink that evokes summer",
+  "keywords": [
+    "cocktail",
+    "gin",
+    "egg",
+    "lemon",
+    "syrup",
+    "alcoholic",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gin-fizz",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh lemon juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sugar syrup",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Egg white",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Club soda",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

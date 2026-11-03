@@ -1,0 +1,64 @@
+{
+  "name": "French Sangria",
+  "description": "A refreshing summer Sangria recipe with fruity and herbal notes.",
+  "keywords": [
+    "sangria",
+    "french",
+    "lime",
+    "orange",
+    "brandy",
+    "fruit",
+    "brandy",
+    "wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "french-sangria",
+  "ingredients": [
+    {
+      "name": "Red wine",
+      "quantity": "750",
+      "measure": "ml"
+    },
+    {
+      "name": "Brandy",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Simple syrup",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Orange",
+      "quantity": "1",
+      "measure": "/"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1",
+      "measure": "/"
+    },
+    {
+      "name": "Peach / nectarine / other seasonal fruits thinly sliced",
+      "quantity": "1",
+      "measure": "/"
+    },
+    {
+      "name": "Provençale blend",
+      "quantity": "1",
+      "measure": "/"
+    },
+    {
+      "name": "Lemon soda",
+      "quantity": "4",
+      "measure": "oz"
+    }
+  ]
+}

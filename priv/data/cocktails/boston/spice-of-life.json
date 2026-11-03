@@ -1,0 +1,35 @@
+{
+  "name": "Spice Of Life",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "spice-of-life",
+  "ingredients": [
+    {
+      "name": "Cucumber",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "12",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Jalapeno-Infused Tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

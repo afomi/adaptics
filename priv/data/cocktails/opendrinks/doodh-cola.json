@@ -1,0 +1,29 @@
+{
+  "name": "Doodh Cola",
+  "description": "Doodh Cola / Milk Cola is a very unique Cooler from Kolkata. I can asure you that you had never heard about it before, but believe me it so yummy.Doodh Cola is one of the most favored of recent trending meals on earth. It is simple, it is quick, it tastes delicious",
+  "keywords": [
+    "milk",
+    "cola",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "doodh-cola",
+  "ingredients": [
+    {
+      "name": "Chilled Milk",
+      "quantity": "1",
+      "measure": "glass"
+    },
+    {
+      "name": "Chilled Cola",
+      "quantity": "1/4",
+      "measure": "glass"
+    },
+    {
+      "name": "Ice Cubes",
+      "quantity": "4",
+      "measure": ""
+    }
+  ]
+}

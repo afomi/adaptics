@@ -1,0 +1,40 @@
+{
+  "name": "Katana",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "katana",
+  "ingredients": [
+    {
+      "name": "Cucumber slices",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sake",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cucumber",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

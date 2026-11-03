@@ -1,0 +1,31 @@
+{
+  "name": "Dr. Disaronno",
+  "description": "A simple yet outstanding mixed drink, featuring Dr. Pepper and Disaronno. Tastes like a sweeter Dr. Pepper.",
+  "keywords": [
+    "dr. pepper",
+    "ice",
+    "alcoholic",
+    "soda",
+    "liqueur"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dr-disaronno",
+  "ingredients": [
+    {
+      "name": "Disaronno",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Dr. Pepper",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "5",
+      "measure": "cubes"
+    }
+  ]
+}

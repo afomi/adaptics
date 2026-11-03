@@ -1,0 +1,33 @@
+{
+  "name": "Virgin Strawberry Colada",
+  "description": "Tastes just like the original Strawberry Colada, but without alcohol. Fresh and cool!",
+  "keywords": [
+    "virgin",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "virgin-strawberry-colada",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "8",
+      "measure": "strawberries"
+    },
+    {
+      "name": "coconut cream",
+      "quantity": "4",
+      "measure": "table spoons"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "100",
+      "measure": "g"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

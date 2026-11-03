@@ -1,0 +1,60 @@
+{
+  "name": "Mango Mastani",
+  "description": "A thick milkshake topped with a scoop of ice cream along with quirky toppings.",
+  "keywords": [
+    "fruit",
+    "non-alcoholic",
+    "sweet",
+    "smoothie"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-mastani",
+  "ingredients": [
+    {
+      "name": "chopped mangoes",
+      "quantity": "3",
+      "measure": "cup"
+    },
+    {
+      "name": "full cream chilled milk",
+      "quantity": "375",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar",
+      "quantity": "0.75",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "chopped pistachios",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "chopped cashews",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "chopped almonds",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "vanilla ice cream",
+      "quantity": "1",
+      "measure": "scoop"
+    },
+    {
+      "name": "glazed cherry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "ice cube",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

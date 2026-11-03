@@ -1,0 +1,35 @@
+{
+  "name": "Hemingway's Nog",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "hemingway-s-nog",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vanilla liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme fraiche",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "tiki bitters, such as Bittermen's Elemakule",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

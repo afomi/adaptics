@@ -1,0 +1,43 @@
+{
+  "name": "Virgin Mojito",
+  "description": "A refreshing mix of lime and mint.",
+  "keywords": [
+    "virgin",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "virgin-mojito",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "4-5",
+      "measure": "mint leaves"
+    },
+    {
+      "name": "cut into small bits",
+      "quantity": "1/2",
+      "measure": "lime"
+    },
+    {
+      "name": "of raw sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "of honey syrup",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "sparkling water or soda",
+      "quantity": "8",
+      "measure": "cl"
+    }
+  ]
+}

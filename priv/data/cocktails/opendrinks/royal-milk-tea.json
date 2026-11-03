@@ -1,0 +1,28 @@
+{
+  "name": "Royal Milk Tea",
+  "description": "Assam tea leaves and milk. It's pretty awesome.",
+  "keywords": [
+    "tea",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "royal-milk-tea",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "3/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "black tea leaves",
+      "quantity": "2 heaping",
+      "measure": "tsp"
+    },
+    {
+      "name": "Milk",
+      "quantity": "1/2",
+      "measure": "Cup"
+    }
+  ]
+}

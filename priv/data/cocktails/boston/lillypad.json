@@ -1,0 +1,35 @@
+{
+  "name": "Lillypad",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "lillypad",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Lillet Blanc and Lillet Rouge",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

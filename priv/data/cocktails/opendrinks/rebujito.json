@@ -1,0 +1,36 @@
+{
+  "name": "Rebujito",
+  "description": "A refreshing cocktail with Manzanilla wine and soda. The flavor of hot Andalusia in a cup.",
+  "keywords": [
+    "alcoholic",
+    "wine",
+    "sprite",
+    "7 up",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rebujito",
+  "ingredients": [
+    {
+      "name": "Manzanilla wine",
+      "quantity": "250",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon-lime soft drink (like Sprite, 7 up)",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Spearmint (optional)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

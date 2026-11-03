@@ -1,0 +1,35 @@
+{
+  "name": "Bloody Maria",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "bloody-maria",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Hot red pepper sauce",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Celery Salt",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

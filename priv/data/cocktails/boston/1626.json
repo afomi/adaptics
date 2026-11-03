@@ -1,0 +1,35 @@
+{
+  "name": "1626",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "1626",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gingerbread liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Italian preserved cherry",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

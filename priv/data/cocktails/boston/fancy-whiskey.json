@@ -1,0 +1,35 @@
+{
+  "name": "Fancy Whiskey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "fancy-whiskey",
+  "ingredients": [
+    {
+      "name": "Bourbon or rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon twist",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

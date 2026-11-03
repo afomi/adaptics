@@ -1,0 +1,35 @@
+{
+  "name": "Clover Club Cocktail",
+  "description": "A delicious pre-prohibition cocktail where the signature ingredient is raspberry.",
+  "keywords": [
+    "raspberry",
+    "cocktail",
+    "gin",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "clover-club-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Fresh Lemon Juice",
+      "quantity": "1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Raspberry Syrup",
+      "quantity": "1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Egg White",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

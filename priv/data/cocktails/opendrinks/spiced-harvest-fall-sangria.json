@@ -1,0 +1,78 @@
+{
+  "name": "Spiced Harvest Fall Sangria",
+  "description": "A great Fall and holiday version of this Spanish classic.",
+  "keywords": [
+    "alcoholic",
+    "holiday",
+    "fall",
+    "cinnamon",
+    "sangria",
+    "wine",
+    "christmas"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spiced-harvest-fall-sangria",
+  "ingredients": [
+    {
+      "name": "Red apple, sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Green apple, sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Pear, sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Plum, sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Merlot",
+      "quantity": "1",
+      "measure": "bottle (750 mL)"
+    },
+    {
+      "name": "Spiced rum",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Apple juice",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Pomegranate juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Simple syrup",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "Nutmeg",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Rosemary sprigs",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Cinnamon",
+      "quantity": "2",
+      "measure": "sticks"
+    }
+  ]
+}

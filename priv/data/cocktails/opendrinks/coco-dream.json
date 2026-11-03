@@ -1,0 +1,44 @@
+{
+  "name": "Coco Dream",
+  "description": "A refreshing mix of coconut lime and cachaça.",
+  "keywords": [
+    "cachaça",
+    "coconut",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coco-dream",
+  "ingredients": [
+    {
+      "name": "Coconut",
+      "quantity": "1",
+      "measure": "pulp of"
+    },
+    {
+      "name": "",
+      "quantity": "1/2",
+      "measure": "squeezed lime"
+    },
+    {
+      "name": "of raw sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "of cachaça",
+      "quantity": "2",
+      "measure": "shots"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "1",
+      "measure": "shot"
+    },
+    {
+      "name": "condensed milk",
+      "quantity": "1",
+      "measure": "shot"
+    }
+  ]
+}

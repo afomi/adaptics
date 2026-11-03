@@ -1,0 +1,40 @@
+{
+  "name": "Appletini",
+  "description": "A sweet and sour electric green drink with a sweet, delicious apple flavor",
+  "keywords": [
+    "vodka",
+    "apple",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "appletini",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1 1/2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "green apple schnapps",
+      "quantity": "1",
+      "measure": "fl oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "apple slice",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

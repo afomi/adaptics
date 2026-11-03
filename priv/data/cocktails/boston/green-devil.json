@@ -1,0 +1,25 @@
+{
+  "name": "Green Devil",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "green-devil",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

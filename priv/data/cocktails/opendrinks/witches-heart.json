@@ -1,0 +1,37 @@
+{
+  "name": "Witches Heart",
+  "description": "A perfect cocktail for October made with Blackberry Shimmery liqueur.",
+  "keywords": [
+    "halloween"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "witches-heart",
+  "ingredients": [
+    {
+      "name": "Apple Brandy or Apple Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Blackberry Liqueur",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Powdered dry ice (optional)",
+      "quantity": "1/2 - 1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Martini glass to serve",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Black Velvet",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "black-velvet",
+  "ingredients": [
+    {
+      "name": "Chilled Stout",
+      "measure": "5 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled Champagne",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

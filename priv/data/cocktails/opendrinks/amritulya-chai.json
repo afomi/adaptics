@@ -1,0 +1,39 @@
+{
+  "name": "Amritulya Chai",
+  "description": "A khulad chai made from milk and assam tea and elichi",
+  "keywords": [
+    "Khulad Tea",
+    "Khulad Chai",
+    "Amritulya Chai"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "amritulya-chai",
+  "ingredients": [
+    {
+      "name": "Assam Tea leave",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Normal Sugar",
+      "quantity": "3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Milk",
+      "quantity": "2+1/5",
+      "measure": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "2+1/5",
+      "measure": "cup"
+    },
+    {
+      "name": "Elaichi",
+      "quantity": "2",
+      "measure": "Whole"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Tequila Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tequila-fizz",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

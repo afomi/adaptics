@@ -1,0 +1,85 @@
+{
+  "name": "Coquito",
+  "description": "Traditional Christmas drink that originated in Puerto Rico.",
+  "keywords": [
+    "rum",
+    "traditional",
+    "holiday",
+    "dark rum",
+    "white rum",
+    "coconut milk",
+    "condensed milk",
+    "coconut cream",
+    "evaporated milk",
+    "nutmeg",
+    "cinnamon",
+    "clove",
+    "salt",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coquito",
+  "ingredients": [
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "cloves",
+      "quantity": "3/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "nutmeg",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "cinnamon sticks for garnishing",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "dark spiced rum (to give it good flavor) or white rum (adjust to taste, may be omitted)",
+      "quantity": "1 1/2",
+      "measure": "cups"
+    },
+    {
+      "name": "coconut cream (Coco Lopez)",
+      "quantity": "1",
+      "measure": "15 oz"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "1",
+      "measure": "13.5 oz"
+    },
+    {
+      "name": "sweetened condensed milk",
+      "quantity": "1",
+      "measure": "14 oz"
+    },
+    {
+      "name": "evaporated milk",
+      "quantity": "1",
+      "measure": "12 oz"
+    },
+    {
+      "name": "star anise (optional)",
+      "quantity": "2",
+      "measure": "whole"
+    },
+    {
+      "name": "water (optional)",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

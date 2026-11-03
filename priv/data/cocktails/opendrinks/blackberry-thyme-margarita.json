@@ -1,0 +1,55 @@
+{
+  "name": "Blackberry Thyme Margarita",
+  "description": "Margaritas served with a not so usual combination of blackberries and thyme.",
+  "keywords": [
+    "tequila",
+    "blackberry",
+    "thyme",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blackberry-thyme-margarita",
+  "ingredients": [
+    {
+      "name": "fresh blackberries",
+      "quantity": "8",
+      "measure": "number"
+    },
+    {
+      "name": "fresh thyme",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "lime",
+      "quantity": "1/2",
+      "measure": "number"
+    },
+    {
+      "name": "orange zest",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "silver tequila",
+      "quantity": "2",
+      "measure": "ounce"
+    },
+    {
+      "name": "sparkling water for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Optional: Honey for sweetening",
+      "quantity": "1-2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Optional: red plum quartered",
+      "quantity": "1",
+      "measure": "number"
+    }
+  ]
+}

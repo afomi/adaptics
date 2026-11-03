@@ -1,0 +1,25 @@
+{
+  "name": "Incider Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "incider-cocktail",
+  "ingredients": [
+    {
+      "name": "Rye or bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple cider",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple slice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

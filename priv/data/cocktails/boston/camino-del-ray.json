@@ -1,0 +1,30 @@
+{
+  "name": "Camino Del Ray",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "camino-del-ray",
+  "ingredients": [
+    {
+      "name": "Anejo tequila",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Oloroso sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Drambuie",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rhubarb bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

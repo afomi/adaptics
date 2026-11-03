@@ -1,0 +1,25 @@
+{
+  "name": "Ice Cream Flip",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "ice-cream-flip",
+  "ingredients": [
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

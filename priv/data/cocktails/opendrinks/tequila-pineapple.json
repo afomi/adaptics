@@ -1,0 +1,31 @@
+{
+  "name": "Tequila Pineapple",
+  "description": "A simple, but delicious summertime cocktail.",
+  "keywords": [
+    "summer",
+    "tequila",
+    "pineapple",
+    "shaken",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tequila-pineapple",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

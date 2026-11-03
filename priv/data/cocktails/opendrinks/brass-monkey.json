@@ -1,0 +1,31 @@
+{
+  "name": "Brass Monkey",
+  "description": "",
+  "keywords": [
+    "vodka",
+    "rum",
+    "dark rum",
+    "orange juice",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brass-monkey",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "rum (preferably dark)",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "30",
+      "measure": "ml"
+    }
+  ]
+}

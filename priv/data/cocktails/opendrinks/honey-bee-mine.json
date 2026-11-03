@@ -1,0 +1,33 @@
+{
+  "name": "Honey Bee Mine",
+  "description": "Honey and vanilla laced with white rum and charged with champagne. Perfect for Valentine's Day. Created February 2014 by Simon Difford at the Cabinet Room, London, England.",
+  "keywords": [
+    "champagne",
+    "honey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "honey-bee-mine",
+  "ingredients": [
+    {
+      "name": "Bacardi Carta Blanca Superior White Rum",
+      "quantity": "2",
+      "measure": "shot"
+    },
+    {
+      "name": "Orange blossom honey",
+      "quantity": "3",
+      "measure": "spoon"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "1/6",
+      "measure": "shot"
+    },
+    {
+      "name": "Brut Champagne",
+      "quantity": "3/4",
+      "measure": "shot"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Frisky Witch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "frisky-witch",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sambuca",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

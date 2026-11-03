@@ -1,0 +1,25 @@
+{
+  "name": "Saxon Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "saxon-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

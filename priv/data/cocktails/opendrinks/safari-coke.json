@@ -1,0 +1,37 @@
+{
+  "name": "Safari Coke",
+  "description": "A fruity licor with the adition of coke.",
+  "keywords": [
+    "ice",
+    "lemon",
+    "coke",
+    "coca-cola",
+    "exotic",
+    "liqueur"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "safari-coke",
+  "ingredients": [
+    {
+      "name": "Safari Exotic Fruit Liqueur",
+      "quantity": "1 1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Coca-cola / Coke",
+      "quantity": "4 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "4",
+      "measure": "drops"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

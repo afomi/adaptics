@@ -1,0 +1,35 @@
+{
+  "name": "Mai-Tai (Trader Vic Version)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "mai-tai-trader-vic-version",
+  "ingredients": [
+    {
+      "name": "Dark rum, preferably Jamaican",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lime juice (reserve 1/2 lime shell for garnish)",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orgeat Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rock candy syrup or simple syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

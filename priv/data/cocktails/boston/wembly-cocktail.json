@@ -1,0 +1,30 @@
+{
+  "name": "Wembly Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "wembly-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apricot-Flavored Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

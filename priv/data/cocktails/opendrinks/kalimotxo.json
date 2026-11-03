@@ -1,0 +1,35 @@
+{
+  "name": "Kalimotxo",
+  "description": "A cheap and refreshing drink that is easy to make with common ingredients.",
+  "keywords": [
+    "red wine",
+    "alcoholic",
+    "fresh",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kalimotxo",
+  "ingredients": [
+    {
+      "name": "cheap red wine of your choice",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "carbonated cola",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Lime or Lemon wedge, depending on preference or available ingredients",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

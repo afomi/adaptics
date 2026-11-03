@@ -1,0 +1,30 @@
+{
+  "name": "Pousse L'Amour",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "pousse-l-amour",
+  "ingredients": [
+    {
+      "name": "Maraschino",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

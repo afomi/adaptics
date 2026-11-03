@@ -1,0 +1,30 @@
+{
+  "name": "Georgia Mint Julep",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "georgia-mint-julep",
+  "ingredients": [
+    {
+      "name": "Mint sprigs",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

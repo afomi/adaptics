@@ -1,0 +1,30 @@
+{
+  "name": "Cadiz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "cadiz",
+  "ingredients": [
+    {
+      "name": "Blackberry-flavored brandy",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

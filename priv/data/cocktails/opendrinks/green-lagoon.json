@@ -1,0 +1,36 @@
+{
+  "name": "Green Lagoon",
+  "description": "It is a twist on the more known blue lagoon.",
+  "keywords": [
+    "vodka",
+    "pineapple",
+    "curaçao",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "green-lagoon",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "blue curaçao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cube",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

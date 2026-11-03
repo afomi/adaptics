@@ -1,0 +1,35 @@
+{
+  "name": "Sir Walter Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "sir-walter-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

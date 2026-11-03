@@ -1,0 +1,25 @@
+{
+  "name": "Grasshopper Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "grasshopper-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Green Creme de Menthe",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston White Creme de Cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Sweet Cream",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

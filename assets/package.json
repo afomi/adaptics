@@ -9,9 +9,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@theatre/core": "^0.6.1",
-    "@theatre/studio": "^0.6.1",
-    "d3": "^7.8.4",
-    "three": "^0.154.0"
+    "@excalidraw/excalidraw": "^0.18.1",
+    "@remotion/player": "^4.0.477",
+    "@theatre/core": "^0.7.2",
+    "@theatre/studio": "^0.7.2",
+    "bpmn-js-token-simulation": "^0.38.2",
+    "cannon-es": "^0.20.0",
+    "d3": "^7.9.0",
+    "fabric": "^7.3.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.477",
+    "three": "^0.181.2",
+    "tldraw": "^5.4.2"
+  },
+  "devDependencies": {
+    "bpmn-js": "^18.9.1",
+    "bpmn-js-properties-panel": "^5.43.0"
   }
 }

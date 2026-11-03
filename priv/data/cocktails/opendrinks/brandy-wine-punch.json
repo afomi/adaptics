@@ -1,0 +1,55 @@
+{
+  "name": "Brandy Wine Punch",
+  "description": "Brandy, Wine and soda makes a special drink",
+  "keywords": [
+    "brandy",
+    "red wine",
+    "soda",
+    "lemon",
+    "melon",
+    "alcoholic",
+    "fruit",
+    "orange",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brandy-wine-punch",
+  "ingredients": [
+    {
+      "name": "oranges",
+      "quantity": "3",
+      "measure": "whole"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "whole"
+    },
+    {
+      "name": "honey dew melons",
+      "quantity": "2",
+      "measure": "whole"
+    },
+    {
+      "name": "brandy",
+      "quantity": "2",
+      "measure": "glasses"
+    },
+    {
+      "name": "club soda",
+      "quantity": "1",
+      "measure": "litre bottle"
+    },
+    {
+      "name": "red wine",
+      "quantity": "2",
+      "measure": "bottles"
+    },
+    {
+      "name": "sugar",
+      "quantity": "11",
+      "measure": "tbsp."
+    }
+  ]
+}

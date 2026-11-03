@@ -1,0 +1,30 @@
+{
+  "name": "Hill Dog",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "hill-dog",
+  "ingredients": [
+    {
+      "name": "White whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grand Marnier",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lavender Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

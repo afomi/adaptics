@@ -1,0 +1,30 @@
+{
+  "name": "Calvados Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "calvados-cocktail",
+  "ingredients": [
+    {
+      "name": "Calvados",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

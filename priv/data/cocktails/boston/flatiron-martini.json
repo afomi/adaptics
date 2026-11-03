@@ -1,0 +1,25 @@
+{
+  "name": "Flatiron Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "flatiron-martini",
+  "ingredients": [
+    {
+      "name": "Splash triple sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Blanc",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

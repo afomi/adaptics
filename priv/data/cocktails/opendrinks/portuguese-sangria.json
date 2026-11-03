@@ -1,0 +1,68 @@
+{
+  "name": "Portuguese Sangria",
+  "description": "Portuguese Sangria is sweet and acidic at the same time.",
+  "keywords": [
+    "wine",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "portuguese-sangria",
+  "ingredients": [
+    {
+      "name": "oranges (one whole and another for juice)",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "pear",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "apple",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "strawberries",
+      "quantity": "8",
+      "measure": ""
+    },
+    {
+      "name": "lemon (juiced)",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "of brown sugar",
+      "quantity": "3",
+      "measure": "soup spoons"
+    },
+    {
+      "name": "of Port Wine",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "cinnamon sticks",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "6",
+      "measure": ""
+    },
+    {
+      "name": "(750 ml) of red wine",
+      "quantity": "26",
+      "measure": "oz"
+    },
+    {
+      "name": "(500 ml) of soda water",
+      "quantity": "18",
+      "measure": "oz"
+    }
+  ]
+}

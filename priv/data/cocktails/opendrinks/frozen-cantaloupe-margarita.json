@@ -1,0 +1,51 @@
+{
+  "name": "Frozen Cantaloupe Margarita",
+  "description": "Margarita served in a unique manner.",
+  "keywords": [
+    "tequila",
+    "melon",
+    "slushie",
+    "alcoholic",
+    "frozen"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "frozen-cantaloupe-margarita",
+  "ingredients": [
+    {
+      "name": "frozen cantaloupes",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "unsweetened coconut milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "silver tequila",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Cointreau",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "agave or honey to taste",
+      "quantity": "1-2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Optional: salt, for the rims",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "The Interesting Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-interesting-cocktail",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aperol",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit twist",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

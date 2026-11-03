@@ -1,0 +1,25 @@
+{
+  "name": "Coffee Grasshopper",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "coffee-grasshopper",
+  "ingredients": [
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

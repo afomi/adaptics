@@ -1,0 +1,30 @@
+{
+  "name": "White Lily Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "white-lily-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

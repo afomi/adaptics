@@ -1,0 +1,25 @@
+{
+  "name": "Gentleman's Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "gentleman-s-cocktail",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Menthe",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

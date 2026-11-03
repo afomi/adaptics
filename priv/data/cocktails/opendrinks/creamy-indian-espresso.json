@@ -1,0 +1,41 @@
+{
+  "name": "Creamy Indian Espresso",
+  "description": "Indian Espresso Coffee made without an espresso machine.",
+  "keywords": [
+    "coffee powder",
+    "granulated sugar",
+    "milk",
+    "water",
+    "cocoa powder"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "creamy-indian-espresso",
+  "ingredients": [
+    {
+      "name": "Instant Coffee Powder",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Granulated Sugar",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Cocoa Powder",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

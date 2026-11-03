@@ -1,0 +1,38 @@
+{
+  "name": "Sea Breeze",
+  "description": "A light and fruity drink for hot days.",
+  "keywords": [
+    "juice",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sea-breeze",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry Juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Grapefruit Juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime wedge",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

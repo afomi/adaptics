@@ -1,0 +1,47 @@
+{
+  "name": "Apple Pie Cocktail",
+  "description": "All the flavors of fall in a glass! Fireball® whiskey, vanilla vodka, and sparkling apple cider make this a very refreshing drink.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "vodka",
+    "whiskey",
+    "apple",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-pie-cocktail",
+  "ingredients": [
+    {
+      "name": "vanilla-flavored vodka",
+      "quantity": "1",
+      "measure": "fl oz"
+    },
+    {
+      "name": "cinnamon whiskey",
+      "quantity": "1",
+      "measure": "fl oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "chilled sparkling apple cider",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "cardamom bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

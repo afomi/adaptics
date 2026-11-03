@@ -1,0 +1,35 @@
+{
+  "name": "Three Miller Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "three-miller-cocktail",
+  "ingredients": [
+    {
+      "name": "Fresh cherry tomatoes",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Bobby Burns",
+  "description": "A whisky-based cocktail named after the scottish poet and lyricist.",
+  "keywords": [
+    "alcoholic",
+    "whisky",
+    "sweet vermouth",
+    "benedictine dom",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bobby-burns",
+  "ingredients": [
+    {
+      "name": "scotch whisky",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "benedictine D.O.M.",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon twist",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

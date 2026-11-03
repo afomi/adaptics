@@ -1,0 +1,35 @@
+{
+  "name": "Tiger Tanaka",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "tiger-tanaka",
+  "ingredients": [
+    {
+      "name": "Fresh cilantro leaves",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Slice peeled fresh ginger",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Limoncello",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

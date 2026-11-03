@@ -1,0 +1,35 @@
+{
+  "name": "Hurricane Leah",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "hurricane-leah",
+  "ingredients": [
+    {
+      "name": "each Light Rum, Gin, Vodka, Blanco tequila, Blue curacao",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

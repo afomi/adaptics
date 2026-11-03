@@ -26,9 +26,9 @@ export function renderRussell(containerId) {
   // point; isometric is an orthographic camera viewed down the (1,1,1) diagonal,
   // so parallel edges stay parallel and equal lengths stay equal -- the cube
   // lattice reads as a grid rather than receding.
-  const VIEW_DISTANCE = 26;
+  const VIEW_DISTANCE = 34;
   const ISO_DIRECTION = new THREE.Vector3(1, 1, 1).normalize();
-  const FRUSTUM_HEIGHT = 17; // world units visible top-to-bottom in isometric
+  const FRUSTUM_HEIGHT = 22; // world units visible top-to-bottom in isometric
 
   // Three subjects along x: the coil at -6, the lattice at the origin, and the
   // pyramid cube at +6. The origin is already the centre of that spread.
@@ -37,7 +37,7 @@ export function renderRussell(containerId) {
   const aspect = () => container.clientWidth / container.clientHeight;
 
   const perspectiveCamera = new THREE.PerspectiveCamera(45, aspect(), 0.1, 400);
-  perspectiveCamera.position.set(VIEW_TARGET.x + 4, 8, 17);
+  perspectiveCamera.position.set(VIEW_TARGET.x + 6, 10, 22);
 
   const isoCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 400);
   isoCamera.position
@@ -552,12 +552,33 @@ export function renderRussell(containerId) {
     coilMats: coilMaterials,
   });
 
-  const neighbors = AXES.flatMap(({ unit }) =>
-    [1, -1].map((sign) =>
-      createCube(unit.clone().multiplyScalar(sign * CUBE_SIZE), {
-        edgeMaterial: neighborMaterial,
-        waveMaterial: neighborWaveMaterial,
-        coilMats: neighborCoilMaterials,
+  // A full 3x3x3 block: every combination of -1, 0, +1 on each axis, minus the
+  // centre itself. That is 26 surrounding cubes -- the 6 face neighbours of the
+  // original cross, plus 12 edge and 8 corner positions.
+  // The lattice is built once at its largest extent and switched by
+  // visibility. Rebuilding 125 cubes on every mode change would stutter;
+  // hidden ones cost nothing but a visibility test, and every cube shares the
+  // same geometry and materials either way.
+  const LATTICE_RADIUS = 2; // 2 => 5x5x5 at the widest
+  const LATTICE_STEPS = [];
+  for (let i = -LATTICE_RADIUS; i <= LATTICE_RADIUS; i++) LATTICE_STEPS.push(i);
+
+  const neighbors = LATTICE_STEPS.flatMap((x) =>
+    LATTICE_STEPS.flatMap((y) =>
+      LATTICE_STEPS.flatMap((z) => {
+        if (x === 0 && y === 0 && z === 0) return []; // the centre cube
+        const c = createCube(
+          new THREE.Vector3(x, y, z).multiplyScalar(CUBE_SIZE),
+          {
+            edgeMaterial: neighborMaterial,
+            waveMaterial: neighborWaveMaterial,
+            coilMats: neighborCoilMaterials,
+          }
+        );
+        // Chebyshev distance: which shell this cube belongs to, so a mode can
+        // show every cube within a given ring.
+        c.userData.shell = Math.max(Math.abs(x), Math.abs(y), Math.abs(z));
+        return [c];
       })
     )
   );
@@ -667,12 +688,42 @@ export function renderRussell(containerId) {
     neighborWaveMaterial.opacity = opacity;
     for (const m of neighborCoilMaterials) m.opacity = opacity;
     if (focusToggle) focusToggle.dataset.focused = String(focused);
-    if (focusLabel) focusLabel.textContent = focused ? "Focused" : "All cubes";
+    if (focusLabel) focusLabel.textContent = focused ? "Focused" : "Cross";
     return focused;
   }
 
+  setFocus(false);
+
   if (focusToggle) {
     focusToggle.addEventListener("click", () => setFocus(!focused));
+  }
+
+  // --- lattice extent -------------------------------------------------------
+  // How much of the block is shown: the centre cube alone, the 3x3x3 around
+  // it, or the full 5x5x5. Each mode is a shell radius, so a cube is visible
+  // when its shell is within the current one.
+  const LATTICE_MODES = [
+    { label: "1 cube", radius: 0 },
+    { label: "27 cubes", radius: 1 },
+    { label: "125 cubes", radius: 2 },
+  ];
+  let latticeMode = 1; // start at 3x3x3
+  const latticeToggle = document.getElementById("russell-lattice-toggle");
+  const latticeLabel = document.getElementById("russell-lattice-label");
+
+  function setLatticeMode(next) {
+    latticeMode = ((next % LATTICE_MODES.length) + LATTICE_MODES.length) %
+      LATTICE_MODES.length;
+    const { radius, label: text } = LATTICE_MODES[latticeMode];
+    for (const c of neighbors) c.visible = c.userData.shell <= radius;
+    if (latticeToggle) latticeToggle.dataset.extent = String(radius);
+    if (latticeLabel) latticeLabel.textContent = text;
+    return latticeMode;
+  }
+  setLatticeMode(latticeMode);
+
+  if (latticeToggle) {
+    latticeToggle.addEventListener("click", () => setLatticeMode(latticeMode + 1));
   }
 
   // --- coils on the lattice -------------------------------------------------
@@ -751,13 +802,17 @@ export function renderRussell(containerId) {
       if (radiusValue) radiusValue.textContent = set.radius.toFixed(2);
       const bunchingValue = document.getElementById(`russell-${k}-bunching-value`);
       if (bunchingValue) bunchingValue.textContent = bunchingLabel(set.bunching);
+      const speedValue = document.getElementById(`russell-${k}-speed-value`);
+      if (speedValue) {
+        speedValue.textContent = set.speed === 0 ? "still" : set.speed.toFixed(2);
+      }
     }
     return { ...coilParams };
   }
 
   // One slider per quality per phase, wired by naming convention.
   for (const { key } of COIL_PHASES) {
-    for (const quality of ["turns", "radius", "bunching"]) {
+    for (const quality of ["turns", "radius", "bunching", "speed"]) {
       const slider = document.getElementById(`russell-${key}-${quality}`);
       if (!slider) continue;
       slider.value = String(coilParams[key][quality]);
@@ -826,6 +881,8 @@ export function renderRussell(containerId) {
     setCoilRunning,
     setLatticeCoiled,
     get latticeCoiled() { return latticeCoiled; },
+    setLatticeMode,
+    get latticeMode() { return LATTICE_MODES[latticeMode]; },
     setPhaseVisible,
     get phaseVisible() { return [...phaseVisible]; },
     coilParams,

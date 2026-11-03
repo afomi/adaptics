@@ -1,0 +1,40 @@
+{
+  "name": "Coconut Margarita",
+  "description": "Setting out to duplicate the coconut margaritas we had in Costa Rica, my first attempt was awful! I surfed the internet for a good recipe with little luck. I then took what I'd learned from my first nasty try and the ideas I picked up online and after about 5 or 6 attempts I came up with this. Enjoy!",
+  "keywords": [
+    "tequila",
+    "margarita",
+    "cocktail",
+    "coconut"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coconut-margarita",
+  "ingredients": [
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "Cup"
+    },
+    {
+      "name": "Sweetened coconut cream",
+      "quantity": "3/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "4 1/2",
+      "measure": "Oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1 1/2",
+      "measure": "Oz"
+    },
+    {
+      "name": "Sweetened flaked coconut",
+      "quantity": "1/4",
+      "measure": "Cup"
+    }
+  ]
+}

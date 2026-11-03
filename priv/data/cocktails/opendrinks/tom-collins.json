@@ -1,0 +1,39 @@
+{
+  "name": "Tom Collins",
+  "description": "A classic and popular mixed drink. This drink resembles a sparkling lemonade and typically includes gin, lemon and soda.",
+  "keywords": [
+    "gin",
+    "lemon juice",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tom-collins",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "club soda",
+      "quantity": "3",
+      "measure": "ounces"
+    },
+    {
+      "name": "Optional: maraschino cherry or lemon slice for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

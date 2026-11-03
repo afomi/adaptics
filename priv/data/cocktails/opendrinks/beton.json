@@ -1,0 +1,31 @@
+{
+  "name": "Beton",
+  "description": "Herbal Becherovka variation to Gin-Tonic classic.",
+  "keywords": [
+    "becherovka",
+    "tonic",
+    "lemon",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "beton",
+  "ingredients": [
+    {
+      "name": "Becherovka",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Tonic",
+      "quantity": "120",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "wedge"
+    }
+  ]
+}

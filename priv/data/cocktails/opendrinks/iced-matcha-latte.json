@@ -1,0 +1,39 @@
+{
+  "name": "Iced Matcha Latte",
+  "description": "This Iced Matcha Latte is a creamy and refreshing beverage, perfect for a morning or afternoon pick me up",
+  "keywords": [
+    "matcha",
+    "latte",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "iced-matcha-latte",
+  "ingredients": [
+    {
+      "name": "Matcha Powder",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Syrup or Sugar or Honey",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Hot Water",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Heavy Cream or Coffee Creamer",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

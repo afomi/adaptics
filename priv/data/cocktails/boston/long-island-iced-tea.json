@@ -1,0 +1,40 @@
+{
+  "name": "Long Island Iced Tea",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "long-island-iced-tea",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup, 1/2 oz",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

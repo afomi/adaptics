@@ -1,0 +1,25 @@
+{
+  "name": "May Blosson Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "may-blosson-fizz",
+  "ingredients": [
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Swedish Punch",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Latte",
+  "description": "An Italian coffee beverage made with espresso and steamed milk. Also called Caffè latte.",
+  "keywords": [
+    "coffee",
+    "hot",
+    "milk",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "latte",
+  "ingredients": [
+    {
+      "name": "finely ground coffee -- preferably an espresso blend",
+      "quantity": "9",
+      "measure": "gram"
+    },
+    {
+      "name": "cold milk",
+      "quantity": "100",
+      "measure": "ml"
+    }
+  ]
+}

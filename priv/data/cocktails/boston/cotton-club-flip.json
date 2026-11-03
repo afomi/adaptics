@@ -1,0 +1,35 @@
+{
+  "name": "Cotton Club Flip",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "cotton-club-flip",
+  "ingredients": [
+    {
+      "name": "Vanilla-Infused Bourbon",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey-Currant Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rhubarb bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

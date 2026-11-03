@@ -1,0 +1,56 @@
+{
+  "name": "Fig Bourbon Cider Smash",
+  "description": "A sweet citrusy cocktail, perfect for the start of autumn.",
+  "keywords": [
+    "bourbon",
+    "fig",
+    "apple cider",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fig-bourbon-cider-smash",
+  "ingredients": [
+    {
+      "name": "apple cider",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "orange zest",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "fig preserves",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "ounce"
+    },
+    {
+      "name": "Optional: balsamic vinegar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "sparkling water, for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "fresh figs, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "El Presidente",
+  "description": "A classic cuban cocktail from the 1930s.",
+  "keywords": [
+    "rum",
+    "alcoholic",
+    "cocktail",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "el-presidente",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "1½",
+      "measure": "oz"
+    },
+    {
+      "name": "Dry Vermouth",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Curaçao (or Triple Sec, Cointreau)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Orange (garnish)",
+      "quantity": "1",
+      "measure": "peel"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

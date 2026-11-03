@@ -1,0 +1,20 @@
+{
+  "name": "Godmother",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "godmother",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

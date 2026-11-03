@@ -1,0 +1,172 @@
+<style>
+  body { margin: 0; }
+  canvas { display: block; }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+  // Employee data
+const employees = [
+    { first_name: "John", last_name: "Doe", title: "CEO" },
+    { first_name: "Jane", last_name: "Smith", title: "CTO" },
+    { first_name: "Alice", last_name: "Johnson", title: "CFO" },
+    { first_name: "Bob", last_name: "Brown", title: "COO" },
+    { first_name: "Charlie", last_name: "Davis", title: "CMO" },
+    { first_name: "Emily", last_name: "Williams", title: "Developer" },
+    { first_name: "David", last_name: "Martinez", title: "Developer" },
+    { first_name: "Olivia", last_name: "Garcia", title: "Designer" },
+    { first_name: "Liam", last_name: "Miller", title: "Designer" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    { first_name: "Sophia", last_name: "Taylor", title: "Product Manager" },
+    // ... add more employees to reach 100
+];
+
+// Initialize Three.js
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xf0f0f0);  // Light grey background
+
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+// Add a simple box for each employee
+employees.forEach((employee, index) => {
+    const geometry = new THREE.BoxGeometry();
+    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const cube = new THREE.Mesh(geometry, material);
+
+    // Position the boxes in a grid
+    cube.position.x = (index % 10) * 1.5;
+    cube.position.y = Math.floor(index / 10) * 1.5;
+    cube.position.z = 0;
+
+    // Add the box to the scene
+    scene.add(cube);
+
+    // Create a text label for the employee
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    context.fillStyle = '#f0f0f0';  // White background for the text box
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.font = '48px Arial';
+    context.fillStyle = '#f0f0f0';
+    context.fillText(`${employee.first_name} ${employee.last_name}`, 10, 50);
+    context.fillText(employee.title, 10, 100);
+
+    // Create a texture from the canvas and apply it to a plane
+    const texture = new THREE.CanvasTexture(canvas);
+    const textMaterial = new THREE.MeshBasicMaterial({ map: texture });
+    const textGeometry = new THREE.PlaneGeometry(1, 0.5);
+    const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+    textMesh.position.set(cube.position.x, cube.position.y, cube.position.z + 1);
+
+    // Add the text to the scene
+    scene.add(textMesh);
+});
+
+camera.position.x = 2;
+camera.position.y = 7;
+camera.position.z = 20;
+
+// camera.position.z = 10;
+// camera.position.z = 7;
+
+// Render the scene
+function animate() {
+    requestAnimationFrame(animate);
+    renderer.render(scene, camera);
+}
+animate();
+
+</script>

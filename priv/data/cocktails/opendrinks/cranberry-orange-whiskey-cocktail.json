@@ -1,0 +1,56 @@
+{
+  "name": "Cranberry Orange Whiskey Cocktail",
+  "description": "One of our all-time favorite cocktail recipes, this whiskey cocktail is the perfect balance of tart and sweet.",
+  "keywords": [
+    "cocktail",
+    "simple syrup",
+    "cointreau",
+    "orange",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cranberry-orange-whiskey-cocktail",
+  "ingredients": [
+    {
+      "name": "unsweetened cranberry juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice (freshly squeezed is preferable)",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Whiskey",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "cointreau",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "freshly squeezed lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "sprigs thyme",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "ginger beer",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

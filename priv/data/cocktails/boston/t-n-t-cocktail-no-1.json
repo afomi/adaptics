@@ -1,0 +1,20 @@
+{
+  "name": "T.N.T. Cocktail No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "t-n-t-cocktail-no-1",
+  "ingredients": [
+    {
+      "name": "Blended whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anis",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

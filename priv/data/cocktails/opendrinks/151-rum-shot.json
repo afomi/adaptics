@@ -1,0 +1,21 @@
+{
+  "name": "151 Rum Shot",
+  "description": "A high-proof rum shot — strong and best sipped carefully.",
+  "keywords": [
+    "shot",
+    "rum",
+    "high-proof",
+    "strong",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "151-rum-shot",
+  "ingredients": [
+    {
+      "name": "151-proof rum",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

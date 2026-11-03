@@ -1,0 +1,23 @@
+{
+  "name": "Guayacolita",
+  "description": "Guayacolita is a mix between a Pilsner type beer and a coca cola. Used a lot for summer climates. Very pupular in Caribbean countries",
+  "keywords": [
+    "beer",
+    "coca-cola"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "guayacolita",
+  "ingredients": [
+    {
+      "name": "Beer pilsner",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Coca-cola",
+      "quantity": "1/2",
+      "measure": "Can"
+    }
+  ]
+}

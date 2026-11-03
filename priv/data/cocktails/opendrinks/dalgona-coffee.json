@@ -1,0 +1,36 @@
+{
+  "name": "Dalgona Coffee",
+  "description": "Dalgona Coffee is a cold latte drink that comes with a velvety smooth and sweet coffee foam on top. It is inspired from the South Korean Dalgona Candy that resembles the creamy dollop that tops the coffee",
+  "keywords": [
+    "coffee",
+    "milk",
+    "sugar",
+    "layers",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dalgona-coffee",
+  "ingredients": [
+    {
+      "name": "coffee powder",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "boiling water",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "cold milk",
+      "quantity": "2",
+      "measure": "cup"
+    }
+  ]
+}

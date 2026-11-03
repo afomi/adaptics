@@ -1,0 +1,25 @@
+{
+  "name": "Moulin Rouge Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "moulin-rouge-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Sloe Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

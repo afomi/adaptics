@@ -21,7 +21,7 @@ defmodule AdapticsWeb.NodeController do
       {:ok, node} ->
         conn
         |> put_flash(:info, "Node created successfully.")
-        |> redirect(to: Routes.node_path(conn, :show, node))
+        |> redirect(to: ~p"/nodes/#{node}")
 
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "new.html", changeset: changeset)
@@ -30,13 +30,21 @@ defmodule AdapticsWeb.NodeController do
 
   def show(conn, %{"id" => id}) do
     node = Visual.get_node!(id)
-    hash = node.hash
 
-    links = Adaptics.Repo.all(from u in "links",
-          where: u.to_hash == ^hash or u.from_hash == ^hash,
-          select: [:id, :to_hash, :from_hash, :name, :description, :from_id, :to_id])
+    links = links_touching(node.hash)
 
     render(conn, "show.html", node: node, links: links)
+  end
+
+  # Links related to a Node are matched by hash. A Node without a hash (e.g. a
+  # freshly created generic object) has no hash-based relations yet.
+  defp links_touching(nil), do: []
+
+  defp links_touching(hash) do
+    Adaptics.Repo.all(
+      from l in Adaptics.Visual.Link,
+        where: l.to_hash == ^hash or l.from_hash == ^hash
+    )
   end
 
   def edit(conn, %{"id" => id}) do
@@ -52,7 +60,7 @@ defmodule AdapticsWeb.NodeController do
       {:ok, node} ->
         conn
         |> put_flash(:info, "Node updated successfully.")
-        |> redirect(to: Routes.node_path(conn, :show, node))
+        |> redirect(to: ~p"/nodes/#{node}")
 
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "edit.html", node: node, changeset: changeset)
@@ -65,6 +73,6 @@ defmodule AdapticsWeb.NodeController do
 
     conn
     |> put_flash(:info, "Node deleted successfully.")
-    |> redirect(to: Routes.node_path(conn, :index))
+    |> redirect(to: ~p"/nodes")
   end
 end

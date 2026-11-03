@@ -1,0 +1,52 @@
+{
+  "name": "Cranberry Bourbon Sour",
+  "description": "Putting a festive spin on a classic cocktail!",
+  "keywords": [
+    "cool",
+    "cranberry",
+    "alcoholic",
+    "party",
+    "bourbon",
+    "orange"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cranberry-bourbon-sour",
+  "ingredients": [
+    {
+      "name": "Maple Syrup",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Orange, sliced",
+      "quantity": "1",
+      "measure": "number"
+    },
+    {
+      "name": "Bourbon",
+      "quantity": "8",
+      "measure": "ounces"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "4",
+      "measure": "ounces"
+    },
+    {
+      "name": "100% cranberry juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "orange, zest",
+      "quantity": "1",
+      "measure": "number"
+    },
+    {
+      "name": "orange bitters",
+      "quantity": "3-4",
+      "measure": "dashes"
+    }
+  ]
+}

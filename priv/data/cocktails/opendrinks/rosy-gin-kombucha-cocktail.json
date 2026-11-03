@@ -1,0 +1,47 @@
+{
+  "name": "Rosy Gin-Kombucha Cocktail",
+  "description": "Great cocktail for the kombucha curious.",
+  "keywords": [
+    "alcoholic",
+    "campari",
+    "gin",
+    "ginger",
+    "kombucha",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rosy-gin-kombucha-cocktail",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "finely grated fresh ginger",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "original kombucha, chilled",
+      "quantity": "5",
+      "measure": "ounces"
+    },
+    {
+      "name": "Lemon wedges, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

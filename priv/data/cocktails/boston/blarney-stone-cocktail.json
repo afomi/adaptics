@@ -1,0 +1,40 @@
+{
+  "name": "Blarney Stone Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "blarney-stone-cocktail",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange twist, green olive",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "White Christmas Margaritas",
+  "description": "Spike up your traditional holiday drinks from the traditional eggnog with a winterized margarita.",
+  "keywords": [
+    "coconut",
+    "tequila"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-christmas-margaritas",
+  "ingredients": [
+    {
+      "name": "unsweetened coconut milk",
+      "quantity": "14",
+      "measure": "oz"
+    },
+    {
+      "name": "tequila",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "triple sec",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "ice",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "lime wedge, for rimming glass",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "sanding sugar, for rimming glass",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lime slices, for garnish",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "cranberries, for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

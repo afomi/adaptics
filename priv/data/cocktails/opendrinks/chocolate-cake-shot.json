@@ -1,0 +1,42 @@
+{
+  "name": "Chocolate Cake Shot",
+  "description": "A dessert-style shot that tastes like chocolate cake when paired with a sugared lemon wedge.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "sweet",
+    "dessert",
+    "hazelnut",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chocolate-cake-shot",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Hazelnut liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "wedge"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

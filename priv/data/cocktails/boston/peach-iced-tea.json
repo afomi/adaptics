@@ -1,0 +1,35 @@
+{
+  "name": "Peach Iced Tea",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "peach-iced-tea",
+  "ingredients": [
+    {
+      "name": "Peach-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Iced tea",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

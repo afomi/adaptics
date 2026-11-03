@@ -1,0 +1,39 @@
+{
+  "name": "Apple Orchard Punch",
+  "description": "This quick and easy punch would be delightful at a country wedding or any celebration. Champagne can be used instead of ginger ale for an adult punch.",
+  "keywords": [
+    "non-alcoholic",
+    "punch",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-orchard-punch",
+  "ingredients": [
+    {
+      "name": "Chilled Apple Juice",
+      "quantity": "1",
+      "measure": "Liters"
+    },
+    {
+      "name": "Frozen Cranberry Juice Concentrate",
+      "quantity": "350",
+      "measure": "MilliLiters"
+    },
+    {
+      "name": "Apple",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Ginger Ale",
+      "quantity": "1.5",
+      "measure": "Liters"
+    }
+  ]
+}

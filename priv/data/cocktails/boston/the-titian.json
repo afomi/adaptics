@@ -1,0 +1,35 @@
+{
+  "name": "The Titian",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-titian",
+  "ingredients": [
+    {
+      "name": "Orange-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grand Marnier",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Passion Fruit Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pomegranate syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

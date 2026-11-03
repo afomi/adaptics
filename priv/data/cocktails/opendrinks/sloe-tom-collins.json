@@ -1,0 +1,55 @@
+{
+  "name": "Sloe Tom Collins",
+  "description": "A slighty fruitier but very delicous take on a classic cocktail. A sparkling lemonade base with the added tartness of sloe/blackthorn berries.",
+  "keywords": [
+    "gin",
+    "sloe",
+    "lemon juice",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sloe-tom-collins",
+  "ingredients": [
+    {
+      "name": "dry gin",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "sloe gin",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "simple syrup (optional to increase sweetness)",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "lemon juice (about 1 lemon)",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "Fresh rapsberries",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "club soda (chilled)",
+      "quantity": "3",
+      "measure": "ounces"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Optional: lemon slice as additional garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

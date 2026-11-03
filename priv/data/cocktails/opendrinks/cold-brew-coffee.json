@@ -1,0 +1,22 @@
+{
+  "name": "Cold Brew Coffee",
+  "description": "A super-smooth, less acidic, and highly caffeinated coffee.",
+  "keywords": [
+    "coffee"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cold-brew-coffee",
+  "ingredients": [
+    {
+      "name": "Whole Coffee Beans",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "4",
+      "measure": "Cups"
+    }
+  ]
+}

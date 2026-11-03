@@ -1,0 +1,35 @@
+{
+  "name": "Surf Rider",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "surf-rider",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

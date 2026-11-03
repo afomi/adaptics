@@ -1,0 +1,28 @@
+{
+  "name": "Cucumber Lemonade",
+  "description": "A refreshing drink for any warm summer day.",
+  "keywords": [
+    "lemon",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cucumber-lemonade",
+  "ingredients": [
+    {
+      "name": "cucumber",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "frozen lemonade concentrate",
+      "quantity": "12",
+      "measure": "Ounce"
+    },
+    {
+      "name": "lemon-lime flavored carbonated beverage",
+      "quantity": "1",
+      "measure": "Bottle"
+    }
+  ]
+}

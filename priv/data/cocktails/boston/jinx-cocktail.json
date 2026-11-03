@@ -1,0 +1,30 @@
+{
+  "name": "Jinx Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "jinx-cocktail",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blood orange liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Becherovka (Czech digestif)",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grapefruit juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+<style>
+  /* Scoped to #tcf so the dark scene palette does not leak into other pages. */
+  #tcf {
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --hairline: rgba(255, 255, 255, 0.10);
+    --gridline: #2c2c2a;
+    --series-return: #3987e5;   /* categorical slot 1, dark step */
+    --series-outflow: #d95926;  /* categorical slot 2, dark step */
+    --series-reserve: #199e70;  /* categorical slot 3, dark step */
+    --series-leak: #898781;     /* recessive: value lost from the loop */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  #toroidal-cash-flow-container {
+    position: absolute;
+    inset: 0;
+  }
+  #tcf .scene-label {
+    color: var(--text-secondary);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  #tcf .scene-label small {
+    display: block;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--text-muted);
+    font-size: 10px;
+  }
+  #tcf #panel {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 320px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+    background: rgba(26, 26, 25, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    padding: 16px;
+    z-index: 10;
+  }
+  #tcf #panel h1 {
+    font-size: 15px;
+    font-weight: 650;
+  }
+  #tcf #panel p.sub {
+    font-size: 12px;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
+  #tcf .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin-top: 12px;
+  }
+  #tcf .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-secondary);
+  }
+  #tcf .legend i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  #tcf .tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  #tcf .tile {
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    padding: 8px 10px;
+  }
+  #tcf .tile .k {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  #tcf .tile .v {
+    font-size: 19px;
+    font-weight: 650;
+    margin-top: 2px;
+  }
+  #tcf .tile .d {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 1px;
+  }
+  #tcf #spark {
+    display: block;
+    width: 100%;
+    height: 26px;
+    margin-top: 4px;
+  }
+  #tcf .controls {
+    margin-top: 14px;
+    display: grid;
+    gap: 10px;
+  }
+  #tcf .controls label {
+    display: block;
+    font-size: 11px;
+    color: var(--text-secondary);
+  }
+  #tcf .controls label b {
+    float: right;
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+  #tcf .controls input[type="range"] {
+    width: 100%;
+    margin-top: 4px;
+    accent-color: var(--series-return);
+  }
+  #tcf .note {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--hairline);
+    font-size: 10.5px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+</style>
+
+<div id="tcf">
+  <div id="toroidal-cash-flow-container"></div>
+
+  <aside id="panel">
+    <h1>Toroidal Cash Flow</h1>
+    <p class="sub">
+      A business as a closed flow.
+      Money rises through the core, radiates out as spending, circles the outside, and returns as revenue.
+      Reserves are the pause at the still point — not the opposite of flow, a phase of it.
+    </p>
+
+    <div class="legend">
+      <span><i style="background: var(--series-outflow)"></i>Outflow</span>
+      <span><i style="background: var(--series-return)"></i>Return</span>
+      <span><i style="background: var(--series-reserve)"></i>Reserves</span>
+      <span><i style="background: var(--series-leak)"></i>Leakage</span>
+    </div>
+
+    <div class="tiles">
+      <div class="tile">
+        <div class="k">Reserves</div>
+        <div
+          class="v"
+          id="t-reserve"
+        >—</div>
+        <canvas id="spark"></canvas>
+      </div>
+      <div class="tile">
+        <div class="k">Closure</div>
+        <div
+          class="v"
+          id="t-closure"
+        >—</div>
+        <div class="d">measured, of passes</div>
+      </div>
+      <div class="tile">
+        <div class="k">Cycle time</div>
+        <div
+          class="v"
+          id="t-cycle"
+        >—</div>
+        <div class="d">avg loop, incl. dwell</div>
+      </div>
+      <div class="tile">
+        <div class="k">Leaked</div>
+        <div
+          class="v"
+          id="t-leaked"
+        >—</div>
+        <div class="d">cumulative</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <label>
+        Closure — share of outflow that returns
+        <b id="v-closure">85%</b>
+        <input
+          id="c-closure"
+          type="range"
+          min="0"
+          max="100"
+          value="85"
+        >
+      </label>
+      <label>
+        Velocity — speed of circulation
+        <b id="v-speed">1.0×</b>
+        <input
+          id="c-speed"
+          type="range"
+          min="10"
+          max="300"
+          value="100"
+        >
+      </label>
+      <label>
+        Dwell — pause held in reserve at the core
+        <b id="v-dwell">1.2s</b>
+        <input
+          id="c-dwell"
+          type="range"
+          min="0"
+          max="400"
+          value="120"
+        >
+      </label>
+      <label>
+        Rhythm — pulsed vs. steady flow
+        <b id="v-rhythm">40%</b>
+        <input
+          id="c-rhythm"
+          type="range"
+          min="0"
+          max="80"
+          value="40"
+        >
+      </label>
+    </div>
+
+    <p class="note">
+      Each mote is ≈ $100 of working capital.
+      Watch the reserve gauge: high closure with some dwell holds it steady; low closure drains the loop no matter how fast it spins.
+      Velocity has a shape — the same speed can be a healthy torus or a fast leak.
+      Drag to orbit, scroll to zoom.
+      Companion to <em>geometric-finance.md</em> (tink).
+    </p>
+  </aside>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.toroidalCashFlow();
+  });
+</script>

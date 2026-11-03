@@ -1,0 +1,35 @@
+{
+  "name": "Bella Fragolia",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bella-fragolia",
+  "ingredients": [
+    {
+      "name": "Strawberry, chopped",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh basil leaves",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Bronx Cocktail (Dry)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bronx-cocktail-dry",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of Orange",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

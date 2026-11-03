@@ -1,0 +1,46 @@
+{
+  "name": "Es Jeruk",
+  "description": "This is a drink right now. It can only be sold at restaurants, now there are many sellers of this drink along the road near the house. The price is 5,000 rupiah, and 1 serving is 2 squeezed oranges. Read more about oranges around 10 thousand rupiahs, and can be 5 servings of squeezed orange ice, making yourself naturally cleaner and more delicious.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "non-alcoholic",
+    "vegan",
+    "orange"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "es-jeruk",
+  "ingredients": [
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Unripe Green Mango",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Cardamom",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "Fresh Mint",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "Black Salt",
+      "quantity": "5",
+      "measure": ""
+    },
+    {
+      "name": "orange, sugar",
+      "quantity": "6",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Oaxaca Old-Fashioned",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-oaxaca-old-fashioned",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mezcal",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Redhead Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "redhead-martini",
+  "ingredients": [
+    {
+      "name": "Strawberries, cut into halves",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled Moscato d'Asti or sweet sparkling wine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

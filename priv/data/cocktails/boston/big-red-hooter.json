@@ -1,0 +1,30 @@
+{
+  "name": "Big Red Hooter",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "big-red-hooter",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

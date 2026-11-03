@@ -1,0 +1,42 @@
+{
+  "name": "Southside",
+  "description": "A simple, refreshing, all season drink.",
+  "keywords": [
+    "lemon juice",
+    "simple syrup",
+    "angostura bitters",
+    "mint",
+    "refreshing",
+    "gin"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "southside",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice (fresh if possible)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "angostura bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "mint",
+      "quantity": "5",
+      "measure": "leaves"
+    }
+  ]
+}

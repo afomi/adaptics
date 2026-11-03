@@ -1,0 +1,35 @@
+{
+  "name": "Strawberry watermelon juice",
+  "description": "refreshing, healthy, delicious fruit juice.",
+  "keywords": [
+    "Strawberry",
+    "watermelon",
+    "healthy",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-watermelon-juice",
+  "ingredients": [
+    {
+      "name": "Strawberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Watermelon cut into large cubes",
+      "quantity": "1 ½",
+      "measure": "cups"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "6",
+      "measure": ""
+    }
+  ]
+}

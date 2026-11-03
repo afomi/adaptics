@@ -1,0 +1,30 @@
+{
+  "name": "Temptation Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "temptation-cocktail",
+  "ingredients": [
+    {
+      "name": "Blended whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anis",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Lumination",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "lumination",
+  "ingredients": [
+    {
+      "name": "Fresh ginger",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "VS cognac",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh lemon juice, Angostura bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

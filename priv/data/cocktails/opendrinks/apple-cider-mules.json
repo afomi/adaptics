@@ -1,0 +1,40 @@
+{
+  "name": "Apple Cider Mules",
+  "description": "Perfect way to toast to Fall!",
+  "keywords": [
+    "vodka",
+    "beer",
+    "cider",
+    "cinnamon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-cider-mules",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "ginger beer",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "sparkling cider",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Sliced apple, for garnish",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cinnamon sticks, for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

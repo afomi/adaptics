@@ -1,0 +1,38 @@
+{
+  "name": "Whiskey Highball",
+  "description": "A simple, refreshing highball: whiskey topped with fizzy soda water, served ice-cold.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "whiskey",
+    "highball",
+    "soda water",
+    "simple",
+    "carbonated"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "whiskey-highball",
+  "ingredients": [
+    {
+      "name": "whiskey",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "chilled soda water",
+      "quantity": "180",
+      "measure": "ml"
+    },
+    {
+      "name": "ice (large cubes preferred)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lemon peel or wedge (optional garnish)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

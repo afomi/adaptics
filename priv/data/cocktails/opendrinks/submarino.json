@@ -1,0 +1,25 @@
+{
+  "name": "Submarino",
+  "description": "Submarino is a beer cocktail that is made by dropping a bomb shot of tequila into a glass of beer.",
+  "keywords": [
+    "tequila",
+    "beer",
+    "alcoholic",
+    "mexican"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "submarino",
+  "ingredients": [
+    {
+      "name": "Beer",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

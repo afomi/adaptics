@@ -1,0 +1,30 @@
+{
+  "name": "Hole-in-One Cocktai",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hole-in-one-cocktai",
+  "ingredients": [
+    {
+      "name": "Scotch",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

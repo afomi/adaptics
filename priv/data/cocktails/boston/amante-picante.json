@@ -1,0 +1,40 @@
+{
+  "name": "Amante Picante",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "amante-picante",
+  "ingredients": [
+    {
+      "name": "Cucumber",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh cilantro sprigs",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Jalapeno hot pepper sauce, cucumber slice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

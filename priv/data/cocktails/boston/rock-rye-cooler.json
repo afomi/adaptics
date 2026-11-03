@@ -1,0 +1,25 @@
+{
+  "name": "Rock & Rye Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "rock-rye-cooler",
+  "ingredients": [
+    {
+      "name": "Rock and Rye",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

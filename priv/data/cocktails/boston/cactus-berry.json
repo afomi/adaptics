@@ -1,0 +1,35 @@
+{
+  "name": "Cactus Berry",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "cactus-berry",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Red wine",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Triple Sec, simple syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Fresh lemon juice, fresh lime juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon-lime soda",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cubeltini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "cubeltini",
+  "ingredients": [
+    {
+      "name": "Cucumber slices",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "5",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

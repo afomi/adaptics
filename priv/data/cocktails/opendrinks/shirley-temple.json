@@ -1,0 +1,37 @@
+{
+  "name": "Shirley Temple",
+  "description": "Simple and popular non-alcoholic drink.",
+  "keywords": [
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "shirley-temple",
+  "ingredients": [
+    {
+      "name": "Ginger Ale",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemonade (optional)",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Maracschino Cherry (garnish)",
+      "quantity": "½",
+      "measure": "cup"
+    },
+    {
+      "name": "Ice",
+      "quantity": "3⅓",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Gin Fizz with Pomegranate",
+  "description": "A fresh cocktail perfect for a suuny day. It's beatiful and delicious!",
+  "keywords": [
+    "gin",
+    "club soda",
+    "fresh",
+    "rosemary",
+    "lemon",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gin-fizz-with-pomegranate",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Club soda",
+      "quantity": "120",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Pomergranate",
+      "quantity": "1 ½",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Fresh rosemary",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

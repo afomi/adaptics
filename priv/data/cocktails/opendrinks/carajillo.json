@@ -1,0 +1,25 @@
+{
+  "name": "Carajillo",
+  "description": "Carajillo was born during the colonial era, when Cuba was a Spanish province. Spanish soldiers mixed coffee with liquor to take courage during the fighting.",
+  "keywords": [
+    "coffee",
+    "liqueur",
+    "spices",
+    "Whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "carajillo",
+  "ingredients": [
+    {
+      "name": "espresso",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Liquor (Whiskey, Ron, Brandy)",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Trash Can",
+  "description": "Tasty Mix of Whatever you Have on Hand with a Caffeine Boost!",
+  "keywords": [
+    "alcoholic",
+    "trash",
+    "can",
+    "college",
+    "party"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "trash-can",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Rum (Light)",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue Caracao",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Peach Schnapps",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Red Bull",
+      "quantity": "1",
+      "measure": "can"
+    }
+  ]
+}

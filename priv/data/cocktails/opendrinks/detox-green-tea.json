@@ -1,0 +1,49 @@
+{
+  "name": "Detox Green Tea",
+  "description": "Detox green tea boosts the process of weight loss.",
+  "keywords": [
+    "green tea",
+    "mint leaves",
+    "lemon",
+    "slice",
+    "water",
+    "basil",
+    "mint",
+    "honey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "detox-green-tea",
+  "ingredients": [
+    {
+      "name": "Green Tea",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Dried Basil",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Mint Leaves",
+      "quantity": "7",
+      "measure": ""
+    },
+    {
+      "name": "Honey",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Water",
+      "quantity": "1",
+      "measure": "ltr"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Boba Tea",
+  "description": "Trending Boba Tea.",
+  "keywords": [
+    "tea",
+    "mocktail",
+    "non-alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "boba-tea",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": "240",
+      "measure": "ml"
+    },
+    {
+      "name": "black tea bags",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "black tapioca pearls",
+      "quantity": "25",
+      "measure": "gram"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "220",
+      "measure": "gram"
+    },
+    {
+      "name": "hot water",
+      "quantity": "120",
+      "measure": "ml"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Suntan",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "suntan",
+  "ingredients": [
+    {
+      "name": "Hot Shot Tropical Fruit Liqueur",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

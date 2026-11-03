@@ -1,0 +1,29 @@
+{
+  "name": "Kopi",
+  "description": "Kopi is a type of traditional coffee local to Singapore and Malaysia. It is a highly caffeinated black coffee served with milk and sugar. ",
+  "keywords": [
+    "coffee",
+    "singaporean",
+    "malaysian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kopi",
+  "ingredients": [
+    {
+      "name": "Kopi concentrate",
+      "quantity": "1",
+      "measure": "4/5 cup (‘cup’ refers to your cup, not US measuring cup)"
+    },
+    {
+      "name": "Condensed milk",
+      "quantity": "1",
+      "measure": "1 teaspoon"
+    },
+    {
+      "name": "Evaporated milk",
+      "quantity": "1",
+      "measure": "20g / ~3 teaspoons"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Black Russian",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "black-russian",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

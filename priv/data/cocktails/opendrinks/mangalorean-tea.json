@@ -1,0 +1,46 @@
+{
+  "name": "Mangalorean Tea",
+  "description": "The Mangalorean Tea is a herbal drink made of dry-roasted and coarsely powdered spices. The spices are boiled with water and sweetened with misri. A little bit of milk is added to the herbal concoction to balance the flavour and strength and make it pleasant to the palate. Apart from having a general rejuvenating effect,this caffeine free herbal tea also help to soothe the throat.",
+  "keywords": [
+    "Indian",
+    "Tea",
+    "Chai",
+    "Milk",
+    "Spices"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mangalorean-tea",
+  "ingredients": [
+    {
+      "name": "coriander seeds(dhania)",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "cumin seeds(jeera)",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "fennel seeds(saunf)",
+      "quantity": "1 and 1/2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "fenugreek seeds(methi)",
+      "quantity": "1/4",
+      "measure": "tsp"
+    },
+    {
+      "name": "misri(khadi sakhar)",
+      "quantity": "1 and 1/2",
+      "measure": "tsp"
+    },
+    {
+      "name": "milk",
+      "quantity": "2",
+      "measure": "tbsp"
+    }
+  ]
+}

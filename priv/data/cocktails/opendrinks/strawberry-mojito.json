@@ -1,0 +1,48 @@
+{
+  "name": "Strawberry Mojito",
+  "description": "A classic Mojito with a sweet twist, really enjoyable in the summer.",
+  "keywords": [
+    "mint",
+    "lime",
+    "strawberry",
+    "white rum",
+    "club soda",
+    "sugar",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-mojito",
+  "ingredients": [
+    {
+      "name": "mint",
+      "quantity": "8",
+      "measure": "leaves"
+    },
+    {
+      "name": "lime",
+      "quantity": "4",
+      "measure": "slices"
+    },
+    {
+      "name": "strawberries",
+      "quantity": "2",
+      "measure": "chopped"
+    },
+    {
+      "name": "sirup/sugar",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "white rum",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "club soda",
+      "quantity": "1",
+      "measure": "bottle"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Peach Bellini",
+  "description": "Frozen, refreshing peach bellini made popular by the Joey restaurants! (Not the same but we try to get there).",
+  "keywords": [
+    "bellini",
+    "peach",
+    "schnapps",
+    "summer",
+    "sweet",
+    "vodka",
+    "wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peach-bellini",
+  "ingredients": [
+    {
+      "name": "Frozen & Sliced Peaches",
+      "quantity": "4",
+      "measure": "cup"
+    },
+    {
+      "name": "Peach Vodka or Schnapps",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Red wine or Prosecco on top of each cup",
+      "quantity": "1",
+      "measure": "splash"
+    }
+  ]
+}

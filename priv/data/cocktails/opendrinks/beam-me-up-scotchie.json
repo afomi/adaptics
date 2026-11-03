@@ -1,0 +1,31 @@
+{
+  "name": "Beam me up, Scotchie",
+  "description": "A simple Fall cocktail worthy of Scotty himself",
+  "keywords": [
+    "liqueur",
+    "scotch",
+    "star trek",
+    "fig",
+    "fall"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "beam-me-up-scotchie",
+  "ingredients": [
+    {
+      "name": "Glenfiddich Scotch",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Figs",
+      "quantity": "2",
+      "measure": "seeded"
+    },
+    {
+      "name": "Vanilla liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

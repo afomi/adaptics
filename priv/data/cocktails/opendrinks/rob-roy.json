@@ -1,0 +1,30 @@
+{
+  "name": "Rob Roy",
+  "description": "A cocktail consisting primarily of whisky and vermouth, created in 1894 by a bartender at the Waldorf Astoria in Manhattan, New York City.",
+  "keywords": [
+    "cocktail",
+    "whisky",
+    "vermouth",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rob-roy",
+  "ingredients": [
+    {
+      "name": "Scotch",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet vermouth",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "3",
+      "measure": "dashes"
+    }
+  ]
+}

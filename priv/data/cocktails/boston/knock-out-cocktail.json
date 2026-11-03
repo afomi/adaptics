@@ -1,0 +1,30 @@
+{
+  "name": "Knock-Out Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "knock-out-cocktail",
+  "ingredients": [
+    {
+      "name": "Anisette",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Menthe (White)",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

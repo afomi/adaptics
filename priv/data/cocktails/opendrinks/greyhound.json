@@ -1,0 +1,30 @@
+{
+  "name": "Greyhound",
+  "description": "The refreshing mixture of grapefruit and vodka makes the greyhound an ideal choice for a summertime refresher.",
+  "keywords": [
+    "vodka",
+    "grapefruit",
+    "citrus",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "greyhound",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "5",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Grapefruit Juice",
+      "quantity": "1",
+      "measure": "5 fl oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "1/2 cup"
+    }
+  ]
+}

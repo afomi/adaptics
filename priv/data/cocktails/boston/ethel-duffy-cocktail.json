@@ -1,0 +1,25 @@
+{
+  "name": "Ethel Duffy Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "ethel-duffy-cocktail",
+  "ingredients": [
+    {
+      "name": "Apricot-Flavored Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Creamy Orange",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "creamy-orange",
+  "ingredients": [
+    {
+      "name": "Orange Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cream sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

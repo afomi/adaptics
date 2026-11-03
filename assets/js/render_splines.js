@@ -157,7 +157,7 @@ export function renderSplines(selector, data) {
       transformControl.addEventListener("objectChange", function (event) {
         let objectPosition = transformControl.object.position;
 
-        const tControl = transformControl.object.theatreControl;
+        const tControl = null // transformControl.object.theatreControl;
         if (tControl) {
           const key = tControl.address.objectKey;
           if (key) {
@@ -399,6 +399,10 @@ export function renderSplines(selector, data) {
       // console.log("addingPoint", mesh.position)
 
       function drawTheatreControl() {
+        if (typeof sheet === "undefined") {
+          return false;
+        }
+
         const theatreControl = sheet.object(`Nodes/node-${currentNode.x}`, {
           position: types.compound({
             x: types.number(mesh.position.x),

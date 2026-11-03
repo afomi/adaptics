@@ -1,0 +1,30 @@
+{
+  "name": "Mocha Express",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "mocha-express",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Irish cream liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold brewed espresso coffee",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

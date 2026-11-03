@@ -1,0 +1,36 @@
+{
+  "name": "Macunaíma",
+  "description": "A popular drink created at 'Boca de Ouro' bar, in São Paulo, Brazil.",
+  "keywords": [
+    "lemon",
+    "cachaca",
+    "sugar syrup",
+    "Fernet",
+    "Brazilian drink"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "macunai-ma",
+  "ingredients": [
+    {
+      "name": "white Cachaça",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "25",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Fernet-Branca",
+      "quantity": "7",
+      "measure": "ml"
+    }
+  ]
+}

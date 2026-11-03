@@ -1,0 +1,35 @@
+{
+  "name": "The Jamaican Ten Speed",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-jamaican-ten-speed",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Melon liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de banana",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coconut-flavored rum",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

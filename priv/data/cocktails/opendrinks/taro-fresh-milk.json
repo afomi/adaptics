@@ -1,0 +1,35 @@
+{
+  "name": "Taro Fresh Milk",
+  "description": "Taro fresh milk is a drink that you find a lot in cafes in Indonesia, young people love it.",
+  "keywords": [
+    "taro",
+    "milk",
+    "fresh",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "taro-fresh-milk",
+  "ingredients": [
+    {
+      "name": "Tablespoons of taro powder",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Glass of pure cow's milk",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Tablespoons of liquid sugar",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "Needed",
+      "measure": ""
+    }
+  ]
+}

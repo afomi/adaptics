@@ -1,0 +1,30 @@
+{
+  "name": "Vodka Grasshopper",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-grasshopper",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

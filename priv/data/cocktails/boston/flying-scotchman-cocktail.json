@@ -1,0 +1,30 @@
+{
+  "name": "Flying Scotchman Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "flying-scotchman-cocktail",
+  "ingredients": [
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Desmond & Duff Scotch Whisky",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sugar Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

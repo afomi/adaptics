@@ -1,0 +1,25 @@
+{
+  "name": "Fontainebleau Special",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "fontainebleau-special",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

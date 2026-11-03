@@ -1,0 +1,30 @@
+{
+  "name": "The Duboudreau Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "the-duboudreau-cocktail",
+  "ingredients": [
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet Rouge",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fernet-Branca",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Elderflower liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Velvet Peach Hammer",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "velvet-peach-hammer",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach schnapps",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

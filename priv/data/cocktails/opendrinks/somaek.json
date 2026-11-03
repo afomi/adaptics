@@ -1,0 +1,24 @@
+{
+  "name": "Somaek",
+  "description": "A famous mixed cocktail in Korea consisting of beer (maekju,맥주) and soju (소주) mixed together, turning it into Somaek (소맥). It is the most popular drinking trend in South Korea.",
+  "keywords": [
+    "somaek",
+    "beer",
+    "soju"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "somaek",
+  "ingredients": [
+    {
+      "name": "beer, usually lager style",
+      "quantity": "245",
+      "measure": "ml"
+    },
+    {
+      "name": "korean soju",
+      "quantity": "25",
+      "measure": "ml"
+    }
+  ]
+}

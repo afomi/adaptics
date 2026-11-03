@@ -1,0 +1,36 @@
+{
+  "name": "Irish Coffee",
+  "description": "Irish coffee is a cocktail of coffee, sugar, whiskey and cream. This drink was created by Joseph Sheridan in the late 1930s in Foynes, Ireland.",
+  "keywords": [
+    "whiskey",
+    "coffee",
+    "heavy cream",
+    "sugar syrup",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "irish-coffee",
+  "ingredients": [
+    {
+      "name": "Irish whiskey,",
+      "quantity": "1 1/2 to 2",
+      "measure": "ounces"
+    },
+    {
+      "name": "fresh-brewed coffee",
+      "quantity": "4",
+      "measure": "ounces"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1/2 to 1",
+      "measure": "ounce"
+    },
+    {
+      "name": "Heavy cream",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

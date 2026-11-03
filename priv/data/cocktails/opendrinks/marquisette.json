@@ -1,0 +1,42 @@
+{
+  "name": "Marquisette",
+  "description": "The Marquisette is an drink particularly present in the south-east of France and consumed in popular balls (recipe for 30 people).",
+  "keywords": [
+    "wine",
+    "white wine",
+    "champagne",
+    "sugar",
+    "lemon",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "marquisette",
+  "ingredients": [
+    {
+      "name": "white wine (like Picpoul de Pinet)",
+      "quantity": "7",
+      "measure": "l"
+    },
+    {
+      "name": "Champagne (or a sparkling wine)",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "kg"
+    },
+    {
+      "name": "yellow lemons",
+      "quantity": "5",
+      "measure": ""
+    },
+    {
+      "name": "limes",
+      "quantity": "3",
+      "measure": ""
+    }
+  ]
+}

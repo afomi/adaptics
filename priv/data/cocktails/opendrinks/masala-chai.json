@@ -1,0 +1,57 @@
+{
+  "name": "Masala Chai",
+  "description": "Masala chai is a flavoured tea beverage made by brewing black tea with a mixture of aromatic spices and herbs.",
+  "keywords": [
+    "hot",
+    "tea",
+    "masala",
+    "non-alcoholic",
+    "indian",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "masala-chai",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "4",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Darjeeling Tea Leaves",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Milk",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1/2",
+      "measure": "inch"
+    },
+    {
+      "name": "Green Cardamoms",
+      "quantity": "2 to 3",
+      "measure": "pieces"
+    },
+    {
+      "name": "Cloves",
+      "quantity": "2",
+      "measure": "pieces"
+    },
+    {
+      "name": "Ginger",
+      "quantity": "1",
+      "measure": "inch"
+    }
+  ]
+}

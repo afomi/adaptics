@@ -1,0 +1,15 @@
+{
+  "name": "London Special Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "london-special-cocktail",
+  "ingredients": [
+    {
+      "name": "bitters",
+      "measure": "2 dashes",
+      "quantity": null
+    }
+  ]
+}

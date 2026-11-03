@@ -1,0 +1,36 @@
+{
+  "name": "Diana's lips",
+  "description": "A cocktail based on mezcal infused with cocoa beans and pink berries, lime and Schweppes Tonic Hibiscus.",
+  "keywords": [
+    "schweppes",
+    "lime",
+    "lemon",
+    "alcoholic",
+    "mezcal"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "diana-s-lips",
+  "ingredients": [
+    {
+      "name": "Mezcal infused with cocoa beans and pink berries",
+      "quantity": "4.5",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Schweppes Tonic Hibiscus",
+      "quantity": "",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime",
+      "quantity": "2",
+      "measure": "Slice"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Chef's Pain",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "chef-s-pain",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blackberry liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "B & B",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Beer Pletok",
+  "description": "Pletok beer is a refreshing drink made from a mixture of several herbs, namely ginger, fragrant pandan leaves, and lemongrass. This traditional drink is known among Betawi ethnic groups",
+  "keywords": [
+    "vegan",
+    "non-alcoholic",
+    "tea",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "beer-pletok",
+  "ingredients": [
+    {
+      "name": "ginger (choose the old one)",
+      "quantity": "2",
+      "measure": "thumbs"
+    },
+    {
+      "name": "lemongrass",
+      "quantity": "2",
+      "measure": "stems, bruised"
+    },
+    {
+      "name": "water (boiled)",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "sappan wood (washed)",
+      "quantity": "150",
+      "measure": "grams"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "5",
+      "measure": "milligrams"
+    },
+    {
+      "name": "of granulated sugar",
+      "quantity": "150",
+      "measure": "grams"
+    },
+    {
+      "name": "ice cubes as needed",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "salt as needed",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

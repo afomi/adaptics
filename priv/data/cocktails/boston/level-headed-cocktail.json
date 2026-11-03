@@ -1,0 +1,35 @@
+{
+  "name": "Level headed Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "level-headed-cocktail",
+  "ingredients": [
+    {
+      "name": "Aged rhum agricole",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold brewed coffee",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Allspice liqueur (pimento dram)",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

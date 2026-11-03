@@ -1,0 +1,64 @@
+{
+  "name": "Venus Flytrap",
+  "description": "The Venus Flytrip is a delicious sweet but not too sweet gin drink. It's very summer, but also somehow very holiday.",
+  "keywords": [
+    "alcoholic",
+    "gin",
+    "bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "venus-flytrap",
+  "ingredients": [
+    {
+      "name": "crushed ice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "gin infused with kefir lime",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Falernum (West Indies lime based sweetener)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "soda",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "angostura bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "absinthe",
+      "quantity": "3",
+      "measure": "dash"
+    },
+    {
+      "name": "nutmeg",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "kefir lime leaf",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "wedge of lime",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

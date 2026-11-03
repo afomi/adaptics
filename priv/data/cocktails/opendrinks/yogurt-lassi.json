@@ -1,0 +1,47 @@
+{
+  "name": "Yogurt-Lassi",
+  "description": "Indian Lassi with atint of mint, cardamom and cumin flavours.",
+  "keywords": [
+    "lassi",
+    "mint Leaf",
+    "cumin",
+    "salt",
+    "sugar",
+    "yogurt"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "yogurt-lassi",
+  "ingredients": [
+    {
+      "name": "Curd or Yogurt",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "As Desired",
+      "measure": " "
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Powdered Mint Leaves",
+      "quantity": "1/2 to 3/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Powdered Cumin",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Salt",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    }
+  ]
+}

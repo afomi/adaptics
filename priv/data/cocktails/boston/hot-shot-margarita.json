@@ -1,0 +1,25 @@
+{
+  "name": "Hot Shot Margarita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hot-shot-margarita",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Hot Shot Tropical Fruit Liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon or Lime Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

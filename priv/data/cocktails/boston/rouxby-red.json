@@ -1,0 +1,40 @@
+{
+  "name": "Rouxby Red",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "rouxby-red",
+  "ingredients": [
+    {
+      "name": "For glass Lemon wedge, coarse salt",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

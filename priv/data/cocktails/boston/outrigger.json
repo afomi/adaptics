@@ -1,0 +1,25 @@
+{
+  "name": "Outrigger",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "outrigger",
+  "ingredients": [
+    {
+      "name": "Peach-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

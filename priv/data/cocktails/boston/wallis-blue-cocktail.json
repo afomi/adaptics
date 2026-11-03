@@ -1,0 +1,30 @@
+{
+  "name": "Wallis Blue Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Gin",
+  "slug": "wallis-blue-cocktail",
+  "ingredients": [
+    {
+      "name": "Lime wedge, superfine sugar",
+      "measure": "1",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Cosmopolitan",
+  "description": "One thing is certain, the Cosmopolitan is outdated, but just like the cocktail as a whole, it just needs a little help to get back on track!",
+  "keywords": [
+    "vodka",
+    "lemon juice",
+    "triple sec",
+    "cranberry juice",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cosmopolitan",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "green lemon juice",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "triple sec (Curacao, Grand Marnier, Cointreau)",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry juice",
+      "quantity": "0.5",
+      "measure": "oz"
+    }
+  ]
+}

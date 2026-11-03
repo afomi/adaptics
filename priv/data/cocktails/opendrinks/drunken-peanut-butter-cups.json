@@ -1,0 +1,65 @@
+{
+  "name": "Drunken Peanut Butter Cups",
+  "description": "A martini that uses home made Reese's Pieces infused vodka, garnished with a peanut buter rim! Recipe yields two servings.",
+  "keywords": [
+    "peanut butter",
+    "chocolate",
+    "vodka",
+    "halloween"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "drunken-peanut-butter-cups",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Reese's Pieces",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "ice",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Reese's infused vodka",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "milk",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Chocolate Liquer",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Peanut Butter (optional, for garnishing the rim of the glass)",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Crushed Reese's Pieces (optional, for garnishing the rim of the glass)",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Reese's Cups (as garnish)",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "chocolate syrup",
+      "quantity": "2",
+      "measure": "tablespoons"
+    }
+  ]
+}

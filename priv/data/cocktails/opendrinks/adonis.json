@@ -1,0 +1,36 @@
+{
+  "name": "Adonis",
+  "description": "Nineteenth Century aperitif using sherry.",
+  "keywords": [
+    "sherry",
+    "vermouth",
+    "sherry",
+    "orange",
+    "bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "adonis",
+  "ingredients": [
+    {
+      "name": "sweet vermouth, Carpano Antica",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "fino sherry, lustau La Ina",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "orange bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "orange zest",
+      "quantity": "1",
+      "measure": "piece"
+    }
+  ]
+}

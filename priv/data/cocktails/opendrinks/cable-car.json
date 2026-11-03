@@ -1,0 +1,40 @@
+{
+  "name": "Cable Car",
+  "description": "Vanilla and Spice from rum interact with the orange liqueur interact with this and citrus",
+  "keywords": [
+    "cocktail",
+    "Spiced Rum",
+    "liqueur",
+    "lemon juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cable-car",
+  "ingredients": [
+    {
+      "name": "Spiced Rum ",
+      "quantity": "3/2",
+      "measure": "shot"
+    },
+    {
+      "name": "orange Curacao liqueur",
+      "quantity": "3/4",
+      "measure": "shot"
+    },
+    {
+      "name": "lemon juice(freshly squeezed)",
+      "quantity": "1",
+      "measure": "shot"
+    },
+    {
+      "name": "Sugar Syrup(2 sugar to 1 water rich syrup)",
+      "quantity": "1/3",
+      "measure": "shot"
+    },
+    {
+      "name": "Pasteurized egg white ",
+      "quantity": "1/3",
+      "measure": "shot"
+    }
+  ]
+}

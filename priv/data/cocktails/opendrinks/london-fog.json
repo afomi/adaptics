@@ -1,0 +1,40 @@
+{
+  "name": "London Fog",
+  "description": "A tea based latte with vanilla and honey.",
+  "keywords": [
+    "non-alcoholic",
+    "tea",
+    "hot",
+    "latte"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "london-fog",
+  "ingredients": [
+    {
+      "name": "Earl Grey Tea",
+      "quantity": "1",
+      "measure": "bag"
+    },
+    {
+      "name": "Boiling Water",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Steamed Milk",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Vanilla Extract",
+      "quantity": "1/4",
+      "measure": "tsp"
+    },
+    {
+      "name": "Honey",
+      "quantity": "1",
+      "measure": "tbsp"
+    }
+  ]
+}

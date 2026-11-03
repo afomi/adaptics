@@ -1,0 +1,42 @@
+{
+  "name": "Rose Sangria",
+  "description": "A simple and tasty rosé sangria.",
+  "keywords": [
+    "summer",
+    "fresh",
+    "sangria",
+    "sweet",
+    "vegan",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rose-sangria",
+  "ingredients": [
+    {
+      "name": "oranges",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "strawberries",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "7up or any citrus soda",
+      "quantity": "11",
+      "measure": "oz (or 330ml)"
+    },
+    {
+      "name": "rosé wine",
+      "quantity": "17",
+      "measure": "oz (or 550Mml)"
+    }
+  ]
+}

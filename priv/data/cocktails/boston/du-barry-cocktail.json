@@ -1,0 +1,30 @@
+{
+  "name": "Du Barry Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "du-barry-cocktail",
+  "ingredients": [
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

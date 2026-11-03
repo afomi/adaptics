@@ -1,0 +1,35 @@
+{
+  "name": "Free Silver",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "free-silver",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

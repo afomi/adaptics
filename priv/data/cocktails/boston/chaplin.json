@@ -1,0 +1,35 @@
+{
+  "name": "Chaplin",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "chaplin",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ramazzotti Amaro",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

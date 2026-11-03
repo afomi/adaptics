@@ -1,0 +1,33 @@
+{
+  "name": "Frosé",
+  "description": "Frose is frozen rosé wine. it’s a mashup between a frozen cocktail and that quintessential summer wine.",
+  "keywords": [
+    "cold",
+    "wine",
+    "strawberry",
+    "honey",
+    "alcoholic",
+    "pink",
+    "refreshing"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "frose",
+  "ingredients": [
+    {
+      "name": "Rose Wine",
+      "quantity": "750",
+      "measure": "mL"
+    },
+    {
+      "name": "ripe strawberries",
+      "quantity": "1 1/2",
+      "measure": "cups"
+    },
+    {
+      "name": "honey",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Pick a Daisy",
+  "description": "Atlanta cocktail in the Daisy category served at The Chastain ",
+  "keywords": [
+    "mezcal",
+    "atlanta",
+    "daisy",
+    "aquafaba"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pick-a-daisy",
+  "ingredients": [
+    {
+      "name": "Mezcal",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pierre Ferrand dry Curacao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple syrup",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "Aquafaba",
+      "quantity": ".75",
+      "measure": "oz"
+    }
+  ]
+}

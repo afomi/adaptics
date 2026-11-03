@@ -112,6 +112,48 @@ defmodule Adaptics.Visual do
     Node.changeset(node, attrs)
   end
 
+  @doc """
+  Computes how directly each intent Node's heading points at a goal coordinate.
+
+  An intent Node is a Node with a `heading` (radians, `atan2(dx, dz)` convention).
+  Alignment is the cosine similarity of the heading unit vector and the
+  (node → goal) unit vector, in [-1, 1]: 1.0 = pointing straight at the goal,
+  -1.0 = pointing directly away. Nodes without a heading are excluded — a point
+  has no declared intent to align.
+
+  Goal is a coordinate `{goal_x, goal_y}` in the same plane as the nodes'
+  `x`/`y`, not necessarily a Node.
+
+  ## Examples
+
+      iex> aligned_to_goal([%Node{x: 0.0, y: 0.0, heading: :math.pi()/2}], {10.0, 0.0})
+      [%{node: %Node{}, alignment: 1.0, distance: 10.0}]
+
+  """
+  def aligned_to_goal(nodes, {goal_x, goal_y}) do
+    nodes
+    |> Enum.filter(& &1.heading)
+    |> Enum.map(fn node ->
+      # heading unit vector, matching the /3d plane convention: atan2(dx, dz)
+      hx = :math.sin(node.heading)
+      hy = :math.cos(node.heading)
+
+      dx = goal_x - (node.x || 0.0)
+      dy = goal_y - (node.y || 0.0)
+      distance = :math.sqrt(dx * dx + dy * dy)
+
+      alignment =
+        if distance == 0.0 do
+          # on top of the goal: no direction to compare, treat as fully aligned
+          1.0
+        else
+          (hx * dx + hy * dy) / distance
+        end
+
+      %{node: node, alignment: alignment, distance: distance}
+    end)
+  end
+
   alias Adaptics.Visual.Link
 
   @doc """
@@ -131,7 +173,7 @@ defmodule Adaptics.Visual do
   end
 
   def list_wardley_links do
-    Repo.all(from u in "links",
+    Repo.all(from u in "edges",
       where: not is_nil(u.to_hash),
       limit: 7000,
       select: [:id, :from_id, :to_id, :from_hash, :to_hash, :description])

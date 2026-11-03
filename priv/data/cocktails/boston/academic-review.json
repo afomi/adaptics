@@ -1,0 +1,40 @@
+{
+  "name": "Academic Review",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "academic-review",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Applejack",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaro Nonino",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rye Whiskey",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Demerara Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mole bitters 1 oz",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

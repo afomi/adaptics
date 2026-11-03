@@ -1,0 +1,25 @@
+{
+  "name": "Resentin",
+  "description": "Resentin is the name in Venetian dialect of a action to do after drink an espresso coffee, you need only an espresso and a little bit of grappa.",
+  "keywords": [
+    "espresso",
+    "coffee",
+    "grappa",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "resentin",
+  "ingredients": [
+    {
+      "name": "espresso coffee",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "grappa",
+      "quantity": "1",
+      "measure": "bottle"
+    }
+  ]
+}

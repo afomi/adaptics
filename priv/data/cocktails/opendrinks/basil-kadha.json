@@ -1,0 +1,42 @@
+{
+  "name": "Basil Kadha",
+  "description": "Herbal tea with goodnesss of Basil, Ginger and Lemongrass, works wonders with common cold and Cough",
+  "keywords": [
+    "herbal",
+    "basil",
+    "non-alcoholic",
+    "vegan",
+    "ginger",
+    "tea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "basil-kadha",
+  "ingredients": [
+    {
+      "name": "Basil",
+      "quantity": "10-15",
+      "measure": ""
+    },
+    {
+      "name": "Lemongrass",
+      "quantity": "1-1/2",
+      "measure": ""
+    },
+    {
+      "name": "Ginger",
+      "quantity": "",
+      "measure": "25mm"
+    },
+    {
+      "name": "Water",
+      "quantity": "",
+      "measure": "6 Cups"
+    },
+    {
+      "name": "Jaggery",
+      "quantity": "",
+      "measure": "4 Tsp"
+    }
+  ]
+}

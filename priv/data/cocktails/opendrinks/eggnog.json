@@ -1,0 +1,33 @@
+{
+  "name": "Eggnog",
+  "description": "Eggnog, historically also known as a milk punch or an egg milk punch when alcoholic beverages are added, is a rich, chilled, sweetened, dairy-based beverage. It is traditionally made with milk, cream, sugar, whipped egg whites, and egg yolks.",
+  "keywords": [
+    "fruit",
+    "juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "eggnog",
+  "ingredients": [
+    {
+      "name": "egg",
+      "quantity": "6",
+      "measure": "Egg Measure"
+    },
+    {
+      "name": "honey or sugar",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "salt",
+      "quantity": "0,5",
+      "measure": "ml"
+    },
+    {
+      "name": "milk",
+      "quantity": "4",
+      "measure": "cup"
+    }
+  ]
+}

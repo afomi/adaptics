@@ -1,0 +1,34 @@
+<script>
+  window.data = {
+    nodes: [
+    <%= for node <- @nodes do %>
+    {
+      id: "<%= node.hash %>",
+      name: "<%= node.name %>",
+      description: "<%= node.description %>",
+      degree: 0,
+    },
+    <% end %>
+    ],
+    links: [
+    <%= for link <- @links do %>
+    {
+      source: "<%= Enum.random(@nodes).hash %>",
+      target: "<%= Enum.random(@nodes).hash %>",
+      value: 1
+    },
+    <% end %>
+    ],
+  };
+</script>
+
+<%= sidebar(%{}) %>
+
+<div id="info" style="position: absolute; display: none; background-color: white; border: 1px solid black; padding: 10px; width: 300px; font-size: 11px;"></div>
+<div id="graph"></div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    window.nodeGraph(window.data);
+  });
+</script>

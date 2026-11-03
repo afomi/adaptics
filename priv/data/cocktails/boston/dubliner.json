@@ -1,0 +1,30 @@
+{
+  "name": "Dubliner",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "dubliner",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grand Marnier",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<div class="max-w-4xl mx-auto px-4 pt-16 pb-8">
+  <div class="flex items-center justify-between mb-6">
+    <h1 class="text-2xl font-bold"><%= @page.title %></h1>
+    <div class="flex gap-3">
+      <.link
+        :if={!@page.locked}
+        navigate={~p"/wiki/#{@page.slug}/edit"}
+        class="rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+      >
+        Edit
+      </.link>
+      <.link
+        navigate={~p"/wiki/#{@page.slug}/history"}
+        class="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-semibold text-gray-700 shadow-sm hover:bg-gray-200"
+      >
+        History
+      </.link>
+    </div>
+  </div>
+
+  <div :if={@page.locked} class="mb-4 rounded-md bg-yellow-50 p-3 text-sm text-yellow-800">
+    This page is locked and cannot be edited.
+  </div>
+
+  <article class="prose prose-indigo max-w-none">
+    <%= raw(@page.rendered_html || "") %>
+  </article>
+
+  <div class="mt-8 pt-4 border-t border-gray-200 text-sm text-gray-500">
+    <.link
+      navigate={~p"/wiki"}
+      class="text-indigo-600 hover:text-indigo-500"
+    >
+      &larr; All pages
+    </.link>
+  </div>
+</div>

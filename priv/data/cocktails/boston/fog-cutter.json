@@ -1,0 +1,40 @@
+{
+  "name": "Fog Cutter",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "fog-cutter",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Orange juice and sweet sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Almond or orgeat syrup",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Jamaican Ginger",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "jamaican-ginger",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Falernum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "4 oz",
+      "quantity": null
+    }
+  ]
+}

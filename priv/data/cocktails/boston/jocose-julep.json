@@ -1,0 +1,35 @@
+{
+  "name": "Jocose Julep",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "jocose-julep",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

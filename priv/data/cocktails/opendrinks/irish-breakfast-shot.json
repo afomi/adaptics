@@ -1,0 +1,25 @@
+{
+  "name": "Irish Breakfast Shot",
+  "description": "Orange Juice and Jameson in a shot.",
+  "keywords": [
+    "jameson",
+    "orange",
+    "juice",
+    "shot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "irish-breakfast-shot",
+  "ingredients": [
+    {
+      "name": "Jameson Irish Whiskey",
+      "quantity": "2oz",
+      "measure": "shot glass"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1oz",
+      "measure": "shot glass"
+    }
+  ]
+}

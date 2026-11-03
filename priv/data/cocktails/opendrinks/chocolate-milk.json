@@ -1,0 +1,34 @@
+{
+  "name": "Chocolate Milk",
+  "description": "A simple chocolate beverage with just four ingredients.",
+  "keywords": [
+    "chocolate",
+    "milk",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chocolate-milk",
+  "ingredients": [
+    {
+      "name": "Cocoa Powder",
+      "quantity": "1",
+      "measure": "tablespoon (5g)"
+    },
+    {
+      "name": "Water",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tablespoon (12g)"
+    }
+  ]
+}

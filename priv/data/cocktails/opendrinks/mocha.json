@@ -1,0 +1,34 @@
+{
+  "name": "Mocha",
+  "description": "A warm and rich chocolaty coffee. Simple and easy to make.",
+  "keywords": [
+    "espresso",
+    "chocolate",
+    "hot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mocha",
+  "ingredients": [
+    {
+      "name": "espresso or strong coffee",
+      "quantity": "1",
+      "measure": "shot"
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "cocoa powder",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "sugar (to taste)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Gin and Milk Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "gin-and-milk-punch",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

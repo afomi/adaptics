@@ -1,0 +1,30 @@
+{
+  "name": "Bensonhurst",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "bensonhurst",
+  "ingredients": [
+    {
+      "name": "Cynar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

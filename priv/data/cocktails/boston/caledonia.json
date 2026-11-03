@@ -1,0 +1,30 @@
+{
+  "name": "Caledonia",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "caledonia",
+  "ingredients": [
+    {
+      "name": "Creme de Cacao (Brown)",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

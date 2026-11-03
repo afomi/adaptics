@@ -1,0 +1,51 @@
+{
+  "name": "Mojito",
+  "description": "The Mojito is traditionally served over ice in a highball glass and often associated with summer.",
+  "keywords": [
+    "rum",
+    "lime",
+    "mint",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mojito",
+  "ingredients": [
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "light rum",
+      "quantity": "6",
+      "measure": "ounces"
+    },
+    {
+      "name": "lime wedges",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "mint sprigs, or spear",
+      "quantity": "12",
+      "measure": ""
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "6",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "sugar",
+      "quantity": "4",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "club soda",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

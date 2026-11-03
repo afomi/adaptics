@@ -1,0 +1,35 @@
+{
+  "name": "Rumchata Bourbon",
+  "description": "Similar to a Mudslide, lighter than Eggnog - this drink is a great alternative to either on those chilly autumn evenings.",
+  "keywords": [
+    "bourbon",
+    "homemade",
+    "rumchata",
+    "creamy",
+    "mudslide",
+    "eggnog",
+    "white russian",
+    "autumn",
+    "fall"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rumchata-bourbon",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "RumChata",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Mole bitters (optional)",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

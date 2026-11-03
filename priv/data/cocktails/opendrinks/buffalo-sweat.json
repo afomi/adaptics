@@ -1,0 +1,31 @@
+{
+  "name": "Buffalo Sweat",
+  "description": "A mean little shooter that gets the blood flowing.",
+  "keywords": [
+    "orange juice",
+    "bacardi",
+    "alcoholic",
+    "tabasco",
+    "shot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "buffalo-sweat",
+  "ingredients": [
+    {
+      "name": "Bacardi 151",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tabasco Sauce",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Bloody Mary",
+  "description": "The Bloody Mary is a vodka-soaked nutritional breakfast and hangover cure all in one.",
+  "keywords": [
+    "vodka",
+    "tabasco",
+    "lemon",
+    "tomato juice",
+    "worcestershire sauce",
+    "alcoholic",
+    "savory",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bloody-mary",
+  "ingredients": [
+    {
+      "name": "wedge",
+      "quantity": "1",
+      "measure": "Lemon"
+    },
+    {
+      "name": "wedge",
+      "quantity": "1",
+      "measure": "Lime"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Tomato juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tabasco sauce",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Prepared horseradish",
+      "quantity": "2",
+      "measure": "tsp"
+    },
+    {
+      "name": "Worcestershire sauce",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Celery salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "Ground black pepper",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "smoked paprika",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

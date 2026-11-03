@@ -1,0 +1,53 @@
+{
+  "name": "Miami Vice",
+  "description": "A cocktail made with a blend of a Piña Colada and a Strawberry Daiquiri. Not only a drink to satisfy a sweet tooth, but the beautiful red and white pattern is enough to turn heads.",
+  "keywords": [
+    "alcoholic",
+    "cold",
+    "rum",
+    "daiquiri",
+    "pineapple juice",
+    "slush",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "miami-vice",
+  "ingredients": [
+    {
+      "name": "Rum",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple Juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Coconut Cream",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Strawberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "cups"
+    }
+  ]
+}

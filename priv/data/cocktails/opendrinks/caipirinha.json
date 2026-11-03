@@ -1,0 +1,36 @@
+{
+  "name": "Caipirinha",
+  "description": "Caipirinha is a Brazilian cocktail prepared with cachaça, cane sugar, and lime. Created by the farmers from whom it derives its name.",
+  "keywords": [
+    "cachaça",
+    "green lime",
+    "sugar",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caipirinha",
+  "ingredients": [
+    {
+      "name": "cachaça",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "green lime",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice cube",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

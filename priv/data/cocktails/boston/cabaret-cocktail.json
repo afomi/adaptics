@@ -1,0 +1,30 @@
+{
+  "name": "Cabaret Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cabaret-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

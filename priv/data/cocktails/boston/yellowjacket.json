@@ -1,0 +1,25 @@
+{
+  "name": "Yellowjacket",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Non-alcoholic Drinks",
+  "slug": "yellowjacket",
+  "ingredients": [
+    {
+      "name": "Pineapple Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

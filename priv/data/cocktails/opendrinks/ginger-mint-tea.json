@@ -1,0 +1,29 @@
+{
+  "name": "Ginger Mint Tea",
+  "description": "A soothing hot drink for cold; but also for relaxation and digestion",
+  "keywords": [
+    "tea",
+    "vegan",
+    "healthy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ginger-mint-tea",
+  "ingredients": [
+    {
+      "name": "fresh ginger",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "Mint",
+      "quantity": "5",
+      "measure": "sprigs"
+    },
+    {
+      "name": "boiled water",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

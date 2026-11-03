@@ -1,0 +1,30 @@
+{
+  "name": "Angel's Share",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "angel-s-share",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaro",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de Cassis",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

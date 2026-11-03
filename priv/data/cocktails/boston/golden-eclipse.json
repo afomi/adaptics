@@ -1,0 +1,35 @@
+{
+  "name": "Golden Eclipse",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "golden-eclipse",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaro",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sparkling apple cider",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

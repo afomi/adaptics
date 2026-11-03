@@ -21,7 +21,7 @@ defmodule AdapticsWeb.LinkController do
       {:ok, link} ->
         conn
         |> put_flash(:info, "Link created successfully.")
-        |> redirect(to: Routes.link_path(conn, :show, link))
+        |> redirect(to: ~p"/links/#{link}")
 
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "new.html", changeset: changeset)
@@ -46,7 +46,7 @@ defmodule AdapticsWeb.LinkController do
       {:ok, link} ->
         conn
         |> put_flash(:info, "Link updated successfully.")
-        |> redirect(to: Routes.link_path(conn, :show, link))
+        |> redirect(to: ~p"/links/#{link}")
 
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "edit.html", link: link, changeset: changeset)
@@ -59,6 +59,6 @@ defmodule AdapticsWeb.LinkController do
 
     conn
     |> put_flash(:info, "Link deleted successfully.")
-    |> redirect(to: Routes.link_path(conn, :index))
+    |> redirect(to: ~p"/links")
   end
 end

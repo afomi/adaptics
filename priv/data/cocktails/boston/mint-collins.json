@@ -1,0 +1,20 @@
+{
+  "name": "Mint Collins",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "mint-collins",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mint-Flavored Gin",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

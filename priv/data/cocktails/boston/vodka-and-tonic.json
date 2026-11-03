@@ -1,0 +1,15 @@
+{
+  "name": "Vodka and Tonic",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-and-tonic",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

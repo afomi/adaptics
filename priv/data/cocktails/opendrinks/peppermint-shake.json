@@ -1,0 +1,40 @@
+{
+  "name": "Peppermint Shake",
+  "description": "Peppermint Milkshakes - simple, quick and delicious! They're one of our favorite holiday treats! A cool drink made from vanilla ice cream, milk, peppermint extract and topped with whipped cream and crushed candy cane pieces!",
+  "keywords": [
+    "ice cream",
+    "milkshake",
+    "non-alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peppermint-shake",
+  "ingredients": [
+    {
+      "name": "Vanilla ice cream",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Candy cane crushed",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Peppermint extract",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Whipped cream",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

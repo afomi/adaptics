@@ -1,0 +1,30 @@
+{
+  "name": "Torridora Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "torridora-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "151-Proof Rum",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

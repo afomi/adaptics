@@ -1,0 +1,30 @@
+{
+  "name": "Old Fashioned",
+  "description": "The Old Fashioned is a cocktail made by muddling sugar with bitters, adding whiskey, garnished with a citrus rind.",
+  "keywords": [
+    "whiskey",
+    "alcoholic",
+    "classic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "old-fashioned",
+  "ingredients": [
+    {
+      "name": "Simple Syrup",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Bitters",
+      "quantity": "4-6",
+      "measure": "Dashes"
+    },
+    {
+      "name": "Whiskey",
+      "quantity": "2-4",
+      "measure": "oz"
+    }
+  ]
+}

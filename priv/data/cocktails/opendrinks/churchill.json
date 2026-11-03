@@ -1,0 +1,31 @@
+{
+  "name": "Churchill",
+  "description": "Fresh and easy, non-alcohol drink",
+  "keywords": [
+    "lemon",
+    "easy",
+    "non-alcoholic",
+    "fresh",
+    "carbonated"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "churchill",
+  "ingredients": [
+    {
+      "name": "Mineral water",
+      "quantity": "250",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "Amount"
+    },
+    {
+      "name": "Salt",
+      "quantity": "2",
+      "measure": "Tablespoon"
+    }
+  ]
+}

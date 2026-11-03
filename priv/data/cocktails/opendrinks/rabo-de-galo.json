@@ -1,0 +1,28 @@
+{
+  "name": "Rabo de galo",
+  "description": "A combination of cachaça and red vermouth, decorated with lemon peel.",
+  "keywords": [
+    "cachaça",
+    "red vermouth"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rabo-de-galo",
+  "ingredients": [
+    {
+      "name": "Cachaça",
+      "quantity": "35",
+      "measure": "ml"
+    },
+    {
+      "name": "Red vermouth",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon peel",
+      "quantity": "1",
+      "measure": "unit"
+    }
+  ]
+}

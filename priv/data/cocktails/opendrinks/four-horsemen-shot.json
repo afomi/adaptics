@@ -1,0 +1,36 @@
+{
+  "name": "Four Horsemen Shot",
+  "description": "A strong equal-parts shot made with four different spirits.",
+  "keywords": [
+    "shot",
+    "whiskey",
+    "tequila",
+    "strong",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "four-horsemen-shot",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tennessee whiskey",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Scotch whisky",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "1/4",
+      "measure": "oz"
+    }
+  ]
+}

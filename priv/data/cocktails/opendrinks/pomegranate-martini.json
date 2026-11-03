@@ -1,0 +1,56 @@
+{
+  "name": "Pomegranate Martini",
+  "description": "",
+  "keywords": [
+    "pomegranate",
+    "lime",
+    "martini",
+    "alcoholic",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pomegranate-martini",
+  "ingredients": [
+    {
+      "name": "Pomegranate Juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1/2",
+      "measure": "tea spoon"
+    },
+    {
+      "name": "Pomegranate Seeds",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice Cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lemon Zest Strips (optional)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Margarita",
+  "description": "A margarita is a cocktail consisting of tequila, orange liqueur, and lime juice often served with salt on the rim of the glass.",
+  "keywords": [
+    "tequila",
+    "alcoholic",
+    "vegan",
+    "simple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "margarita",
+  "ingredients": [
+    {
+      "name": "frozen limeade",
+      "quantity": "1 (6 oz)",
+      "measure": "can"
+    },
+    {
+      "name": "triple sec",
+      "quantity": "2",
+      "measure": "fl oz."
+    },
+    {
+      "name": "tequila",
+      "quantity": "6",
+      "measure": "fl oz."
+    }
+  ]
+}

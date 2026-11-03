@@ -1,0 +1,39 @@
+{
+  "name": "Watermelon Vodka",
+  "description": "In its clever cubicle, guaranteed effect !",
+  "keywords": [
+    "watermelon",
+    "lemon",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "watermelon-vodka",
+  "ingredients": [
+    {
+      "name": "watermelon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "lemons",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Vodka",
+      "quantity": "10",
+      "measure": "oz"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "6",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

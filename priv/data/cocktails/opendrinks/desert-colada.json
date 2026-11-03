@@ -1,0 +1,42 @@
+{
+  "name": "Desert Colada",
+  "description": "A new take on the classic Pina Colada, using Prickly Pear Syrup.",
+  "keywords": [
+    "rum",
+    "cream of coconut",
+    "prickly pear syrup",
+    "pineapple",
+    "frozen",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "desert-colada",
+  "ingredients": [
+    {
+      "name": "Prickly Pear Syrup",
+      "quantity": "1.5",
+      "measure": "Oz"
+    },
+    {
+      "name": "Cream of Coconut",
+      "quantity": "2",
+      "measure": "Oz"
+    },
+    {
+      "name": "Rum",
+      "quantity": "1.25",
+      "measure": "Oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Pineapple Juice",
+      "quantity": "2",
+      "measure": "Oz"
+    }
+  ]
+}

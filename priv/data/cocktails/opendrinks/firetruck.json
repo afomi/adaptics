@@ -1,0 +1,30 @@
+{
+  "name": "Firetruck",
+  "description": "The traditional danish firetruck drink ",
+  "keywords": [
+    "alcoholic",
+    "jaeger",
+    "red soda",
+    "danish"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "firetruck",
+  "ingredients": [
+    {
+      "name": "jägermeister",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "red soda",
+      "quantity": "12",
+      "measure": "cl"
+    },
+    {
+      "name": "ice",
+      "quantity": "1/2",
+      "measure": "glass"
+    }
+  ]
+}

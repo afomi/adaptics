@@ -1,0 +1,30 @@
+{
+  "name": "Stoned Gimlet",
+  "description": "A spicy and rustic twist on the classic gimlet cocktail. Ideally served at sunset on your snowcapped peak of choice",
+  "keywords": [
+    "gin",
+    "alcoholic",
+    "ginger",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "stoned-gimlet",
+  "ingredients": [
+    {
+      "name": "cheap gin",
+      "quantity": "3/4",
+      "measure": "Cup"
+    },
+    {
+      "name": "Stones Ginger Wine",
+      "quantity": "1",
+      "measure": "Slug"
+    },
+    {
+      "name": "lime cordial",
+      "quantity": "1",
+      "measure": "Dash"
+    }
+  ]
+}

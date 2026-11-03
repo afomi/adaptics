@@ -1,0 +1,15 @@
+{
+  "name": "Brandy and Soda",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "brandy-and-soda",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

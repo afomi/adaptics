@@ -1,0 +1,36 @@
+{
+  "name": "Italian Cream Soda",
+  "description": "A watermelon and passion fruit flavored Italian cream soda.",
+  "keywords": [
+    "cream soda",
+    "italian",
+    "carbonated",
+    "syrup",
+    "soda"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "italian-cream-soda",
+  "ingredients": [
+    {
+      "name": "carbonated water",
+      "quantity": "8",
+      "measure": "fluid ounces"
+    },
+    {
+      "name": "passion fruit flavored syrup",
+      "quantity": "¾",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "watermelon flavored syrup",
+      "quantity": "¾",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "half-and-half cream",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    }
+  ]
+}

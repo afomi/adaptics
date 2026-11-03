@@ -1,0 +1,30 @@
+{
+  "name": "Puerto Apple",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "puerto-apple",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orgeat Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Blue Kamikaze Shot",
+  "description": "A bright blue twist on the classic Kamikaze, made with vodka, citrus, and blue curaçao.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "curaçao",
+    "lime",
+    "blue",
+    "alcoholic",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blue-kamikaze-shot",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue curaçao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

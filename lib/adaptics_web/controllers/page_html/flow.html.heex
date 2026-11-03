@@ -1,0 +1,45 @@
+<br>
+<br>
+<br>
+<h3>Workflow</h3>
+
+
+<div id="cursor"></div>
+<div id="modeler"></div>
+
+<div class="modeler">
+  <div id="canvas"></div>
+  <div id="properties" style="border: 10px solid orange; height: 600px;"></div>
+</div>
+
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    window.flow();
+    // window.flowModeler();
+  });
+
+</script>
+
+<style>
+  #canvas {
+    width: 100%;
+    height: 1000px;
+    border: 10px solid red;
+  }
+
+  #modeler {
+    width: 100%;
+    height: 800px;
+    border: 10px solid green;
+  }
+
+  #cursor {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    z-index: 10000;
+  }
+</style>

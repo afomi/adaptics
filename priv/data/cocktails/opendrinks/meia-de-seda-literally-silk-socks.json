@@ -1,0 +1,36 @@
+{
+  "name": "Meia de Seda (literally, Silk Socks)",
+  "description": "This is a brazilian version of Brandy Alexander. Famous among young poeple of the 60s. Very sweety.",
+  "keywords": [
+    "alcoholic",
+    "brazil",
+    "brandy",
+    "brandy alexander",
+    "condensed milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "meia-de-seda-literally-silk-socks",
+  "ingredients": [
+    {
+      "name": "Ice",
+      "quantity": "To your taste",
+      "measure": ""
+    },
+    {
+      "name": "Condensed milk",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Cocoa Liquor",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Brandy (stick to the original), Vodka or Gin",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

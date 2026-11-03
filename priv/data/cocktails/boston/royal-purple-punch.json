@@ -1,0 +1,15 @@
+{
+  "name": "Royal Purple Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "royal-purple-punch",
+  "ingredients": [
+    {
+      "name": "red wine",
+      "measure": "2 bottles",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Cucumber Lime Mint Agua Fresca",
+  "description": "Cool and refreshing agua fresca made with cucumbers, lime, and mint.",
+  "keywords": [
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cucumber-lime-mint-agua-fresca",
+  "ingredients": [
+    {
+      "name": "cucumbers (ends trimmed, but peel still on, coarsely chopped)",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "lime juice from fresh limes",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "packed (spearmint) mint leaves, woody stems removed",
+      "quantity": "1.25",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "1.25",
+      "measure": "cup"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

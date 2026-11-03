@@ -1,0 +1,40 @@
+{
+  "name": "Indonesian Avocado Milkshake",
+  "description": "a yummy and healthy milkshake drink made from avocado blended with sweet condensed milk and chocolate syrup.",
+  "keywords": [
+    "milkshake",
+    "avocado",
+    "milk",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "indonesian-avocado-milkshake",
+  "ingredients": [
+    {
+      "name": "ripe Hass avocado",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "of whole milk",
+      "quantity": "2 1/2",
+      "measure": "cups"
+    },
+    {
+      "name": "agave",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Chocolate syrup",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

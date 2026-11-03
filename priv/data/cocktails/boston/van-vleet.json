@@ -1,0 +1,25 @@
+{
+  "name": "Van Vleet",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "van-vleet",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

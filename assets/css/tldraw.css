@@ -1,0 +1,4 @@
+/* Bundled by esbuild (config :esbuild, :tldraw) into priv/static/assets/tldraw.css,
+   which the :draw layout links. Kept separate from app.css so tldraw's reset
+   does not bleed into Tailwind pages. */
+@import "tldraw/tldraw.css";

@@ -1,0 +1,25 @@
+{
+  "name": "Amber Amour",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cordials and Liqueurs",
+  "slug": "amber-amour",
+  "ingredients": [
+    {
+      "name": "Amaretto",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

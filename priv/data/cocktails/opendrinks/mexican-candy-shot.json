@@ -1,0 +1,37 @@
+{
+  "name": "Mexican Candy Shot",
+  "description": "A sweet-and-spicy tequila shot with watermelon and lime.",
+  "keywords": [
+    "shot",
+    "tequila",
+    "spicy",
+    "watermelon",
+    "lime",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mexican-candy-shot",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Watermelon liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

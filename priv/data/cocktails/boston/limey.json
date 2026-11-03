@@ -1,0 +1,30 @@
+{
+  "name": "Limey",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "limey",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lime Juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

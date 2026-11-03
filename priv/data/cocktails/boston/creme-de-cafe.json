@@ -1,0 +1,30 @@
+{
+  "name": "Creme De Cafe",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "creme-de-cafe",
+  "ingredients": [
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

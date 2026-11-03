@@ -1,0 +1,35 @@
+{
+  "name": "Gilchrist",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "gilchrist",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pear brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaro",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

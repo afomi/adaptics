@@ -1,0 +1,47 @@
+{
+  "name": "Mango Iced Tea",
+  "description": "Iced sweet black tea with fresh mango pulp.",
+  "keywords": [
+    "black tea",
+    "tea",
+    "sweet",
+    "mango",
+    "dairy-free",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-iced-tea",
+  "ingredients": [
+    {
+      "name": "Mango",
+      "quantity": "2",
+      "measure": "medium sized pieces"
+    },
+    {
+      "name": "Black tea",
+      "quantity": "3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Water",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Cane sugar",
+      "quantity": "1½",
+      "measure": "tbsp"
+    },
+    {
+      "name": "Mint leaves",
+      "quantity": "few",
+      "measure": ""
+    }
+  ]
+}

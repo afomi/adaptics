@@ -1,0 +1,25 @@
+{
+  "name": "The Loop",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-loop",
+  "ingredients": [
+    {
+      "name": "Black cherry-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chile Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

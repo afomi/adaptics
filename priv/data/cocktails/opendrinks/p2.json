@@ -1,0 +1,43 @@
+{
+  "name": "P2",
+  "description": "A fresh apple and vanilla drink.",
+  "keywords": [
+    "vanilla",
+    "vodka",
+    "vodka",
+    "lime",
+    "apple",
+    "summer",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "p2",
+  "ingredients": [
+    {
+      "name": "Apple Sourz",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Vanilla Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "4-6",
+      "measure": ""
+    },
+    {
+      "name": "Wedges of lime",
+      "quantity": "2-3",
+      "measure": ""
+    },
+    {
+      "name": "Lemon & lime soda, eg. 7up",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

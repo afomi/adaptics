@@ -1,0 +1,35 @@
+{
+  "name": "Martini Royale",
+  "description": "A classic and refreshing drink for the summer.",
+  "keywords": [
+    "martini",
+    "alcoholic",
+    "vegan",
+    "simple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "martini-royale",
+  "ingredients": [
+    {
+      "name": "of Martini",
+      "quantity": "75",
+      "measure": "ml"
+    },
+    {
+      "name": "of Prosecco",
+      "quantity": "75",
+      "measure": "ml"
+    },
+    {
+      "name": "wedge of lime",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Mint to garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

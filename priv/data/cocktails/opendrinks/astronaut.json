@@ -1,0 +1,46 @@
+{
+  "name": "Astronaut",
+  "description": "Summer drink based on the Danish ice lolly of the same name that dates back to 1958.",
+  "keywords": [
+    "gin",
+    "grenadine",
+    "lemon soda",
+    "alcoholic",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "astronaut",
+  "ingredients": [
+    {
+      "name": "Crushed ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "gin",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "lemon soda",
+      "quantity": "10",
+      "measure": "cl"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "yellow wine gum as garnish",
+      "quantity": "(Optional)",
+      "measure": ""
+    }
+  ]
+}

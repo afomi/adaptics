@@ -1,0 +1,30 @@
+{
+  "name": "Afterglow",
+  "description": "A famous alcohol-free cocktail.",
+  "keywords": [
+    "lemon",
+    "pineapple",
+    "grenadine",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "afterglow",
+  "ingredients": [
+    {
+      "name": "Orange juice",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

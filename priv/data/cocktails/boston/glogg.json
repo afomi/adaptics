@@ -1,0 +1,30 @@
+{
+  "name": "Glogg",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "glogg",
+  "ingredients": [
+    {
+      "name": "Wine (Port, Cream Sherry, Claret, Burgundy, or Madeira)",
+      "measure": "2 750-ml",
+      "quantity": null
+    },
+    {
+      "name": "Dried Orange Peel",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cinnamon sticks",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "cloves",
+      "measure": "25",
+      "quantity": null
+    }
+  ]
+}

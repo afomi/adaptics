@@ -1,0 +1,54 @@
+{
+  "name": "Caramel Snickerdoodle Martini",
+  "description": "This martini has all the flavor of a snickerdoodle without any of the work of baking cookies.",
+  "keywords": [
+    "cinnamon",
+    "caramel",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caramel-snickerdoodle-martini",
+  "ingredients": [
+    {
+      "name": "caramel, warmed",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "cinnamon sugar",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "heavy cream",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Smirnoff Kissed Caramel",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "ground cinnamon",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "whipped cream, for garnish",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "cinnamon sticks, for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "The North Pole",
+  "description": "To be sipped on December 24th while waiting for the visit of the most famous character of this part of the country!",
+  "keywords": [
+    "gin",
+    "orange",
+    "fresh",
+    "christmas"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-north-pole",
+  "ingredients": [
+    {
+      "name": "Canneberges",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "Bitter with orange",
+      "quantity": "2",
+      "measure": "line"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1",
+      "measure": "Tablespoon"
+    },
+    {
+      "name": "Vanilla syrup",
+      "quantity": "1",
+      "measure": "line"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

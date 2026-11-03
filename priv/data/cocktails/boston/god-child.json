@@ -1,0 +1,25 @@
+{
+  "name": "God Child",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "god-child",
+  "ingredients": [
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Heavy cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

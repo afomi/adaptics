@@ -1,0 +1,32 @@
+{
+  "name": "Oreo Milkshake",
+  "description": "A creamy and dreamy Oreo Milkshake with the perfect ratio of Oreos to ice cream. ",
+  "keywords": [
+    "cold",
+    "ice cream",
+    "milk",
+    "non-alcoholic",
+    "oreo",
+    "vanilla"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "oreo-milkshake",
+  "ingredients": [
+    {
+      "name": "vanilla ice cream",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "milk",
+      "quantity": "1/2 to 3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "oreo cookies",
+      "quantity": "5",
+      "measure": ""
+    }
+  ]
+}

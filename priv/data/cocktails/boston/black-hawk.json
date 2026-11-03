@@ -1,0 +1,25 @@
+{
+  "name": "Black Hawk",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "black-hawk",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sloe gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino cherry",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

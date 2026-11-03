@@ -1,0 +1,48 @@
+{
+  "name": "Grog",
+  "description": "Yarr, matey! Holster yer cutlasses and fill yer cups with this classic hot beverage recommended by yer old barnacle-covered cap'n!",
+  "keywords": [
+    "hot",
+    "rum",
+    "alcoholic",
+    "brown sugar",
+    "lime juice",
+    "orange",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grog",
+  "ingredients": [
+    {
+      "name": "brown rum",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "hot water",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1",
+      "measure": "stick"
+    },
+    {
+      "name": "orange",
+      "quantity": "2",
+      "measure": "slices"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+<div
+  class="min-h-screen bg-gray-950 text-slate-300 px-6 py-8"
+>
+  <div
+    class="max-w-4xl mx-auto flex flex-col gap-8"
+  >
+    <header>
+      <h1
+        class="text-xl font-semibold text-sky-400"
+      >
+        Semantic Axes
+      </h1>
+      <p
+        class="text-sm text-slate-400 mt-1"
+      >
+        An axis is a named direction in embedding space, anchored by example phrases at each pole.
+        Compute an axis to derive its vector, then score nodes to use it as a canvas layout.
+      </p>
+    </header>
+
+    <div
+      :if={@status}
+      class={[
+        "rounded-md px-4 py-2 text-sm",
+        elem(@status, 0) == :ok && "bg-emerald-950 text-emerald-300 border border-emerald-800",
+        elem(@status, 0) == :error && "bg-rose-950 text-rose-300 border border-rose-800"
+      ]}
+    >
+      {elem(@status, 1)}
+    </div>
+
+    <section
+      class="bg-slate-900 border border-slate-800 rounded-lg p-5"
+    >
+      <h2
+        class="text-sm font-semibold text-sky-400 uppercase tracking-wide mb-4"
+      >
+        New axis
+      </h2>
+      <.form
+        for={@form}
+        phx-submit="create_axis"
+        class="flex flex-col gap-3"
+      >
+        <div
+          class="grid grid-cols-3 gap-3"
+        >
+          <input
+            type="text"
+            name="axis[name]"
+            value={@form[:name].value}
+            placeholder="Name (e.g. Verbosity)"
+            class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100"
+          />
+          <input
+            type="text"
+            name="axis[negative_pole]"
+            value={@form[:negative_pole].value}
+            placeholder="Negative pole (e.g. concise)"
+            class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100"
+          />
+          <input
+            type="text"
+            name="axis[positive_pole]"
+            value={@form[:positive_pole].value}
+            placeholder="Positive pole (e.g. verbose)"
+            class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100"
+          />
+        </div>
+        <div
+          class="grid grid-cols-2 gap-3"
+        >
+          <textarea
+            name="axis[negative_examples]"
+            rows="4"
+            placeholder={"Negative anchors, one per line (at least 2)\ne.g. Brief and to the point.\nSays it in one sentence."}
+            class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100 font-mono"
+          ><%= Enum.join(@form[:negative_examples].value || [], "\n") %></textarea>
+          <textarea
+            name="axis[positive_examples]"
+            rows="4"
+            placeholder={"Positive anchors, one per line (at least 2)\ne.g. Long-winded and elaborate.\nExplains every detail at length."}
+            class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100 font-mono"
+          ><%= Enum.join(@form[:positive_examples].value || [], "\n") %></textarea>
+        </div>
+        <button
+          type="submit"
+          class="self-start bg-sky-900 text-sky-300 border border-sky-500 rounded px-4 py-1.5 text-sm hover:bg-sky-800"
+        >
+          Create axis
+        </button>
+      </.form>
+    </section>
+
+    <section
+      class="flex flex-col gap-4"
+    >
+      <h2
+        class="text-sm font-semibold text-sky-400 uppercase tracking-wide"
+      >
+        Axes
+      </h2>
+      <p
+        :if={@axes == []}
+        class="text-sm text-slate-500"
+      >
+        No axes yet.
+      </p>
+      <div
+        :for={axis <- @axes}
+        class="bg-slate-900 border border-slate-800 rounded-lg p-4 flex flex-col gap-2"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <div>
+            <span
+              class="text-slate-100 font-medium"
+            >
+              {axis.name}
+            </span>
+            <span
+              class="text-slate-400 text-sm ml-2"
+            >
+              <span class="text-rose-400">{axis.negative_pole}</span>
+              ↔
+              <span class="text-emerald-400">{axis.positive_pole}</span>
+            </span>
+          </div>
+          <div
+            class="flex gap-2"
+          >
+            <button
+              phx-click="compute_axis"
+              phx-value-id={axis.id}
+              class="bg-sky-900 text-sky-300 border border-sky-700 rounded px-3 py-1 text-xs hover:bg-sky-800"
+            >
+              {if axis.axis_vector, do: "Recompute", else: "Compute"}
+            </button>
+            <button
+              :if={axis.axis_vector}
+              phx-click="score_nodes"
+              phx-value-id={axis.id}
+              class="bg-emerald-950 text-emerald-300 border border-emerald-800 rounded px-3 py-1 text-xs hover:bg-emerald-900"
+            >
+              Score nodes
+            </button>
+            <button
+              phx-click="delete_axis"
+              phx-value-id={axis.id}
+              data-confirm="Delete this axis and its scores?"
+              class="bg-slate-800 text-slate-400 border border-slate-700 rounded px-3 py-1 text-xs hover:bg-rose-950 hover:text-rose-300"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+        <div
+          class="text-xs text-slate-500 flex gap-4"
+        >
+          <span :if={is_nil(axis.axis_vector)}>
+            Not computed — anchors: {length(axis.negative_examples)} negative, {length(axis.positive_examples)} positive.
+          </span>
+          <span :if={axis.axis_vector}>
+            Computed with {axis.model} ({length(axis.axis_vector)}d).
+          </span>
+          <span :if={axis.axis_vector && axis.metadata["pole_separation"]}>
+            Pole separation: {format_metric(axis.metadata["pole_separation"])} (lower is better).
+          </span>
+          <span :if={axis.axis_vector && axis.metadata["positive_spread"]}>
+            Spread: −{format_metric(axis.metadata["negative_spread"])} / +{format_metric(axis.metadata["positive_spread"])}.
+          </span>
+          <span :if={axis.axis_vector}>
+            Scores: {@score_counts[axis.id]} node(s).
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <p
+      class="text-xs text-slate-600"
+    >
+      Computed axes appear in the canvas axis editor under "Semantic".
+      Scoring embeds any un-embedded nodes first (requires Ollama locally).
+    </p>
+  </div>
+</div>

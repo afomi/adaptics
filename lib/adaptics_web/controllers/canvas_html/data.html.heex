@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Canvas Data | Adaptics</title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"}/>
+  </head>
+  <body style="margin: 0; padding: 0; background: #f9fafb; font-family: system-ui;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 40px 20px;">
+      <!-- Header -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+        <h1 style="font-size: 36px; font-weight: bold; margin: 0;">Canvas Data</h1>
+        <a
+          href="/draw"
+          style="padding: 10px 20px; background: #6366f1; color: white; border-radius: 6px; text-decoration: none; font-weight: 500;"
+        >
+          Back to Canvas
+        </a>
+      </div>
+
+      <!-- Paste JSON Form -->
+      <div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 32px;">
+        <h2 style="font-size: 20px; font-weight: 600; margin: 0 0 16px 0;">Parse tldraw JSON</h2>
+        <p style="color: #6b7280; margin: 0 0 16px 0;">
+          Load your tldraw data from IndexedDB or paste JSON manually
+        </p>
+        <form
+          action="/draw/data/parse"
+          method="post">
+          <input
+            type="hidden"
+            name="_csrf_token"
+            value={Plug.CSRFProtection.get_csrf_token()}
+          />
+          <textarea
+            id="json-textarea"
+            name="json"
+            rows="6"
+            style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; font-family: monospace; font-size: 14px;"
+            placeholder='Paste tldraw JSON here...'
+          ></textarea>
+          <div style="margin-top: 12px; display: flex; gap: 12px;">
+            <button
+              type="button"
+              id="load-from-storage"
+              style="padding: 10px 20px; background: #10b981; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 500;"
+            >
+              Load from IndexedDB
+            </button>
+            <button
+              type="submit"
+              style="padding: 10px 20px; background: #6366f1; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 500;"
+            >
+              Parse JSON
+            </button>
+          </div>
+        </form>
+
+        <script>
+          async function loadFromIndexedDB() {
+            const textarea = document.getElementById('json-textarea');
+            const button = document.getElementById('load-from-storage');
+
+            if (button) {
+              button.disabled = true;
+              button.textContent = 'Loading...';
+            }
+
+            try {
+              // Open IndexedDB where tldraw stores its data
+              // tldraw creates a database named: TLDRAW_DOCUMENT_v2{persistenceKey}
+              const dbName = 'TLDRAW_DOCUMENT_v2adaptics-draw';
+              const storeName = 'records';
+
+              const request = indexedDB.open(dbName);
+
+              request.onerror = () => {
+                console.error('Could not open IndexedDB. Draw something first at /draw!');
+                if (button) {
+                  button.disabled = false;
+                  button.textContent = 'Load from IndexedDB';
+                }
+              };
+
+              request.onsuccess = (event) => {
+                const db = event.target.result;
+
+                // Check if the object store exists
+                if (!db.objectStoreNames.contains(storeName)) {
+                  console.error('No tldraw data found. Draw something first at /draw!');
+                  if (button) {
+                    button.disabled = false;
+                    button.textContent = 'Load from IndexedDB';
+                  }
+                  return;
+                }
+
+                const transaction = db.transaction([storeName], 'readonly');
+                const objectStore = transaction.objectStore(storeName);
+                const getAllRequest = objectStore.getAll();
+
+                getAllRequest.onsuccess = () => {
+                  const records = getAllRequest.result;
+
+                  if (records && records.length > 0) {
+                    // Build the tldraw document structure
+                    const tldrawDoc = {
+                      store: {}
+                    };
+
+                    // Convert array of records to object keyed by id
+                    records.forEach(record => {
+                      if (record.id) {
+                        tldrawDoc.store[record.id] = record;
+                      }
+                    });
+
+                    // Convert to JSON string
+                    const jsonString = JSON.stringify(tldrawDoc, null, 2);
+                    textarea.value = jsonString;
+                    textarea.style.border = '2px solid #10b981';
+                    setTimeout(() => {
+                      textarea.style.border = '1px solid #d1d5db';
+                    }, 1000);
+
+                    // Automatically submit the form via AJAX to avoid URL change
+                    setTimeout(async () => {
+                      const formData = new FormData(document.querySelector('form'));
+                      try {
+                        const response = await fetch('/draw/data/parse', {
+                          method: 'POST',
+                          body: formData
+                        });
+                        if (response.ok) {
+                          // Reload the current page to show parsed data
+                          // window.location.reload();
+                        }
+                      } catch (error) {
+                        console.error('Error parsing JSON:', error);
+                      }
+                    }, 100);
+                  } else {
+                    console.error('No tldraw data found. Draw something first at /draw!');
+                  }
+
+                  if (button) {
+                    button.disabled = false;
+                    button.textContent = 'Load from IndexedDB';
+                  }
+                };
+
+                getAllRequest.onerror = () => {
+                  console.error('Error reading from IndexedDB');
+                  if (button) {
+                    button.disabled = false;
+                    button.textContent = 'Load from IndexedDB';
+                  }
+                };
+              };
+
+            } catch (error) {
+              console.error('Error:', error);
+              if (button) {
+                button.disabled = false;
+                button.textContent = 'Load from IndexedDB';
+              }
+            }
+          }
+
+          // Manual button click
+          document.getElementById('load-from-storage').addEventListener('click', loadFromIndexedDB);
+
+          // Automatically load and parse on page load (only if no parsed data is already displayed)
+          document.addEventListener('DOMContentLoaded', function() {
+            const hasParsedData = <%= if @parsed_data, do: "true", else: "false" %>;
+            if (!hasParsedData) {
+              loadFromIndexedDB();
+            }
+          });
+        </script>
+      </div>
+
+      <%= if @parsed_data do %>
+        <!-- Parsed Data Display -->
+        <div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 32px;">
+          <h2 style="font-size: 24px; font-weight: bold; margin: 0 0 20px 0;">Parsed Data</h2>
+
+          <!-- Summary -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px;">
+            <div style="background: #f9fafb; padding: 16px; border-radius: 6px;">
+              <div style="font-size: 12px; color: #6b7280; text-transform: uppercase; font-weight: 600;">Pages</div>
+              <div style="font-size: 28px; font-weight: bold; margin-top: 4px;"><%= length(@parsed_data.pages) %></div>
+            </div>
+            <div style="background: #f9fafb; padding: 16px; border-radius: 6px;">
+              <div style="font-size: 12px; color: #6b7280; text-transform: uppercase; font-weight: 600;">Shapes</div>
+              <div style="font-size: 28px; font-weight: bold; margin-top: 4px;"><%= @parsed_data.total_shapes %></div>
+            </div>
+            <div style="background: #f9fafb; padding: 16px; border-radius: 6px;">
+              <div style="font-size: 12px; color: #6b7280; text-transform: uppercase; font-weight: 600;">Text Blocks</div>
+              <div style="font-size: 28px; font-weight: bold; margin-top: 4px;"><%= length(@parsed_data.text_content) %></div>
+            </div>
+          </div>
+
+          <!-- Pages -->
+          <%= if length(@parsed_data.pages) > 0 do %>
+            <div style="margin-bottom: 24px;">
+              <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 12px 0;">Pages</h3>
+              <%= for page <- @parsed_data.pages do %>
+                <div style="padding: 12px; background: #f9fafb; border-radius: 4px; margin-bottom: 8px;">
+                  <strong><%= page.name %></strong> - <%= page.shape_count %> shapes
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+
+          <!-- Frames -->
+          <%= if length(@parsed_data.frames) > 0 do %>
+            <div style="margin-bottom: 24px;">
+              <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 12px 0;">Frames</h3>
+              <%= for frame <- @parsed_data.frames do %>
+                <div style="padding: 16px; background: #f9fafb; border-radius: 6px; border-left: 4px solid #8b5cf6; margin-bottom: 8px;">
+                  <h4 style="font-size: 16px; font-weight: 600; margin: 0 0 8px 0;"><%= frame.name %></h4>
+                  <div style="font-size: 14px; color: #6b7280;">
+                    <%= if frame.width && frame.height do %>
+                      Size: <%= round(frame.width) %>×<%= round(frame.height) %> ·
+                    <% end %>
+                    Position: (<%= round(frame.x) %>, <%= round(frame.y) %>)
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+
+          <!-- Text Content -->
+          <%= if length(@parsed_data.text_content) > 0 do %>
+            <div style="margin-bottom: 24px;">
+              <h3
+                style="font-size: 18px; font-weight: 600; margin: 0 0 12px 0;"
+              >
+                Text Content
+              </h3>
+              <table
+                style="width: 100%; border-collapse: collapse; background: white; border: 1px solid #e5e7eb;"
+              >
+                <thead>
+                  <tr style="background: #f9fafb; border-bottom: 2px solid #e5e7eb;">
+                    <th
+                      style="padding: 12px; text-align: left; font-weight: 600; font-size: 14px; color: #374151;"
+                    >
+                      Frame
+                    </th>
+                    <th
+                      style="padding: 12px; text-align: left; font-weight: 600; font-size: 14px; color: #374151;"
+                    >
+                      Text
+                    </th>
+                    <th
+                      style="padding: 12px; text-align: right; font-weight: 600; font-size: 14px; color: #374151;"
+                    >
+                      X
+                    </th>
+                    <th
+                      style="padding: 12px; text-align: right; font-weight: 600; font-size: 14px; color: #374151;"
+                    >
+                      Y
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <%= for item <- @parsed_data.text_content do %>
+                    <tr style="border-bottom: 1px solid #e5e7eb;">
+                      <td
+                        style="padding: 12px; font-size: 14px; color: #374151;"
+                      >
+                        <%= if item[:frame] do %>
+                          <span
+                            style="background: #8b5cf6; color: white; padding: 4px 10px; border-radius: 4px; font-weight: 500; display: inline-block;"
+                          >
+                            <%= item[:frame] %>
+                          </span>
+                        <% else %>
+                          <span style="color: #9ca3af; font-style: italic;">No frame</span>
+                        <% end %>
+                      </td>
+                      <td
+                        style="padding: 12px; font-size: 14px; color: #374151;"
+                      >
+                        <%= item[:text] %>
+                      </td>
+                      <td
+                        style="padding: 12px; text-align: right; font-size: 14px; color: #6b7280; font-family: monospace;"
+                      >
+                        <%= round(item[:x]) %>
+                      </td>
+                      <td
+                        style="padding: 12px; text-align: right; font-size: 14px; color: #6b7280; font-family: monospace;"
+                      >
+                        <%= round(item[:y]) %>
+                      </td>
+                    </tr>
+                  <% end %>
+                </tbody>
+              </table>
+            </div>
+          <% end %>
+
+          <!-- Shape Counts -->
+          <div>
+            <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 12px 0;">Shape Types</h3>
+            <%= for {type, count} <- @parsed_data.shape_counts |> Enum.sort_by(fn {_, c} -> -c end) do %>
+              <div style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f9fafb; border-radius: 4px; margin-bottom: 4px;">
+                <span style="text-transform: capitalize;"><%= type %></span>
+                <span style="font-weight: 600;"><%= count %></span>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+
+      <!-- Saved Canvases -->
+      <%= if length(@canvases) > 0 do %>
+        <div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+          <h2 style="font-size: 24px; font-weight: bold; margin: 0 0 20px 0;">Saved Canvases (<%= length(@canvases) %>)</h2>
+          <%= for canvas <- @canvases do %>
+            <div style="padding: 16px; background: #f9fafb; border-radius: 6px; margin-bottom: 12px;">
+              <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 8px 0;"><%= canvas.name %></h3>
+              <div style="color: #6b7280; font-size: 14px;">
+                <%= canvas.shape_count %> shapes · <%= canvas.page_count %> pages ·
+                <%= if length(canvas.text_content) > 0 do %>
+                  <%= length(canvas.text_content) %> text blocks
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      <% else %>
+        <div style="background: white; padding: 48px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center;">
+          <p style="color: #6b7280; margin: 0;">No saved canvases yet. Draw something and save it!</p>
+        </div>
+      <% end %>
+    </div>
+  </body>
+</html>

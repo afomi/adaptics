@@ -1,0 +1,43 @@
+{
+  "name": "Chikoo lassi",
+  "description": "A chilled glass of lassi is just the perfect way to refresh during the summer season. Here's an easy and quick recipe to prepare delectable lassi at home with the flavours of chikoo fruit blended with curd, milk,cardamom and honey.",
+  "keywords": [
+    "chikoo",
+    "honey",
+    "almond",
+    "coconut",
+    "cherry",
+    "lassi",
+    "grape"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chikoo-lassi",
+  "ingredients": [
+    {
+      "name": "Chikoo",
+      "quantity": "2",
+      "measure": "piece"
+    },
+    {
+      "name": "curd",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "cardamom powder",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "honey",
+      "quantity": "6",
+      "measure": "teaspoon"
+    }
+  ]
+}

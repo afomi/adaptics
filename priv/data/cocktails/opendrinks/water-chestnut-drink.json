@@ -1,0 +1,29 @@
+{
+  "name": "Water Chestnut Drink",
+  "description": "A super refreshing, clean and sweet chestnut drink. ",
+  "keywords": [
+    "refreshing",
+    "water chestnut",
+    "asian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "water-chestnut-drink",
+  "ingredients": [
+    {
+      "name": "water chestnuts",
+      "quantity": "20-30",
+      "measure": "pieces"
+    },
+    {
+      "name": "candied winter melon",
+      "quantity": "4-5",
+      "measure": "pieces"
+    },
+    {
+      "name": "Rock Sugar",
+      "quantity": "",
+      "measure": "To taste"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Aam Panna",
+  "description": "Aam Panna is an Indian drink renowned for its heat-resistant properties. It is made from raw mangoes, is yellow to very light green, and is consumed as a tasty and healthy beverage to fight against the intense Indian summer heat. In most instances, mint leaves are added which enhances the green color.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "mocktail",
+    "non-alcoholic",
+    "vegan",
+    "mango"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "aam-panna",
+  "ingredients": [
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Unripe Green Mango",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Cardamom",
+      "quantity": "3",
+      "measure": "tsp"
+    },
+    {
+      "name": "Fresh Mint",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Black Salt",
+      "quantity": "5",
+      "measure": "tsp"
+    }
+  ]
+}

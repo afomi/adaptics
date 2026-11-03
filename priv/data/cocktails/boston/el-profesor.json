@@ -1,0 +1,30 @@
+{
+  "name": "El Profesor",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "el-profesor",
+  "ingredients": [
+    {
+      "name": "Pisco",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Punt e Mes",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aromatic bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

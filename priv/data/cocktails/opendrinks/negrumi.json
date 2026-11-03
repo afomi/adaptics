@@ -1,0 +1,39 @@
+{
+  "name": "Negrumi",
+  "description": "A variant of the best known Negroni with addition of pink grapefruit. The name is a portmanteau that blends the two words \"Negroni\" and \"Agrumi\" (italian for \"Citrus fruits\") together.",
+  "keywords": [
+    "gin",
+    "alcoholic",
+    "summer",
+    "vegan",
+    "simple",
+    "grapefruit",
+    "pink",
+    "negroni"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "negrumi",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pink grapefruit juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "pink grapefruit",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Debonair",
+  "description": "Created in the 1990s by Gary Regan this rich, sophisticated Single Malt Scotch-based drink has a wonderful zing of spice from the Ginger Liqueur.",
+  "keywords": [
+    "alcoholic",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "debonair",
+  "ingredients": [
+    {
+      "name": "Ginger Liqueur",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Whiskey Scotch Single Malt",
+      "quantity": "75",
+      "measure": "ml"
+    }
+  ]
+}

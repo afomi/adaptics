@@ -1,0 +1,34 @@
+{
+  "name": "Aguapanela",
+  "description": "Aguapanela (panela water) is a traditional Latin American sweet drink made with 'panela', which is a solid form of sucrose obtained from the boiling and evaporation of sugar cane juice.",
+  "keywords": [
+    "non-alcoholic",
+    "fresh",
+    "natural"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "aguapanela",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "3 - 4",
+      "measure": "cups"
+    },
+    {
+      "name": "Panela",
+      "quantity": "1",
+      "measure": "piece of"
+    },
+    {
+      "name": "Ice",
+      "quantity": "3 - 4",
+      "measure": "cups"
+    },
+    {
+      "name": "Lemons",
+      "quantity": "3 - 4",
+      "measure": ""
+    }
+  ]
+}

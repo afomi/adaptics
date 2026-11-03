@@ -1,0 +1,41 @@
+{
+  "name": "Mulled Apple Crumble Cider",
+  "description": "A tasty recipe for mulled apple crumble cider to warm you over winter.",
+  "keywords": [
+    "alcoholic",
+    "cider",
+    "mulled",
+    "winter",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mulled-apple-crumble-cider",
+  "ingredients": [
+    {
+      "name": "Zeffer Apple Crumble Cider",
+      "quantity": "2",
+      "measure": "L"
+    },
+    {
+      "name": "brown sugar (optional)",
+      "quantity": "10",
+      "measure": "g"
+    },
+    {
+      "name": "orange, sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "star anise",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "cinnamon sticks",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

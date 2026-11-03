@@ -1,0 +1,42 @@
+{
+  "name": "Grinch Drink",
+  "description": "Festive holiday beverage, this Grinch Drink will be a crowd pleaser!",
+  "keywords": [
+    "grinch",
+    "orange juice",
+    "blue curaçao",
+    "schnapps",
+    "holiday",
+    "christmas"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grinch-drink",
+  "ingredients": [
+    {
+      "name": "Peach Schnapps",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Bacardi Rum",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon-lime Pop",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue Curacao liquor",
+      "quantity": "4",
+      "measure": "oz"
+    }
+  ]
+}

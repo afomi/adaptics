@@ -1,0 +1,34 @@
+{
+  "name": "Sparkling Campari Orange",
+  "description": "Sparkling Campari Orange drink looks gorgeous and festive with reds and oranges mixed together and bubbles fizzing and popping on top!",
+  "keywords": [
+    "campari",
+    "orange juice",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sparkling-campari-orange",
+  "ingredients": [
+    {
+      "name": "Ice cubes",
+      "quantity": "As many as you want",
+      "measure": " "
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "orange juice(no pulp)",
+      "quantity": "2",
+      "measure": "ounce"
+    },
+    {
+      "name": "sparkling water",
+      "quantity": "1",
+      "measure": "ounce"
+    }
+  ]
+}

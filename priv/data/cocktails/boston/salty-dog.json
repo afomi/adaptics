@@ -1,0 +1,25 @@
+{
+  "name": "Salty Dog",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "salty-dog",
+  "ingredients": [
+    {
+      "name": "Lemon wedge, coarse salt",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

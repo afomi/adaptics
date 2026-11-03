@@ -1,0 +1,25 @@
+{
+  "name": "American Trilogy",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "american-trilogy",
+  "ingredients": [
+    {
+      "name": "Brown sugar cube, such as Demerara",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Straight rye whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Applejack",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

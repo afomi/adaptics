@@ -1,0 +1,40 @@
+{
+  "name": "Sidewinder",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "sidewinder",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Campari",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vanilla syrup, preferably B.A. Reynold's",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mezcal",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger beer, 1 oz",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

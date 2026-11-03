@@ -1,0 +1,30 @@
+{
+  "name": "Jammy Dodger Shot",
+  "description": "The Jammy Dodger is the best-tasting shot that will ever grace your mouth. You won't be grimacing when you knock this one back!",
+  "keywords": [
+    "blackberry liqueur",
+    "sugar",
+    "shot",
+    "blackberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jammy-dodger-shot",
+  "ingredients": [
+    {
+      "name": "Chambord (blackberry liquor)",
+      "quantity": "3 quarters",
+      "measure": "shot"
+    },
+    {
+      "name": "double cream",
+      "quantity": "1 quarter",
+      "measure": "shot"
+    },
+    {
+      "name": "sugar",
+      "quantity": "half",
+      "measure": "tsp"
+    }
+  ]
+}

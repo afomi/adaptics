@@ -1,0 +1,30 @@
+{
+  "name": "La Vita Dulce",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "la-vita-dulce",
+  "ingredients": [
+    {
+      "name": "Spiced rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mezcal",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

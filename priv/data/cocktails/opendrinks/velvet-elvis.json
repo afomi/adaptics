@@ -1,0 +1,33 @@
+{
+  "name": "Velvet Elvis",
+  "description": "This drink is a combination of Tennessee Whiskey, Chambord Liqueur and Freshly squeezed lime juice plus a top-up lemonade.",
+  "keywords": [
+    "bourbon",
+    "velvet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "velvet-elvis",
+  "ingredients": [
+    {
+      "name": "Shot Tennessee Whiskey",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Shot Chambord Liqueur",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Shot Freshly squeezed lime juice",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Top-up Lemonade",
+      "quantity": "1",
+      "measure": "part"
+    }
+  ]
+}

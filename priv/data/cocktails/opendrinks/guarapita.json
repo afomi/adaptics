@@ -1,0 +1,43 @@
+{
+  "name": "Guarapita",
+  "description": "Venezuelan drink made with rum and juice from tropical fruits.",
+  "keywords": [
+    "rum",
+    "party"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "guarapita",
+  "ingredients": [
+    {
+      "name": "Rum",
+      "quantity": "0.75",
+      "measure": "liter"
+    },
+    {
+      "name": "Passion fruit juice",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1 ½",
+      "measure": "cup"
+    },
+    {
+      "name": "Limes",
+      "quantity": "8",
+      "measure": "whole"
+    },
+    {
+      "name": "Mint leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

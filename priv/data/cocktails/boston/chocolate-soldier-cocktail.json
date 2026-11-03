@@ -1,0 +1,25 @@
+{
+  "name": "Chocolate Soldier Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "chocolate-soldier-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

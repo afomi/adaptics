@@ -1,0 +1,65 @@
+{
+  "name": "White Wine Sangria",
+  "description": "Sangria is a refreshing summer drink and it's dating back to the Middle Ages.",
+  "keywords": [
+    "whine",
+    "wine",
+    "sangria",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-wine-sangria",
+  "ingredients": [
+    {
+      "name": "mango: cubed",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "peach: sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "strawberries: sliced",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar: granulated",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Grand Marnier",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "apple: sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "orange: sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "lime: sliced",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "bottle dry white wine, chilled",
+      "quantity": "1",
+      "measure": "750-ml"
+    },
+    {
+      "name": "seltzer",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

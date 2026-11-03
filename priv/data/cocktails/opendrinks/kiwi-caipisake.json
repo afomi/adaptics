@@ -1,0 +1,38 @@
+{
+  "name": "Kiwi Caipisake",
+  "description": "While the traditional brazilian caipirinha is made with cachaça, the caipisake is made with sake!",
+  "keywords": [
+    "sake",
+    "kiwi",
+    "sugar",
+    "alcoholic",
+    "caipirinha",
+    "caipisake",
+    "brazil"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kiwi-caipisake",
+  "ingredients": [
+    {
+      "name": "sake",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "kiwi",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "fine sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice cube",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

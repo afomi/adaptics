@@ -1,0 +1,62 @@
+{
+  "name": "Fall Old-Fashioned",
+  "description": "A classic Old-Fashioned tailored to Fall.",
+  "keywords": [
+    "fall",
+    "classic",
+    "Bitters",
+    "maple syrup",
+    "cinnamon",
+    "bourbon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fall-old-fashioned",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "star anise",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "cinnamon sticks",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "whole cloves",
+      "quantity": "12",
+      "measure": ""
+    },
+    {
+      "name": "split vanilla bean",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "maple syrup",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Angostura Aromatic Bitters",
+      "quantity": "4",
+      "measure": "dashes"
+    },
+    {
+      "name": "infused bourbon",
+      "quantity": "2",
+      "measure": "ounces"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Chocoline Milk",
+  "description": "A Tunisian childhood breakfast drink (a real nostalgia bomb).",
+  "keywords": [
+    "chocolate",
+    "milk",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chocoline-milk",
+  "ingredients": [
+    {
+      "name": "Chocoline",
+      "quantity": "10",
+      "measure": "tablespoon (5g)"
+    },
+    {
+      "name": "Milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tablespoon (12g)"
+    }
+  ]
+}

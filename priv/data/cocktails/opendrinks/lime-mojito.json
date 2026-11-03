@@ -1,0 +1,44 @@
+{
+  "name": "Lime Mojito",
+  "description": "A simple Lime Mojito recipie that can be easily scaled up for multiple people and brings out the best flavour from a simple mojito.",
+  "keywords": [
+    "alcoholic",
+    "lime",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lime-mojito",
+  "ingredients": [
+    {
+      "name": "Fresh mint leaves",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "Limes, cut into wedges",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Caster sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "White rum",
+      "quantity": "45",
+      "measure": "milliliters(ml)"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Soda water",
+      "quantity": "125",
+      "measure": "milliliters(ml)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Vaca preta",
+  "description": "Vaca preta, wich means black cow in Portuguese, is a drink that can also be a dessert. Blends the creaminess of ice cream with the freshness of Coke.",
+  "keywords": [
+    "summer",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vaca-preta",
+  "ingredients": [
+    {
+      "name": "any flavor (vanilla preferable)",
+      "quantity": "2",
+      "measure": "ice cream ball"
+    },
+    {
+      "name": "coke",
+      "quantity": "1",
+      "measure": "glass"
+    }
+  ]
+}

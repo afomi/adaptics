@@ -1,0 +1,42 @@
+{
+  "name": "Skeleton Key Cocktail",
+  "description": "The ideal blend of bourbon, elderflower, and ginger beer! A spooky drink for Halloween.",
+  "keywords": [
+    "cocktail",
+    "elderflower",
+    "lemon",
+    "bourbon",
+    "ginger",
+    "angostura"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "skeleton-key-cocktail",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "St. Germain elderflower liqueur",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger beer",
+      "quantity": "3-5",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "6-8",
+      "measure": "dashes"
+    }
+  ]
+}

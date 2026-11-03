@@ -1,0 +1,30 @@
+{
+  "name": "Polonaise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "polonaise",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blackberry-flavored brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

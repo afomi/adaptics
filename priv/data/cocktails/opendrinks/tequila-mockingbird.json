@@ -1,0 +1,35 @@
+{
+  "name": "Tequila Mockingbird",
+  "description": "Tequila for the literary astute. Fruity, pleasant and highbrow.",
+  "keywords": [
+    "lime",
+    "tequila",
+    "watermelon",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tequila-mockingbird",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "watermelon",
+      "quantity": "4",
+      "measure": "cubes"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

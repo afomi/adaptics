@@ -1,0 +1,44 @@
+{
+  "name": "Sweet Dreams",
+  "description": "A low alcohol drink, delicious to enjoy on a hot summer day.",
+  "keywords": [
+    "alcoholic",
+    "gin",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sweet-dreams",
+  "ingredients": [
+    {
+      "name": "Apricot Brandy",
+      "quantity": "1/32",
+      "measure": "oz"
+    },
+    {
+      "name": "Light rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "1/32",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Maraschino cherry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Jaljeera",
+  "description": "Jaljeera is a Indian summer drink jal means water and jeera means cumin. The beverage form is essentially lemonade and jaljira powder, and is a popular summer drink in India.",
+  "keywords": [
+    "summer",
+    "Indian",
+    "non-alcoholic",
+    "lime",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jaljeera",
+  "ingredients": [
+    {
+      "name": "mint leaves",
+      "quantity": "half ",
+      "measure": "cup"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "6",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "black salt",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "water",
+      "quantity": "8",
+      "measure": "cup"
+    },
+    {
+      "name": "cumin seeds",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "coriander leaves",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "ginger",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "sugar",
+      "quantity": "4",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "asafoetida",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "tamarind seedless",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

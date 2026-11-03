@@ -1,0 +1,54 @@
+{
+  "name": "Drunken Monkey Cocktail",
+  "description": "Drunken Monkey Cocktail - a vibrant fruity tiki drink just like we experienced in the Caribbean.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "drunken-monkey-cocktail",
+  "ingredients": [
+    {
+      "name": "orange-pineapple juice blend",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "coconut rum",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "spiced rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "bitters",
+      "quantity": "4-5",
+      "measure": "dashes"
+    },
+    {
+      "name": "Fresh ground netmeg",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Maraschino cherries in juices",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lime slices",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Fresh Pineapple wedges",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<style>
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #timeline-embed {
+    width: 100%;
+    height: calc(100vh - 60px);
+  }
+</style>
+
+<link
+  title="timeline-styles"
+  rel="stylesheet"
+  href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+/>
+
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+<div id="timeline-embed"></div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    var sampleData = {
+      "title": {
+        "text": {
+          "headline": "Sample Timeline",
+          "text": "<p>This is a sample timeline. Replace this data with your own events.</p>"
+        }
+      },
+      "events": [
+        {
+          "start_date": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          },
+          "text": {
+            "headline": "First Event",
+            "text": "<p>Description of the first event.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "year": 2021,
+            "month": 6,
+            "day": 15
+          },
+          "end_date": {
+            "year": 2021,
+            "month": 12,
+            "day": 31
+          },
+          "text": {
+            "headline": "Second Event (with duration)",
+            "text": "<p>This event spans a period of time.</p>"
+          },
+          "group": "Category A"
+        },
+        {
+          "start_date": {
+            "year": 2022,
+            "month": 3
+          },
+          "text": {
+            "headline": "Third Event",
+            "text": "<p>Another milestone.</p>"
+          },
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/320px-Camponotus_flavomarginatus_ant.jpg",
+            "caption": "Example image from Wikimedia Commons",
+            "credit": "Wikimedia Commons"
+          }
+        }
+      ]
+    };
+
+    window.timeline = new TL.Timeline('timeline-embed', sampleData, {
+      hash_bookmark: true
+    });
+  });
+</script>

@@ -1,0 +1,35 @@
+{
+  "name": "Rich Hot Cocoa",
+  "description": "A thick and decadent vegan hot cocoa with your favorite milk alternative",
+  "keywords": [
+    "hot",
+    "chocolate",
+    "cocoa",
+    "cacao",
+    "soy milk",
+    "maple syrup",
+    "dairy-free",
+    "vegan",
+    "holiday"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rich-hot-cocoa",
+  "ingredients": [
+    {
+      "name": "cacao or cocoa powder",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "soymilk or dairy-free milk of choice",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "maple syrup or sweetener of choice",
+      "quantity": "1",
+      "measure": "tbsp"
+    }
+  ]
+}

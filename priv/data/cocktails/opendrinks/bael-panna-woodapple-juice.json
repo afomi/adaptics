@@ -1,0 +1,41 @@
+{
+  "name": "Bael Panna (Woodapple Juice)",
+  "description": "This juice is not something you might find on a mocktail menu, but will surely soothe your heart on a hot summer day.",
+  "keywords": [
+    "fruit",
+    "vegan",
+    "indian",
+    "non-alcoholic",
+    "savory"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bael-panna-woodapple-juice",
+  "ingredients": [
+    {
+      "name": "Medium-sized Bael (Woodapple)",
+      "quantity": "2",
+      "measure": "pieces"
+    },
+    {
+      "name": "Powdered Jaggery",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Rock Salt",
+      "quantity": "1/8",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Roasted and Powdered Cumin Seeds (Jeera)",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Water",
+      "quantity": "2",
+      "measure": "glasses"
+    }
+  ]
+}

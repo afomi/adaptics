@@ -1,0 +1,25 @@
+{
+  "name": "Napoleon Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "napoleon-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

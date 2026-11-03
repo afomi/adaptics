@@ -1,0 +1,45 @@
+{
+  "name": "Caramel Frappuccino",
+  "description": "Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top.",
+  "keywords": [
+    "cold-coffee",
+    "frappuccino",
+    "starbucks",
+    "creamy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caramel-frappuccino",
+  "ingredients": [
+    {
+      "name": "Milk",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Ice",
+      "quantity": "10-12",
+      "measure": "cubes"
+    },
+    {
+      "name": "Caramel Sauce",
+      "quantity": "3",
+      "measure": "tbsp"
+    },
+    {
+      "name": "Coffee Powder(instant)",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "Vanilla Extract",
+      "quantity": "1-2",
+      "measure": "drop"
+    },
+    {
+      "name": "Whipped Cream",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

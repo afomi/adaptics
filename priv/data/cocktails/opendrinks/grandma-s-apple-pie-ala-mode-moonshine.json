@@ -1,0 +1,53 @@
+{
+  "name": "Grandma's Apple Pie 'Ala Mode' Moonshine",
+  "description": "",
+  "keywords": [
+    "apple",
+    "pie"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "grandma-s-apple-pie-ala-mode-moonshine",
+  "ingredients": [
+    {
+      "name": "apple cider",
+      "quantity": "½",
+      "measure": "gallon"
+    },
+    {
+      "name": "apple juice",
+      "quantity": "½",
+      "measure": "gallon"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "4",
+      "measure": "sticks"
+    },
+    {
+      "name": "clove",
+      "quantity": "1",
+      "measure": "whole"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "190 proof grain alcohol (such as Everclear®)",
+      "quantity": "3",
+      "measure": "cups"
+    },
+    {
+      "name": "vanilla vodka",
+      "quantity": "2",
+      "measure": "cups"
+    }
+  ]
+}

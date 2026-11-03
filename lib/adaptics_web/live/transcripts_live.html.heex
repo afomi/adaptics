@@ -1,0 +1,352 @@
+<div class={@live_action != :show && "max-w-4xl mx-auto px-4 py-8 pt-16"}>
+  <%= case @live_action do %>
+    <% :index -> %>
+      <.header>
+        Transcripts
+        <:subtitle>
+          Claude Code sessions for projects in ~/workspace.
+        </:subtitle>
+      </.header>
+
+      <form
+        id="search"
+        phx-submit="search"
+        class="mt-6"
+      >
+        <input
+          type="search"
+          name="q"
+          value={@query}
+          placeholder="Search all projects: messages, answers, commands and file paths…"
+          autocomplete="off"
+          class="w-full rounded border border-zinc-300 px-3 py-2 text-sm focus:border-indigo-400 focus:ring-0"
+        />
+      </form>
+
+      <%= if @query != "" do %>
+        <section
+          id="results"
+          class="mt-6"
+        >
+          <p
+            :if={@results == :searching}
+            class="text-sm text-zinc-500"
+          >
+            Searching every project…
+          </p>
+
+          <p
+            :if={@results == []}
+            class="text-sm text-zinc-500"
+          >
+            No matches for “{@query}”.
+          </p>
+
+          <div
+            :for={group <- if(is_list(@results), do: @results, else: [])}
+            id={"results-#{group.project.slug}"}
+            class="mb-8"
+          >
+            <h2 class="mb-2 border-b border-zinc-200 pb-1 text-sm font-semibold text-zinc-900">
+              <.link
+                navigate={~p"/transcripts/#{group.project.slug}?#{[q: @query]}"}
+                class="hover:underline"
+              >
+                {group.project.name}
+              </.link>
+              <span class="font-normal text-zinc-500">
+                · {plural(length(group.sessions), "session")}
+              </span>
+            </h2>
+            <.search_hits
+              hits={group.sessions}
+              query={@query}
+              max_turns={5}
+            />
+          </div>
+        </section>
+      <% else %>
+
+        <nav
+          id="sort"
+          class="mt-6 flex gap-1 text-xs"
+        >
+          <span class="py-1 pr-2 text-zinc-500">Sort by</span>
+          <.link
+            :for={sort <- Transcripts.sorts()}
+            patch={index_path(sort, @query)}
+            aria-current={@sort == sort && "true"}
+            class={[
+              "rounded px-2 py-1",
+              if(@sort == sort, do: "bg-zinc-900 text-white", else: "text-zinc-600 hover:bg-zinc-100")
+            ]}
+          >
+            {sort}
+          </.link>
+        </nav>
+
+        <ul class="mt-4 divide-y divide-zinc-200">
+          <li
+            :for={project <- @projects}
+            id={"project-#{project.slug}"}
+          >
+            <.link
+              navigate={~p"/transcripts/#{project.slug}"}
+              class="flex items-baseline justify-between gap-4 py-2 hover:bg-zinc-50"
+            >
+              <span class="font-medium text-zinc-900">
+                {project.name}
+              </span>
+              <span class="text-xs text-zinc-500">
+                {plural(project.session_count, "session")} ·
+                {if @messages, do: plural(Map.get(@messages, project.slug, 0), "message"), else: "… messages"} ·
+                {ago(project.modified)}
+              </span>
+            </.link>
+          </li>
+        </ul>
+
+        <p
+          :if={@projects == []}
+          class="mt-8 text-sm text-zinc-500"
+        >
+          No transcripts found.
+        </p>
+      <% end %>
+
+    <% :project -> %>
+      <.link
+        id="back-to-projects"
+        navigate={~p"/transcripts"}
+        class="mb-4 inline-block text-sm font-semibold text-zinc-500 hover:text-zinc-900"
+      >
+        ← All projects
+      </.link>
+
+      <.header>
+        {@project.name}
+        <:subtitle>
+          {plural(@project.session_count, "session")}
+        </:subtitle>
+      </.header>
+
+      <.link id="turn-atlas-link" navigate={~p"/transcripts/#{@project.slug}/map"} class="mt-4 inline-block text-sm font-semibold text-indigo-700 hover:underline">Explore turn atlas →</.link>
+
+      <form
+        id="search"
+        phx-submit="search"
+        class="mt-6"
+      >
+        <input
+          type="search"
+          name="q"
+          value={@query}
+          placeholder="Search messages, answers, commands and file paths…"
+          autocomplete="off"
+          class="w-full rounded border border-zinc-300 px-3 py-2 text-sm focus:border-indigo-400 focus:ring-0"
+        />
+      </form>
+
+      <%= if @query != "" do %>
+        <section
+          id="results"
+          class="mt-6"
+        >
+          <p
+            :if={@results == :searching}
+            class="text-sm text-zinc-500"
+          >
+            Searching…
+          </p>
+
+          <p
+            :if={@results == []}
+            class="text-sm text-zinc-500"
+          >
+            No matches for “{@query}”.
+          </p>
+
+          <.search_hits
+            :if={is_list(@results)}
+            hits={@results}
+            query={@query}
+            max_turns={25}
+          />
+        </section>
+      <% else %>
+        <nav
+          id="sort"
+          class="mt-6 flex gap-1 text-xs"
+        >
+          <span class="py-1 pr-2 text-zinc-500">Sort by</span>
+          <.link
+            :for={sort <- Transcripts.session_sorts()}
+            patch={project_path(@project, sort, @query)}
+            aria-current={@sort == sort && "true"}
+            class={[
+              "rounded px-2 py-1",
+              if(@sort == sort, do: "bg-zinc-900 text-white", else: "text-zinc-600 hover:bg-zinc-100")
+            ]}
+          >
+            {sort}
+          </.link>
+        </nav>
+
+        <ul class="mt-4 divide-y divide-zinc-200">
+          <li
+            :for={session <- @sessions}
+            id={"session-#{session.id}"}
+          >
+            <.link
+              navigate={~p"/transcripts/#{@project.slug}/#{session.id}"}
+              class="flex items-baseline justify-between gap-4 py-2 hover:bg-zinc-50"
+            >
+              <span class="text-zinc-900 truncate">
+                {session.title}
+              </span>
+              <span class="shrink-0 text-xs text-zinc-500">
+                {if @messages, do: plural(Map.get(@messages, session.id, 0), "message"), else: "… messages"} ·
+                {size(session.size)} ·
+                {ago(session.modified)}
+              </span>
+            </.link>
+          </li>
+        </ul>
+      <% end %>
+
+    <% :show -> %>
+      <nav
+        id="transcript-toc"
+        class="fixed top-10 bottom-0 left-0 w-80 overflow-y-auto border-r border-zinc-200 bg-zinc-50 py-4 text-xs"
+      >
+        <div class="px-4 pb-3 font-semibold text-zinc-500">
+          <.link
+            id="back-to-transcripts"
+            navigate={~p"/transcripts"}
+            class="hover:text-zinc-900"
+          >
+            ← Transcripts
+          </.link>
+          /
+          <.link
+            navigate={~p"/transcripts/#{@project.slug}"}
+            class="hover:text-zinc-900"
+          >
+            {@project.name}
+          </.link>
+        </div>
+        <a
+          :for={turn <- @session.turns}
+          href={"#turn-#{turn.number}"}
+          data-turn={turn.number}
+          title={turn.prompt && String.slice(turn.prompt.text, 0, 500)}
+          class="flex gap-2 px-4 py-1.5 text-zinc-700 hover:bg-zinc-100"
+        >
+          <span class="w-6 shrink-0 text-right text-zinc-400">{turn.number}</span>
+          <span class="break-words">{turn.label}</span>
+        </a>
+      </nav>
+
+      <main
+        id="transcript"
+        phx-hook="TranscriptToc"
+        class="ml-80 px-8 pt-16 pb-24"
+      >
+        <.header>
+          {@session.title}
+          <:subtitle>
+            {@project.name} · {@session.id} · {ago(@session.modified)} · {plural(length(@session.turns), "turn")}
+          </:subtitle>
+        </.header>
+
+        <section
+          :for={turn <- @session.turns}
+          id={"turn-#{turn.number}"}
+          data-turn={turn.number}
+          class="mt-8 scroll-mt-14"
+        >
+          <div
+            :if={turn.prompt}
+            class="border-l-4 border-indigo-400 bg-indigo-50 px-4 py-3 rounded"
+          >
+            <div class="mb-1 text-xs text-indigo-400">#{turn.number}</div>
+            <div class="whitespace-pre-wrap text-sm text-zinc-900">{turn.prompt.text}</div>
+            <button
+              :if={Embeddings.classify(turn.prompt.text) == :content}
+              id={"more-like-#{turn.number}"}
+              type="button"
+              phx-click="related"
+              phx-value-turn={turn.number}
+              aria-controls={"related-#{turn.number}"}
+              aria-expanded={Map.has_key?(@related, turn.number) && "true"}
+              disabled={@related[turn.number] == :loading}
+              class="mt-3 text-xs font-semibold text-indigo-700 hover:underline disabled:opacity-50"
+            >
+              More like this
+            </button>
+          </div>
+
+          <aside
+            :if={Map.has_key?(@related, turn.number)}
+            id={"related-#{turn.number}"}
+            aria-live="polite"
+            class="mt-3 rounded border border-zinc-200 px-4 py-3 text-sm"
+          >
+            <h3 class="font-semibold text-zinc-700">Related turns in other sessions</h3>
+            <.link navigate={~p"/transcripts/#{@project.slug}/map?#{[turn: "#{@session.id}##{turn.number}"]}"} class="mt-1 inline-block text-xs text-indigo-700 hover:underline">See this message in the atlas →</.link>
+            <p :if={@related_index} class="mt-1 text-xs text-zinc-500">{@related_index.model} · {length(Map.get(@related_index.vectors, "#{@session.id}##{turn.number}", []))} dimensions · {map_size(@related_index.vectors)}/{map_size(@related_index.texts)} human turns indexed. Cosine similarity uses the full vectors.</p>
+            <%= case @related[turn.number] do %>
+              <% :loading -> %>
+                <p class="mt-2 text-zinc-500">Finding related turns…</p>
+              <% {:error, reason} -> %>
+                <p class="mt-2 text-zinc-500">{related_message(reason)}</p>
+                <code :if={reason == :not_embedded} class="mt-2 block text-xs">mix adaptics.transcripts.embed {@project.slug}</code>
+              <% {:ok, []} -> %>
+                <p class="mt-2 text-zinc-500">No related turns in other sessions have been indexed yet.</p>
+              <% {:ok, matches} -> %>
+                <ol class="mt-2 space-y-3">
+                  <li :for={match <- matches}>
+                    <.link navigate={~p"/transcripts/#{@project.slug}/#{match.session_id}" <> "#turn-#{match.number}"} class="text-indigo-700 hover:underline">
+                      {String.slice(match.text, 0, 240)}
+                    </.link>
+                    <span class="mt-1 block text-xs text-zinc-500">
+                      {String.slice(match.session_id, 0, 8)} · turn {match.number} · cosine {Float.round(match.similarity, 3)}
+                    </span>
+                  </li>
+                </ol>
+            <% end %>
+          </aside>
+
+          <ol class="mt-4 space-y-4">
+            <li
+              :for={entry <- turn.entries}
+              class={[
+                entry.kind == :answer && "px-4",
+                entry.kind == :work && "px-4 text-xs text-zinc-500"
+              ]}
+            >
+              <%= case entry.kind do %>
+                <% :work -> %>
+                  <details open>
+                    <summary class="cursor-pointer select-none hover:text-zinc-900">
+                      {tools_summary(entry.tools)}
+                    </summary>
+                    <ol class="mt-2 space-y-1">
+                      <li :for={tool <- entry.tools}>
+                        <span class="font-semibold text-zinc-700">{tool.name}</span>
+                        <pre
+                          :if={tool.input != ""}
+                          class="mt-0.5 whitespace-pre-wrap break-all rounded bg-zinc-100 px-2 py-1 text-zinc-700"
+                        >{tool.input}</pre>
+                      </li>
+                    </ol>
+                  </details>
+                <% :answer -> %>
+                  <div class="transcript-md text-sm text-zinc-900">{markdown(entry.text)}</div>
+              <% end %>
+            </li>
+          </ol>
+        </section>
+      </main>
+  <% end %>
+</div>

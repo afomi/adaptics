@@ -1,0 +1,54 @@
+{
+  "name": "Singapore Sling",
+  "description": "A fresh blend that pays homage to the shores of this East Asian country.",
+  "keywords": [
+    "gin",
+    "fresh",
+    "East Asia"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "singapore-sling",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Cherry liquor",
+      "quantity": "2",
+      "measure": "cl"
+    },
+    {
+      "name": "Grenadine syrup",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Triple sec (cointreau)",
+      "quantity": "1/2",
+      "measure": "cl"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "8",
+      "measure": "cl"
+    },
+    {
+      "name": "Bénédectine",
+      "quantity": "1/2",
+      "measure": "cl"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "1",
+      "measure": "line"
+    }
+  ]
+}

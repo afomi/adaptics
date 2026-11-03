@@ -1,0 +1,40 @@
+{
+  "name": "Strawberry Margarita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "strawberry-margarita",
+  "ingredients": [
+    {
+      "name": "Lime wedge, superfine sugar or coarse salt (optional)",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Fresh strawberries, cut in half",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Strawberry schnapps",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice, whole strawberry",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

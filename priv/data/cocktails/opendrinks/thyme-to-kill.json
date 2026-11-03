@@ -1,0 +1,44 @@
+{
+  "name": "Thyme to kill",
+  "description": "A surprising floral cocktail based on gin, citrus, elderflower, homemade apricot jam and ouzo",
+  "keywords": [
+    "alcoholic",
+    "ouzo",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "thyme-to-kill",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Saint Germain",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Ouzo",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Green",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Homemade apricot jam",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Fresh thyme",
+      "quantity": "1",
+      "measure": "unite"
+    }
+  ]
+}

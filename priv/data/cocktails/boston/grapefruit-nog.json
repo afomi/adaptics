@@ -1,0 +1,35 @@
+{
+  "name": "Grapefruit Nog",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "grapefruit-nog",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Wedding Belle Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "wedding-belle-cocktail",
+  "ingredients": [
+    {
+      "name": "Orange Juice",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

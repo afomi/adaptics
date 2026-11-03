@@ -1,0 +1,36 @@
+{
+  "name": "Citrus Martini",
+  "description": "This citrus martini uses triple sec, flavored vodka, and fresh squeezed citrus juice from your very own fruit bowl to make a delicious martini!",
+  "keywords": [
+    "alcoholic",
+    "martini",
+    "citrus",
+    "vodka",
+    "juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "citrus-martini",
+  "ingredients": [
+    {
+      "name": "Absolut Citron",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1⁄2",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "1⁄4",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1⁄2",
+      "measure": "oz"
+    }
+  ]
+}

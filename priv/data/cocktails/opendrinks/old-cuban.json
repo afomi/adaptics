@@ -1,0 +1,43 @@
+{
+  "name": "Old Cuban",
+  "description": "The cocktail takes inspiration from the Mojito, but it features a few important tweaks that result in a wholly unique flavor experience.",
+  "keywords": [
+    "Simple syrup",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "old-cuban",
+  "ingredients": [
+    {
+      "name": "mint leaves",
+      "quantity": "6",
+      "measure": ""
+    },
+    {
+      "name": "Simple syrup",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "rum",
+      "quantity": "5 or 6",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "champagne",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

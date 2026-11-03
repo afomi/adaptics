@@ -1,0 +1,16 @@
+<.simple_form :let={f} for={@changeset} action={@action}>
+  <.error :if={@changeset.action}>
+    Oops, something went wrong! Please check the errors below.
+  </.error>
+
+  <.input field={f[:name]} type="text" label="Name" />
+  <.input field={f[:description]} type="text" label="Description" />
+  <.input field={f[:from_id]} type="number" label="From" />
+  <.input field={f[:to_id]} type="number" label="To" />
+  <.input field={f[:from_hash]} type="text" label="From hash" />
+  <.input field={f[:to_hash]} type="text" label="To hash" />
+
+  <:actions>
+    <.button>Save Link</.button>
+  </:actions>
+</.simple_form>

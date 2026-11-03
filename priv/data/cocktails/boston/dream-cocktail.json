@@ -1,0 +1,25 @@
+{
+  "name": "Dream Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "dream-cocktail",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

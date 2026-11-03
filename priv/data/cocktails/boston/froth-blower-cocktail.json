@@ -1,0 +1,25 @@
+{
+  "name": "Froth Blower Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "froth-blower-cocktail",
+  "ingredients": [
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Ginger Lime Whiskey Sour",
+  "description": "A whiskey sour with a spicy kick from the ginger",
+  "keywords": [
+    "fruit",
+    "lemon",
+    "lime",
+    "ginger",
+    "whiskey",
+    "sour"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ginger-lime-whiskey-sour",
+  "ingredients": [
+    {
+      "name": "whiskey",
+      "quantity": "60 mL",
+      "measure": ""
+    },
+    {
+      "name": "juice of 1 lime",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "water",
+      "quantity": "120mL",
+      "measure": ""
+    },
+    {
+      "name": "granulated sugar",
+      "quantity": "150g",
+      "measure": ""
+    },
+    {
+      "name": "fresh ginger",
+      "quantity": "1 piece",
+      "measure": ""
+    },
+    {
+      "name": "egg white (optional)",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Citronella Cooler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "citronella-cooler",
+  "ingredients": [
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemonade",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

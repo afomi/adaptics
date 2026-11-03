@@ -1,0 +1,39 @@
+{
+  "name": "Peppermint Bark Mimosa",
+  "description": "When you are creating a cocktail based off a traditional holiday candy you must opt for the sweet stuff!",
+  "keywords": [
+    "candy",
+    "peppermint",
+    "champagne"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peppermint-bark-mimosa",
+  "ingredients": [
+    {
+      "name": "semisweet chocolate chips, melted",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "candy cane, crushed",
+      "quantity": "3",
+      "measure": "units"
+    },
+    {
+      "name": "peppermint schnapps, divided",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "champagne or prosecco",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "candy canes, whole",
+      "quantity": "6",
+      "measure": "units"
+    }
+  ]
+}

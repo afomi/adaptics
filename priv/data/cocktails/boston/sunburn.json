@@ -1,0 +1,20 @@
+{
+  "name": "Sunburn",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sunburn",
+  "ingredients": [
+    {
+      "name": "Hot Shot Tropical Fruit Liqueur",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Limerol",
+  "description": "A summertime drink with watermelon and Aperol, bittersweet and fruity.",
+  "keywords": [
+    "alcoholic",
+    "bitter",
+    "juice",
+    "vegan",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "limerol",
+  "ingredients": [
+    {
+      "name": "lemon",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "15",
+      "measure": "gr"
+    },
+    {
+      "name": "watermelon",
+      "quantity": "60",
+      "measure": "gr"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "15",
+      "measure": "ml"
+    }
+  ]
+}

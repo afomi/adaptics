@@ -1,0 +1,40 @@
+{
+  "name": "Mint Julep",
+  "description": "Mint juleps are the quintessential Southern cocktail. ",
+  "keywords": [
+    "mint",
+    "julep",
+    "vegan",
+    "classic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mint-julep",
+  "ingredients": [
+    {
+      "name": "mint",
+      "quantity": "3",
+      "measure": "leaves"
+    },
+    {
+      "name": "mint Simple Syrup",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "bourbon",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "mint leaf",
+      "quantity": "1",
+      "measure": "sprig"
+    }
+  ]
+}

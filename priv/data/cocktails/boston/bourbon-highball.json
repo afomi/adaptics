@@ -1,0 +1,15 @@
+{
+  "name": "Bourbon Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "bourbon-highball",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

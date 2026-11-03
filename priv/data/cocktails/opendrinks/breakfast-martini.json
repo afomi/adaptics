@@ -1,0 +1,43 @@
+{
+  "name": "Breakfast Martini",
+  "description": "Not strictly a Martini, merely served in a V-shaped Martini glass, this now world-famous cocktail was created in 1996 by bartender, raconteur and long term President of the United Kingdom Bartender's Guild, Salvatore Calabrese.",
+  "keywords": [
+    "gin",
+    "triple sec",
+    "cointreau",
+    "lemon juice",
+    "orange marmalade",
+    "toast",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "breakfast-martini",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "triple sec/cointreau",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "20",
+      "measure": "mli"
+    },
+    {
+      "name": "orange marmalade",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "toast",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

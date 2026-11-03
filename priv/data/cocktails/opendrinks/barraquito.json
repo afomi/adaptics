@@ -1,0 +1,37 @@
+{
+  "name": "Barraquito",
+  "description": "A multi-layered coffee drink.",
+  "keywords": [
+    "coffee",
+    "spanish",
+    "milk",
+    "layers",
+    "cinnamon",
+    "canary islands"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "barraquito",
+  "ingredients": [
+    {
+      "name": "Coffee",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Licor 43",
+      "quantity": "1-2",
+      "measure": "oz"
+    },
+    {
+      "name": "Frothed Milk",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Condensed Milk",
+      "quantity": "2",
+      "measure": "tablespoons"
+    }
+  ]
+}

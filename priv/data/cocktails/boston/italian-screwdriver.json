@@ -1,0 +1,35 @@
+{
+  "name": "Italian Screwdriver",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "italian-screwdriver",
+  "ingredients": [
+    {
+      "name": "Lime wedge, superfine sugar",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger ale",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

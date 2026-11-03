@@ -1,0 +1,34 @@
+{
+  "name": "Blue Lady",
+  "description": "A delicious blue Curacao & light rum mix (serves 2.)",
+  "keywords": [
+    "rum",
+    "blue",
+    "blue curaçao",
+    "curaçao",
+    "lemon",
+    "fresh",
+    "vegan",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blue-lady",
+  "ingredients": [
+    {
+      "name": "Blue Curaçao",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Light rum",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    }
+  ]
+}

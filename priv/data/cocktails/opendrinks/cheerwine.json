@@ -1,0 +1,30 @@
+{
+  "name": "Cheerwine",
+  "description": "A quick and easy fizzy cocktail for any occasion",
+  "keywords": [
+    "fizzy",
+    "alcoholic",
+    "vodka",
+    "cheerwine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cheerwine",
+  "ingredients": [
+    {
+      "name": "Cheerwine",
+      "quantity": "1",
+      "measure": "can"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "2",
+      "measure": "tsp"
+    }
+  ]
+}

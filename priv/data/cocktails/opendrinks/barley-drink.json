@@ -1,0 +1,39 @@
+{
+  "name": "Barley Drink",
+  "description": "Barley drink is a drink consumed in various parts of the world. It is made by boiling barley grains in water, then straining to remove the grains and adding sugar.",
+  "keywords": [
+    "vegan",
+    "non-alcoholic",
+    "tea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "barley-drink",
+  "ingredients": [
+    {
+      "name": "pearl barley",
+      "quantity": "½",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "2",
+      "measure": "litres"
+    },
+    {
+      "name": "of pandan leaves - tied into a knot",
+      "quantity": "6",
+      "measure": "stalks"
+    },
+    {
+      "name": "candied wintermelon",
+      "quantity": "½",
+      "measure": "cup"
+    },
+    {
+      "name": "Rock sugar to taste",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

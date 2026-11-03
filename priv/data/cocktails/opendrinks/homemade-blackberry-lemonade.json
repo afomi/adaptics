@@ -1,0 +1,43 @@
+{
+  "name": "Homemade Blackberry Lemonade",
+  "description": "This homemade lemonade is easy to make and gets a flavor boost from blackberries. The end result is light and refreshing which is perfect for those hot summer days.",
+  "keywords": [
+    "blackberry",
+    "lemonade"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "homemade-blackberry-lemonade",
+  "ingredients": [
+    {
+      "name": "white sugar",
+      "quantity": "¾",
+      "measure": "cup"
+    },
+    {
+      "name": "water, divided",
+      "quantity": "4 ½",
+      "measure": "cups"
+    },
+    {
+      "name": "blackberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "freshly squeezed lemon juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

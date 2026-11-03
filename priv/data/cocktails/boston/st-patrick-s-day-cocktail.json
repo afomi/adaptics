@@ -1,0 +1,30 @@
+{
+  "name": "St. Patrick's Day Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "st-patrick-s-day-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Green Creme de Menthe",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green Chartreuse",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Irish Whiskey",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

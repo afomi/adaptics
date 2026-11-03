@@ -1,0 +1,32 @@
+{
+  "name": "White Freezie",
+  "description": "Delicious, sweet alcoholic beverage that tastes like white-coloured freezies.",
+  "keywords": [
+    "alcoholic",
+    "candy",
+    "freezie",
+    "liqueur",
+    "sprite",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-freezie",
+  "ingredients": [
+    {
+      "name": "Banana Liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sour Puss Raspberry Liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sprite (to fill rest of glass)",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

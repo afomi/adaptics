@@ -1,0 +1,56 @@
+{
+  "name": "Mai Tai",
+  "description": "Fruity and refreshing, a sip of this will have you laid back on the beach in no time!",
+  "keywords": [
+    "rum",
+    "fruit",
+    "alcoholic",
+    "cold",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mai-tai",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Curaçao",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Orgeat Syrup",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Dark Rum",
+      "quantity": "0.75",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "0.25",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

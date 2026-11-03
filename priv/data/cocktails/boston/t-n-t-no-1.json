@@ -1,0 +1,20 @@
+{
+  "name": "T.N.T. No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "t-n-t-no-1",
+  "ingredients": [
+    {
+      "name": "Old Thompson Blended Whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Absinthe Substitute",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

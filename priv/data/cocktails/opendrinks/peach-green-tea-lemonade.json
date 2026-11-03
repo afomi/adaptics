@@ -1,0 +1,42 @@
+{
+  "name": "Peach Green Tea Lemonade",
+  "description": "Refreshing green tea drink, perfect for summer.",
+  "keywords": [
+    "iced tea",
+    "lemonade",
+    "non-alcoholic",
+    "peach",
+    "summer",
+    "tea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peach-green-tea-lemonade",
+  "ingredients": [
+    {
+      "name": "green tea",
+      "quantity": "6",
+      "measure": "teabags"
+    },
+    {
+      "name": "water",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "ice",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "peach flavored syrup",
+      "quantity": "4",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "lemonade",
+      "quantity": "4",
+      "measure": "cups"
+    }
+  ]
+}

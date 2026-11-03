@@ -1,0 +1,48 @@
+{
+  "name": "Blackthorn Cocktail",
+  "description": "One of the few classics to highlight Irish whiskey",
+  "keywords": [
+    "Irish whiskey",
+    "vermouth"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blackthorn-cocktail",
+  "ingredients": [
+    {
+      "name": "Irish whiskey",
+      "quantity": "2",
+      "measure": "oz."
+    },
+    {
+      "name": "dry vermouth",
+      "quantity": "1/2",
+      "measure": "oz."
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": "1/2",
+      "measure": "oz."
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "absinthe",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": "1/2",
+      "measure": "oz."
+    },
+    {
+      "name": "lemon twist",
+      "quantity": "1",
+      "measure": "piece of"
+    }
+  ]
+}

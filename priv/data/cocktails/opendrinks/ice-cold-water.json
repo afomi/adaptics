@@ -1,0 +1,27 @@
+{
+  "name": "Ice Cold Water",
+  "description": "A favourite thirst quencher.",
+  "keywords": [
+    "water",
+    "pure",
+    "ice",
+    "easy",
+    "non-alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ice-cold-water",
+  "ingredients": [
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Water",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

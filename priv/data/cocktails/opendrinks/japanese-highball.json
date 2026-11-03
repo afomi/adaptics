@@ -1,0 +1,29 @@
+{
+  "name": "Japanese Highball",
+  "description": "A simple yet refreshing whiskey drink that is a Happy Hour staple.",
+  "keywords": [
+    "whiskey",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "japanese-highball",
+  "ingredients": [
+    {
+      "name": "Japanese Whiskey",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "5",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon twist peel",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

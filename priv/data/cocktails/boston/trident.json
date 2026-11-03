@@ -1,0 +1,30 @@
+{
+  "name": "Trident",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "trident",
+  "ingredients": [
+    {
+      "name": "Aquavit or vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cynar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Emperor Norton's Mistress",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "emperor-norton-s-mistress",
+  "ingredients": [
+    {
+      "name": "Fresh strawberries, cut in halves",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vanilla liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

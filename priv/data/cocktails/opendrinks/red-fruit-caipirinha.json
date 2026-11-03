@@ -1,0 +1,51 @@
+{
+  "name": "Red fruit caipirinha",
+  "description": "It's like a Caipirinha but red fruit.",
+  "keywords": [
+    "cachaça",
+    "red fruit",
+    "sugar",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "red-fruit-caipirinha",
+  "ingredients": [
+    {
+      "name": "cachaça",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "strawberries",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "blackberries",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "raspberry",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "blueberry",
+      "quantity": "6",
+      "measure": ""
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice cube",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

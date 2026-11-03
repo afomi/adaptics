@@ -1,0 +1,26 @@
+{
+  "name": "Mimosa",
+  "description": "Simple, but delicous cocktail for special events or just to get the day going.",
+  "keywords": [
+    "champagne",
+    "citrus",
+    "simple",
+    "vegan",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mimosa",
+  "ingredients": [
+    {
+      "name": "Champagne",
+      "quantity": "2.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "2.5",
+      "measure": "oz"
+    }
+  ]
+}

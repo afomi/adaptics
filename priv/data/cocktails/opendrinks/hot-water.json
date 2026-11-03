@@ -1,0 +1,22 @@
+{
+  "name": "Hot Water",
+  "description": "Great for a cold day, any day.",
+  "keywords": [
+    "easy",
+    "hot",
+    "non-alcoholic",
+    "pure",
+    "vegan",
+    "water"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hot-water",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

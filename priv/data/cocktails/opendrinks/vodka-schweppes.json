@@ -1,0 +1,25 @@
+{
+  "name": "Vodka Schweppes",
+  "description": "Simple sweet drink that you can take wherever you are in your own local style.",
+  "keywords": [
+    "summer",
+    "schweppes",
+    "vodka",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-schweppes",
+  "ingredients": [
+    {
+      "name": "Schweppes of your preferred taste, I like the Citrus found in Brazil but you can use other flavors",
+      "quantity": "1 1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Fox River Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "fox-river-cocktail",
+  "ingredients": [
+    {
+      "name": "Bourbon or Rye Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dark creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "4 oz",
+      "quantity": null
+    }
+  ]
+}

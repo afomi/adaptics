@@ -1,0 +1,25 @@
+{
+  "name": "Irish Whiskey Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "irish-whiskey-highball",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger ale or soda water",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon twist (optional)",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

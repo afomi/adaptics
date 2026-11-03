@@ -1,0 +1,30 @@
+{
+  "name": "K. C. B. Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "k-c-b-cocktail",
+  "ingredients": [
+    {
+      "name": "Kummel",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Apricot Flavored Brandy",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Rose Milk",
+  "description": "A refreshing, rose-flavored Indian cool drink, perfect for quenching your thirst.",
+  "keywords": [
+    "milk",
+    "sweet",
+    "cold",
+    "rose syrup",
+    "summer",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rose-milk",
+  "ingredients": [
+    {
+      "name": "milk",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "rose syrup",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "sugar",
+      "quantity": "6",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "some ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Yellow Rose Of Texas",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "yellow-rose-of-texas",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rose water",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

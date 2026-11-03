@@ -1,0 +1,30 @@
+{
+  "name": "White Lady Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "white-lady-cocktail",
+  "ingredients": [
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Cream",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

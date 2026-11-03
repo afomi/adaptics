@@ -1,0 +1,40 @@
+{
+  "name": "Purple Passion Iced Tea",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "purple-passion-iced-tea",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Black raspberry liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice and 3 oz",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Pickled Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "pickled-martini",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet pickle brine",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet pickle slice",
+      "measure": "1",
+      "quantity": null
+    }
+  ]
+}

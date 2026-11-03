@@ -1,0 +1,35 @@
+{
+  "name": "Pok Shot",
+  "description": "Pok Shot is thai drink or called cocktail from thailand popular in local and simple ingredients",
+  "keywords": [
+    "vodka",
+    "cocktail",
+    "tequila",
+    "simple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pok-shot",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "soda (recomended lime flavor)",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

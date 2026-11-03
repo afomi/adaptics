@@ -1,0 +1,30 @@
+{
+  "name": "Pancho Villa",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "pancho-villa",
+  "ingredients": [
+    {
+      "name": "Anejo tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aperol",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

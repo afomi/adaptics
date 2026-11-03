@@ -1,0 +1,30 @@
+{
+  "name": "Bourbon Cobbler",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bourbon-cobbler",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Almond extract",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

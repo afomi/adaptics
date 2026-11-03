@@ -1,0 +1,34 @@
+{
+  "name": "Hibiscus Mint Tea",
+  "description": "Hibiscus is a beautiful flower that does so much for our health and it tastes great! This tea is a phenomenal summer tea and is excellent served iced. It's also good to have warm before bed. This tea is great no matter how it's served, so sit back and enjoy this easy-to-make herbal tea!",
+  "keywords": [
+    "hibiscus",
+    "mint",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hibiscus-mint-tea",
+  "ingredients": [
+    {
+      "name": "Water",
+      "quantity": "3.5",
+      "measure": "Cup"
+    },
+    {
+      "name": "Dried hibiscus petals",
+      "quantity": "18",
+      "measure": ""
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "1/2",
+      "measure": "Cup"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Brandy Milk Punch",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "brandy-milk-punch",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Milk",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

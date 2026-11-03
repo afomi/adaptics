@@ -1,0 +1,85 @@
+{
+  "name": "Devil's Ice Tea",
+  "description": "A very, very strong cocktail, drinking on your own responsibility.",
+  "keywords": [
+    "cola",
+    "lemon",
+    "iced tea",
+    "bacardi",
+    "rum",
+    "tequila",
+    "vodka",
+    "vegan",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "devil-s-ice-tea",
+  "ingredients": [
+    {
+      "name": "Bacardi 151",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Rye Whiskey",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin Bombay Saphire",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Brandy",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Dark Rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple Sec",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet and Sour",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Coke",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

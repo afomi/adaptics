@@ -1,0 +1,33 @@
+{
+  "name": "Fast Food Classic",
+  "description": "The drink you made at the beverage station every time your mom took you to Wendy's until you were 15",
+  "keywords": [
+    "soda",
+    "wendys"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fast-food-classic",
+  "ingredients": [
+    {
+      "name": "Coke",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Root beer",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Sprite",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Mountain Dew",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

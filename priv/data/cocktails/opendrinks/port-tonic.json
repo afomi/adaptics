@@ -1,0 +1,38 @@
+{
+  "name": "Port & Tonic",
+  "description": "A very refreshing and simple drink perfect for hot summer days.",
+  "keywords": [
+    "port",
+    "tonic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "port-tonic",
+  "ingredients": [
+    {
+      "name": "White dry Port",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Tonic Water",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cubed Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Peppermint",
+      "quantity": "1 leaf",
+      "measure": ""
+    },
+    {
+      "name": "Orange, Lemon, or Lime",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

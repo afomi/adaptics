@@ -1,0 +1,30 @@
+{
+  "name": "Third-Rail Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "third-rail-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anisette",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

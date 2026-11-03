@@ -1,0 +1,25 @@
+{
+  "name": "Tequila Pink",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequila-pink",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

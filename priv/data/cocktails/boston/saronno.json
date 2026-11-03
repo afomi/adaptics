@@ -1,0 +1,25 @@
+{
+  "name": "Saronno",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "saronno",
+  "ingredients": [
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

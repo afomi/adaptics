@@ -1,0 +1,35 @@
+{
+  "name": "Grandfather",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "grandfather",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Applejack",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud's Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

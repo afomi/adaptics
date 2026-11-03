@@ -1,0 +1,40 @@
+{
+  "name": "Japanese Ice Tea",
+  "description": "",
+  "keywords": [
+    "vodka",
+    "gin",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "japanese-ice-tea",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Midori Melon Liquor",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet & Sour Mix",
+      "quantity": "2 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sprite (or other lemon soda)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

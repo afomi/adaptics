@@ -1,0 +1,41 @@
+{
+  "name": "Lemon drop",
+  "description": "The perfect balance between sweet and sour, an extremely well-established classic and quite sophisticated drink.",
+  "keywords": [
+    "lemonade",
+    "vodka",
+    "alcoholic",
+    "cold",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "lemon-drop",
+  "ingredients": [
+    {
+      "name": "Lemon juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

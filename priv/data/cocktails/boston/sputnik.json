@@ -1,0 +1,30 @@
+{
+  "name": "Sputnik",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "sputnik",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peach schnapps",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

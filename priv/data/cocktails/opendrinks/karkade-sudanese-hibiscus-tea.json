@@ -1,0 +1,30 @@
+{
+  "name": "Karkade (Sudanese Hibiscus Tea)",
+  "description": "A traditional Sudanese hibiscus drink served chilled, perfect for hot days and special occasions.",
+  "keywords": [
+    "sudanese",
+    "hibiscus",
+    "karkade",
+    "refreshing"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "karkade-sudanese-hibiscus-tea",
+  "ingredients": [
+    {
+      "name": "room temperature water",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "dried hibiscus flowers",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

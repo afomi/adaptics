@@ -1,0 +1,25 @@
+{
+  "name": "Resolute Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "resolute-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apricot Flavored Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

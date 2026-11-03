@@ -1,0 +1,34 @@
+{
+  "name": "Tequila Honeysuckle",
+  "description": "A simple and smooth, springtime Tequila drink.",
+  "keywords": [
+    "tequila",
+    "lime",
+    "honey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tequila-honeysuckle",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Honey Syrup",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

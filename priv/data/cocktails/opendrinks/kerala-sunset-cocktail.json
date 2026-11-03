@@ -1,0 +1,55 @@
+{
+  "name": "Kerala Sunset Cocktail",
+  "description": "From the place fondly called 'God's Own Country' comes a drink to soothe your soul.",
+  "keywords": [
+    "alcoholic",
+    "cocktail",
+    "coconut",
+    "blue curaçao",
+    "gin",
+    "lime",
+    "rum",
+    "south indian",
+    "spices"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kerala-sunset-cocktail",
+  "ingredients": [
+    {
+      "name": "Bacardi Coconut Rum",
+      "quantity": "2.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Bombay Sapphire Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger Beer",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Midori Melon Liqueur",
+      "quantity": "1",
+      "measure": "splash"
+    },
+    {
+      "name": "Blue Curaçao",
+      "quantity": "1",
+      "measure": "splash"
+    },
+    {
+      "name": "Beet Juice",
+      "quantity": "1",
+      "measure": "splash"
+    },
+    {
+      "name": "Lime (squeezed)",
+      "quantity": "1/2",
+      "measure": "pc"
+    }
+  ]
+}

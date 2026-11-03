@@ -1,0 +1,28 @@
+{
+  "name": "Hanky Panky",
+  "description": "The Hanky-Panky is a cocktail made from gin, sweet vermouth, and Fernet-Branca. It was created by Ada Coleman, (known as \"Coley\"), head bartender at the Savoy Hotel, London.",
+  "keywords": [
+    "vermouth",
+    "gin"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hanky-panky",
+  "ingredients": [
+    {
+      "name": "London Dry Gin",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Sweet Red Vermouth",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Fernet Branca",
+      "quantity": "7.5",
+      "measure": "ml"
+    }
+  ]
+}

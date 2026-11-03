@@ -1,0 +1,48 @@
+{
+  "name": "Brazilian Strawberry Drink",
+  "description": "A complex sweet drink with vodka.",
+  "keywords": [
+    "strawberry",
+    "Brazil"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "brazilian-strawberry-drink",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Condensed milk",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Milk cream",
+      "quantity": "1/2",
+      "measure": "box"
+    },
+    {
+      "name": "Yogurt",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Strawberry",
+      "quantity": "5",
+      "measure": "Strawberry"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Creole Cream",
+  "description": "Cocktail created for the British show \"The Persuaders!\", you might like it if you enjoy Martini and sweet flavors!",
+  "keywords": [
+    "rum",
+    "vermouth",
+    "syrup",
+    "olives",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "creole-cream",
+  "ingredients": [
+    {
+      "name": "Light rum",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "White vermouth",
+      "quantity": "2",
+      "measure": "cl"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Olives",
+      "quantity": "1 or 2",
+      "measure": ""
+    }
+  ]
+}

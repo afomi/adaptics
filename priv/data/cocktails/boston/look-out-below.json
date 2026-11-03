@@ -1,0 +1,25 @@
+{
+  "name": "Look Out Below",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "look-out-below",
+  "ingredients": [
+    {
+      "name": "151-Proof Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

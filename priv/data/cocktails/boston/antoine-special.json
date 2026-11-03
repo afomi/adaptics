@@ -1,0 +1,20 @@
+{
+  "name": "Antoine Special",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "antoine-special",
+  "ingredients": [
+    {
+      "name": "Dubonnet",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

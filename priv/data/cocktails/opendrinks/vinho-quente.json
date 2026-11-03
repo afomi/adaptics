@@ -1,0 +1,57 @@
+{
+  "name": "Vinho Quente",
+  "description": "Vinho Quente, wich means hot wine in Portuguese, a great drink for cold and calm days.",
+  "keywords": [
+    "wine",
+    "hot",
+    "cold",
+    "red wine",
+    "apple",
+    "cinnamon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vinho-quente",
+  "ingredients": [
+    {
+      "name": "Sugar",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Clove",
+      "quantity": "10",
+      "measure": "Units"
+    },
+    {
+      "name": "Cinnamon",
+      "quantity": "5",
+      "measure": "stick"
+    },
+    {
+      "name": "Orange and lemon peels",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Water",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Apple",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Pear",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Soft red wine",
+      "quantity": "1",
+      "measure": "Liter"
+    }
+  ]
+}

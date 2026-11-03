@@ -1,0 +1,14 @@
+{
+  "slug": "gin-fizz",
+  "name": "Gin Fizz",
+  "source": "opendrinks",
+  "category": null,
+  "description": null,
+  "keywords": [],
+  "ingredients": [
+    {"name": "Gin", "quantity": "2", "measure": "oz"},
+    {"name": "Fresh lemon juice", "quantity": "1", "measure": "oz"},
+    {"name": "Simple syrup", "quantity": "3/4", "measure": "oz"},
+    {"name": "Club soda", "quantity": null, "measure": "top"}
+  ]
+}

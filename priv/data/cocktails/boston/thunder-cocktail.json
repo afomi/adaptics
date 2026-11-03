@@ -1,0 +1,30 @@
+{
+  "name": "Thunder Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "thunder-cocktail",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cayenne Pepper",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

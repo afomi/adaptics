@@ -1,0 +1,36 @@
+{
+  "name": "Snowball",
+  "description": "A Snowball is a mixture of Advocaat and a carbonated lemonade in approximately equal parts. It may have other ingredients, to taste.",
+  "keywords": [
+    "advocaat",
+    "lime",
+    "Snowball",
+    "sugar",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "snowball",
+  "ingredients": [
+    {
+      "name": "maraschino",
+      "quantity": "1",
+      "measure": "cherry"
+    },
+    {
+      "name": "advocaat",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "sparkling lemonade",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "club soda",
+      "quantity": "1",
+      "measure": "bottle"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<.header>
+  Node {@node.name}
+  <:subtitle>A core generic object — may stand alone or point at another record.</:subtitle>
+  <:actions>
+    <.link href={~p"/nodes/#{@node}/edit"}>
+      <.button>Edit node</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Name">{@node.name}</:item>
+  <:item title="Description">{@node.description}</:item>
+  <:item title="Kind">{@node.kind}</:item>
+  <:item title="Wardley X">{@node.wardley_x}</:item>
+  <:item title="Wardley Y">{@node.wardley_y}</:item>
+  <:item title="Wardley Text">{@node.wardley_text}</:item>
+  <:item title="Hash">{@node.hash}</:item>
+</.list>
+
+<.header class="mt-11">
+  Links touching this Node
+</.header>
+
+<.table id="node-links" rows={@links}>
+  <:col :let={link} label="Name">{link.name}</:col>
+  <:col :let={link} label="Description">{link.description}</:col>
+  <:col :let={link} label="From">{link.from_id}</:col>
+  <:col :let={link} label="To">{link.to_id}</:col>
+  <:col :let={link} label="From hash">{link.from_hash}</:col>
+  <:col :let={link} label="To hash">{link.to_hash}</:col>
+</.table>
+
+<.back navigate={~p"/nodes"}>Back to nodes</.back>

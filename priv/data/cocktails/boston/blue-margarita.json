@@ -1,0 +1,30 @@
+{
+  "name": "Blue Margarita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "blue-margarita",
+  "ingredients": [
+    {
+      "name": "Lime juice, coarse salt",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blue curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

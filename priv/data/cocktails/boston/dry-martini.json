@@ -1,0 +1,20 @@
+{
+  "name": "Dry Martini",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "dry-martini",
+  "ingredients": [
+    {
+      "name": "Mr. Boston Gin",
+      "measure": "1 2/3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/3 oz",
+      "quantity": null
+    }
+  ]
+}

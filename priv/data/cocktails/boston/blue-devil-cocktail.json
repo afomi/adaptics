@@ -1,0 +1,30 @@
+{
+  "name": "Blue Devil Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "blue-devil-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of Lemon or Lime",
+      "measure": "1/2 or 1",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blue curacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

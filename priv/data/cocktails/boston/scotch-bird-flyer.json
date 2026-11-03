@@ -1,0 +1,35 @@
+{
+  "name": "Scotch Bird Flyer",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "scotch-bird-flyer",
+  "ingredients": [
+    {
+      "name": "Scotch",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

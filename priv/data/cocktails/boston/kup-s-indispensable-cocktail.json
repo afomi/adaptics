@@ -1,0 +1,30 @@
+{
+  "name": "Kup's Indispensable Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "kup-s-indispensable-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

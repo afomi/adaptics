@@ -1,0 +1,30 @@
+{
+  "name": "Fuzzy Navel",
+  "description": "A sweet and fruity alcoholic beverage thats easy to make with little ingredients.",
+  "keywords": [
+    "alcoholic",
+    "fruity",
+    "sweet",
+    "orange juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fuzzy-navel",
+  "ingredients": [
+    {
+      "name": "Peach Schnapps",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

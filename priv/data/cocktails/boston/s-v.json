@@ -1,0 +1,30 @@
+{
+  "name": "S & V",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "s-v",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creole Shrubb (rum-based orange liqueur)",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ruby port",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

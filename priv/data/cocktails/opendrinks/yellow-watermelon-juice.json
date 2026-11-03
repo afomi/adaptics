@@ -1,0 +1,36 @@
+{
+  "name": "Yellow watermelon juice",
+  "description": "Yellow watermelon juice, will help boost your day.",
+  "keywords": [
+    "ice",
+    "fruit",
+    "juice",
+    "smoothie",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "yellow-watermelon-juice",
+  "ingredients": [
+    {
+      "name": "slices of yellow watermelon",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "of cold water",
+      "quantity": "2",
+      "measure": "glasses"
+    },
+    {
+      "name": "sugar",
+      "quantity": "3",
+      "measure": "Tbsp"
+    },
+    {
+      "name": "of ice cubes",
+      "quantity": "1",
+      "measure": "Scope"
+    }
+  ]
+}

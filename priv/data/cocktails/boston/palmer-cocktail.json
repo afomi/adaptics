@@ -1,0 +1,25 @@
+{
+  "name": "Palmer Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "palmer-cocktail",
+  "ingredients": [
+    {
+      "name": "Blended whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

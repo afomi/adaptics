@@ -1,0 +1,25 @@
+{
+  "name": "Brandy Vermouth Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "brandy-vermouth-cocktail",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

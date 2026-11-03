@@ -1,0 +1,25 @@
+{
+  "name": "Orange Blossom Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "orange-blossom-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

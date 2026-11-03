@@ -1,0 +1,44 @@
+{
+  "name": "Dom Pedro",
+  "description": "Dom Pedro is a deliciously creamy drink, this particular recipe is a bit spiced up, so it packs a good punch!",
+  "keywords": [
+    "alcoholic",
+    "sweet",
+    "creamy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dom-pedro",
+  "ingredients": [
+    {
+      "name": "Amarula Cream",
+      "quantity": "2",
+      "measure": "Tots"
+    },
+    {
+      "name": "Frangelico",
+      "quantity": "1",
+      "measure": "Tot"
+    },
+    {
+      "name": "Vanilla Ice-cream",
+      "quantity": "150",
+      "measure": "ml"
+    },
+    {
+      "name": "Coconut cream",
+      "quantity": "25",
+      "measure": "ml"
+    },
+    {
+      "name": "Pinch of cinnamon",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "of grated chocolate",
+      "quantity": "1-2",
+      "measure": "Blocks"
+    }
+  ]
+}

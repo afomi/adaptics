@@ -1,0 +1,46 @@
+{
+  "name": "Hot Toddy",
+  "description": "A Hot Toddy is as classic as they come. The perfect drink to sip on when you're feeling under the weather or on a chilly Sunday afternoon. It will make you want to grab a good book and forget about all of your worries!",
+  "keywords": [
+    "honey",
+    "winter",
+    "lemon",
+    "bourbon",
+    "cinnamon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hot-toddy",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "bourbon",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "honey",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "2",
+      "measure": "tsp"
+    },
+    {
+      "name": "Cinnamon stick",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lemon slice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

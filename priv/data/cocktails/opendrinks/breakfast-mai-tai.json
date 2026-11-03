@@ -1,0 +1,48 @@
+{
+  "name": "Breakfast Mai Tai",
+  "description": "The Breakfast Mai Tai has gone through several iterations at Donna, where it was first created with an oat orgeat for a guest who had a nut allergy. The recipe has evolved over the course of several menus, but its crushability remains intact. As Fancy Chu, the drink's creator, says, 'I definitely would drink this for breakfast when vacationing somewhere tropical, or even on a day off, daydreaming of being in the tropics.'",
+  "keywords": [
+    "tiki",
+    "mai tai",
+    "rum",
+    "banana liqueur",
+    "orgeat",
+    "cinnamon syrup",
+    "lime juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "breakfast-mai-tai",
+  "ingredients": [
+    {
+      "name": "overproof Jamaican rum (preferably Smith & Cross)",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "banana liqueur (preferably Giffard Banane du Bresil)",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "orgeat",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "cinnamon syrup",
+      "quantity": "1/4",
+      "measure": "ounce"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "black rum (preferably Hamilton)",
+      "quantity": "3/4",
+      "measure": "ounce"
+    }
+  ]
+}

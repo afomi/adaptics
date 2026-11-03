@@ -1,0 +1,49 @@
+{
+  "name": "Cold Coffee",
+  "description": "If you are a coffee lover you will relish it for sure.",
+  "keywords": [
+    "cold",
+    "coffee",
+    "ice cream"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cold-coffee",
+  "ingredients": [
+    {
+      "name": "Chilled Milk",
+      "quantity": "1",
+      "measure": "Mug"
+    },
+    {
+      "name": "Coffee Powder",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Chocolate Chip Ice-cream",
+      "quantity": "1",
+      "measure": "Scoop"
+    },
+    {
+      "name": "Vanilla",
+      "quantity": "1",
+      "measure": "Scoop"
+    },
+    {
+      "name": "Hersheys Chocolate Syrup",
+      "quantity": "3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Cocoa Powder",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    }
+  ]
+}

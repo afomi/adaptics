@@ -1,0 +1,45 @@
+{
+  "name": "Pumpkin Spice Latte",
+  "description": "Latte with pumpkin spice syrup.",
+  "keywords": [
+    "pumpkin",
+    "spice",
+    "latte",
+    "psl"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pumpkin-spice-latte",
+  "ingredients": [
+    {
+      "name": "Pumpkin",
+      "quantity": "1",
+      "measure": "medium sized piece"
+    },
+    {
+      "name": "grounded sweet cinammon",
+      "quantity": "1/2",
+      "measure": "table spoon"
+    },
+    {
+      "name": "grounded nutmeg",
+      "quantity": "1/2",
+      "measure": "table spoon"
+    },
+    {
+      "name": "grounded clove",
+      "quantity": "1/2",
+      "measure": "table spoon"
+    },
+    {
+      "name": "water",
+      "quantity": "1/2",
+      "measure": "glass"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1/2",
+      "measure": "glass"
+    }
+  ]
+}

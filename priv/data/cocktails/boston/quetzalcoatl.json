@@ -1,0 +1,35 @@
+{
+  "name": "Quetzalcoatl",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "quetzalcoatl",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mezcal",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de peche",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Guava puree",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

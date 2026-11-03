@@ -1,0 +1,40 @@
+{
+  "name": "Rosemary Clementine Sparkle",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "rosemary-clementine-sparkle",
+  "ingredients": [
+    {
+      "name": "Clementine or mandarin orange",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh rosemary sprig",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled sparkling wine or Champagne",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

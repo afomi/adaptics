@@ -1,0 +1,15 @@
+{
+  "name": "Spritzer Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "spritzer-highball",
+  "ingredients": [
+    {
+      "name": "chilled Rhine wine or Sauterne",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

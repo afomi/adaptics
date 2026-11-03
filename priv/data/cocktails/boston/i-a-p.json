@@ -1,0 +1,25 @@
+{
+  "name": "I.A.P.",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "i-a-p",
+  "ingredients": [
+    {
+      "name": "Tennessee whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fernet-Branca",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cola",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

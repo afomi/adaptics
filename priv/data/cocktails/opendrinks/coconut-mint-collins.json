@@ -1,0 +1,38 @@
+{
+  "name": "Coconut Mint Collins",
+  "description": "Beat the summer heat with this minty, sweet and neat tasty Malibu cocktail. What a delicious treat!",
+  "keywords": [
+    "malibu",
+    "lime juice",
+    "mint",
+    "soda",
+    "alcoholic",
+    "coconut",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coconut-mint-collins",
+  "ingredients": [
+    {
+      "name": "Malibu Original",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "quantity": "1/2",
+      "measure": "part"
+    },
+    {
+      "name": "Mint Leaves",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "Top with Soda water & lime",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

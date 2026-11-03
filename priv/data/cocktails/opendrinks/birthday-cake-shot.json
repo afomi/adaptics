@@ -1,0 +1,32 @@
+{
+  "name": "Birthday Cake Shot",
+  "description": "A sweet party shot with vanilla notes, inspired by classic birthday cake flavors.",
+  "keywords": [
+    "shot",
+    "vodka",
+    "sweet",
+    "dessert",
+    "amaretto",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "birthday-cake-shot",
+  "ingredients": [
+    {
+      "name": "Vanilla vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Amaretto",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

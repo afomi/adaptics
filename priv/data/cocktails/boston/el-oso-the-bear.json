@@ -1,0 +1,30 @@
+{
+  "name": "El Oso (The Bear)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "el-oso-the-bear",
+  "ingredients": [
+    {
+      "name": "Anejo tequila",
+      "measure": "1  3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Honey liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "The Bitter Truth's Jerry Thomas' Own Decanter Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

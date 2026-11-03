@@ -1,0 +1,57 @@
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <div class="flex items-center justify-between mb-8">
+    <h1 class="text-2xl font-bold">Wiki</h1>
+    <.link
+      navigate={~p"/wiki/new"}
+      class="rounded-md bg-indigo-600 px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+    >
+      New Page
+    </.link>
+  </div>
+
+  <form
+    phx-change="search"
+    phx-submit="search"
+    class="mb-6"
+  >
+    <input
+      type="text"
+      name="query"
+      value={@search_query}
+      placeholder="Search pages..."
+      phx-debounce="300"
+      class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+    />
+  </form>
+
+  <div :if={@pages == []} class="text-gray-500 text-center py-12">
+    <p>No pages yet.</p>
+    <p class="mt-2">
+      <.link
+        navigate={~p"/wiki/new"}
+        class="text-indigo-600 hover:text-indigo-500"
+      >
+        Create the first page
+      </.link>
+    </p>
+  </div>
+
+  <div :if={@pages != []} class="divide-y divide-gray-200">
+    <div
+      :for={page <- @pages}
+      class="py-3 flex items-center justify-between"
+    >
+      <div>
+        <.link
+          navigate={~p"/wiki/#{page.slug}"}
+          class="text-indigo-600 hover:text-indigo-500 font-medium"
+        >
+          <%= page.title %>
+        </.link>
+      </div>
+      <div class="text-sm text-gray-500">
+        <%= Calendar.strftime(page.updated_at, "%b %d, %Y %H:%M") %>
+      </div>
+    </div>
+  </div>
+</div>

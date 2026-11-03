@@ -1,0 +1,43 @@
+{
+  "name": "Paloma",
+  "description": "A simple tequila cocktail made with grapefruit soda.",
+  "keywords": [
+    "tequila",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "paloma",
+  "ingredients": [
+    {
+      "name": "tequila (I prefer a silver or blanco, but use what you like)",
+      "quantity": "2 or 3",
+      "measure": "oz"
+    },
+    {
+      "name": "Grapefruite soda (like Fresca, Squirt, or Jarritos)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Limes",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "(optional) Tajin - a seasoning mix of lime, chilies, and salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

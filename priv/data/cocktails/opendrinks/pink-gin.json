@@ -1,0 +1,28 @@
+{
+  "name": "Pink Gin",
+  "description": "A deliciously spiced spin on drinking gin. A great way to enhance a sweet gin.",
+  "keywords": [
+    "gin",
+    "Deadwood",
+    "classic",
+    "bitter",
+    "sour",
+    "tart",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pink-gin",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "3",
+      "measure": "Dashes"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Dayak Onion Tea",
+  "description": "A traditional herbal tea made from Dayak onions, known for its medicinal properties and unique flavor.",
+  "keywords": [
+    "herbal tea",
+    "Dayak onion",
+    "traditional drink",
+    "healthy tea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dayak-onion-tea",
+  "ingredients": [
+    {
+      "name": "Dayak onions",
+      "quantity": "2",
+      "measure": "pieces"
+    },
+    {
+      "name": "water",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "honey",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

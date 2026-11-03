@@ -1,0 +1,37 @@
+{
+  "name": "Caramel Apple Shot",
+  "description": "A sweet fall-style shot combining caramel and apple flavors.",
+  "keywords": [
+    "shot",
+    "sweet",
+    "vodka",
+    "apple",
+    "caramel",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caramel-apple-shot",
+  "ingredients": [
+    {
+      "name": "Caramel vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sour apple schnapps",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Apple juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

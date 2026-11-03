@@ -1,0 +1,35 @@
+{
+  "name": "Magic Eye Juice",
+  "description": "Treat Your Eyes Right. Vitamins and minerals are important to vision health and we create this tasty juice recipe that's good for the eyes, loaded with all the essential nutrients.",
+  "keywords": [
+    "eye sight",
+    "vegan",
+    "gluten free",
+    "fruits"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "magic-eye-juice",
+  "ingredients": [
+    {
+      "name": "Carrots",
+      "quantity": "3",
+      "measure": "cup"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "oranges",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "sweet potato",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

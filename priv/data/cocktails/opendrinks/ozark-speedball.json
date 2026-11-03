@@ -1,0 +1,47 @@
+{
+  "name": "Ozark Speedball",
+  "description": "Citrusy coffee cocktail.",
+  "keywords": [
+    "orange",
+    "cocktail",
+    "Angostura bitters",
+    "coffee liqueur",
+    "cream",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ozark-speedball",
+  "ingredients": [
+    {
+      "name": "chilled coffee",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "coffee liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "white whiskey",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "heavy cream",
+      "quantity": "0.5",
+      "measure": "cups"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Orange oil",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

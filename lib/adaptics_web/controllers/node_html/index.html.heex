@@ -1,0 +1,31 @@
+<.header>
+  Listing Nodes
+  <:subtitle>{@node_count} nodes</:subtitle>
+  <:actions>
+    <.link href={~p"/nodes/new"}>
+      <.button>New Node</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.table id="nodes" rows={@nodes} row_click={&JS.navigate(~p"/nodes/#{&1}")}>
+  <:col :let={node} label="Name">{node.name}</:col>
+  <:col :let={node} label="Description">{node.description}</:col>
+  <:col :let={node} label="Kind">{node.kind}</:col>
+  <:col :let={node} label="Hash">{node.hash}</:col>
+  <:action :let={node}>
+    <.link navigate={~p"/nodes/#{node}"}>Show</.link>
+  </:action>
+  <:action :let={node}>
+    <.link navigate={~p"/nodes/#{node}/edit"}>Edit</.link>
+  </:action>
+  <:action :let={node}>
+    <.link
+      href={~p"/nodes/#{node}"}
+      method="delete"
+      data-confirm="Are you sure?"
+    >
+      Delete
+    </.link>
+  </:action>
+</.table>

@@ -1,0 +1,44 @@
+{
+  "name": "The Perfect Storm",
+  "description": "Live a pirate's life, and sail through the Perfect Storm. This drink be sure to get ye some sea legs!",
+  "keywords": [
+    "rum",
+    "ginger beer",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-perfect-storm",
+  "ingredients": [
+    {
+      "name": "Dark Rum (Kraken if ye be a brave soul)",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Ginger Beer (Crabbies be the pirate's favorite)",
+      "quantity": "3",
+      "measure": "parts"
+    },
+    {
+      "name": "Bitters (if ye be feelin' fancy)",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Half Lime (for juice... and to prevent scurvy)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lime Wheel (for garnish)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice (if ye be wantin' it cool)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

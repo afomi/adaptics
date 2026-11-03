@@ -1,0 +1,102 @@
+{
+  "name": "Thandai",
+  "description": "A drink native to India and is often associated with the Maha Shivaratri and Holi or Holla mahalla festival.",
+  "keywords": [
+    "cool",
+    "refreshing",
+    "non-alcoholic",
+    "indian",
+    "milk",
+    "saffron"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "thandai",
+  "ingredients": [
+    {
+      "name": "Half and Half Milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Whole Milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Rose Water",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Cashews",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Melon Seeds",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Saffron Strands",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Cinnamon Powder",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Nutmeg Powder",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Rose Petal Spread (Gulkand)",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Fennel Seed Powder",
+      "quantity": "1.5",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Cardamom Powder",
+      "quantity": "1.5",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "Poppy Seeds",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Almonds",
+      "quantity": "12",
+      "measure": "pieces"
+    },
+    {
+      "name": "Pistachios",
+      "quantity": "15",
+      "measure": "pieces"
+    },
+    {
+      "name": "Black Peppercorns",
+      "quantity": "3/4",
+      "measure": "teaspoon"
+    }
+  ]
+}

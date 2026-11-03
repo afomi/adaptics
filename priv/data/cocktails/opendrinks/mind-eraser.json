@@ -1,0 +1,29 @@
+{
+  "name": "Mind Eraser",
+  "description": "The drink that will literally erase your mind after drinking it! Prepare to forget!",
+  "keywords": [
+    "kahlúa",
+    "vodka",
+    "club soda"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mind-eraser",
+  "ingredients": [
+    {
+      "name": "Kahlúa",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Club soda",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

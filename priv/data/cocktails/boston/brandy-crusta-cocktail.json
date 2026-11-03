@@ -1,0 +1,35 @@
+{
+  "name": "Brandy Crusta Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "brandy-crusta-cocktail",
+  "ingredients": [
+    {
+      "name": "Maraschino",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

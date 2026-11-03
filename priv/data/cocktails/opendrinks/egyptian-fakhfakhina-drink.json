@@ -1,0 +1,71 @@
+{
+  "name": "Egyptian Fakhfakhina Drink",
+  "description": "Fakhfakhina is the “mother of all fruit salads.”. This fruit salad includes seasonal fruits, juice cocktails and ice cream",
+  "keywords": [
+    "non-alcoholic",
+    "banana",
+    "mango",
+    "apple",
+    "peach",
+    "strawberry",
+    "honey",
+    "coconut",
+    "sugar",
+    "nut"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "egyptian-fakhfakhina-drink",
+  "ingredients": [
+    {
+      "name": "cut into cubes",
+      "quantity": "2",
+      "measure": "mangoes"
+    },
+    {
+      "name": "cut into cubes",
+      "quantity": "2",
+      "measure": "apples"
+    },
+    {
+      "name": "diced",
+      "quantity": "2",
+      "measure": "peaches"
+    },
+    {
+      "name": "sliced",
+      "quantity": "1",
+      "measure": "banana"
+    },
+    {
+      "name": "sliced",
+      "quantity": "2",
+      "measure": "cups strawberries"
+    },
+    {
+      "name": "",
+      "quantity": "2",
+      "measure": "pineapple juice"
+    },
+    {
+      "name": "",
+      "quantity": "2",
+      "measure": "cups orange juice"
+    },
+    {
+      "name": "(optional)",
+      "quantity": "2",
+      "measure": "cups cream"
+    },
+    {
+      "name": "(optional)",
+      "quantity": "As you like",
+      "measure": "Honey, to taste"
+    },
+    {
+      "name": "(optional)",
+      "quantity": "As you like",
+      "measure": "Crushed nuts, to taste"
+    }
+  ]
+}

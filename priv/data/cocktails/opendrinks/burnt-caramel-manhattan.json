@@ -1,0 +1,45 @@
+{
+  "name": "Burnt Caramel Manhattan",
+  "description": "The Burnt Caramel Manhattan is a sweet, decadent variation on the classic Manhattan.",
+  "keywords": [
+    "alcoholic",
+    "classic",
+    "bourbon",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "burnt-caramel-manhattan",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": ".25",
+      "measure": "oz"
+    },
+    {
+      "name": "buttershot schnapps",
+      "quantity": ".25",
+      "measure": "oz"
+    },
+    {
+      "name": "raspberry Chambord",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "angostura bitters",
+      "quantity": "3",
+      "measure": "dashes"
+    },
+    {
+      "name": "cherry",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

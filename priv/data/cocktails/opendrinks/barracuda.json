@@ -1,0 +1,42 @@
+{
+  "name": "Barracuda",
+  "description": "A well known cocktail of unknown origins, thought to date from the 1970s.",
+  "keywords": [
+    "rum",
+    "galliano",
+    "pineapple",
+    "alcoholic",
+    "lime",
+    "prosecco"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "barracuda",
+  "ingredients": [
+    {
+      "name": "gold rum",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "galliano",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "prosecco",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

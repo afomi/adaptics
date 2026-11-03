@@ -1,0 +1,31 @@
+{
+  "name": "Seven Devils",
+  "description": "A sweet and bubbly non-alcoholic drink for the malevolent participant. Cherries are consumed last to ensure total carbonation absorption.",
+  "keywords": [
+    "non-alcoholic",
+    "virgin",
+    "7 Up",
+    "cherry",
+    "grenadine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "seven-devils",
+  "ingredients": [
+    {
+      "name": "Pure Sugar 7 Up",
+      "quantity": "7",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "0.7",
+      "measure": "oz"
+    },
+    {
+      "name": "Maraschino Cherry",
+      "quantity": "7",
+      "measure": "pitted"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Watermelon Moscow Mule",
+  "description": "Refreshing variation of the one-and-only copper classic.",
+  "keywords": [
+    "classic",
+    "alcoholic",
+    "refreshing",
+    "ginger beer",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "watermelon-moscow-mule",
+  "ingredients": [
+    {
+      "name": "Watermelon Juice (pureed)",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Ginger Beer",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Mint leaves",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Slice of lime",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

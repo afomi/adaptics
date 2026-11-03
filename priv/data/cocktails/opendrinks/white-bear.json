@@ -1,0 +1,37 @@
+{
+  "name": "White Bear",
+  "description": "The White Bear is a simple but powerful starter cocktail based on Champagne and Vodka.",
+  "keywords": [
+    "champagne",
+    "vodka",
+    "lemon",
+    "hard",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "white-bear",
+  "ingredients": [
+    {
+      "name": "Champagne",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "wedge"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bikini Martini",
+  "description": "An awesome drink to sip by the pool! Garnish with an orange wheel.",
+  "keywords": [
+    "vegan",
+    "alcoholic",
+    "fruit",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bikini-martini",
+  "ingredients": [
+    {
+      "name": "coconut rum",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "vodka",
+      "quantity": "3/4",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "grenadine syrup",
+      "quantity": "1",
+      "measure": "dash"
+    }
+  ]
+}

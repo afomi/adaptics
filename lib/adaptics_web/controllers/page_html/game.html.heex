@@ -1,0 +1,263 @@
+<style>
+  html,
+  d {
+    height: 100%;
+  }
+
+  #canvas-container {
+    height: 100%;
+  }
+
+  .hud-label {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Simple tooltip */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: #111827;
+    color: #fff;
+    text-align: left;
+    border-radius: .5rem;
+    padding: .5rem .75rem;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+</style>
+
+<div class="bg-slate-900 text-slate-100"
+  phx-hook="startGameBoard"
+  id="game-board">
+  <div class="flex h-screen">
+    <!-- Left panel (HUD) -->
+    <aside class="w-[380px] max-w-[46vw] p-4 space-y-4 border-r border-slate-800 overflow-y-auto">
+      <header class="space-y-1">
+        <h1 class="text-xl font-semibold">Coordination Dots</h1>
+        <p class="text-slate-400 text-sm">Place dots in a 3D unit cube centered at the origin. Each dot costs 1 token.
+          Scores reward clustering near a shared focal point while lightly taxing over‑congestion.</p>
+      </header>
+
+      <section class="grid grid-cols-2 gap-3 text-sm">
+        <div class="p-3 rounded-xl bg-slate-800/50">
+          <div class="text-slate-400">Your balance</div>
+          <div id="balance" class="text-2xl hud-label">100</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-800/50">
+          <div class="text-slate-400">World supply left</div>
+          <div id="worldSupply" class="text-2xl hud-label">21000000</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-800/50">
+          <div class="text-slate-400">Your dots</div>
+          <div id="yourDots" class="text-2xl hud-label">0</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-800/50">
+          <div class="text-slate-400">Your score</div>
+          <div id="yourScore" class="text-2xl hud-label">0.000</div>
+        </div>
+      </section>
+
+      <section class="space-y-3 text-sm">
+        <div>
+          <label class="block text-slate-300 mb-1">Team / Color</label>
+          <select id="teamSelect" class="w-full rounded-lg bg-slate-800 border border-slate-700 p-2">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+          </select>
+        </div>
+        <div class="tooltip">
+          <label class="block text-slate-300 mb-1">Cluster radius <span id="radiusLabel"
+              class="hud-label">0.20</span></label>
+          <div class="tooltiptext">Neighbors within this radius contribute to your cluster bonus. Larger radii reward
+            looser coordination; smaller radii reward tight clusters.</div>
+        </div>
+        <input id="radius" type="range" min="0.05" max="0.5" step="0.01" value="0.20" class="w-full">
+
+        <div class="grid grid-cols-3 gap-2">
+          <div>
+            <label class="block text-slate-300 mb-1">w<sub>origin</sub></label>
+            <input id="wOrigin" type="number" value="1.0" step="0.1"
+              class="w-full rounded-lg bg-slate-800 border border-slate-700 p-2" />
+          </div>
+          <div>
+            <label class="block text-slate-300 mb-1">w<sub>cluster</sub></label>
+            <input id="wCluster" type="number" value="1.2" step="0.1"
+              class="w-full rounded-lg bg-slate-800 border border-slate-700 p-2" />
+          </div>
+          <div>
+            <label class="block text-slate-300 mb-1">w<sub>cong</sub></label>
+            <input id="wCong" type="number" value="0.6" step="0.1"
+              class="w-full rounded-lg bg-slate-800 border border-slate-700 p-2" />
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button id="refundBtn"
+            class="px-3 py-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700">Refund last
+            dot</button>
+          <button id="resetBtn"
+            class="px-3 py-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700">Reset world
+            (local)</button>
+        </div>
+
+        <details class="bg-slate-800/40 rounded-lg p-3">
+          <summary class="cursor-pointer text-slate-200">Scoring (local sim)</summary>
+          <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+            <li><span class="font-medium">Origin bonus:</span> closer to (0,0,0) → higher score.</li>
+            <li><span class="font-medium">Cluster bonus:</span> more same‑team neighbors within radius → higher score.
+            </li>
+            <li><span class="font-medium">Congestion tax:</span> too many total neighbors (any team) within radius →
+              penalty.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="text-xs text-slate-400">
+        <p>How to play: Click inside the cube to place a dot (costs 1 token). Adjust radius/weights to explore
+          equilibria. Use different teams to simulate coordination vs competition.</p>
+      </section>
+    </aside>
+
+    <!-- Main 3D canvas -->
+    <main class="flex-1 relative">
+      <div id="canvas-container" class="w-full h-full"></div>
+      <div class="absolute left-3 bottom-3 text-xs text-slate-300 bg-slate-800/60 px-2 py-1 rounded-md">
+        Tip: Orbit with mouse, Pan with right‑drag, Zoom with wheel.
+      </div>
+    </main>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="cubeviz" style="width:100%;height:420px;background:#0b0f14;border-radius:12px;"></div>
+
+<script type="module">
+  const el = document.getElementById("cubeviz");
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x0b0f14);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(el.clientWidth, el.clientHeight);
+  el.appendChild(renderer.domElement);
+
+  // Camera
+  const camera = new THREE.PerspectiveCamera(45, el.clientWidth / el.clientHeight, 0.1, 100);
+  camera.position.set(3.2, 2.2, 3.2);
+
+  // Controls
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+
+  // Lighting
+  scene.add(new THREE.AmbientLight(0xffffff, 0.7));
+  const dir = new THREE.DirectionalLight(0xffffff, 0.6);
+  dir.position.set(2, 3, 2);
+  scene.add(dir);
+
+  // Cube wireframe (the data space)
+  const size = 2;
+  const cubeGeo = new THREE.BoxGeometry(size, size, size);
+  const edges = new THREE.EdgesGeometry(cubeGeo);
+  const cube = new THREE.LineSegments(
+    edges,
+    new THREE.LineBasicMaterial({ color: 0x7aa2ff })
+  );
+  scene.add(cube);
+
+  // Axes (X=time, Y=journey, Z=segment)
+  const axes = new THREE.AxesHelper(1.6); // RGB: X=red, Y=green, Z=blue
+  scene.add(axes);
+
+  // Axis labels (sprites)
+  function makeLabel(text) {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = 256; canvas.height = 128;
+    ctx.fillStyle = "#ffffff"; ctx.font = "28px system-ui, -apple-system, Segoe UI, Roboto";
+    ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+    const tex = new THREE.CanvasTexture(canvas);
+    const mat = new THREE.SpriteMaterial({ map: tex, transparent: true });
+    const spr = new THREE.Sprite(mat);
+    spr.scale.set(0.9, 0.45, 1);
+    return spr;
+  }
+
+  const lx = makeLabel("Time ➜");
+  lx.position.set(1.9, -1.1, 0);
+  scene.add(lx);
+
+  const ly = makeLabel("Journey ↑");
+  ly.position.set(-1.3, 1.9, 0);
+  scene.add(ly);
+
+  const lz = makeLabel("Segment ⤴");
+  lz.position.set(0, -1.1, 1.9);
+  scene.add(lz);
+
+  // Slicing plane to represent a filter (e.g., Channel=Paid)
+  const planeGeo = new THREE.PlaneGeometry(size, size);
+  const planeMat = new THREE.MeshBasicMaterial({
+    color: 0x00e5ff, transparent: true, opacity: 0.12, side: THREE.DoubleSide
+  });
+  const slicePlane = new THREE.Mesh(planeGeo, planeMat);
+  // Rotate to slice on Z (segment) and offset a bit
+  slicePlane.rotation.y = Math.PI / 2;
+  slicePlane.position.set(0.4, 0, 0);
+  scene.add(slicePlane);
+
+  // Simple toggle via click to show/hide the filter plane
+  let planeVisible = true;
+  el.addEventListener("click", () => {
+    planeVisible = !planeVisible;
+    slicePlane.visible = planeVisible;
+  });
+
+  // Handle resize
+  window.addEventListener("resize", () => {
+    const { clientWidth, clientHeight } = el;
+    renderer.setSize(clientWidth, clientHeight);
+    camera.aspect = clientWidth / clientHeight;
+    camera.updateProjectionMatrix();
+  });
+
+  // Animate
+  function tick() {
+    controls.update();
+    renderer.render(scene, camera);
+    requestAnimationFrame(tick);
+  }
+  tick();
+</script>

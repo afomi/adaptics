@@ -1,0 +1,33 @@
+{
+  "name": "Buttermilk",
+  "description": "Buttermilk is one of the most popular summer cooler all over india with different variations.",
+  "keywords": [
+    "non-alcoholic",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "buttermilk",
+  "ingredients": [
+    {
+      "name": "yogurt",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Few coriander leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

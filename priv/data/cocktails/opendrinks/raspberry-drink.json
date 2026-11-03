@@ -1,0 +1,38 @@
+{
+  "name": "Raspberry Drink",
+  "description": "Sparkling Raspberry drink for a blast of freshness.",
+  "keywords": [
+    "Raspberry",
+    "Mint"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "raspberry-drink",
+  "ingredients": [
+    {
+      "name": "Raspberries (washed)",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Sugar Syrup",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Sparkling Water",
+      "quantity": "3",
+      "measure": "Cups"
+    },
+    {
+      "name": "Mint leaves",
+      "quantity": "2-3",
+      "measure": ""
+    }
+  ]
+}

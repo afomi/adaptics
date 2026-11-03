@@ -43,6 +43,11 @@ config :esbuild,
       ~w(js/excalidraw_css.js --bundle --target=esnext --outdir=../priv/static/assets --external:*.woff2 --external:*.woff --external:*.ttf --conditions=development),
     cd: Path.expand("../assets", __DIR__),
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
+  ],
+  tldraw: [
+    args: ~w(css/tldraw.css --bundle --outdir=../priv/static/assets),
+    cd: Path.expand("../assets", __DIR__),
+    env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
 
 # Configures Elixir's Logger

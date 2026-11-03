@@ -1,0 +1,42 @@
+{
+  "name": "Peanut Butter Banana Smoothie",
+  "description": "An easy-to-make smoothie with peanut butter and banana that makes you feel energized and refreshed.",
+  "keywords": [
+    "smoothie",
+    "banana",
+    "honey",
+    "milk",
+    "peanut butter",
+    "easy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "peanut-butter-banana-smoothie",
+  "ingredients": [
+    {
+      "name": "Bananas",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Milk",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Peanut butter",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Honey",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "2",
+      "measure": "cup"
+    }
+  ]
+}

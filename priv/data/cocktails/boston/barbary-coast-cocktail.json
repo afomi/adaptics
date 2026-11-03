@@ -1,0 +1,35 @@
+{
+  "name": "Barbary Coast Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "barbary-coast-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Creme de Cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Desmond & Duff Scotch Whisky",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Cream",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

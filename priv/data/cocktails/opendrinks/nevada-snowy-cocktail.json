@@ -1,0 +1,37 @@
+{
+  "name": "Nevada (Snowy Cocktail)",
+  "description": "Nevada is a vodka-based alcoholic beverage. Usually you drink it for the first time when you're a teenager.",
+  "keywords": [
+    "alcoholic",
+    "vodka",
+    "brazil",
+    "lemon",
+    "condensed milk",
+    "nostalgia"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "nevada-snowy-cocktail",
+  "ingredients": [
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Vodka",
+      "quantity": "To your taste",
+      "measure": ""
+    },
+    {
+      "name": "Condensed milk",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "To your taste",
+      "measure": ""
+    }
+  ]
+}

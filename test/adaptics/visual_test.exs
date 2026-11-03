@@ -59,6 +59,55 @@ defmodule Adaptics.VisualTest do
     end
   end
 
+  describe "intent vectors" do
+    alias Adaptics.Visual.Node
+
+    import Adaptics.VisualFixtures
+
+    test "create_node/1 persists heading and magnitude" do
+      assert {:ok, %Node{} = node} =
+               Visual.create_node(%{name: "pointer", heading: 1.57, magnitude: 2.0})
+
+      assert node.heading == 1.57
+      assert node.magnitude == 2.0
+    end
+
+    test "heading and magnitude default to nil (a point is a vector of zero declared intent)" do
+      node = node_fixture()
+      assert node.heading == nil
+      assert node.magnitude == nil
+    end
+
+    test "update_node/2 sets a new heading" do
+      node = node_fixture()
+      assert {:ok, %Node{} = node} = Visual.update_node(node, %{heading: 0.0})
+      assert node.heading == 0.0
+    end
+
+    test "aligned_to_goal/2 returns cosine alignment per node" do
+      # at origin, pointing toward +x (heading = atan2(dx, dz) = atan2(1,0) = pi/2)
+      toward = node_fixture(%{x: 0.0, y: 0.0, heading: :math.pi() / 2, magnitude: 1.0})
+      # at origin, pointing toward -x (heading = atan2(-1,0) = -pi/2)
+      away = node_fixture(%{x: 0.0, y: 0.0, heading: -:math.pi() / 2, magnitude: 1.0})
+
+      results = Visual.aligned_to_goal([toward, away], {10.0, 0.0})
+      by_id = Map.new(results, &{&1.node.id, &1.alignment})
+
+      assert_in_delta by_id[toward.id], 1.0, 0.001
+      assert_in_delta by_id[away.id], -1.0, 0.001
+    end
+
+    test "aligned_to_goal/2 ignores nodes without a heading" do
+      point = node_fixture(%{x: 0.0, y: 0.0})
+      vector = node_fixture(%{x: 0.0, y: 0.0, heading: :math.pi() / 2})
+
+      results = Visual.aligned_to_goal([point, vector], {10.0, 0.0})
+
+      assert length(results) == 1
+      assert hd(results).node.id == vector.id
+    end
+  end
+
   describe "links" do
     alias Adaptics.Visual.Link
 

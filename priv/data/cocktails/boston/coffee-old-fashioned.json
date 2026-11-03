@@ -1,0 +1,35 @@
+{
+  "name": "Coffee Old-Fashioned",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "coffee-old-fashioned",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold brewed coffee",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Soda water",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

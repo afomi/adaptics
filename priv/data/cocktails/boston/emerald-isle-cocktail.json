@@ -1,0 +1,25 @@
+{
+  "name": "Emerald Isle Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "emerald-isle-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bitters",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

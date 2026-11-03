@@ -1,0 +1,29 @@
+{
+  "name": "Fernet with coke",
+  "description": "Argentinian drink consisting of fernet, coke and ice.",
+  "keywords": [
+    "fernet",
+    "coke",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fernet-with-coke",
+  "ingredients": [
+    {
+      "name": "Fernet",
+      "quantity": "166",
+      "measure": "mililiter"
+    },
+    {
+      "name": "Coca Cola",
+      "quantity": "334",
+      "measure": "mililiter"
+    },
+    {
+      "name": "Ice",
+      "quantity": "3",
+      "measure": "blokes"
+    }
+  ]
+}

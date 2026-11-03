@@ -1,0 +1,31 @@
+{
+  "name": "Nice Holiday",
+  "description": "The Nice Holiday is extra indulgent.  Pop on Mariah Carey's 'All I Want For Christmas is You!' and enjoy by the fire with a loved one.  From 'Fancy AF Cocktails' by Tom Sandoval and Ariana Madix",
+  "keywords": [
+    "holiday",
+    "alcoholic",
+    "vodka",
+    "liqueur",
+    "creme de menthe"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "nice-holiday",
+  "ingredients": [
+    {
+      "name": "white chocolate liqueur",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "creme de menthe",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "vanilla vodka",
+      "quantity": "1",
+      "measure": "ounce"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "El Ni_o",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "el-ni-o",
+  "ingredients": [
+    {
+      "name": "Lime wedges",
+      "measure": "6",
+      "quantity": null
+    },
+    {
+      "name": "Whole strawberry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rose water",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

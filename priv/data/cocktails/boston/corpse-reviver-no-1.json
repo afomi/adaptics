@@ -1,0 +1,25 @@
+{
+  "name": "Corpse Reviver No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "corpse-reviver-no-1",
+  "ingredients": [
+    {
+      "name": "Cognac",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Calvados, apple brandy, or applejack",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

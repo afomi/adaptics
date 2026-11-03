@@ -1,0 +1,25 @@
+{
+  "name": "Bronx Terrace Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bronx-terrace-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

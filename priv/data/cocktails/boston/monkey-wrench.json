@@ -1,0 +1,15 @@
+{
+  "name": "Monkey Wrench",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "monkey-wrench",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Boston Gold",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "boston-gold",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Creme de banana",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

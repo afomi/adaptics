@@ -1,0 +1,25 @@
+{
+  "name": "Jack Rose Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "jack-rose-cocktail",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Cognac Coupling",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cognac-coupling",
+  "ingredients": [
+    {
+      "name": "Cognac",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tawny port",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Anis",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

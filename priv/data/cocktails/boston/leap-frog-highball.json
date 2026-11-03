@@ -1,0 +1,20 @@
+{
+  "name": "Leap Frog Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "leap-frog-highball",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

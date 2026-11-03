@@ -1,0 +1,65 @@
+{
+  "name": "Khoshaf",
+  "description": "Khoshaf is a typical Ramadan drink made from dried apricot, prunes, raisins, figs and dates.",
+  "keywords": [
+    "non-alcoholic",
+    "prunes",
+    "raisins",
+    "figs",
+    "dates",
+    "apricot",
+    "blossom water",
+    "sugar",
+    "nuts"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "khoshaf",
+  "ingredients": [
+    {
+      "name": "cut into cubes",
+      "quantity": "4",
+      "measure": "dried apricot"
+    },
+    {
+      "name": "cut into cubes",
+      "quantity": "2",
+      "measure": "prunes"
+    },
+    {
+      "name": "",
+      "quantity": "10",
+      "measure": "raisins"
+    },
+    {
+      "name": "sliced",
+      "quantity": "3",
+      "measure": "figs"
+    },
+    {
+      "name": "sliced",
+      "quantity": "10",
+      "measure": "dates"
+    },
+    {
+      "name": "",
+      "quantity": "3",
+      "measure": "cups hot water"
+    },
+    {
+      "name": "",
+      "quantity": "5",
+      "measure": "Tablespoon sugar"
+    },
+    {
+      "name": "(optional)",
+      "quantity": "1",
+      "measure": "cup teaspoon orange blossom water"
+    },
+    {
+      "name": "(optional)",
+      "quantity": "As you like",
+      "measure": "Crushed nuts, to taste"
+    }
+  ]
+}

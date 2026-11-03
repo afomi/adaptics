@@ -1,0 +1,56 @@
+{
+  "name": "Kiwi Cucumber Cooler",
+  "description": "A refreshing summer drink that can be a cocktail, mocktail or a healthy fruit drink.",
+  "keywords": [
+    "fruit",
+    "lemon",
+    "mint",
+    "non-alcoholic",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "kiwi-cucumber-cooler",
+  "ingredients": [
+    {
+      "name": "cucumber",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "kiwi fruit",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "50",
+      "measure": ""
+    },
+    {
+      "name": "sugar",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "chia seeds (optional)",
+      "quantity": "0.5",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "tonic water",
+      "quantity": "1",
+      "measure": "can"
+    },
+    {
+      "name": "gin per drink (optional)",
+      "quantity": "30",
+      "measure": "ml"
+    }
+  ]
+}

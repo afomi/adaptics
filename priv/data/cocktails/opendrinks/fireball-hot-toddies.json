@@ -1,0 +1,49 @@
+{
+  "name": "Fireball Hot Toddies",
+  "description": "This can cure your cold and your winter blues.",
+  "keywords": [
+    "lemon",
+    "honey",
+    "cinnamon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "fireball-hot-toddies",
+  "ingredients": [
+    {
+      "name": "boiling water",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "warm carame",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1/2",
+      "measure": "unit"
+    },
+    {
+      "name": "Fireball",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "cinnamon sticks",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "star anise",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

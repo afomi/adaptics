@@ -1,0 +1,38 @@
+{
+  "name": "Pink cocktail with Ouzo",
+  "description": "Pretty pink cocktail with Ouzo.",
+  "keywords": [
+    "alcoholic",
+    "ouzo"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pink-cocktail-with-ouzo",
+  "ingredients": [
+    {
+      "name": "Ouzo",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Ice water",
+      "quantity": "25",
+      "measure": "oz"
+    },
+    {
+      "name": "Mint branches",
+      "quantity": "4",
+      "measure": "unite"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1",
+      "measure": "unite"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bangkok Sunrise",
+  "description": "A drink that looks like a Bangkok sunrise. Shown in Danger 5, this is a wonderful cocktail that's sure to put you in a spring mood.",
+  "keywords": [
+    "alcoholic",
+    "fruit",
+    "citrus",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bangkok-sunrise",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "lemongrass syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

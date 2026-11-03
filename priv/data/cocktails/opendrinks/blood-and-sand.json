@@ -1,0 +1,53 @@
+{
+  "name": "Blood and Sand",
+  "description": "A sweet and citrus-y martini alternative.",
+  "keywords": [
+    "blood orange juice",
+    "cherry flavoured liqueur",
+    "sweet vermouth",
+    "scotch",
+    "alcoholic",
+    "classic",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blood-and-sand",
+  "ingredients": [
+    {
+      "name": "Fresh blood orange juice",
+      "quantity": "3/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Cherry liqueur",
+      "quantity": "3/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Sweet vermouth",
+      "quantity": "3/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "Scotch",
+      "quantity": "3/4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "An orange",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "A chilled coupe glass",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

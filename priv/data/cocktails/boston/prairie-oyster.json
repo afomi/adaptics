@@ -1,0 +1,35 @@
+{
+  "name": "Prairie Oyster",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "prairie-oyster",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Catsup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vinegar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pepper",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

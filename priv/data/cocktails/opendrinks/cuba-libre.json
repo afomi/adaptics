@@ -1,0 +1,31 @@
+{
+  "name": "Cuba Libre",
+  "description": "Cuba Libre is a cocktail based on rum, lime, and cola.",
+  "keywords": [
+    "rum",
+    "lime",
+    "cola",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cuba-libre",
+  "ingredients": [
+    {
+      "name": "Añejo Rum",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "lime wedges",
+      "quantity": "8",
+      "measure": ""
+    },
+    {
+      "name": "Cola",
+      "quantity": "100",
+      "measure": "ml"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Stone Sour",
+  "description": "Stone Sour is a whiskey-based cocktail mixed with orange juice and sweetener, garnished with a cherry ",
+  "keywords": [
+    "sour",
+    "fresh",
+    "cold",
+    "simple",
+    "wisky"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "stone-sour",
+  "ingredients": [
+    {
+      "name": "bourbon",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "3/4",
+      "measure": "ounce"
+    },
+    {
+      "name": "garnish: cherry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "garnish: orange half-wheel",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

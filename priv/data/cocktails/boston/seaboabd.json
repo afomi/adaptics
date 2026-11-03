@@ -1,0 +1,30 @@
+{
+  "name": "Seaboabd",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "seaboabd",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Blended Whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

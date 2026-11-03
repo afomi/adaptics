@@ -1,0 +1,54 @@
+{
+  "name": "Virgin Margarita",
+  "description": "A bright, citrusy margarita-style mocktail with lime, orange, and a touch of agave—salt rim optional.",
+  "keywords": [
+    "non-alcoholic",
+    "mocktail",
+    "virgin",
+    "margarita",
+    "lime",
+    "orange",
+    "agave",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "virgin-margarita",
+  "ingredients": [
+    {
+      "name": "salt (optional, for rimming the glass)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "agave syrup (or simple syrup)",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "sparkling water (optional, to top)",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "lime wheel (garnish)",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

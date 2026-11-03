@@ -1,0 +1,34 @@
+{
+  "name": "Noche Caliente",
+  "description": "A combination halfway between Ricard Mojito and Atomic Ricard, Noche Caliente offers a unique combination of flavours for an ultra-refreshing mix!",
+  "keywords": [
+    "alcoholic",
+    "lemon",
+    "ricard"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "noche-caliente",
+  "ingredients": [
+    {
+      "name": "Ricard",
+      "quantity": "4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "sparkling water",
+      "quantity": "3.5",
+      "measure": "oz"
+    },
+    {
+      "name": "cane sugar",
+      "quantity": "2",
+      "measure": "teaspoon"
+    }
+  ]
+}

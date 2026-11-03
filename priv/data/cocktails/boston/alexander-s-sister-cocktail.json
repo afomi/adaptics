@@ -1,0 +1,25 @@
+{
+  "name": "Alexander's Sister Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "alexander-s-sister-cocktail",
+  "ingredients": [
+    {
+      "name": "Dry gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green creme de menthe",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

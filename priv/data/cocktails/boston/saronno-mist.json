@@ -1,0 +1,15 @@
+{
+  "name": "Saronno Mist",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "saronno-mist",
+  "ingredients": [
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

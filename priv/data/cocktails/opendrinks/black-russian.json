@@ -1,0 +1,25 @@
+{
+  "name": "Black Russian",
+  "description": "This is a drink similar to White Russian, made with just vodka and coffee liqueur.",
+  "keywords": [
+    "coffee",
+    "cocktail",
+    "alcoholic",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "black-russian",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "coffee liqueur, such as Kahlua",
+      "quantity": "1",
+      "measure": "part"
+    }
+  ]
+}

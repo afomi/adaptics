@@ -1,0 +1,52 @@
+{
+  "name": "Californication",
+  "description": "A mixture of run, vodka, tequila and gin finished with orange liqueur, lemon juice and orange juice to mask the various spirits used throughout. Strong and yet sweet. The cocktail is finished with either a slice of orange or a twisted peel of orange rind.",
+  "keywords": [
+    "White Rum",
+    "Vodka",
+    "Tequila",
+    "Gin",
+    "Lemon",
+    "Orange"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "californication",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Gin",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "White Rum",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Tequila",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "70",
+      "measure": "ml"
+    },
+    {
+      "name": "Fresh orange",
+      "quantity": "1",
+      "measure": "slice"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Tropical Smoothie",
+  "description": "The fruit combinations in this smoothie are delicious!",
+  "keywords": [
+    "tropical",
+    "banana",
+    "smoothie",
+    "vitamin",
+    "juice",
+    "non-alcoholic",
+    "fruit",
+    "cold",
+    "guava",
+    "passion fruit",
+    "frozen",
+    "strawberry",
+    "frozen",
+    "ice",
+    "yogurt",
+    "lime",
+    "sorbet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tropical-smoothie",
+  "ingredients": [
+    {
+      "name": "guava nectar",
+      "quantity": "0.75",
+      "measure": "cup"
+    },
+    {
+      "name": "passionfruit juice",
+      "quantity": "0.75",
+      "measure": "cup"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/8",
+      "measure": "tsp"
+    },
+    {
+      "name": "vanilla",
+      "quantity": "1/8",
+      "measure": "tsp"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "fresh or frozen sliced strawberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "fresh banana",
+      "quantity": "1",
+      "measure": "sliced"
+    },
+    {
+      "name": "plain yogurt",
+      "quantity": "0.25",
+      "measure": "cup"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

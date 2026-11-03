@@ -1,0 +1,35 @@
+{
+  "name": "Maple Bourbon Smash",
+  "description": "The slightly smoky sweetness of maple syrup pairs perfectly with oaky bourbon in this quintessential autumn cocktail.",
+  "keywords": [
+    "bourbon",
+    "maple syrup",
+    "fall",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "maple-bourbon-smash",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "2",
+      "measure": "Oz"
+    },
+    {
+      "name": "Maple Syrup",
+      "quantity": "1",
+      "measure": "Oz"
+    },
+    {
+      "name": "Fresh Lemon Juice",
+      "quantity": "1",
+      "measure": "Oz"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "Twist"
+    }
+  ]
+}

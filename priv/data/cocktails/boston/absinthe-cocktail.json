@@ -1,0 +1,30 @@
+{
+  "name": "Absinthe Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "absinthe-cocktail",
+  "ingredients": [
+    {
+      "name": "Absinthe Substitute",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Water",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Anisette",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

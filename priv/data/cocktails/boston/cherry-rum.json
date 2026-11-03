@@ -1,0 +1,25 @@
+{
+  "name": "Cherry Rum",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cherry-rum",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

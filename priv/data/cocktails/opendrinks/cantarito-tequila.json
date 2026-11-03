@@ -1,0 +1,48 @@
+{
+  "name": "Cantarito Tequila",
+  "description": "A refreshing citrus flavoured drink from Mexico that's easy to make!",
+  "keywords": [
+    "mexico",
+    "lemon",
+    "lime",
+    "orange",
+    "grapefruit",
+    "tequila",
+    "citrus"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cantarito-tequila",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "grapefruit soda",
+      "quantity": "4-6",
+      "measure": "oz"
+    },
+    {
+      "name": "",
+      "quantity": "1",
+      "measure": "lemon, lime, or orange wedge"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Warm Lemon Honey Tea",
+  "description": "Suitable for a cold day, or when you are ill, this drink is for everyone to enjoy! It has 3 very simple ingredients, warm water, lemon, honey, so you can't go wrong!",
+  "keywords": [
+    "warm",
+    "water",
+    "lemon",
+    "tea",
+    "honey",
+    "non-alcoholic",
+    "healthy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "warm-lemon-honey-tea",
+  "ingredients": [
+    {
+      "name": "warm water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "lemon",
+      "quantity": "2",
+      "measure": "squeezes"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tablespoons"
+    }
+  ]
+}

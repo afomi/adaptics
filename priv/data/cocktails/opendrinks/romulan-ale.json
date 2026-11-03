@@ -1,0 +1,36 @@
+{
+  "name": "Romulan Ale",
+  "description": "Illegal in the Federation, this sparkling blue drink will leave you seeing stars.",
+  "keywords": [
+    "blue curaçao",
+    "lime juice",
+    "rum",
+    "simple syrup",
+    "star trek"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "romulan-ale",
+  "ingredients": [
+    {
+      "name": "simple syrup",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "blue curaçao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "plantation 3 star rum",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

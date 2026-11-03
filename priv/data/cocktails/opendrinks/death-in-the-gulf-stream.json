@@ -1,0 +1,30 @@
+{
+  "name": "Death in the Gulf Stream",
+  "description": "A bitter favorite of Ernest Hemingway's, this drink is a tart pick me up on a sultry summer afternoon.",
+  "keywords": [
+    "bitter",
+    "gin",
+    "lime",
+    "bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "death-in-the-gulf-stream",
+  "ingredients": [
+    {
+      "name": "Holland Gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice (freshly squeezed)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Angostura Bitters",
+      "quantity": "15",
+      "measure": "dashes"
+    }
+  ]
+}

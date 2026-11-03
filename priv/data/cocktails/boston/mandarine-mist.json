@@ -1,0 +1,15 @@
+{
+  "name": "Mandarine Mist",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "mandarine-mist",
+  "ingredients": [
+    {
+      "name": "Mandarine Napoleon Liqueur",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Ramos Gin Fizz",
+  "description": "The Ramos Gin Fizz, a variant of the Gin Fizz, today in its turn an inescapable cocktail of mixology.",
+  "keywords": [
+    "low in alcohol",
+    "creamy",
+    "egg",
+    "sour",
+    "gin",
+    "lemon",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ramos-gin-fizz",
+  "ingredients": [
+    {
+      "name": "Botanical Gin",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "Sugar syrup",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1.5",
+      "measure": "cl"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "1.5",
+      "measure": "cl"
+    },
+    {
+      "name": "Soda water",
+      "quantity": "3",
+      "measure": "cl"
+    },
+    {
+      "name": "Orange blossom water",
+      "quantity": "0.5",
+      "measure": "cl"
+    },
+    {
+      "name": "Light fresh cream",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "Quail egg white",
+      "quantity": "2.5",
+      "measure": "cl"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "200",
+      "measure": "g"
+    }
+  ]
+}

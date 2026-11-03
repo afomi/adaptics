@@ -1,0 +1,28 @@
+{
+  "name": "Washington Apple",
+  "description": "A pleasant apple flavored beverage",
+  "keywords": [
+    "apple",
+    "martini"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "washington-apple",
+  "ingredients": [
+    {
+      "name": "Whiskey",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sour Apple Pucker Schnapps",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry Juice",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

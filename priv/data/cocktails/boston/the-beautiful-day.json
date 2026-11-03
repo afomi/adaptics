@@ -1,0 +1,25 @@
+{
+  "name": "The Beautiful Day",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "the-beautiful-day",
+  "ingredients": [
+    {
+      "name": "Irish Whiskey",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rhubarb Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cold brewed green tea",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

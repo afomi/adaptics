@@ -1,0 +1,49 @@
+{
+  "name": "Vieux Carre",
+  "description": "The Vieux Carre is a rye whiskey based cocktail, somewhere between an Old Fashioned and a Manhattan.",
+  "keywords": [
+    "alcoholic",
+    "bourbon",
+    "bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vieux-carre",
+  "ingredients": [
+    {
+      "name": "rye whiskey",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "cognac",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "sweet vermouth",
+      "quantity": ".75",
+      "measure": "oz"
+    },
+    {
+      "name": "Benedictine",
+      "quantity": ".5",
+      "measure": "tsp"
+    },
+    {
+      "name": "angostura bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Peychaud bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "lemon peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Dolce Vita",
+  "description": "It is a unique and special drink with gancia, it is an ideal drink to surprise everyone thanks to its versatile flavor and incredible texture.",
+  "keywords": [
+    "orange",
+    "alcoholic",
+    "gancia"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dolce-vita",
+  "ingredients": [
+    {
+      "name": "part of gancia",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "parts of sparkling wine",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "aromatic bitter drops",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "slice of orange",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

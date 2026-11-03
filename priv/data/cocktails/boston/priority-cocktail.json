@@ -1,0 +1,25 @@
+{
+  "name": "Priority Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "priority-cocktail",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Calvados",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

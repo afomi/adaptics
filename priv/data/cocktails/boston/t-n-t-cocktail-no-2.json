@@ -1,0 +1,15 @@
+{
+  "name": "T.N.T. Cocktail No. 2",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "t-n-t-cocktail-no-2",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

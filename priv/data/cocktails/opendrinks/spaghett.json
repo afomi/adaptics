@@ -1,0 +1,31 @@
+{
+  "name": "Spaghett",
+  "description": "A light refreshing beer cocktail made with High Life, Aperol, and lemon juice to get you through summer.",
+  "keywords": [
+    "beer",
+    "aperol",
+    "summer",
+    "refreshing",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spaghett",
+  "ingredients": [
+    {
+      "name": "Miller High Life",
+      "quantity": "1",
+      "measure": "12 oz bottle"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

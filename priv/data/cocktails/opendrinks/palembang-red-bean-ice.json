@@ -1,0 +1,57 @@
+{
+  "name": "Palembang Red Bean Ice",
+  "description": "Red bean ice is the most delicious dipalembang named red bean ice mamat bang.",
+  "keywords": [
+    "avocado",
+    "red",
+    "bean",
+    "ice",
+    "vanilla",
+    "granulated sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "palembang-red-bean-ice",
+  "ingredients": [
+    {
+      "name": "Wet red peel",
+      "quantity": "1/4",
+      "measure": ""
+    },
+    {
+      "name": "Brown sugar",
+      "quantity": "1/4",
+      "measure": ""
+    },
+    {
+      "name": "Granulated sugar",
+      "quantity": "4 sdm",
+      "measure": ""
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1 sdt",
+      "measure": ""
+    },
+    {
+      "name": "Pandan leaf",
+      "quantity": "3 Strands",
+      "measure": ""
+    },
+    {
+      "name": "Vanilla",
+      "quantity": "1/4 Sdt",
+      "measure": ""
+    },
+    {
+      "name": "Coconut milk",
+      "quantity": "200 ml",
+      "measure": ""
+    },
+    {
+      "name": "Avocado",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

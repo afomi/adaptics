@@ -1,0 +1,42 @@
+{
+  "name": "Tschunk",
+  "description": "Mix Club-Mate with rum for all your hacker needs.",
+  "keywords": [
+    "cocktail",
+    "hacker",
+    "club-mate",
+    "rum",
+    "alcoholic",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tschunk",
+  "ingredients": [
+    {
+      "name": "Gold rum",
+      "quantity": "4",
+      "measure": "cl"
+    },
+    {
+      "name": "Fresh lime slice",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Cane sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Club-Mate",
+      "quantity": "20",
+      "measure": "cl"
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

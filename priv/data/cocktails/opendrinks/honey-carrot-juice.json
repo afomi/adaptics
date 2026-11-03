@@ -1,0 +1,35 @@
+{
+  "name": "Honey Carrot Juice",
+  "description": "Indonesian juice which takes care of your health, especially your eyes and prevent the emergence of various diseases due to lack of substances contained in carrots and real honey.",
+  "keywords": [
+    "carrot",
+    "honey",
+    "non-alcoholic",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "honey-carrot-juice",
+  "ingredients": [
+    {
+      "name": "carrots",
+      "quantity": "2",
+      "measure": "medium"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "of water",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

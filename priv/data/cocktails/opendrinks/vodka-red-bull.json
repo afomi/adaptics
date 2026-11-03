@@ -1,0 +1,24 @@
+{
+  "name": "Vodka Red Bull",
+  "description": "Do you like simple shots? Then try this sweet vodka-based cocktail, alcoholic and strong.",
+  "keywords": [
+    "Red",
+    "Bull",
+    "Vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-red-bull",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Red Bull",
+      "quantity": "1",
+      "measure": "can"
+    }
+  ]
+}

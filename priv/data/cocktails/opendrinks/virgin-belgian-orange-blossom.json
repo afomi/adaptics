@@ -1,0 +1,50 @@
+{
+  "name": "Virgin Belgian Orange Blossom",
+  "description": "This is a non-alcoholic version of a unique drink idea from Brussels. Lemon-lime soda replaces the gin for a mellow, neutral base and the addition of almond syrup to the oranges has an almost candy-like quality. Dry citrus notes and a bit of fizz save the drink from being cloyingly sweet. You’ll never miss the alcohol in this virgin cocktail!",
+  "keywords": [
+    "Orange",
+    "non-alcoholic",
+    "virgin",
+    "Almond Syrup"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "virgin-belgian-orange-blossom",
+  "ingredients": [
+    {
+      "name": "Slices of orange (peel on)",
+      "quantity": "3",
+      "measure": "thin"
+    },
+    {
+      "name": "Almond Syrup",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon lime soda",
+      "quantity": "2",
+      "measure": "ounce"
+    },
+    {
+      "name": "Pink grapefruit juice",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "Lemonade",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "Seltzer water",
+      "quantity": "1",
+      "measure": "ounce"
+    },
+    {
+      "name": "Cocktail bitter",
+      "quantity": "2",
+      "measure": "dash"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "The Groupie",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "the-groupie",
+  "ingredients": [
+    {
+      "name": "Lemon wedges",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Superfine sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

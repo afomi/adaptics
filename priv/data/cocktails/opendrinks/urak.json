@@ -1,0 +1,41 @@
+{
+  "name": "Urak",
+  "description": "",
+  "keywords": [
+    "urak",
+    "cashew feni",
+    "limca",
+    "lemon juice",
+    "green chili"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "urak",
+  "ingredients": [
+    {
+      "name": "cashew feni",
+      "quantity": "2 3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "limca / lemon juice",
+      "quantity": "1",
+      "measure": "glass"
+    },
+    {
+      "name": "green chili",
+      "quantity": "1 2",
+      "measure": ""
+    },
+    {
+      "name": "table salt",
+      "quantity": "1 2",
+      "measure": "pinch"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

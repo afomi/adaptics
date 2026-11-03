@@ -1,0 +1,36 @@
+{
+  "name": "Whiskey Boulevardier",
+  "description": "Slight twist on your traditional boulevardier.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "whiskey",
+    "aperol",
+    "vermouth"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "whiskey-boulevardier",
+  "ingredients": [
+    {
+      "name": "Whiskey",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "orange peel for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

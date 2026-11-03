@@ -1,0 +1,30 @@
+{
+  "name": "Vanilla Palm",
+  "description": "This is a light and refreshing drink for enjoying the party without rushing to finish.",
+  "keywords": [
+    "coconut",
+    "absolut",
+    "vodka",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vanilla-palm",
+  "ingredients": [
+    {
+      "name": "absolut vanilla",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "coconut water",
+      "quantity": "3",
+      "measure": "cup"
+    },
+    {
+      "name": "ice",
+      "quantity": "4 - 5",
+      "measure": "cup"
+    }
+  ]
+}

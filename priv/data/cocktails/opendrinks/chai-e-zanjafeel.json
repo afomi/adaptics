@@ -1,0 +1,41 @@
+{
+  "name": "Chai E Zanjafeel",
+  "description": "Afghan ginger tea that is refreshing on hot days or when you feel sick.",
+  "keywords": [
+    "afghan",
+    "ginger",
+    "tea",
+    "refreshing",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "chai-e-zanjafeel",
+  "ingredients": [
+    {
+      "name": "Green tea",
+      "quantity": "3",
+      "measure": "tsp"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2",
+      "measure": "tsp"
+    },
+    {
+      "name": "Ground ginger",
+      "quantity": "2-3",
+      "measure": "tsp"
+    },
+    {
+      "name": "Walnuts, very finely chopped or ground",
+      "quantity": "1",
+      "measure": "tbs"
+    },
+    {
+      "name": "Water",
+      "quantity": "3 ½",
+      "measure": "cups"
+    }
+  ]
+}

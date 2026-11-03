@@ -1,0 +1,25 @@
+{
+  "name": "Pink Pussycat",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "pink-pussycat",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple or grapefruit juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

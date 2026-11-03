@@ -1,0 +1,30 @@
+{
+  "name": "Blood and Sand",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "blood-and-sand",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "cherry-flavored brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

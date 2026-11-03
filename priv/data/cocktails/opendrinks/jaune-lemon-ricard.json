@@ -1,0 +1,45 @@
+{
+  "name": "Jaune Lemon Ricard",
+  "description": "This original cocktail combines the aniseed flavours of Pastis de Marseille RICARD, the natural freshness of lemon and the sweetness of orgeat.",
+  "keywords": [
+    "alcoholic",
+    "lemon",
+    "ricard",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jaune-lemon-ricard",
+  "ingredients": [
+    {
+      "name": "Ricard",
+      "quantity": "4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Orgeat Syrup",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Freshly squeezed lemon juice",
+      "quantity": "4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "water",
+      "quantity": "5.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh mint",
+      "quantity": "1",
+      "measure": "leaf"
+    }
+  ]
+}

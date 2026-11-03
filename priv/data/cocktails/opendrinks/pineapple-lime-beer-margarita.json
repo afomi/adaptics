@@ -1,0 +1,45 @@
+{
+  "name": "Pineapple Lime Beer Margarita",
+  "description": "Margaritas served with the twist of pineapples, beer and lime.",
+  "keywords": [
+    "tequila",
+    "pineapple",
+    "beer",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pineapple-lime-beer-margarita",
+  "ingredients": [
+    {
+      "name": "silver tequila",
+      "quantity": "1 1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "2 1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "2",
+      "measure": "ounce"
+    },
+    {
+      "name": "agave nectar or honey",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Mexican beer",
+      "quantity": "4",
+      "measure": "ounce"
+    },
+    {
+      "name": "Optional: Pineapple slice and lime wedges for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

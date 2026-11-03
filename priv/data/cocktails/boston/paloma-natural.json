@@ -1,0 +1,20 @@
+{
+  "name": "Paloma (Natural)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "paloma-natural",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh white or ruby red grapefruit juice",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

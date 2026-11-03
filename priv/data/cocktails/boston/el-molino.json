@@ -1,0 +1,30 @@
+{
+  "name": "El Molino",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "el-molino",
+  "ingredients": [
+    {
+      "name": "Mezcal",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Palo cortado or oloroso sherry",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Allspice liqueur (pimento dram)",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Pineapple Lemonade",
+  "description": "So refreshing, so sweet, so tangy and just so wonderfully tropical.",
+  "keywords": [
+    "fruit",
+    "sweet",
+    "refreshing",
+    "summer"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pineapple-lemonade",
+  "ingredients": [
+    {
+      "name": "sugar",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

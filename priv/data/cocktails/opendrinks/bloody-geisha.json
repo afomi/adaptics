@@ -1,0 +1,56 @@
+{
+  "name": "Bloody Geisha",
+  "description": "The Bloody Geisha is a variant of the Bloody Mary with Sake instead of Vodka.",
+  "keywords": [
+    "sake",
+    "tabasco",
+    "lemon",
+    "tomato juice",
+    "worcestershire sauce"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bloody-geisha",
+  "ingredients": [
+    {
+      "name": "Sake",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "tomato juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "0.5",
+      "measure": "dashes"
+    },
+    {
+      "name": "Worcestershire sauce",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Tabasco sauce",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "celery salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "ground black pepper",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "smoked paprika",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

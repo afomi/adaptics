@@ -1,0 +1,25 @@
+{
+  "name": "Orange Gin Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "orange-gin-fizz",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Orange Flavored Gin",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

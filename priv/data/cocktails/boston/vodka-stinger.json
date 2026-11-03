@@ -1,0 +1,20 @@
+{
+  "name": "Vodka Stinger",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-stinger",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

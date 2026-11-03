@@ -1,0 +1,51 @@
+{
+  "name": "Orange Pineapple Moscow Mule",
+  "description": "Perfect for spring and summer nights, and warm backyard parties!",
+  "keywords": [
+    "cool",
+    "orange",
+    "alcoholic",
+    "pineapple",
+    "vodka"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "orange-pineapple-moscow-mule",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "ounces"
+    },
+    {
+      "name": "lime, juiced",
+      "quantity": "1/2",
+      "measure": "piece"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "4",
+      "measure": "ounces"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "ginger beer for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Optional: pineapple wedges, and fresh mint, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

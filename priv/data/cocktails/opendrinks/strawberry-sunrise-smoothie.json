@@ -1,0 +1,36 @@
+{
+  "name": "Strawberry Sunrise Smoothie",
+  "description": "This smoothie combines a trifecta of must-have qualities in any great smoothie and will truly brighten up the start to your day.",
+  "keywords": [
+    "smoothie",
+    "strawberry",
+    "mango",
+    "orange juice",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-sunrise-smoothie",
+  "ingredients": [
+    {
+      "name": "frozen strawberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "almond milk",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "frozen mangoes",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "freshly-squeezed orange juice",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

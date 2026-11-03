@@ -1,0 +1,37 @@
+{
+  "name": "Sunshine Cocktail",
+  "description": "A drink perfect for beach days and working on your tan.",
+  "keywords": [
+    "grenadine",
+    "cocktail",
+    "rum",
+    "pineapple juice",
+    "vermouth",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sunshine-cocktail",
+  "ingredients": [
+    {
+      "name": "white rum",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "French vermouth",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "1",
+      "measure": "dash"
+    }
+  ]
+}

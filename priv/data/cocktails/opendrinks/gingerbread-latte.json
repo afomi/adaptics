@@ -1,0 +1,55 @@
+{
+  "name": "Gingerbread latte",
+  "description": "A sweet drink with spices and whipped cream to warm up the holiday season",
+  "keywords": [
+    "gingerbread",
+    "holiday",
+    "christmas",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gingerbread-latte",
+  "ingredients": [
+    {
+      "name": "ground ginger, plus extra to serve",
+      "quantity": "1½",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "½",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground nutmeg plus extra to serve",
+      "quantity": "¼",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "soft brown sugar",
+      "quantity": "2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "½",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "whole milk",
+      "quantity": "600",
+      "measure": "ml"
+    },
+    {
+      "name": "hot espresso (optional)",
+      "quantity": "2",
+      "measure": "shots"
+    },
+    {
+      "name": "whipped cream and mini gingerbread men, to serve",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

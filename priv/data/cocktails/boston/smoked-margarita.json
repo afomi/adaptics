@@ -1,0 +1,35 @@
+{
+  "name": "Smoked Margarita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "smoked-margarita",
+  "ingredients": [
+    {
+      "name": "Smoky Scotch whisky, such as Islay or Skye",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Reposado tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

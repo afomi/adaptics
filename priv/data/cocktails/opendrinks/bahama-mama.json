@@ -1,0 +1,46 @@
+{
+  "name": "Bahama Mama",
+  "description": "A blend of fruit juice and rum create this delicious, tropical cocktail.",
+  "keywords": [
+    "rum",
+    "grenadine",
+    "tropical",
+    "alcoholic",
+    "pineapple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bahama-mama",
+  "ingredients": [
+    {
+      "name": "rum",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "coconut-flavored rum",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "grenadine syrup",
+      "quantity": "1/2",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "1",
+      "measure": "fluid ounce"
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "1 ",
+      "measure": "cup"
+    }
+  ]
+}

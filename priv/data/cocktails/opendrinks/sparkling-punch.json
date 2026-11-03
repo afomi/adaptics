@@ -1,0 +1,50 @@
+{
+  "name": "Sparkling Punch",
+  "description": "Sparkling apple cider, fresh orange juice, and lemonade concentrate blend into light and refreshing non-alcoholic punch in this easy recipe.",
+  "keywords": [
+    "fruit",
+    "juice",
+    "mocktail",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sparkling-punch",
+  "ingredients": [
+    {
+      "name": "lemons",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "large oranges",
+      "quantity": "3",
+      "measure": ""
+    },
+    {
+      "name": "frozen lemonade concentrate",
+      "quantity": "1 (6 ounce)",
+      "measure": "can"
+    },
+    {
+      "name": "club soda",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "sparkling apple cider",
+      "quantity": "2 (750 milliliter)",
+      "measure": "bottles"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "2",
+      "measure": "trays"
+    }
+  ]
+}

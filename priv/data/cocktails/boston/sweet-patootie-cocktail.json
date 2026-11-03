@@ -1,0 +1,25 @@
+{
+  "name": "Sweet Patootie Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sweet-patootie-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

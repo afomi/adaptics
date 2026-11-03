@@ -1,0 +1,35 @@
+{
+  "name": "Basil 8",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "basil-8",
+  "ingredients": [
+    {
+      "name": "Fresh basil leaves",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "White grapes",
+      "measure": "5 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Simple Syrup, angostura bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

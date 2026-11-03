@@ -1,0 +1,51 @@
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <div class="flex items-center justify-between mb-6">
+    <h1 class="text-2xl font-bold">History: <%= @page.title %></h1>
+    <.link
+      navigate={~p"/wiki/#{@page.slug}"}
+      class="text-indigo-600 hover:text-indigo-500 text-sm"
+    >
+      &larr; Back to page
+    </.link>
+  </div>
+
+  <div :if={@page.revisions == []} class="text-gray-500 text-center py-12">
+    No revisions yet.
+  </div>
+
+  <div
+    :if={@page.revisions != []}
+    class="divide-y divide-gray-200"
+  >
+    <div
+      :for={{revision, index} <- Enum.with_index(@page.revisions)}
+      class="py-4"
+    >
+      <div class="flex items-center justify-between mb-2">
+        <div class="text-sm">
+          <span class="font-medium text-gray-900">
+            Revision #<%= length(@page.revisions) - index %>
+          </span>
+          <span :if={revision.author} class="text-gray-500 ml-2">
+            by <%= revision.author %>
+          </span>
+        </div>
+        <div class="text-sm text-gray-500">
+          <%= Calendar.strftime(revision.inserted_at, "%b %d, %Y %H:%M") %>
+        </div>
+      </div>
+      <div
+        :if={revision.message}
+        class="text-sm text-gray-600 italic mb-2"
+      >
+        <%= revision.message %>
+      </div>
+      <details class="text-sm">
+        <summary class="cursor-pointer text-indigo-600 hover:text-indigo-500">
+          Show content
+        </summary>
+        <pre class="mt-2 p-3 bg-gray-50 rounded-md overflow-x-auto text-xs"><%= revision.body %></pre>
+      </details>
+    </div>
+  </div>
+</div>

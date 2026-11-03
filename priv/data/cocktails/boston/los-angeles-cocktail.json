@@ -1,0 +1,35 @@
+{
+  "name": "Los Angeles Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "los-angeles-cocktail",
+  "ingredients": [
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blended whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

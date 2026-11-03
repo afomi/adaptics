@@ -1,0 +1,45 @@
+{
+  "name": "Purple Basil Sherbet",
+  "description": " Turkish non-alcoholic drink made of purple basil.",
+  "keywords": [
+    "basil",
+    "purple",
+    "pink",
+    "non-alcoholic",
+    "sweet",
+    "turkish",
+    "cool",
+    "lemon",
+    "sugar",
+    "water",
+    "aromatic",
+    "magical",
+    "romantic",
+    "sexy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "purple-basil-sherbet",
+  "ingredients": [
+    {
+      "name": "basil",
+      "quantity": "1",
+      "measure": "bundle of"
+    },
+    {
+      "name": "table water",
+      "quantity": "5",
+      "measure": "liters of"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2.5",
+      "measure": "cups of"
+    },
+    {
+      "name": "lemon",
+      "quantity": "5",
+      "measure": "pieces of"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Boulevardier",
+  "description": "The Negroni but with bourbon! This strange creation is surprisingly brilliant and a wonderful choice if you’re interested in trying a new take on a traditional favorite.",
+  "keywords": [
+    "negroni",
+    "italian",
+    "bourbon",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "boulevardier",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

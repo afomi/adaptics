@@ -1,0 +1,32 @@
+{
+  "name": "Spezi",
+  "description": "A Bavarian soda, combining cola and orange soda to create something beautiful.",
+  "keywords": [
+    "cola",
+    "german",
+    "lemon",
+    "orange",
+    "non-alcoholic",
+    "soda"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spezi",
+  "ingredients": [
+    {
+      "name": "Cola",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Orange soda",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1",
+      "measure": "squeeze"
+    }
+  ]
+}

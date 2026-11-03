@@ -1,0 +1,28 @@
+{
+  "name": "Gin Coke",
+  "description": "Cocktail using gin",
+  "keywords": [
+    "gin",
+    "coke"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gin-coke",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Coke",
+      "quantity": "120",
+      "measure": "ml"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "120",
+      "measure": "ml"
+    }
+  ]
+}

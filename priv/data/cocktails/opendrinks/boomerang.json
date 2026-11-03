@@ -1,0 +1,47 @@
+{
+  "name": "Boomerang",
+  "description": "A cocktail dating back to the early 1900s, popularized in the 'Official Mixer's Manual'.",
+  "keywords": [
+    "alcoholic",
+    "whisky",
+    "dry vermouth",
+    "punsch",
+    "angostura bitters",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "boomerang",
+  "ingredients": [
+    {
+      "name": "rye whisky",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "dry vermouth",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "swedish punsch",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "maraschino cherry",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

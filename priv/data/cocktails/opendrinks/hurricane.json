@@ -1,0 +1,70 @@
+{
+  "name": "Hurricane",
+  "description": "Adapted from Jeff Berry's 1998 Beachbum Berry's Grog Log recipe, which is supposed to be the original 1960s recipe used at Pat O'Brien's in New Orleans. The recipe was adapted from the rum and juice combination that was served at the Hurricane bar in 1939 during the World's Fair in New York.",
+  "keywords": [
+    "alcoholic",
+    "rum",
+    "summer",
+    "pineapple",
+    "orange",
+    "juice",
+    "sweet",
+    "vegan",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hurricane",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Navy Rum",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Passion fruit syrup",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Cordial Lemon",
+      "quantity": "1/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Cherry",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

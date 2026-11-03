@@ -1,0 +1,35 @@
+{
+  "name": "Cappuccino Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "cappuccino-cocktail",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee-flavored brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "half-and-half",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cranberry Juice",
+      "measure": "5 oz",
+      "quantity": null
+    }
+  ]
+}

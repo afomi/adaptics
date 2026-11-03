@@ -1,0 +1,40 @@
+{
+  "name": "Jasmine Milk Tea",
+  "description": "",
+  "keywords": [
+    "tea",
+    "non-alcoholic",
+    "milk",
+    "honey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jasmine-milk-tea",
+  "ingredients": [
+    {
+      "name": "loose leaf jasmine tea leaves",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "half-and-half",
+      "quantity": "4",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "boiling water",
+      "quantity": "200",
+      "measure": "ml"
+    },
+    {
+      "name": "honey",
+      "quantity": "1.5",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "ice",
+      "quantity": "200",
+      "measure": "ml"
+    }
+  ]
+}

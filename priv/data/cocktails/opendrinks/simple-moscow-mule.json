@@ -1,0 +1,38 @@
+{
+  "name": "Simple Moscow Mule",
+  "description": "A simple, sweet and sour cocktail. And an excuse to buy a Moscow Mule Mug.",
+  "keywords": [
+    "vodka",
+    "ginger ale",
+    "citrus",
+    "mint",
+    "alcoholic",
+    "simple",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "simple-moscow-mule",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "60-100",
+      "measure": "ml"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "Ginger Ale - fill to taste",
+      "quantity": "6",
+      "measure": "oz"
+    }
+  ]
+}

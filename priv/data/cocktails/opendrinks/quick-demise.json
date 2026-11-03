@@ -1,0 +1,63 @@
+{
+  "name": "Quick Demise",
+  "description": "a carrot-y dream that will have you reaching for a second glass. Perfect for Halloween!",
+  "keywords": [
+    "alcoholic",
+    "vodka",
+    "citrus",
+    "orange",
+    "lime",
+    "carrot",
+    "halloween"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "quick-demise",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "carrot juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh squeezed orange juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "ginger cardamom simple syrup",
+      "quantity": "0.75",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh squeezed lime juice",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "0.2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cocktail Shaker",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Black Sugar Sprinkles",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

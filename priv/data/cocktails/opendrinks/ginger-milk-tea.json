@@ -1,0 +1,49 @@
+{
+  "name": "Ginger Milk Tea",
+  "description": "Indonesian milk tea with lemongrass and ginger syrup. Great for cold weathers.",
+  "keywords": [
+    "tea",
+    "milk",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ginger-milk-tea",
+  "ingredients": [
+    {
+      "name": "hot water",
+      "quantity": "250",
+      "measure": "ml"
+    },
+    {
+      "name": "teabag of black tea",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "fresh milk",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "fresh ginger, peeled and bruised",
+      "quantity": "50",
+      "measure": "gr"
+    },
+    {
+      "name": "lemongrass, chopped and bruised",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "sugar",
+      "quantity": "50",
+      "measure": "gr"
+    },
+    {
+      "name": "water",
+      "quantity": "250",
+      "measure": "ml"
+    }
+  ]
+}

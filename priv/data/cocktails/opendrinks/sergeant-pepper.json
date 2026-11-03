@@ -1,0 +1,66 @@
+{
+  "name": "Sergeant Pepper",
+  "description": "Usually Pineapple drinks are monotonous, sweet and simple, but then comes Sergeant Pepper. A unique fusion of Indian Spices and Pineapple, Sergeant Pepper is mellow and tart. A touch of Almond makes drink unique, creamy and savory.",
+  "keywords": [
+    "gin",
+    "pineapple",
+    "mellow",
+    "cumin",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sergeant-pepper",
+  "ingredients": [
+    {
+      "name": "Dry and Bold Gin (Calyx)",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple Juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Almond Orgeat",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Cumin-Pepper Syrup (See Below)",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Cumin Seeds",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Water",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Black Pepper",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice",
+      "quantity": "2",
+      "measure": "cubes"
+    }
+  ]
+}

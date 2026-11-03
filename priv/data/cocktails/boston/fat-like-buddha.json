@@ -1,0 +1,30 @@
+{
+  "name": "Fat Like Buddha",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "fat-like-buddha",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet Rouge",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

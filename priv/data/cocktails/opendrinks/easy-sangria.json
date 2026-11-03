@@ -1,0 +1,72 @@
+{
+  "name": "Easy sangria",
+  "description": "Embrace balmy summer days with a jug of sangria. With red wine, Spanish brandy, sparkling water, cinnamon and chopped fruit, it's a lovely sharing cocktail.",
+  "keywords": [
+    "brandy",
+    "wine",
+    "water",
+    "lemon",
+    "orange",
+    "berry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "easy-sangria",
+  "ingredients": [
+    {
+      "name": "chopped oranges",
+      "quantity": "2",
+      "measure": "pieces"
+    },
+    {
+      "name": "chopped pears",
+      "quantity": "2",
+      "measure": "pieces"
+    },
+    {
+      "name": "chopped lemon",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "juiced lemon",
+      "quantity": "1",
+      "measure": "pieces"
+    },
+    {
+      "name": "chopped red berries",
+      "quantity": "200",
+      "measure": "gr"
+    },
+    {
+      "name": "caster sugar",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "light red wine",
+      "quantity": "750",
+      "measure": "ml"
+    },
+    {
+      "name": "Spanish brandy",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "sparkling water",
+      "quantity": "300",
+      "measure": "ml"
+    }
+  ]
+}

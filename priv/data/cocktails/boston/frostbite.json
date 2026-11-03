@@ -1,0 +1,25 @@
+{
+  "name": "Frostbite",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "frostbite",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Heavy cream",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

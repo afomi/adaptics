@@ -1,0 +1,43 @@
+{
+  "name": "Planters Punch",
+  "description": "This classic rum drink is fun, refreshing and bursting with flavour.",
+  "keywords": [
+    "rum",
+    "lime juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "planters-punch",
+  "ingredients": [
+    {
+      "name": "Dark Rum",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Grenadine Syrup",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar Syrup",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Splash of Soda Water",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Angostura Bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

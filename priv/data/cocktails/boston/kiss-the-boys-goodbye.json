@@ -1,0 +1,30 @@
+{
+  "name": "Kiss the Boys Goodbye",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "kiss-the-boys-goodbye",
+  "ingredients": [
+    {
+      "name": "Sloe gin",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Colorado Bulldog",
+  "description": "Colorado Bulldog is a sweet and creamy alcoholic drink.",
+  "keywords": [
+    "kahlúa",
+    "vodka",
+    "cream",
+    "alcoholic",
+    "cola"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "colorado-bulldog",
+  "ingredients": [
+    {
+      "name": "Kahlúa",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cream",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cola",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

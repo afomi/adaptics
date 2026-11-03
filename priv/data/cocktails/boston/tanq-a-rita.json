@@ -1,0 +1,25 @@
+{
+  "name": "Tanq-A-Rita",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tanq-a-rita",
+  "ingredients": [
+    {
+      "name": "Tanqueray gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Margarita Mix",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

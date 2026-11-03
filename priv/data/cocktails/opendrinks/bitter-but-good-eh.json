@@ -1,0 +1,35 @@
+{
+  "name": "Bitter but Good eh!",
+  "description": "A sweet quebecois/french-canadian take on a Negroni.",
+  "keywords": [
+    "gin",
+    "white beer",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bitter-but-good-eh",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "White Beer",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

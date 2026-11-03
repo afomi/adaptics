@@ -1,0 +1,37 @@
+{
+  "name": "Spritz Pomegranate",
+  "description": "A really fresh and healthy drink.",
+  "keywords": [
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "spritz-pomegranate",
+  "ingredients": [
+    {
+      "name": "Prosecco",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "Pomegranate",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Sliced orange or lemon for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

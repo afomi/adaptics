@@ -1,0 +1,35 @@
+{
+  "name": "Tequila Sunrise",
+  "description": "A simple tequila cocktail with layered colors.",
+  "keywords": [
+    "orange juice",
+    "tequila",
+    "grenadine",
+    "ice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tequila-sunrise",
+  "ingredients": [
+    {
+      "name": "tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "0.25",
+      "measure": "oz"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "The Nomad South",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "the-nomad-south",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blood orange juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whiskey barrel bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

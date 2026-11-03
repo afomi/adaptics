@@ -1,0 +1,31 @@
+{
+  "name": "Comfort Collins",
+  "description": "A Tom Collins with a Southern twist",
+  "keywords": [
+    "Southern Comfort",
+    "lime juice",
+    "Lemon-lime soda",
+    "alcoholic",
+    "simple"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "comfort-collins",
+  "ingredients": [
+    {
+      "name": "Southern Comfort",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon-lime soda",
+      "quantity": "fill",
+      "measure": "glass"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Beergarita",
+  "description": "Beergarita combines beer with a freshly made margarita",
+  "keywords": [
+    "beer",
+    "tequila",
+    "margarita",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "beergarita",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Tattersall Grapefruit Crema",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Lime juice",
+      "quantity": ".5",
+      "measure": "oz"
+    },
+    {
+      "name": "Light Beer (i.e. Kolsh)",
+      "quantity": "6",
+      "measure": "oz"
+    }
+  ]
+}

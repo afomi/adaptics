@@ -1,0 +1,25 @@
+{
+  "name": "Delmonico No. 2",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "delmonico-no-2",
+  "ingredients": [
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

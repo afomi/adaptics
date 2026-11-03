@@ -1,0 +1,40 @@
+{
+  "name": "Sidecar",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "sidecar",
+  "ingredients": [
+    {
+      "name": "Cognac",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Madeira",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice and orange wheel",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

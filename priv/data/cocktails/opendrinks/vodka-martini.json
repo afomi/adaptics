@@ -1,0 +1,35 @@
+{
+  "name": "Vodka Martini",
+  "description": "Enjoy a vodka martini style. Garnish with one or three olives, but never two.",
+  "keywords": [
+    "vodka",
+    "vermouth",
+    "olives",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vodka-martini",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "3",
+      "measure": "fl oz"
+    },
+    {
+      "name": "dry vermouth",
+      "quantity": "1",
+      "measure": "fl oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "olives",
+      "quantity": "3",
+      "measure": ""
+    }
+  ]
+}

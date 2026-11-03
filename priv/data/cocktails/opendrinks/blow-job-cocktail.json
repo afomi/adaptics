@@ -1,0 +1,36 @@
+{
+  "name": "Blow Job Cocktail",
+  "description": "This layered shot originated around the early ’90s in the U.S. and is meant to be imbibed hands-free.",
+  "keywords": [
+    "alcoholic",
+    "vodka",
+    "amaretto",
+    "layers",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blow-job-cocktail",
+  "ingredients": [
+    {
+      "name": "Irish cream",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Amaretto",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Whipped cream",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Coffee liqueur",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Coconut Coffee",
+  "description": "A new Hanoian specialty, where the creaminess of coconut mix perfectly well with the bitter taste of espresso",
+  "keywords": [
+    "coffee",
+    "coconut",
+    "cream",
+    "cold",
+    "non-alcoholic",
+    "organic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "coconut-coffee",
+  "ingredients": [
+    {
+      "name": "Espresso",
+      "quantity": "1",
+      "measure": "shot"
+    },
+    {
+      "name": "Coconut Milk",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Condensed Milk",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Whipping Cream",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Ice",
+      "quantity": "20",
+      "measure": "gram"
+    },
+    {
+      "name": "Coconut Ice Cream (optional)",
+      "quantity": "1",
+      "measure": "scoop"
+    },
+    {
+      "name": "Coconut Flesh (optional)",
+      "quantity": "10",
+      "measure": "gram"
+    }
+  ]
+}

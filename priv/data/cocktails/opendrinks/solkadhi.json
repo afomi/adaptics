@@ -1,0 +1,40 @@
+{
+  "name": "Solkadhi",
+  "description": "A soothing digestive drink made from kokum fruit and coconut milk.",
+  "keywords": [
+    "coconut",
+    "fruit",
+    "non-alcoholic",
+    "healthy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "solkadhi",
+  "ingredients": [
+    {
+      "name": "kokum (garcinia indica)",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "grated fresh coconut",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "garlic and green chilly paste",
+      "quantity": "0.5",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "salt",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "chopped coriander leaves",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

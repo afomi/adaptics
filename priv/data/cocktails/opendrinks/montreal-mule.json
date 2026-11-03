@@ -1,0 +1,36 @@
+{
+  "name": "Montreal Mule",
+  "description": "It's a simple and fresh cocktail. Don't forget the mug.",
+  "keywords": [
+    "gin",
+    "ginger beer",
+    "alcoholic",
+    "classic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "montreal-mule",
+  "ingredients": [
+    {
+      "name": "canadian gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice, freshly squeezed",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "ginger beer",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh mint sprig",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

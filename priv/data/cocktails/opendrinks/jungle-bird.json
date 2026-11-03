@@ -1,0 +1,40 @@
+{
+  "name": "Jungle Bird",
+  "description": "This classic Tiki drink was created in 1978 at the Aviary bar of the Kuala Lumpur Hilton.",
+  "keywords": [
+    "alcoholic",
+    "fresh",
+    "vegan",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jungle-bird",
+  "ingredients": [
+    {
+      "name": "dark rum",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh Pineapple Juice",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

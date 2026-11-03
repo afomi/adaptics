@@ -1,0 +1,30 @@
+{
+  "name": "Sargasso",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "sargasso",
+  "ingredients": [
+    {
+      "name": "Aged rhum agricole",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Sherry",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aperol",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Angostura Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

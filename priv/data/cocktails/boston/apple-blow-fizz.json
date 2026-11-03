@@ -1,0 +1,30 @@
+{
+  "name": "Apple Blow Fizz",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "apple-blow-fizz",
+  "ingredients": [
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apple Brandy",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

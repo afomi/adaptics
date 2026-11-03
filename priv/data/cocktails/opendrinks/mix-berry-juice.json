@@ -1,0 +1,46 @@
+{
+  "name": "Mix Berry Juice",
+  "description": "Berries are fresh fruit and can be processed into various types of fresh drinks. The sour and sweet flavors that combine bring a refreshing sensation when eaten.",
+  "keywords": [
+    "non-alcoholic",
+    "smoothie",
+    "milk",
+    "blueberry",
+    "strawberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mix-berry-juice",
+  "ingredients": [
+    {
+      "name": "strawberries",
+      "quantity": "12",
+      "measure": ""
+    },
+    {
+      "name": "blueberries",
+      "quantity": "12",
+      "measure": ""
+    },
+    {
+      "name": "of sweetened condensed milk",
+      "quantity": "1",
+      "measure": "sachet"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Ice cubes as needed",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Rock water as needed",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

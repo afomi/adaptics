@@ -1,0 +1,46 @@
+{
+  "name": "Beras Kencur",
+  "description": "A well-known traditional Indonesian herb drink which is trusted to have many benefits for health.",
+  "keywords": [
+    "herbal",
+    "galangal",
+    "non-alcoholic",
+    "sugar",
+    "tamarind"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "beras-kencur",
+  "ingredients": [
+    {
+      "name": "galangal",
+      "quantity": "50",
+      "measure": "gram"
+    },
+    {
+      "name": "rice",
+      "quantity": "200",
+      "measure": "gram"
+    },
+    {
+      "name": "tamarind",
+      "quantity": "30",
+      "measure": "gram"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/4",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "palm sugar",
+      "quantity": "130gr",
+      "measure": "gram"
+    },
+    {
+      "name": "water",
+      "quantity": "1.5",
+      "measure": "litre"
+    }
+  ]
+}

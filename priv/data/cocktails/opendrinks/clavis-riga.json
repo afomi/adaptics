@@ -1,0 +1,43 @@
+{
+  "name": "Clavis Riga",
+  "description": "Clavis Riga, or Key of Riga, is the offical cocktail of Latvia, using one of it's national drinks, Riga Black Balsam.",
+  "keywords": [
+    "cocktail",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "clavis-riga",
+  "ingredients": [
+    {
+      "name": "Riga Black Balsam",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "Rhubarb liqueur",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Apple juice",
+      "quantity": "55",
+      "measure": "ml"
+    },
+    {
+      "name": "Pomegranate syrup",
+      "quantity": "5",
+      "measure": "ml"
+    },
+    {
+      "name": "White chocolate syrup",
+      "quantity": "5",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Madras",
+  "description": "Easy Vodka Cranberry drink.",
+  "keywords": [
+    "vodka",
+    "cranberry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "madras",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Cranberry Juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

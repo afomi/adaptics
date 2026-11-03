@@ -1,0 +1,30 @@
+{
+  "name": "Bachelor's Bait Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "bachelor-s-bait-cocktail",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

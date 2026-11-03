@@ -1,0 +1,25 @@
+{
+  "name": "Almeria",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "almeria",
+  "ingredients": [
+    {
+      "name": "17-year-old J. Wray and Nephew Ltd. Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Coffee-flavored liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Hotel D'alsace",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "hotel-d-alsace",
+  "ingredients": [
+    {
+      "name": "Fresh rosemary sprig",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Irish Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

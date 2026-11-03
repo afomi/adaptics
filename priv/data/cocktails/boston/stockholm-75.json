@@ -1,0 +1,35 @@
+{
+  "name": "Stockholm 75",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "stockholm-75",
+  "ingredients": [
+    {
+      "name": "Lemon wedge, superfine sugar",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Chilled Champagne",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

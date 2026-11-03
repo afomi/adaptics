@@ -1,0 +1,35 @@
+{
+  "name": "Bloody Mary",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bloody-mary",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "hot red pepper sauce",
+      "measure": "2 -  3 drops",
+      "quantity": null
+    }
+  ]
+}

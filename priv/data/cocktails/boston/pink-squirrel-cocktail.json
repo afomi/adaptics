@@ -1,0 +1,25 @@
+{
+  "name": "Pink Squirrel Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "pink-squirrel-cocktail",
+  "ingredients": [
+    {
+      "name": "Mr. Boston Creme de Noyaux",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston White Creme de Cacao",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Sweet Cream",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

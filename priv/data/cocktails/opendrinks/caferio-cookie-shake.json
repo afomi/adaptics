@@ -1,0 +1,40 @@
+{
+  "name": "Caferio Cookie Shake",
+  "description": "A perfect dessert shake with richness of coffee and cookie-cream ice cream. ",
+  "keywords": [
+    "coffee",
+    "ice cream",
+    "cookie",
+    "smoothie"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caferio-cookie-shake",
+  "ingredients": [
+    {
+      "name": "coffee powder",
+      "quantity": "1",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "chilled milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar, optional and to taste",
+      "quantity": "3",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "cookie-cream ice cream",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "oreo cookies",
+      "quantity": "2-3",
+      "measure": "number"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Elderflower-tini",
+  "description": "A sweet twist to your average martini.",
+  "keywords": [
+    "elderflower",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "elderflower-tini",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Elderflower syrup",
+      "quantity": "25",
+      "measure": "ml"
+    }
+  ]
+}

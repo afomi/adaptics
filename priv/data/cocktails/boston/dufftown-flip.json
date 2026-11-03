@@ -1,0 +1,35 @@
+{
+  "name": "Dufftown Flip",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "dufftown-flip",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Port",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Demerara Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Almond milk",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Whole Egg",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

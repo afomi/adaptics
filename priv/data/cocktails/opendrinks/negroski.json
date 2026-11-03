@@ -1,0 +1,37 @@
+{
+  "name": "Negroski",
+  "description": "Negroski is a variation of the Negroni in which gin is replaced with vodka.",
+  "keywords": [
+    "vodka",
+    "vermouth",
+    "alcoholic",
+    "classic",
+    "vegan",
+    "campari"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "negroski",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Red Sweet Vermouth",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

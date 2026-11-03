@@ -1,0 +1,61 @@
+{
+  "name": "Ajoblanco",
+  "description": "Ajoblanco is a delicious cold almond and garlic soup typical of southern Spain. Some say it’s the precursor to better known Spanish cold soups like gazpacho and salmorejo.",
+  "keywords": [
+    "fresh",
+    "healthy",
+    "vegan",
+    "spanish",
+    "andalusian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "ajoblanco",
+  "ingredients": [
+    {
+      "name": "blanched Marcona almonds",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "white bread",
+      "quantity": "2",
+      "measure": "slices"
+    },
+    {
+      "name": "garlic",
+      "quantity": "1",
+      "measure": "clove"
+    },
+    {
+      "name": "sherry vinegar",
+      "quantity": "1-2",
+      "measure": "teaspoons"
+    },
+    {
+      "name": "apple",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "cold water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "extra vurgub ikuve iuk",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "green grapes",
+      "quantity": "some",
+      "measure": "pieces"
+    }
+  ]
+}

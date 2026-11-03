@@ -1,0 +1,47 @@
+{
+  "name": "Banana Smoothie",
+  "description": "Enjoy a Banana Smoothie. This recipe contains raw eggs.",
+  "keywords": [
+    "milk",
+    "banana",
+    "egg",
+    "smoothie",
+    "fruit",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "banana-smoothie",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "1",
+      "measure": "banana"
+    },
+    {
+      "name": "milk",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "",
+      "quantity": "1",
+      "measure": "egg"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "ground cinnamon",
+      "quantity": "1",
+      "measure": "pinch"
+    }
+  ]
+}

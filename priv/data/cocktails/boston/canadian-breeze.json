@@ -1,0 +1,35 @@
+{
+  "name": "Canadian Breeze",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "canadian-breeze",
+  "ingredients": [
+    {
+      "name": "Canadian whisky",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple wedge, maraschino cherry",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

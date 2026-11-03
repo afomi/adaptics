@@ -1,0 +1,35 @@
+{
+  "name": "Caipireja",
+  "description": "A typical brazilian drink, good for hot days!",
+  "keywords": [
+    "beer",
+    "vodka",
+    "brazil",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "caipireja",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "2",
+      "measure": "Lemons"
+    },
+    {
+      "name": "beer",
+      "quantity": "1",
+      "measure": "can of"
+    },
+    {
+      "name": "vodka",
+      "quantity": "120",
+      "measure": "mls"
+    },
+    {
+      "name": "sugar",
+      "quantity": "3",
+      "measure": "tablespoon"
+    }
+  ]
+}

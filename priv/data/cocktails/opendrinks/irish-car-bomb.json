@@ -1,0 +1,29 @@
+{
+  "name": "Irish Car Bomb",
+  "description": "An Irish Car Bomb, Irish Slammer, Irish Bomb Shot, or Dublin Drop is a cocktail made by dropping a bomb shot of Irish cream and whiskey into a glass of stout.",
+  "keywords": [
+    "whiskey",
+    "alcoholic",
+    "cream"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "irish-car-bomb",
+  "ingredients": [
+    {
+      "name": "Irish whiskey",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Baileys Irish Cream",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Guiness Beer",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

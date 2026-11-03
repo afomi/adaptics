@@ -1,0 +1,148 @@
+<div class="max-w-5xl mx-auto px-4 py-8 pt-16">
+  <.header>
+    Documents
+    <:subtitle>Upload and manage PDF documents</:subtitle>
+  </.header>
+
+  <form
+    id="upload-form"
+    phx-submit="save"
+    phx-change="validate"
+    class="mt-8"
+  >
+    <div
+      class="border-2 border-dashed border-zinc-300 rounded-lg p-8 text-center hover:border-zinc-400 transition-colors"
+      phx-drop-target={@uploads.pdf.ref}
+    >
+      <.icon
+        name="hero-document-arrow-up"
+        class="h-12 w-12 mx-auto text-zinc-400"
+      />
+      <p class="mt-2 text-sm text-zinc-600">
+        Drag and drop PDF files here, or click to browse
+      </p>
+      <.live_file_input
+        upload={@uploads.pdf}
+        class="mt-4"
+      />
+    </div>
+
+    <%= for entry <- @uploads.pdf.entries do %>
+      <div class="flex items-center gap-4 mt-4 p-3 bg-zinc-50 rounded-lg">
+        <div class="flex-1">
+          <p class="text-sm font-medium text-zinc-900">
+            <%= entry.client_name %>
+          </p>
+          <div class="mt-1 w-full bg-zinc-200 rounded-full h-2">
+            <div
+              class="bg-blue-600 h-2 rounded-full transition-all"
+              style={"width: #{entry.progress}%"}
+            >
+            </div>
+          </div>
+        </div>
+        <span class="text-sm text-zinc-500">
+          <%= entry.progress %>%
+        </span>
+        <button
+          type="button"
+          phx-click="cancel-upload"
+          phx-value-ref={entry.ref}
+          class="text-zinc-400 hover:text-zinc-600"
+          aria-label="Cancel upload"
+        >
+          <.icon
+            name="hero-x-mark"
+            class="h-5 w-5"
+          />
+        </button>
+      </div>
+
+      <%= for err <- upload_errors(@uploads.pdf, entry) do %>
+        <p class="mt-1 text-sm text-rose-600">
+          <%= error_to_string(err) %>
+        </p>
+      <% end %>
+    <% end %>
+
+    <%= for err <- upload_errors(@uploads.pdf) do %>
+      <p class="mt-2 text-sm text-rose-600">
+        <%= error_to_string(err) %>
+      </p>
+    <% end %>
+
+    <div
+      :if={@uploads.pdf.entries != []}
+      class="mt-4"
+    >
+      <.button type="submit">
+        Upload <%= length(@uploads.pdf.entries) %> file(s)
+      </.button>
+    </div>
+  </form>
+
+  <div class="mt-12">
+    <.table
+      id="documents"
+      rows={@documents}
+      row_click={fn doc -> JS.navigate(~p"/documents/#{doc.id}") end}
+    >
+      <:col
+        :let={doc}
+        label="Name"
+      >
+        <%= doc.file_name %>
+      </:col>
+      <:col
+        :let={doc}
+        label="Size"
+      >
+        <%= format_file_size(doc.file_size) %>
+      </:col>
+      <:col
+        :let={doc}
+        label="Status"
+      >
+        <span class={"px-2 py-1 text-xs font-medium rounded-full #{status_badge_class(doc.status)}"}>
+          <%= doc.status %>
+        </span>
+      </:col>
+      <:col
+        :let={doc}
+        label="Type"
+      >
+        <%= doc.schema_type || "-" %>
+      </:col>
+      <:col
+        :let={doc}
+        label="Uploaded"
+      >
+        <%= Calendar.strftime(doc.inserted_at, "%Y-%m-%d %H:%M") %>
+      </:col>
+      <:action :let={doc}>
+        <.link
+          navigate={~p"/documents/#{doc.id}"}
+          class="text-blue-600 hover:text-blue-800"
+        >
+          View
+        </.link>
+      </:action>
+      <:action :let={doc}>
+        <.link
+          phx-click={JS.push("delete", value: %{id: doc.id})}
+          data-confirm="Are you sure you want to delete this document?"
+          class="text-red-600 hover:text-red-800"
+        >
+          Delete
+        </.link>
+      </:action>
+    </.table>
+
+    <p
+      :if={@documents == []}
+      class="mt-8 text-center text-sm text-zinc-500"
+    >
+      No documents uploaded yet. Drag and drop a PDF above to get started.
+    </p>
+  </div>
+</div>

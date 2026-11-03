@@ -1,0 +1,516 @@
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #050505; overflow: hidden; }
+
+  #chladni-container {
+    position: fixed;
+    inset: 0;
+  }
+
+  /* ── top-right controls ─────────────────────────────────────── */
+  #chladni-controls {
+    position: fixed;
+    top: 2.8rem;
+    right: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    z-index: 10;
+  }
+
+  .ctrl-btn {
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    background: none;
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .ctrl-btn:hover {
+    color: rgba(255,255,255,0.85);
+    border-color: rgba(255,255,255,0.35);
+  }
+  .ctrl-btn.active-sound {
+    color: #0f9;
+    border-color: #0f9;
+  }
+
+  /* ── bottom strip ───────────────────────────────────────────── */
+  #chladni-ui {
+    position: fixed;
+    bottom: 1.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    font-family: monospace;
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  #chladni-chord-label { color: rgba(255,255,255,0.55); font-size: 11px; }
+
+  #chladni-waveform { width: 100px; height: 34px; }
+
+  /* note grid (auto mode readout) */
+  #chladni-note-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px 7px; }
+  .chladni-note      { color: #222; transition: color 0.2s; text-align: center; }
+  .chladni-note.active { color: #0f9; }
+
+  /* ── explore panel ──────────────────────────────────────────── */
+  #chladni-explore {
+    position: fixed;
+    bottom: 1.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;          /* shown in explore mode */
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+
+  .picker-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .picker-slot-label {
+    width: 2.2rem;
+    color: rgba(255,255,255,0.25);
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .picker-btn {
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+    background: none;
+    border: 1px solid rgba(255,255,255,0.07);
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    transition: color 0.12s, border-color 0.12s, background 0.12s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    min-width: 2.8rem;
+  }
+  .picker-btn:hover {
+    color: rgba(255,255,255,0.7);
+    border-color: rgba(255,255,255,0.25);
+  }
+  .picker-btn.picker-active {
+    color: #0f9;
+    border-color: #0f9;
+    background: rgba(0,255,153,0.07);
+  }
+  .btn-note {
+    font-size: 10px;
+    letter-spacing: 0.05em;
+  }
+
+  .ctrl-row {
+    display: flex;
+    gap: 0.35rem;
+  }
+  .ctrl-btn.mode-active {
+    color: #0f9;
+    border-color: #0f9;
+  }
+
+  /* ── controls panel ─────────────────────────────────────────── */
+  #chladni-panel {
+    width: 250px;
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
+    padding: 0.7rem 0.85rem;
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: rgba(255,255,255,0.55);
+    background: rgba(5,5,5,0.82);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  #chladni-panel[hidden] { display: none; }
+  #chladni-panel h4 {
+    margin: 0.7rem 0 0.35rem 0;
+    font-size: 9px;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+  #chladni-panel h4:first-child { margin-top: 0; }
+  .ctl {
+    display: grid;
+    grid-template-columns: 4.6rem 1fr 3.2rem;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0.2rem 0;
+  }
+  .ctl output { text-align: right; color: rgba(255,255,255,0.75); }
+  .ctl input[type="range"] { width: 100%; accent-color: #0f9; }
+  .ctl select {
+    grid-column: span 2;
+    font: inherit;
+    color: rgba(255,255,255,0.8);
+    background: #111;
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  .ctl-buttons { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.3rem; }
+  .ctl-check { display: flex; align-items: center; gap: 0.4rem; margin: 0.3rem 0; }
+  .ctl-check input { accent-color: #0f9; }
+  .ctl-note { margin-top: 0.2rem; color: rgba(255,255,255,0.3); line-height: 1.5; }
+
+  .explore-hint {
+    color: rgba(255,255,255,0.18);
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    margin-top: 0.1rem;
+  }
+</style>
+
+<div id="chladni-container"></div>
+
+<%!-- top-right controls --%>
+<div id="chladni-controls">
+  <div
+    class="ctrl-row">
+    <button
+      :for={m <- ~w(auto explore plate)}
+      type="button"
+      class="ctrl-btn"
+      data-mode={m}>
+      {m}
+    </button>
+  </div>
+  <div
+    class="ctrl-row">
+    <button
+      id="chladni-sound-btn"
+      type="button"
+      class="ctrl-btn">
+      SOUND OFF
+    </button>
+    <button
+      id="chladni-reset-btn"
+      type="button"
+      class="ctrl-btn">
+      RESET
+    </button>
+    <button
+      id="chladni-panel-btn"
+      type="button"
+      class="ctrl-btn">
+      CONTROLS
+    </button>
+  </div>
+
+  <div
+    id="chladni-panel"
+    hidden>
+    <div
+      data-for-mode="plate">
+      <h4>Plate mode (n, m)</h4>
+      <label
+        class="ctl">
+        <span>n</span>
+        <input
+          data-ctl="n"
+          type="range"
+          min="1"
+          max="16"
+          step="1" />
+        <output data-out="n"></output>
+      </label>
+      <label
+        class="ctl">
+        <span>m</span>
+        <input
+          data-ctl="m"
+          type="range"
+          min="1"
+          max="16"
+          step="1" />
+        <output data-out="m"></output>
+      </label>
+      <div
+        class="ctl-buttons">
+        <button
+          data-ctl="sign"
+          type="button"
+          class="ctrl-btn">
+          sign: −
+        </button>
+        <button
+          data-ctl="random"
+          type="button"
+          class="ctrl-btn">
+          🎲 random
+        </button>
+        <output
+          data-out="hz"
+          style="align-self: center; color: rgba(255,255,255,0.6);">
+        </output>
+      </div>
+      <p
+        class="ctl-note">
+        u = cos(nπx)·cos(mπy) ± cos(mπx)·cos(nπy).
+        Arrow keys step n and m.
+      </p>
+    </div>
+    <div
+      data-for-mode="auto explore"
+      class="ctl-note">
+      Switch to <b>plate</b> for a real plate's (n, m) modes.
+    </div>
+
+    <h4>Motion</h4>
+    <label
+      class="ctl">
+      <span>drive</span>
+      <input
+        data-ctl="drive"
+        type="range"
+        min="0.2"
+        max="3"
+        step="0.05" />
+      <output data-out="drive"></output>
+    </label>
+    <label
+      class="ctl"
+      data-for-mode="explore plate">
+      <span>sustain</span>
+      <input
+        data-ctl="sustain"
+        type="range"
+        min="0.95"
+        max="1"
+        step="0.001" />
+      <output data-out="sustain"></output>
+    </label>
+    <label
+      class="ctl">
+      <span>speed</span>
+      <input
+        data-ctl="speed"
+        type="range"
+        min="5"
+        max="120"
+        step="5" />
+      <output data-out="speed"></output>
+    </label>
+
+    <h4>Sand</h4>
+    <label
+      class="ctl">
+      <span>grains</span>
+      <input
+        data-ctl="count"
+        type="range"
+        min="10000"
+        max="150000"
+        step="10000" />
+      <output data-out="count"></output>
+    </label>
+    <label
+      class="ctl">
+      <span>grain size</span>
+      <input
+        data-ctl="size"
+        type="range"
+        min="0.5"
+        max="4"
+        step="0.1" />
+      <output data-out="size"></output>
+    </label>
+    <label
+      class="ctl">
+      <span>opacity</span>
+      <input
+        data-ctl="opacity"
+        type="range"
+        min="0.1"
+        max="1"
+        step="0.05" />
+      <output data-out="opacity"></output>
+    </label>
+    <label
+      class="ctl">
+      <span>palette</span>
+      <select
+        data-ctl="palette">
+        <option value="rainbow">rainbow</option>
+        <option value="sand">sand</option>
+        <option value="weight">by weight</option>
+        <option value="mono">mono</option>
+      </select>
+    </label>
+
+    <h4>View</h4>
+    <label
+      class="ctl">
+      <span>trails</span>
+      <input
+        data-ctl="trails"
+        type="range"
+        min="0"
+        max="0.97"
+        step="0.01" />
+      <output data-out="trails"></output>
+    </label>
+    <label
+      class="ctl-check">
+      <input
+        data-ctl="nodal"
+        type="checkbox" />
+      <span>nodal lines (where theory says the sand settles)</span>
+    </label>
+
+    <h4>Sound</h4>
+    <label
+      class="ctl">
+      <span>volume</span>
+      <input
+        data-ctl="volume"
+        type="range"
+        min="0"
+        max="0.5"
+        step="0.01" />
+      <output data-out="volume"></output>
+    </label>
+
+    <h4>Actions</h4>
+    <div
+      class="ctl-buttons">
+      <button
+        data-ctl="pause"
+        type="button"
+        class="ctrl-btn">
+        ❚❚ pause
+      </button>
+      <button
+        data-ctl="scatter"
+        type="button"
+        class="ctrl-btn">
+        scatter
+      </button>
+      <button
+        data-ctl="png"
+        type="button"
+        class="ctrl-btn">
+        save png
+      </button>
+    </div>
+    <p
+      class="ctl-note">
+      Keys: space pause · r scatter · s sound · c controls.
+    </p>
+  </div>
+</div>
+
+<%!-- bottom: auto mode strip --%>
+<div id="chladni-ui">
+  <canvas
+    id="chladni-waveform"
+    width="100"
+    height="34"
+  ></canvas>
+  <span id="chladni-chord-label">chord 1 / 12</span>
+  <div
+    id="chladni-note-grid">
+    <span class="chladni-note" data-note="3">C4</span>
+    <span class="chladni-note" data-note="4">F4</span>
+    <span class="chladni-note" data-note="6">C5</span>
+    <span class="chladni-note" data-note="8">F5</span>
+    <span class="chladni-note" data-note="9">G5</span>
+    <span class="chladni-note" data-note="10">A5</span>
+    <span class="chladni-note" data-note="12">C6</span>
+    <span class="chladni-note" data-note="15">E6</span>
+    <span class="chladni-note" data-note="18">G6</span>
+  </div>
+</div>
+
+<%!-- bottom: explore mode panel --%>
+<div id="chladni-explore">
+  <div class="picker-row">
+    <span class="picker-slot-label">f1</span>
+    <button class="picker-btn picker-active" data-note-pick="1"  data-note-slot="1"><span class="btn-note">F2</span></button>
+    <button class="picker-btn" data-note-pick="2"  data-note-slot="1"><span class="btn-note">F3</span></button>
+    <button class="picker-btn" data-note-pick="3"  data-note-slot="1"><span class="btn-note">C4</span></button>
+    <button class="picker-btn" data-note-pick="4"  data-note-slot="1"><span class="btn-note">F4</span></button>
+    <button class="picker-btn" data-note-pick="5"  data-note-slot="1"><span class="btn-note">A4</span></button>
+    <button class="picker-btn" data-note-pick="6"  data-note-slot="1"><span class="btn-note">C5</span></button>
+    <button class="picker-btn" data-note-pick="7"  data-note-slot="1"><span class="btn-note">D♯5</span></button>
+    <button class="picker-btn" data-note-pick="8"  data-note-slot="1"><span class="btn-note">F5</span></button>
+    <button class="picker-btn" data-note-pick="9"  data-note-slot="1"><span class="btn-note">G5</span></button>
+    <button class="picker-btn" data-note-pick="10" data-note-slot="1"><span class="btn-note">A5</span></button>
+    <button class="picker-btn" data-note-pick="12" data-note-slot="1"><span class="btn-note">C6</span></button>
+    <button class="picker-btn" data-note-pick="15" data-note-slot="1"><span class="btn-note">E6</span></button>
+    <button class="picker-btn" data-note-pick="18" data-note-slot="1"><span class="btn-note">G6</span></button>
+    <button class="picker-btn" data-note-pick="21" data-note-slot="1"><span class="btn-note">A♯6</span></button>
+    <button class="picker-btn" data-note-pick="24" data-note-slot="1"><span class="btn-note">C7</span></button>
+  </div>
+  <div class="picker-row">
+    <span class="picker-slot-label">f2</span>
+    <button class="picker-btn" data-note-pick="1"  data-note-slot="2"><span class="btn-note">F2</span></button>
+    <button class="picker-btn" data-note-pick="2"  data-note-slot="2"><span class="btn-note">F3</span></button>
+    <button class="picker-btn" data-note-pick="3"  data-note-slot="2"><span class="btn-note">C4</span></button>
+    <button class="picker-btn" data-note-pick="4"  data-note-slot="2"><span class="btn-note">F4</span></button>
+    <button class="picker-btn" data-note-pick="5"  data-note-slot="2"><span class="btn-note">A4</span></button>
+    <button class="picker-btn" data-note-pick="6"  data-note-slot="2"><span class="btn-note">C5</span></button>
+    <button class="picker-btn" data-note-pick="7"  data-note-slot="2"><span class="btn-note">D♯5</span></button>
+    <button class="picker-btn" data-note-pick="8"  data-note-slot="2"><span class="btn-note">F5</span></button>
+    <button class="picker-btn" data-note-pick="9"  data-note-slot="2"><span class="btn-note">G5</span></button>
+    <button class="picker-btn picker-active" data-note-pick="10" data-note-slot="2"><span class="btn-note">A5</span></button>
+    <button class="picker-btn" data-note-pick="12" data-note-slot="2"><span class="btn-note">C6</span></button>
+    <button class="picker-btn" data-note-pick="15" data-note-slot="2"><span class="btn-note">E6</span></button>
+    <button class="picker-btn" data-note-pick="18" data-note-slot="2"><span class="btn-note">G6</span></button>
+    <button class="picker-btn" data-note-pick="21" data-note-slot="2"><span class="btn-note">A♯6</span></button>
+    <button class="picker-btn" data-note-pick="24" data-note-slot="2"><span class="btn-note">C7</span></button>
+  </div>
+  <div class="picker-row">
+    <span class="picker-slot-label">f3</span>
+    <button class="picker-btn" data-note-pick="1"  data-note-slot="3"><span class="btn-note">F2</span></button>
+    <button class="picker-btn" data-note-pick="2"  data-note-slot="3"><span class="btn-note">F3</span></button>
+    <button class="picker-btn" data-note-pick="3"  data-note-slot="3"><span class="btn-note">C4</span></button>
+    <button class="picker-btn" data-note-pick="4"  data-note-slot="3"><span class="btn-note">F4</span></button>
+    <button class="picker-btn" data-note-pick="5"  data-note-slot="3"><span class="btn-note">A4</span></button>
+    <button class="picker-btn" data-note-pick="6"  data-note-slot="3"><span class="btn-note">C5</span></button>
+    <button class="picker-btn" data-note-pick="7"  data-note-slot="3"><span class="btn-note">D♯5</span></button>
+    <button class="picker-btn" data-note-pick="8"  data-note-slot="3"><span class="btn-note">F5</span></button>
+    <button class="picker-btn picker-active" data-note-pick="9"  data-note-slot="3"><span class="btn-note">G5</span></button>
+    <button class="picker-btn" data-note-pick="10" data-note-slot="3"><span class="btn-note">A5</span></button>
+    <button class="picker-btn" data-note-pick="12" data-note-slot="3"><span class="btn-note">C6</span></button>
+    <button class="picker-btn" data-note-pick="15" data-note-slot="3"><span class="btn-note">E6</span></button>
+    <button class="picker-btn" data-note-pick="18" data-note-slot="3"><span class="btn-note">G6</span></button>
+    <button class="picker-btn" data-note-pick="21" data-note-slot="3"><span class="btn-note">A♯6</span></button>
+    <button class="picker-btn" data-note-pick="24" data-note-slot="3"><span class="btn-note">C7</span></button>
+  </div>
+  <span class="explore-hint">higher notes = finer pattern · pattern accumulates at nodal lines</span>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.chladniField = window.chladni();
+  });
+</script>

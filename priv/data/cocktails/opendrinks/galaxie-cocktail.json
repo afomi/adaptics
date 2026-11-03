@@ -1,0 +1,43 @@
+{
+  "name": "Galaxie Cocktail",
+  "description": "Color Changing Sunset Margarita",
+  "keywords": [
+    "cocktail",
+    "margarita",
+    "triple sec",
+    "alcoholic",
+    "lemon juice",
+    "lime juice",
+    "butterfly pea"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "galaxie-cocktail",
+  "ingredients": [
+    {
+      "name": "Lemon and lime juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Sugar syrup",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple sec",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Butterfly pea infused tequila",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Crushed lemon and magic ice",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

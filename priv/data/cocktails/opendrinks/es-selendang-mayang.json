@@ -1,0 +1,44 @@
+{
+  "name": "Es Selendang Mayang",
+  "description": "Es Selendang Mayang is traditional drink from Jakarta or especially Betawi.",
+  "keywords": [
+    "coconut milk",
+    "traditional",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "es-selendang-mayang",
+  "ingredients": [
+    {
+      "name": "hunkwee flour",
+      "quantity": "45",
+      "measure": "gram"
+    },
+    {
+      "name": "rice flour",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "water",
+      "quantity": "450",
+      "measure": "milliliters"
+    },
+    {
+      "name": "green pasta",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": "65",
+      "measure": "milliliters"
+    },
+    {
+      "name": "salt",
+      "quantity": "0,25",
+      "measure": "teaspoon"
+    }
+  ]
+}

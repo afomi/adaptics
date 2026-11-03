@@ -1,0 +1,30 @@
+{
+  "name": "Aztec's Mark",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "aztec-s-mark",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Benedictine",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Hot red pepper sauce",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Monkey Gland",
+  "description": "The Monkey Gland is a Prohibition classic, devised at Harry's New York Bar in Paris in the 1920s. The name is a reference to a surgical procedure by a Dr. Serge Voronoff.",
+  "keywords": [
+    "alcoholic",
+    "orange",
+    "Cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "monkey-gland",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "fresh orange juice",
+      "quantity": "1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "grenadine",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "absinthe",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<.simple_form :let={f} for={@changeset} action={@action}>
+  <.error :if={@changeset.action}>
+    Oops, something went wrong! Please check the errors below.
+  </.error>
+
+  <.input field={f[:name]} type="text" label="Name" />
+  <.input field={f[:hash]} type="text" label="Hash" />
+  <.input field={f[:description]} type="text" label="Description" />
+  <.input field={f[:kind]} type="text" label="Kind" />
+
+  <h3 class="text-sm font-semibold leading-6 text-zinc-800 mt-4">Wardley fields</h3>
+
+  <.input
+    field={f[:wardley_x]}
+    type="number"
+    step="any"
+    label="Wardley X"
+  />
+  <p class="text-xs text-zinc-500">
+    Genesis 0-25, Custom-built 26-50, Product 51-74, Commodity 75-100
+  </p>
+
+  <.input
+    field={f[:wardley_y]}
+    type="number"
+    step="any"
+    label="Wardley Y"
+  />
+  <p class="text-xs text-zinc-500">
+    Visibility to customer (100), non-visible (0)
+  </p>
+
+  <.input field={f[:wardley_text]} type="text" label="Wardley Text" />
+
+  <:actions>
+    <.button>Save Node</.button>
+  </:actions>
+</.simple_form>

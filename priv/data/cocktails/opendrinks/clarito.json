@@ -1,0 +1,29 @@
+{
+  "name": "Clarito",
+  "description": "An adaptation of the Dry Martini made in 1935 by argentinian bartender Santiago 'Pichin' Policastro.",
+  "keywords": [
+    "lemon",
+    "gin",
+    "Argentina"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "clarito",
+  "ingredients": [
+    {
+      "name": "Dry gin",
+      "quantity": "190",
+      "measure": "gr"
+    },
+    {
+      "name": "French vermouth",
+      "quantity": "10",
+      "measure": "gr"
+    },
+    {
+      "name": "twist of lemon",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Sour Apple Martini",
+  "description": "Before the Cosmo took over the Soure Apple Martini was a huge cocktail stateside where it often consisted of simple vodka, sour apple liqueur and lime cordial  ",
+  "keywords": [
+    "sour-apple-martini",
+    "martini",
+    "lime",
+    "vodka",
+    "gin"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sour-apple-martini",
+  "ingredients": [
+    {
+      "name": "Maraschino cherries with stems",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "Apple Schnapps",
+      "quantity": "1/3",
+      "measure": "cup"
+    },
+    {
+      "name": "vodka/gin",
+      "quantity": "2",
+      "measure": "table spoon"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Diet lemon-lime carbonated beverage, chilled",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

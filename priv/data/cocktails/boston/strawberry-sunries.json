@@ -1,0 +1,20 @@
+{
+  "name": "Strawberry Sunries",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "strawberry-sunries",
+  "ingredients": [
+    {
+      "name": "Strawberry schnapps",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  #lens-canvas {
+    display: block;
+    position: fixed;
+    inset: 0;
+  }
+
+  #lens-ui {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  #lens-wordmark {
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+    font-weight: 400;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  #lens-subtitle {
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    color: #999;
+    text-align: right;
+    line-height: 1.6;
+  }
+</style>
+
+<canvas id="lens-canvas"></canvas>
+
+<div id="lens-ui">
+  <div id="lens-wordmark">Lens</div>
+  <div id="lens-subtitle">
+    octave resonance<br />
+    rhythmic balanced interchange
+  </div>
+</div>
+
+<script>
+(function () {
+  const canvas = document.getElementById('lens-canvas');
+  const ctx = canvas.getContext('2d');
+
+  let W, H, cx, cy, arcR, t = 0;
+
+  const OCTAVES = [
+    { freq: 1,   amp: 0.68, phase: 0.00, alpha: 0.55, width: 1.5 },
+    { freq: 2,   amp: 0.58, phase: 0.12, alpha: 0.42, width: 1.2 },
+    { freq: 4,   amp: 0.48, phase: 0.24, alpha: 0.32, width: 1.0 },
+    { freq: 8,   amp: 0.40, phase: 0.36, alpha: 0.26, width: 0.85 },
+    { freq: 16,  amp: 0.32, phase: 0.48, alpha: 0.20, width: 0.7  },
+    { freq: 32,  amp: 0.26, phase: 0.60, alpha: 0.16, width: 0.6  },
+    { freq: 64,  amp: 0.20, phase: 0.72, alpha: 0.12, width: 0.5  },
+    { freq: 128, amp: 0.15, phase: 0.84, alpha: 0.09, width: 0.4  },
+    { freq: 256, amp: 0.10, phase: 0.96, alpha: 0.06, width: 0.3  },
+  ];
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+    cx = W / 2;
+    cy = H / 2;
+    arcR = Math.min(W, H) * 0.44;
+  }
+
+  function drawBackground() {
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, W, H);
+  }
+
+  function drawLensArc() {
+    ctx.beginPath();
+    ctx.arc(cx, cy, arcR, Math.PI, 2 * Math.PI);
+    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+  }
+
+  function drawOctaveWave(o) {
+    const STEPS = 400;
+    const breathe = 0.7 + 0.3 * Math.sin(t * 0.4 + o.phase * 6);
+    const amp = o.amp * arcR * 0.045 * breathe;
+
+    ctx.beginPath();
+    for (let i = 0; i <= STEPS; i++) {
+      const u = i / STEPS;
+      const theta = Math.PI + u * Math.PI;
+      const waveArg = u * o.freq * Math.PI * 2 - t * (0.5 + o.freq * 0.03) + o.phase * Math.PI * 2;
+      const displacement = Math.sin(waveArg) * amp;
+      const r = arcR + displacement;
+      const px = cx + r * Math.cos(theta);
+      const py = cy + r * Math.sin(theta);
+      i === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py);
+    }
+
+    ctx.strokeStyle = `rgba(0, 0, 0, ${o.alpha * breathe})`;
+    ctx.lineWidth = o.width;
+    ctx.shadowBlur = 0;
+    ctx.stroke();
+  }
+
+  function frame() {
+    t += 0.008;
+    drawBackground();
+    drawLensArc();
+    for (let i = OCTAVES.length - 1; i >= 0; i--) {
+      drawOctaveWave(OCTAVES[i]);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+  frame();
+})();
+</script>

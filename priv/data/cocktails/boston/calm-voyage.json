@@ -1,0 +1,35 @@
+{
+  "name": "Calm Voyage",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "calm-voyage",
+  "ingredients": [
+    {
+      "name": "Strega",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Passion Fruit Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Praire Oyster Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cordials and Liqueurs",
+  "slug": "praire-oyster-cocktail",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Five Star Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Tomato Catsup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vinegar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pepper",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

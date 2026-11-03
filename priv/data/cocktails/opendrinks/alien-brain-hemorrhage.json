@@ -1,0 +1,41 @@
+{
+  "name": "Alien Brain Hemorrhage",
+  "description": "A variant of the Brain Hemorrhage shot, the Alien Brain Hemorrhage adds a different spin onto the original recipe. This shot hails from the early to mid 2000s and has been gaining popularity over the last few years. Always a crowd pleaser and conversation starter.",
+  "keywords": [
+    "schnapps",
+    "blue curaçao",
+    "peach",
+    "grenadine",
+    "baileys",
+    "curaçao",
+    "shot",
+    "brain",
+    "texture",
+    "layers"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "alien-brain-hemorrhage",
+  "ingredients": [
+    {
+      "name": "Peach schnapps",
+      "quantity": "2",
+      "measure": "part"
+    },
+    {
+      "name": "Bailey’s Irish cream",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Grenadine",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Blue Curaçao",
+      "quantity": "1",
+      "measure": "dash"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Masala Coke",
+  "description": "Masala coke is a favorite Indian drink that spices up your taste buds.",
+  "keywords": [
+    "coke",
+    "lemon",
+    "lime",
+    "non-alcoholic",
+    "masala",
+    "vegan",
+    "savory"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "masala-coke",
+  "ingredients": [
+    {
+      "name": "lemon wedge",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "lime wedge",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Coke or Pepsei",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "Tabasco sauce",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "Celery salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "Ground black pepper",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "chat masala",
+      "quantity": "3 spoons",
+      "measure": "spoons"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Elderflower French 75",
+  "description": "A deliciously floral twist on the classic French 75",
+  "keywords": [
+    "elderflower",
+    "St-Germain",
+    "gin",
+    "champagne",
+    "prosecco"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "elderflower-french-75",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "elderflower liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice, freshly squeezed",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "champagne or prosecco",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

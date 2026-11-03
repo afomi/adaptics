@@ -1,0 +1,30 @@
+{
+  "name": "Montezuma",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "montezuma",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Madeira",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg Yolk",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Crushed ice",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

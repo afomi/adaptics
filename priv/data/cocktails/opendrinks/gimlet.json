@@ -1,0 +1,35 @@
+{
+  "name": "Gimlet",
+  "description": "A refreshing classic cocktail made with gin, lime juice and simple syrup. Perfect for the summer.",
+  "keywords": [
+    "gin",
+    "lime juice",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gimlet",
+  "ingredients": [
+    {
+      "name": "gin",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "simple syrup",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "fresh lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Fresh lime wedge or wheel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Mango Daiquiri",
+  "description": "Mango Daquiri is a cocktail based on rum, lime, and mango.",
+  "keywords": [
+    "alcoholic",
+    "fruit",
+    "smoothie",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-daiquiri",
+  "ingredients": [
+    {
+      "name": "White Rum",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Lime Juice",
+      "quantity": "25",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar Syrup",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Mango (preferably fresh)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

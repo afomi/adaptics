@@ -1,0 +1,26 @@
+{
+  "name": "umeshu sparkling",
+  "description": "Using Choya Umeshu (also called as 'Honkaku Umeshu' means traditional real umeshu) with any soda you like. Brings unique refreshing feeling to everyone.",
+  "keywords": [
+    "chilled",
+    "refreshing",
+    "sparkling",
+    "liqueur",
+    "Soda"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "umeshu-sparkling",
+  "ingredients": [
+    {
+      "name": "Choya Umeshu",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "any kind of soda you like",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

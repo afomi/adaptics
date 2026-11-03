@@ -1,0 +1,15 @@
+{
+  "name": "Purple Twister",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "purple-twister",
+  "ingredients": [
+    {
+      "name": "Old Mr. Boston Grape Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

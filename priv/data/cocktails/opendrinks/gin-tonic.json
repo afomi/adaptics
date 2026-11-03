@@ -1,0 +1,36 @@
+{
+  "name": "Gin & Tonic",
+  "description": "A classic cocktail with just a few ingredients that is sure to accentuate the botanical flavors of any gin.",
+  "keywords": [
+    "gin",
+    "tonic",
+    "floral",
+    "alcoholic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gin-tonic",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "60",
+      "measure": "ml"
+    },
+    {
+      "name": "Tonic water",
+      "quantity": "120",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Fresh cucumber",
+      "quantity": "2",
+      "measure": "Strips"
+    }
+  ]
+}

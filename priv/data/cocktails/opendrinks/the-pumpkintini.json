@@ -1,0 +1,49 @@
+{
+  "name": "The Pumpkintini",
+  "description": "This beautiful Halloween cocktail mixes up cinnamon, rum, and pumpkin flavors, and is guaranteed to put some smiles on all of your ghoulish faces.",
+  "keywords": [
+    "whiskey",
+    "cinnamon",
+    "pumpkin",
+    "rum",
+    "caramel syrup",
+    "half and half",
+    "cream",
+    "halloween"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-pumpkintini",
+  "ingredients": [
+    {
+      "name": "Rum Cream",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cinnamon Whiskey",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pumpkin Spice Liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Half & Half",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Rim: Caramel Syrup, Graham Cracker Crumbs",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Garnish: Whipped Cream, Sprinkles",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Matcha Green Russian",
+  "description": "The classic White Russian cocktail goes green thanks to Numi's Citrus Matcha, a blend of organic matcha green tea with notes of citrus.",
+  "keywords": [
+    "matcha",
+    "green tea",
+    "russian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "matcha-green-russian",
+  "ingredients": [
+    {
+      "name": "milk",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Numi Citrus Matcha",
+      "quantity": "3",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "vanilla (halved & scraped)",
+      "quantity": "1",
+      "measure": "bean"
+    },
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "fresh cream",
+      "quantity": "1",
+      "measure": "quart"
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

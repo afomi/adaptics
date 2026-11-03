@@ -1,0 +1,38 @@
+{
+  "name": "Panty Ripper",
+  "description": "It is one of Belize’s most popular cocktails, a sweet concoction of coconut rum and pineapple juice that is specifically tailored for women. Actually guys equally love drinking Panty Rippers, but for whatever reason, they seem to not be too comfortable ordering it at bars.",
+  "keywords": [
+    "coconut rum",
+    "pineapple juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "panty-ripper",
+  "ingredients": [
+    {
+      "name": "Coconut Rum",
+      "quantity": "1 1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple Juice",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "of Grenadine syrup",
+      "quantity": "1",
+      "measure": "splash"
+    },
+    {
+      "name": "cherry",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Orange or pineapple slice for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

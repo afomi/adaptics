@@ -1,0 +1,60 @@
+{
+  "name": "Golden Glow Water",
+  "description": "A drink to refresh you for the rest of the day.",
+  "keywords": [
+    "ginger",
+    "turmeric",
+    "honey",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "golden-glow-water",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "ground ginger",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground turmeric",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "ground cayenne pepper",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "honey",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "molasses",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lemon: juiced",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "sparkling water or kombucha for topping",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Optinal: Citrus slice and fresh mint for garnishing",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

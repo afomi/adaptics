@@ -1,0 +1,46 @@
+{
+  "name": "Boza",
+  "description": "This traditional Turkish drink is indispensable in cold winter nights.",
+  "keywords": [
+    "traditional",
+    "non-alcoholic",
+    "cold",
+    "milk",
+    "sugar"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "boza",
+  "ingredients": [
+    {
+      "name": "coarse bulghur",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "rice",
+      "quantity": "1/2",
+      "measure": "cups"
+    },
+    {
+      "name": "water",
+      "quantity": "11",
+      "measure": "cups"
+    },
+    {
+      "name": "powdered sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "sourdough",
+      "quantity": "1",
+      "measure": "coffe spoon"
+    },
+    {
+      "name": "warm milk",
+      "quantity": "1",
+      "measure": "cups"
+    }
+  ]
+}

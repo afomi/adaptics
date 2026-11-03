@@ -1,0 +1,88 @@
+<% content_for :html_header do %>
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=<%= ENV.fetch('GOOGLE_MAPS_API_KEY')%>" sync defer></script>
+  <script type="text/javascript" src="/javascripts/mxn/mxn.js?(googlev3)"></script>
+  <script type="text/javascript" src="/javascripts/timeline-1.2.js"></script>
+  <script src="/javascripts/timemap_full.pack.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var tm;
+
+    $(function () {
+      var styledMapType = new google.maps.StyledMapType([
+        {
+          featureType:"water",
+          elementType:"all",
+          stylers:[
+            { saturation:0 },
+            { lightness:100 }
+          ]
+        },
+        {
+          featureType:"all",
+          elementType:"all",
+          stylers:[
+            { saturation:-100 }
+          ]
+        }
+      ],
+        {
+          name:"white"
+        }
+      );
+
+      tm = TimeMap.init({
+        mapId: "map", // Id of map div element (required)
+        timelineId: "timeline", // Id of timeline div element (required)
+        options:{
+          eventIconPath: "/images/"
+        },
+        datasets:[
+          {
+            id: "artists",
+            title: "Artists",
+            theme: "orange",
+
+            // note that the lines below are now the preferred syntax
+            type:"basic",
+            options: {
+              items: <%= raw @items.to_json %>
+            }
+          }
+        ],
+        bandIntervals:[
+          Timeline.DateTime.MONTH,
+          Timeline.DateTime.WEEK
+        ]
+      });
+
+      // set the map to our custom style
+      var gmap = tm.getNativeMap();
+      gmap.mapTypes.set("white", styledMapType);
+      gmap.setMapTypeId("white");
+    });
+  </script>
+
+  <%= stylesheet_link_tag('timemap') %>
+  <style>
+    div#timelinecontainer {
+      height: 400px;
+    }
+
+    div#mapcontainer {
+      height: 300px;
+    }
+  </style>
+<% end %>
+
+<div id="help">
+  <h2>Timemapping</h2>
+  Combining Google Maps and a Timeline to see events over time.
+</div>
+
+<div id="timemap">
+  <div id="mapcontainer">
+    <div id="map">m</div>
+  </div>
+  <div id="timelinecontainer">
+    <div id="timeline">t</div>
+  </div>
+</div>

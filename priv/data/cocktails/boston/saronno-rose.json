@@ -1,0 +1,25 @@
+{
+  "name": "Saronno Rose",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "saronno-rose",
+  "ingredients": [
+    {
+      "name": "Amaretto di Saronno",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Roses Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Club Soda",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

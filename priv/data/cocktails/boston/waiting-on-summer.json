@@ -1,0 +1,40 @@
+{
+  "name": "Waiting On Summer",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "waiting-on-summer",
+  "ingredients": [
+    {
+      "name": "Cucumber",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh sage leaves",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger ale, strawberry slice",
+      "measure": "3 oz",
+      "quantity": null
+    }
+  ]
+}

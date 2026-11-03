@@ -1,0 +1,30 @@
+{
+  "name": "Admiral Perry",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "admiral-perry",
+  "ingredients": [
+    {
+      "name": "Pear-flavored vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cinnamon schnapps",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de cacao",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

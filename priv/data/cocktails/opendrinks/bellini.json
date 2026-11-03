@@ -1,0 +1,30 @@
+{
+  "name": "Bellini",
+  "description": "Bellini is a sparkling Italian cocktail.",
+  "keywords": [
+    "cocktail",
+    "alcoholic",
+    "fruit",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bellini",
+  "ingredients": [
+    {
+      "name": "peach juice",
+      "quantity": "2",
+      "measure": "fl oz"
+    },
+    {
+      "name": "chilled sparkling wine",
+      "quantity": "4",
+      "measure": "fl oz"
+    },
+    {
+      "name": "raspberry juice",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

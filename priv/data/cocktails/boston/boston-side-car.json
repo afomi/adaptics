@@ -1,0 +1,30 @@
+{
+  "name": "Boston Side Car",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "boston-side-car",
+  "ingredients": [
+    {
+      "name": "Mr. Boston Five Star Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mr. Boston Triple Sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

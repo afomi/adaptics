@@ -1,0 +1,37 @@
+{
+  "name": "Blue Vodka Lemonade",
+  "description": "A twist to classic lemonade",
+  "keywords": [
+    "blue",
+    "vodka",
+    "lemonade",
+    "alcoholic",
+    "cocktail",
+    "curaçao"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blue-vodka-lemonade",
+  "ingredients": [
+    {
+      "name": "Lemonade",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue liquor, (UV Blue Vodka or Blue Curaçao)",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue food coloring, optional",
+      "quantity": "1-2",
+      "measure": "drops"
+    },
+    {
+      "name": "Lemon Wedge",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

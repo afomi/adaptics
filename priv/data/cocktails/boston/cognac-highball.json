@@ -1,0 +1,15 @@
+{
+  "name": "Cognac Highball",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "cognac-highball",
+  "ingredients": [
+    {
+      "name": "Cognac",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

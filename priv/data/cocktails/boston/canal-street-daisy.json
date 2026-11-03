@@ -1,0 +1,35 @@
+{
+  "name": "Canal Street Daisy",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "canal-street-daisy",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Soda water",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange wheel",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

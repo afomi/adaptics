@@ -34,3 +34,8 @@ config :logger, level: :warn
 
 # Initialize plugs at runtime for faster test compilation
 config :phoenix, :plug_init_mode, :runtime
+
+# Synthetic transcripts for the /transcripts browser (never real ones — they hold secrets)
+config :adaptics, Adaptics.Transcripts,
+  root: Path.expand("../test/fixtures/transcripts", __DIR__),
+  workspace: "/home/fixture/workspace"

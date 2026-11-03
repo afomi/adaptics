@@ -1,0 +1,30 @@
+{
+  "name": "Pollyanna Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "pollyanna-cocktail",
+  "ingredients": [
+    {
+      "name": "orange peel",
+      "measure": "3 slices",
+      "quantity": null
+    },
+    {
+      "name": "pineapple",
+      "measure": "3 slices",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Dry Gin",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "sweet vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

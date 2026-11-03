@@ -1,0 +1,41 @@
+{
+  "name": "Red Stag Dirty Shirley",
+  "description": "Red Stag bourbon meets cherry syrup and a bubbly splash of 7 Up in this festive drink.",
+  "keywords": [
+    "christmas",
+    "bourbon",
+    "cherry",
+    "7 Up",
+    "grenadine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "red-stag-dirty-shirley",
+  "ingredients": [
+    {
+      "name": "grenadine",
+      "quantity": "1/2",
+      "measure": "oz."
+    },
+    {
+      "name": "Red Stag black cherry bourbon",
+      "quantity": "1 1/2",
+      "measure": "oz."
+    },
+    {
+      "name": "7 Up",
+      "quantity": "5",
+      "measure": "oz."
+    },
+    {
+      "name": "maraschino cherry syrup",
+      "quantity": "Splash of",
+      "measure": ""
+    },
+    {
+      "name": "Maraschino cherries",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

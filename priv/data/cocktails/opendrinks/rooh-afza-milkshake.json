@@ -1,0 +1,29 @@
+{
+  "name": "Rooh Afza Milkshake",
+  "description": "Rooh Afza milkshake recipe - very refreshing summer beverage made from roohafza syrup and milk.",
+  "keywords": [
+    "Milk",
+    "syrup",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rooh-afza-milkshake",
+  "ingredients": [
+    {
+      "name": "Milk",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Rooh afza syrup",
+      "quantity": "4",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "2",
+      "measure": "tablespoon"
+    }
+  ]
+}

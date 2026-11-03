@@ -1,0 +1,41 @@
+{
+  "name": "Immune Boosting Smoothie",
+  "description": "A tasty green smoothie to boost your immune system",
+  "keywords": [
+    "smoothie",
+    "healthy",
+    "non-alcoholic",
+    "banana",
+    "ginger"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "immune-boosting-smoothie",
+  "ingredients": [
+    {
+      "name": "",
+      "quantity": "1",
+      "measure": "apple"
+    },
+    {
+      "name": "",
+      "quantity": "1/2",
+      "measure": "banana"
+    },
+    {
+      "name": "",
+      "quantity": "1/2",
+      "measure": "lemon"
+    },
+    {
+      "name": "spinach",
+      "quantity": "2",
+      "measure": "handful"
+    },
+    {
+      "name": "ginger",
+      "quantity": "1",
+      "measure": "piece"
+    }
+  ]
+}

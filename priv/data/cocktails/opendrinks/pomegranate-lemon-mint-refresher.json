@@ -1,0 +1,43 @@
+{
+  "name": "Pomegranate Lemon Mint Refresher",
+  "description": "Refreshingly cold lemonade with pink pomegranate and mint",
+  "keywords": [
+    "sparkling water",
+    "pomegranate",
+    "mint",
+    "lemon",
+    "ice",
+    "non-alcoholic",
+    "fruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pomegranate-lemon-mint-refresher",
+  "ingredients": [
+    {
+      "name": "ice cubes",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "pomegranate",
+      "quantity": "1",
+      "measure": "whole"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "whole"
+    },
+    {
+      "name": "sparkling water",
+      "quantity": "2",
+      "measure": "one-litre bottles"
+    },
+    {
+      "name": "fresh mint",
+      "quantity": "1",
+      "measure": "bunch"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Back Porch Swizzle",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "back-porch-swizzle",
+  "ingredients": [
+    {
+      "name": "Bourbon whiskey",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ginger beer",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

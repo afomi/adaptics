@@ -1,0 +1,25 @@
+{
+  "name": "Orange Smile",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "orange-smile",
+  "ingredients": [
+    {
+      "name": "Egg",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of Orange",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

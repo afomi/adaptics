@@ -1,0 +1,35 @@
+{
+  "name": "April Rain Cocktail",
+  "description": "Bright, refreshing, and just slightly dry, the April rain is a wonderful cocktail that's sure to put you in a spring mood.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "savory",
+    "citrus"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "april-rain-cocktail",
+  "ingredients": [
+    {
+      "name": "vodka",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice, freshly squeezed",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "dry vermouth",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Garnish: lime peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

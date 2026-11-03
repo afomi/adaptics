@@ -1,0 +1,45 @@
+{
+  "name": "Sparkling Fall Sangria",
+  "description": "This wild cocktail combines champagne, sparkling wine, and prosecco.",
+  "keywords": [
+    "champagne",
+    "sparkling wine",
+    "amaretto",
+    "apple cider"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sparkling-fall-sangria",
+  "ingredients": [
+    {
+      "name": "Amaretto",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cinnamon Whiskey",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Apple Cider",
+      "quantity": "20",
+      "measure": "oz"
+    },
+    {
+      "name": "Champagne",
+      "quantity": "750",
+      "measure": "ml"
+    },
+    {
+      "name": "Sparkling Apple Drink",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Pears, Red Apples, Cinnamon Sticks, Star Anise",
+      "quantity": "How many you want",
+      "measure": "pcs"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Zanzibar Ricard",
+  "description": "Ricard with pineapple juice, coconut liqueur and grenadine syrup Monin.",
+  "keywords": [
+    "ricard",
+    "coconut",
+    "pineapple",
+    "grenadine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "zanzibar-ricard",
+  "ingredients": [
+    {
+      "name": "Ricard",
+      "quantity": "4",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "coconut liqueur",
+      "quantity": "2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "pineapple juice",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "grenadine syrup Monin",
+      "quantity": "1",
+      "measure": "teaspoon"
+    }
+  ]
+}

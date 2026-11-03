@@ -1,0 +1,28 @@
+{
+  "name": "Jacqueline",
+  "description": "The Jaqueline cocktail is to white wine what the Monaco is to beer, that is to say a cocktail that mixes it with lemonade and grenadine.",
+  "keywords": [
+    "grenadine",
+    "wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jacqueline",
+  "ingredients": [
+    {
+      "name": "Grenadine syrup",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "White wine",
+      "quantity": "8",
+      "measure": "cl"
+    },
+    {
+      "name": "Limonade",
+      "quantity": "2",
+      "measure": "cl"
+    }
+  ]
+}

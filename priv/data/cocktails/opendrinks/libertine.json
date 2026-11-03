@@ -1,0 +1,55 @@
+{
+  "name": "Libertine",
+  "description": "Created by Jen Riley of Le Red House in Paris (La maison rouge) Favorite among hipsters and bartender professionals alike!",
+  "keywords": [
+    "vodka",
+    "Grapefruit",
+    "Rhubarb",
+    "Ginger"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "libertine",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Campari",
+      "quantity": "2",
+      "measure": "tsps"
+    },
+    {
+      "name": "Simple Syrup",
+      "quantity": "2",
+      "measure": "tspn"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "2",
+      "measure": "tsp"
+    },
+    {
+      "name": "Grapefruit Juice",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Egg",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Rhubarb and Ginger Jam",
+      "quantity": "1",
+      "measure": "bar spoon"
+    },
+    {
+      "name": "Ruby Port",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

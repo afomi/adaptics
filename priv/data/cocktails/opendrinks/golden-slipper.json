@@ -1,0 +1,37 @@
+{
+  "name": "Golden Slipper",
+  "description": "An egg yolk suspended between layers of wine and Goldwasser, surprisingly delicious.",
+  "keywords": [
+    "alcoholic",
+    "egg",
+    "lemon",
+    "liqueur",
+    "wine",
+    "layers"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "golden-slipper",
+  "ingredients": [
+    {
+      "name": "yellow chartreuse wine",
+      "quantity": "1/2",
+      "measure": "wine glass"
+    },
+    {
+      "name": "egg",
+      "quantity": "1",
+      "measure": "yolk"
+    },
+    {
+      "name": "Danziger Goldwasser",
+      "quantity": "1/2",
+      "measure": "wine glass"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "1",
+      "measure": "oz"
+    }
+  ]
+}

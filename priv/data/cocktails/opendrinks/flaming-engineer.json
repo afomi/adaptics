@@ -1,0 +1,37 @@
+{
+  "name": "Flaming Engineer",
+  "description": "A very fun and popular drink from an engineering university in Toronto, Canada. Great for parties and after a tough exam.",
+  "keywords": [
+    "alcoholic",
+    "whisky",
+    "beer",
+    "liqueur",
+    "orange-juice",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "flaming-engineer",
+  "ingredients": [
+    {
+      "name": "molson canadian beer",
+      "quantity": "12",
+      "measure": "oz"
+    },
+    {
+      "name": "amaretto liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "canadian club whisky",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "6",
+      "measure": "oz"
+    }
+  ]
+}

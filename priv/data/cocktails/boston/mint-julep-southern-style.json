@@ -1,0 +1,30 @@
+{
+  "name": "Mint Julep (Southern Style)",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "mint-julep-southern-style",
+  "ingredients": [
+    {
+      "name": "springs mint",
+      "measure": "5 or 6",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Water",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Bourbon",
+      "measure": "2 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "American Trilogy",
+  "description": "Brown sugar mingles with a half-rye, half-Applejack backbone to shift the classic into a slightly darker place.",
+  "keywords": [
+    "alcoholic",
+    "american",
+    "whisky",
+    "whiskey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "american-trilogy",
+  "ingredients": [
+    {
+      "name": "rye whiskey",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "applejack",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "1",
+      "measure": "cube"
+    },
+    {
+      "name": "orange bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "orange peel",
+      "quantity": "1",
+      "measure": "long, curly"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Black Cherry Chocolate",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "black-cherry-chocolate",
+  "ingredients": [
+    {
+      "name": "Black cherry-flavored vodka",
+      "measure": "1 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "White chocolate liqueur",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Black cherry juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

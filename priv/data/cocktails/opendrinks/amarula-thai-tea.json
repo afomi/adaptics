@@ -1,0 +1,31 @@
+{
+  "name": "Amarula Thai Tea",
+  "description": "If there is one must-add to your holiday bar setup this year it’s Amarula. This cream liqueur, made from the Marula fruit, is rich and creamy and delicious in all sorts of holiday inspired cocktails. ",
+  "keywords": [
+    "Amarula",
+    "Milk",
+    "Liquor",
+    "Holiday",
+    "Hot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "amarula-thai-tea",
+  "ingredients": [
+    {
+      "name": "Thai tea",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Amarula Cream Liqueur",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "fat-free milk, frothed",
+      "quantity": "1 1/2",
+      "measure": "cup"
+    }
+  ]
+}

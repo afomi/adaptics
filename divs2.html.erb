@@ -1,0 +1,55 @@
+
+  <style>
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .animated-move {
+      transition: all 0.3s ease-in-out;
+    }
+    div {
+      margin: 2px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid black;
+    }
+  </style>
+
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+  <div id="main-container" class="w-64 h-64 bg-blue-500 flex items-center justify-center centered animated-move"></div>
+
+  <script>
+    document.body.addEventListener('click', function(event) {
+      // alert('hi')
+      const mainContainer = document.getElementById('main-container');
+      const isInsideContainer = mainContainer.contains(event.target);
+      handleDivCreation(event, isInsideContainer ? event.target : mainContainer);
+    });
+
+    function handleDivCreation(event, targetDiv) {
+      // if (targetDiv === document.body) {
+      //   )
+      // }return;
+
+      const newDiv = document.createElement('div');
+      newDiv.classList.add('flex', 'items-center', 'justify-center', 'animated-move');
+
+      if (targetDiv.contains(event.target)) {
+        // Create a new div inside the clicked target
+        targetDiv.appendChild(newDiv);
+      } else {
+        // Wrap the target div in a new div
+        const wrapperDiv = document.createElement('div');
+        wrapperDiv.classList.add('flex', 'items-center', 'justify-center', 'animated-move');
+        targetDiv.parentNode.replaceChild(wrapperDiv, targetDiv);
+        wrapperDiv.appendChild(targetDiv);
+        alert('hi')
+      }
+      event.stopPropagation();
+    }
+  </script>
+
+</body>

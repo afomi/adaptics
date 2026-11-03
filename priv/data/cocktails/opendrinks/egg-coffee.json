@@ -1,0 +1,44 @@
+{
+  "name": "Egg Coffee",
+  "description": "A Hanoi specialty in which a creamy soft, meringue-like egg white foam is perched on dense Vietnamese coffee. Best served hot on a winter day.",
+  "keywords": [
+    "coffee",
+    "non-alcoholic",
+    "hot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "egg-coffee",
+  "ingredients": [
+    {
+      "name": "egg yolk",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "sweetened condensed milk",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "white sugar",
+      "quantity": "20",
+      "measure": "g"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "cocoa powder",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "black, Vietnamese coffee",
+      "quantity": "150",
+      "measure": "ml"
+    }
+  ]
+}

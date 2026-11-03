@@ -1,0 +1,31 @@
+{
+  "name": "Sgroppino",
+  "description": "The Sgroppino al Limone is a Lemon Sorbet Cocktail. Tart, citrusy, simple yet tasty.",
+  "keywords": [
+    "vodka",
+    "prosecco",
+    "alcoholic",
+    "vegan",
+    "lemon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sgroppino",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "Prosecco",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon Sorbet",
+      "quantity": "1",
+      "measure": "scoop"
+    }
+  ]
+}

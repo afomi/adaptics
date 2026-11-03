@@ -1,0 +1,47 @@
+{
+  "name": "Flaming Moe",
+  "description": "A real-world version of the fictional drink made famous by The Simpsons. Substitutes cough syrup for high-proof rum.",
+  "keywords": [
+    "alcoholic",
+    "brandy",
+    "schnapps",
+    "gin",
+    "rum",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "flaming-moe",
+  "ingredients": [
+    {
+      "name": "brandy",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "peppermint schapps",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "sloe gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "blackberry liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "strawberry juice",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "high-proof rum",
+      "quantity": "1/4",
+      "measure": "oz"
+    }
+  ]
+}

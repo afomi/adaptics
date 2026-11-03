@@ -1,0 +1,30 @@
+{
+  "name": "Mojito",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "mojito",
+  "ingredients": [
+    {
+      "name": "Lime wedges",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh mint leaves",
+      "measure": "7",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

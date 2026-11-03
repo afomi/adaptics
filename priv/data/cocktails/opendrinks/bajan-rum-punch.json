@@ -1,0 +1,40 @@
+{
+  "name": "Bajan Rum Punch",
+  "description": "The famous Bajan rum punch (bajan is short for Barbadian 🇧🇧). A classic recipe that goes back to the 19th century and still nowadays the flagship drink of Barbados. The recipe is easy to remember: One of sour, two of sweet, three of strong, four of weak.",
+  "keywords": [
+    "Rum",
+    "simple",
+    "alcoholic",
+    "lime"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bajan-rum-punch",
+  "ingredients": [
+    {
+      "name": "Lime juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "Simple syrup",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Rum",
+      "quantity": "3",
+      "measure": "cups"
+    },
+    {
+      "name": "Water",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "Angostura bitter",
+      "quantity": "2",
+      "measure": "dashes"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Heather's Kiss",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "heather-s-kiss",
+  "ingredients": [
+    {
+      "name": "Blended Scotch Whiskey",
+      "measure": "2 1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Absinthe",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

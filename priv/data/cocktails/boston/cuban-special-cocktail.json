@@ -1,0 +1,30 @@
+{
+  "name": "Cuban Special Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cuban-special-cocktail",
+  "ingredients": [
+    {
+      "name": "Pineapple Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Old Mr. Boston Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ante",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "ante",
+  "ingredients": [
+    {
+      "name": "Apple Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dubonnet",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

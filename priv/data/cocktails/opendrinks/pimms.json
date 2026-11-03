@@ -1,0 +1,47 @@
+{
+  "name": "Pimms",
+  "description": "A quintessentially British cocktail. A true taste of summer, serve this fruity punch with fresh Mint leaves, Cucumber, Orange and Strawberries.",
+  "keywords": [
+    "Strawberry",
+    "orange",
+    "mint leaves",
+    "gin",
+    "liqueur",
+    "lemonade"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pimms",
+  "ingredients": [
+    {
+      "name": "Pimm's No. 1",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "lemonade",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Mint sprig",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "sliced Cucumber",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "sliced Orange",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "whole Strawberry",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

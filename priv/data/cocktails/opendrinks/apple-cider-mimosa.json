@@ -1,0 +1,50 @@
+{
+  "name": "Apple Cider Mimosa",
+  "description": "A sweet and bubbly fall brunch cocktail garnished with a cinnamon sugar rim and apple slice. Recipe makes two drinks.",
+  "keywords": [
+    "apple",
+    "cinnamon",
+    "sugar",
+    "cocktail",
+    "champagne",
+    "brandy",
+    "cider",
+    "brunch",
+    "fall"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "apple-cider-mimosa",
+  "ingredients": [
+    {
+      "name": "apple cider",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "brut champagne",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "brandy",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "apple",
+      "quantity": "2",
+      "measure": "slice"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "0.5",
+      "measure": "tsp"
+    },
+    {
+      "name": "granulated sugar",
+      "quantity": "2",
+      "measure": "tbsp"
+    }
+  ]
+}

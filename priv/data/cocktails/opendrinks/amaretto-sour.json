@@ -1,0 +1,49 @@
+{
+  "name": "Amaretto Sour",
+  "description": "Combining amaretto with bourbon, fresh lemon juice, rich simple syrup, and egg white creates a perfectly balanced Amaretto Sour.",
+  "keywords": [
+    "amaretto",
+    "lemon",
+    "angostura bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "amaretto-sour",
+  "ingredients": [
+    {
+      "name": "Amaretto liqueur",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "sugar syrup",
+      "quantity": "1",
+      "measure": "tsp"
+    },
+    {
+      "name": "Angostura bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "egg white",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon twist",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "cherries",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

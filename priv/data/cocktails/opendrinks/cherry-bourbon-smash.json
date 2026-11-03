@@ -1,0 +1,55 @@
+{
+  "name": "Cherry Bourbon Smash",
+  "description": "Summer garden inspired cocktail!",
+  "keywords": [
+    "bourbon",
+    "cherry",
+    "thyme",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cherry-bourbon-smash",
+  "ingredients": [
+    {
+      "name": "cherry",
+      "quantity": "6",
+      "measure": "pieces"
+    },
+    {
+      "name": "basil",
+      "quantity": "4",
+      "measure": "sprigs"
+    },
+    {
+      "name": "fresh thyme leaves",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "lemon, juiced",
+      "quantity": "half",
+      "measure": "piece"
+    },
+    {
+      "name": "bourbon",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "Cointreau",
+      "quantity": "1/2",
+      "measure": "ounce"
+    },
+    {
+      "name": "white wine vinegar",
+      "quantity": "1-2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Ginger beer for topping",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

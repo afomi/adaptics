@@ -1,0 +1,41 @@
+{
+  "name": "Sidecar",
+  "description": "A perfect introduction to what a truly great sour drink can be.",
+  "keywords": [
+    "cocktail",
+    "sour",
+    "american",
+    "bourbon",
+    "cognac"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "sidecar",
+  "ingredients": [
+    {
+      "name": "cognac",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Cointreau orange liqueur",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "lemon twist/orange twist",
+      "quantity": "Garnish:",
+      "measure": ""
+    },
+    {
+      "name": "granulated sugar",
+      "quantity": "Garnish:",
+      "measure": ""
+    }
+  ]
+}

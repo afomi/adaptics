@@ -1,0 +1,80 @@
+{
+  "name": "Norwegian Glogg (norwegian mulled wine)",
+  "description": "A heady combination of red wine, sauternes and aquavit, enriched with raisins and almonds. Glogg is traditionally served in mugs with tiny spoons for eating the nuts and fruit.",
+  "keywords": [
+    "alcoholic",
+    "norwegian",
+    "beverage",
+    "swedish",
+    "vodka",
+    "red wine",
+    "sugar",
+    "cardamom",
+    "bitters"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "norwegian-glogg-norwegian-mulled-wine",
+  "ingredients": [
+    {
+      "name": "dry red wine",
+      "quantity": "2",
+      "measure": "bottles"
+    },
+    {
+      "name": "sweet white wine",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "lemon",
+      "quantity": "1",
+      "measure": "singular"
+    },
+    {
+      "name": "orange",
+      "quantity": "1",
+      "measure": "singular"
+    },
+    {
+      "name": "cloves",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "cardamom pods",
+      "quantity": "10",
+      "measure": ""
+    },
+    {
+      "name": "fresh ginger",
+      "quantity": "1",
+      "measure": "inch"
+    },
+    {
+      "name": "raisins",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "blanched almonds",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "bitters",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "vodka",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

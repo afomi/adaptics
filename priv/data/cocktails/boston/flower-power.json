@@ -1,0 +1,40 @@
+{
+  "name": "Flower Power",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "flower-power",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grapefruit Juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Agave nectar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange blossom water",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Peychaud's Bitters",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #05070d; overflow: hidden; }
+
+  #agents-container {
+    position: fixed;
+    inset: 0;
+  }
+
+  /* ── title ─────────────────────────────────────────────────── */
+  #agents-title {
+    position: fixed;
+    top: 1.2rem;
+    left: 1.4rem;
+    z-index: 10;
+    font-family: monospace;
+    color: rgba(255,255,255,0.75);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  #agents-title small {
+    display: block;
+    margin-top: 0.3rem;
+    color: rgba(255,255,255,0.28);
+    font-size: 9px;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── top-right controls ────────────────────────────────────── */
+  #agents-controls {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    z-index: 10;
+  }
+
+  .ctrl-btn {
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    background: none;
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    min-width: 9.5rem;
+    text-align: center;
+  }
+  .ctrl-btn:hover {
+    color: rgba(255,255,255,0.85);
+    border-color: rgba(255,255,255,0.35);
+  }
+  .ctrl-btn.active {
+    color: #0f9;
+    border-color: #0f9;
+  }
+
+  /* ── inequality slider ─────────────────────────────────────── */
+  #agents-slider-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2rem;
+    font-family: monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+  #agents-slider-wrap input[type=range] {
+    width: 9.5rem;
+    accent-color: #0f9;
+  }
+  #agents-slider-wrap b { color: #0f9; font-weight: 600; }
+  .dial-hint {
+    color: rgba(255,255,255,0.18);
+    font-size: 8px;
+    letter-spacing: 0.08em;
+    text-transform: none;
+    max-width: 9.5rem;
+    text-align: right;
+    margin-top: -0.1rem;
+  }
+  .ctrl-sep {
+    width: 9.5rem;
+    height: 1px;
+    background: rgba(255,255,255,0.08);
+    margin: 0.2rem 0;
+  }
+
+  /* ── bottom readout strip ──────────────────────────────────── */
+  #agents-readout {
+    position: fixed;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: monospace;
+    font-size: 11px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  #agents-readout b { color: rgba(255,255,255,0.8); font-weight: 600; }
+</style>
+
+<div id="agents-container"></div>
+
+<div id="agents-title">
+  Economic Agent Population
+  <small>100,000 agents · kinetic wealth exchange · spend/save × class × geography</small>
+</div>
+
+<div id="agents-controls">
+  <div id="agents-slider-wrap">
+    <span>save spread <b id="agents-savespread-label">1.0×</b></span>
+    <input
+      type="range"
+      id="agents-savespread"
+      min="0"
+      max="2"
+      step="0.1"
+      value="1.0"
+    />
+    <span class="dial-hint">class gap in savings rate — the engine of inequality</span>
+  </div>
+
+  <div id="agents-slider-wrap">
+    <span>locality <b id="agents-locality-label">85%</b></span>
+    <input
+      type="range"
+      id="agents-locality"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.85"
+    />
+    <span class="dial-hint">how much trade stays with spatial neighbors</span>
+  </div>
+
+  <div id="agents-slider-wrap">
+    <span>tax / dividend <b id="agents-tax-label">0%</b></span>
+    <input
+      type="range"
+      id="agents-tax"
+      min="0"
+      max="0.5"
+      step="0.01"
+      value="0"
+    />
+    <span class="dial-hint">skim each flow → flat citizen's dividend</span>
+  </div>
+
+  <div id="agents-slider-wrap">
+    <span>mobility <b id="agents-mobility-label">2.0%</b></span>
+    <input
+      type="range"
+      id="agents-mobility"
+      min="0"
+      max="0.1"
+      step="0.005"
+      value="0.02"
+    />
+    <span class="dial-hint">rate of class churn between bands</span>
+  </div>
+
+  <div class="ctrl-sep"></div>
+
+  <button
+    id="agents-sim-btn"
+    class="ctrl-btn"
+  >SIM: PAUSED</button>
+  <button
+    id="agents-color-btn"
+    class="ctrl-btn"
+  >COLOR: WEALTH</button>
+  <button
+    id="agents-height-btn"
+    class="ctrl-btn"
+  >HEIGHT: WEALTH</button>
+  <button
+    id="agents-reset-btn"
+    class="ctrl-btn"
+  >RESET</button>
+</div>
+
+<div id="agents-readout"></div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.renderEconAgents("agents-container", {
+      saveSpread: "agents-savespread",
+      saveSpreadLabel: "agents-savespread-label",
+      locality: "agents-locality",
+      localityLabel: "agents-locality-label",
+      tax: "agents-tax",
+      taxLabel: "agents-tax-label",
+      mobility: "agents-mobility",
+      mobilityLabel: "agents-mobility-label",
+      colorBtn: "agents-color-btn",
+      heightBtn: "agents-height-btn",
+      simBtn: "agents-sim-btn",
+      resetBtn: "agents-reset-btn",
+      readout: "agents-readout",
+    });
+  });
+</script>

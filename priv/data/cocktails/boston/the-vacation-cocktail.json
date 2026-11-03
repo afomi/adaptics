@@ -1,0 +1,35 @@
+{
+  "name": "The Vacation Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "the-vacation-cocktail",
+  "ingredients": [
+    {
+      "name": "Peeled and chopped fresh ginger",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Simple Syrup, light rum, dark rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mango juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "each Cranberry Juice, orange juice, spiced rum",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

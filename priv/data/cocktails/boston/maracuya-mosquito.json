@@ -1,0 +1,40 @@
+{
+  "name": "Maracuya Mosquito",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "maracuya-mosquito",
+  "ingredients": [
+    {
+      "name": "Fresh basil leaves",
+      "measure": "4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Green Chartreuse",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Passion Fruit Juice, basil leaf",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Waterloo",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "waterloo",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Mandarine Napoleon Liqueur",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

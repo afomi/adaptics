@@ -1,0 +1,56 @@
+{
+  "name": "Horchata Water",
+  "description": "Refreshing rice horchata water ideal for hot days. Accompany it with lots of ice and enjoy a typical Mexican drink that everyone will like.",
+  "keywords": [
+    "mexican",
+    "horchata",
+    "water",
+    "fresh",
+    "homemade"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "horchata-water",
+  "ingredients": [
+    {
+      "name": "white rice, uncooked and washed",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "condensed milk",
+      "quantity": "1",
+      "measure": "can (16 oz)"
+    },
+    {
+      "name": "evaporated milk",
+      "quantity": "1",
+      "measure": "can (16 oz)"
+    },
+    {
+      "name": "water",
+      "quantity": "2",
+      "measure": "liter"
+    },
+    {
+      "name": "Sugar (to taste)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cinammon sticks (to taste)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Ice (to taste)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": "1",
+      "measure": "tablespoon"
+    }
+  ]
+}

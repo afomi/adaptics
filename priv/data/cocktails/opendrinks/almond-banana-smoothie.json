@@ -1,0 +1,43 @@
+{
+  "name": "Almond Banana Smoothie",
+  "description": "Almonds balances your cholesterol levels. Almonds have a very low glycemic index and good for diabetics. Banana is high in potassium. Potassium helps normalize the heartbeat and regulates the body's water balance. Bananas have low sodium content and high potassium content, and contribute for making it an ideal fruit for hypertensives. Milk will provide the calcium and if you are on weight loss then use low fat milk. Dates are the perfect healthy natural sweetener in Indian food.",
+  "keywords": [
+    "healthy",
+    "banana",
+    "dates",
+    "vanilla",
+    "milk",
+    "nutrition",
+    "energy"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "almond-banana-smoothie",
+  "ingredients": [
+    {
+      "name": "soaked deskinned almonds",
+      "quantity": "1/8",
+      "measure": "cup"
+    },
+    {
+      "name": "chopped bananas",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "chilled cow's milk",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "vanilla essence",
+      "quantity": "1/4",
+      "measure": "tsp"
+    },
+    {
+      "name": "deseeded dates",
+      "quantity": "1",
+      "measure": "piece"
+    }
+  ]
+}

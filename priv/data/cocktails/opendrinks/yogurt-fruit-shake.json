@@ -1,0 +1,54 @@
+{
+  "name": "Yogurt Fruit Shake",
+  "description": "Assorted fruits, juice, and milk combined to make a delicious cold drink, perfect for after work or school for recharging.",
+  "keywords": [
+    "smoothie",
+    "fruit",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "yogurt-fruit-shake",
+  "ingredients": [
+    {
+      "name": "blender",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "frozen blueberries",
+      "quantity": "3",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "frozen strawberries",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "banana, frozen",
+      "quantity": "1/2",
+      "measure": ""
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "yogurt (plain/vanilla/blueberry/strawberry work well)",
+      "quantity": "1",
+      "measure": "container"
+    },
+    {
+      "name": "milk (can substitute with almond/soy/cashew milk)",
+      "quantity": "1 1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "A dash of honey",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

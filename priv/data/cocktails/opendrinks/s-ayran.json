@@ -1,0 +1,35 @@
+{
+  "name": "Şayran",
+  "description": "Extremely refreshing salty yogurt and turnip juice mix, can be consumed not only in summer but all the seasons.",
+  "keywords": [
+    "yogurt",
+    "salt",
+    "refreshing",
+    "traditional"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "s-ayran",
+  "ingredients": [
+    {
+      "name": "yogurt",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "cold water",
+      "quantity": "125",
+      "measure": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "turnip juice",
+      "quantity": "1/2",
+      "measure": "cup"
+    }
+  ]
+}

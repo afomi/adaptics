@@ -1,0 +1,50 @@
+{
+  "name": "Pomegranate Margarita",
+  "description": "A sweet and sour drink perfect for Cinco de Mayo and Summer celebrations!",
+  "keywords": [
+    "tequila",
+    "pomegranate",
+    "alcoholic",
+    "margarita"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pomegranate-margarita",
+  "ingredients": [
+    {
+      "name": "Pure pomegranate juice",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Fresh squeexed lime juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "tequila",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Cointreau or Triple Sec",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Ice",
+      "quantity": "3",
+      "measure": "cups"
+    },
+    {
+      "name": "pomegranate seeds, for garnish",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Lime wedges, for garnish",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

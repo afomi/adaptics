@@ -1,0 +1,30 @@
+{
+  "name": "Quaker's Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "quaker-s-cocktail",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Raspberry Syrup",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

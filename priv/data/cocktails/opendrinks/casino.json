@@ -1,0 +1,35 @@
+{
+  "name": "Casino",
+  "description": "The Casino, which appeared in Harry Craddock's 1930 Savoy Cocktail Book, falls into a category of cocktails called Daisies. Each of these drinks includes a spirit, citrus, and a flavored sweetener.",
+  "keywords": [
+    "gin",
+    "lemon juice",
+    "maraschino",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "casino",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "45",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "15",
+      "measure": "ml"
+    },
+    {
+      "name": "Maraschino Liqueur",
+      "quantity": "23",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange Bitters",
+      "quantity": "1",
+      "measure": "dash"
+    }
+  ]
+}

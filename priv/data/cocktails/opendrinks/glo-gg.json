@@ -1,0 +1,77 @@
+{
+  "name": "Glögg",
+  "description": "Glögg (or glogg) is a warm, spiced drink, usually alcoholic in nature. It's a traditional Nordic drink during winter.",
+  "keywords": [
+    "alcoholic",
+    "red wine",
+    "warm",
+    "winter",
+    "christmas",
+    "scandinavian",
+    "swedish",
+    "finnish",
+    "norwegian",
+    "estonian",
+    "danish"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "glo-gg",
+  "ingredients": [
+    {
+      "name": "red wine",
+      "quantity": "1",
+      "measure": "bottle"
+    },
+    {
+      "name": "vodka",
+      "quantity": "Optional: 1 1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "orange zest",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "cardamom pods",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "ginger (sliced)",
+      "quantity": "2",
+      "measure": "tbsp"
+    },
+    {
+      "name": "cloves",
+      "quantity": "8",
+      "measure": ""
+    },
+    {
+      "name": "cinnamon",
+      "quantity": "1",
+      "measure": "stick"
+    },
+    {
+      "name": "Garnish: orange slices",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Garnish: almonds (blanched and slivered)",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Garnish: raisins",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

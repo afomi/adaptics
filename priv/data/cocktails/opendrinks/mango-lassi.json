@@ -1,0 +1,37 @@
+{
+  "name": "Mango Lassi",
+  "description": "This recipe comes from the cookbook author Madhur Jaffrey, who said, 'Mangoes are supposed to be good for the eyes.'",
+  "keywords": [
+    "yogurt",
+    "sugar",
+    "non-alcoholic",
+    "smoothie",
+    "lassi",
+    "cold"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "mango-lassi",
+  "ingredients": [
+    {
+      "name": "Plain Yogurt",
+      "quantity": "1",
+      "measure": "Cup"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1.5",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Fresh or canned Mango pulp",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Cardamom seeds",
+      "quantity": "1/4",
+      "measure": "tsp"
+    }
+  ]
+}

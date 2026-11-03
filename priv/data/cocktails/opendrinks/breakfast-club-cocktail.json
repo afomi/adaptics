@@ -1,0 +1,35 @@
+{
+  "name": "Breakfast Club Cocktail",
+  "description": "An homage to the breakfast club movie, a drink that is slightly fancier than if you poured some bourbon into your leftover cereal milk.",
+  "keywords": [
+    "cereal",
+    "bourbon",
+    "demerara",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "breakfast-club-cocktail",
+  "ingredients": [
+    {
+      "name": "Cereal Milk",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Demerara Syrup",
+      "quantity": "0.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Bourbon",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Favorite colorful cereal",
+      "quantity": "10",
+      "measure": "pieces"
+    }
+  ]
+}

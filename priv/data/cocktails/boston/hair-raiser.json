@@ -1,0 +1,25 @@
+{
+  "name": "Hair Raiser",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "hair-raiser",
+  "ingredients": [
+    {
+      "name": "100-proof Vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Rock and Rye",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lemon Juice",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

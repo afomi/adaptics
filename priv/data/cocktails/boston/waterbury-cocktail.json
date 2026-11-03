@@ -1,0 +1,35 @@
+{
+  "name": "Waterbury Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "waterbury-cocktail",
+  "ingredients": [
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lemon",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Egg White",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

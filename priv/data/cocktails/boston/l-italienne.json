@@ -1,0 +1,30 @@
+{
+  "name": "L'italienne",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "l-italienne",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Lillet Blanc",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Ramazzotti Amaro",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange Bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

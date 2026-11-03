@@ -1,0 +1,57 @@
+{
+  "name": "Tom Yum",
+  "description": "With its exotic flavors, light acidity, aromatic Thai ingredients and tequila with vegetal notes, this cocktail opens new perspectives and stimulates your taste buds.",
+  "keywords": [
+    "milk",
+    "lime juice",
+    "agave syrup",
+    "coriander",
+    "lemongrass",
+    "pepper"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tom-yum",
+  "ingredients": [
+    {
+      "name": "Patrón Silver infused with coriander and Kaffir lime",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "milk",
+      "quantity": "7",
+      "measure": "oz"
+    },
+    {
+      "name": "lime juice",
+      "quantity": "0.35",
+      "measure": "oz"
+    },
+    {
+      "name": "agave syrup",
+      "quantity": "0.35",
+      "measure": "oz"
+    },
+    {
+      "name": "white wine vinegar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "coriander",
+      "quantity": "4",
+      "measure": ""
+    },
+    {
+      "name": "lemongrass",
+      "quantity": "2",
+      "measure": ""
+    },
+    {
+      "name": "pepper",
+      "quantity": "2",
+      "measure": ""
+    }
+  ]
+}

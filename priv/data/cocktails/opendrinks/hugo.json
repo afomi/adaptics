@@ -1,0 +1,45 @@
+{
+  "name": "Hugo",
+  "description": "A refreshing summer cocktail with elderflower syrup, mint, and Prosecco.",
+  "keywords": [
+    "summer cocktail",
+    "Prosecco",
+    "mint",
+    "refreshing"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hugo",
+  "ingredients": [
+    {
+      "name": "Prosecco",
+      "quantity": "10",
+      "measure": "cl"
+    },
+    {
+      "name": "Elderflower syrup",
+      "quantity": "2-3",
+      "measure": "cl"
+    },
+    {
+      "name": "Soda water",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "Mint",
+      "quantity": "2",
+      "measure": "leaves"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1",
+      "measure": "piece"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "as needed",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Manhattan",
+  "description": "The Manhattan is a short drink cocktail that can be served as an aperitif.",
+  "keywords": [
+    "alcoholic",
+    "classic",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "manhattan",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Dry Vermouth",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "Angostura Bitters",
+      "quantity": "2",
+      "measure": "dashes"
+    },
+    {
+      "name": "Orange peel",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

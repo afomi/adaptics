@@ -1,0 +1,46 @@
+{
+  "name": "The Swedish Tart",
+  "description": "Simple and exotic kombucha-infused tea cocktail.",
+  "keywords": [
+    "alcoholic",
+    "aquavit",
+    "dill",
+    "green tea",
+    "kombucha"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "the-swedish-tart",
+  "ingredients": [
+    {
+      "name": "sugar",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "coarsely chopped dill",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "green tea kombucha",
+      "quantity": "3",
+      "measure": "ounces"
+    },
+    {
+      "name": "aquavit or vodka",
+      "quantity": "1 1/2",
+      "measure": "ounces"
+    },
+    {
+      "name": "water",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "Dill springs, for garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

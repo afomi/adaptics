@@ -1,0 +1,50 @@
+{
+  "name": "Pudina Sherbet",
+  "description": "An Indian style of making pudina juice with mint leaves, honey, lemon juice and few Indian spices.",
+  "keywords": [
+    "cool",
+    "refreshing",
+    "non-alcoholic",
+    "indian"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "pudina-sherbet",
+  "ingredients": [
+    {
+      "name": "Mint Leaves",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Honey or Sugar",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "Black Pepper Powder",
+      "quantity": "1/2",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Rock Salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Roasted Cumin Powder",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1.5",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Chilled Water or Ice Cubes",
+      "quantity": "3",
+      "measure": "cups"
+    }
+  ]
+}

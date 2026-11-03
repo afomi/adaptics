@@ -1,0 +1,25 @@
+{
+  "name": "Mint Gin Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "mint-gin-cocktail",
+  "ingredients": [
+    {
+      "name": "Mint-Flavored Gin",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "White Port Wine",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Dry Vermouth",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    }
+  ]
+}

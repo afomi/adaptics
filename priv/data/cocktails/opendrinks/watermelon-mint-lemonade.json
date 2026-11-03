@@ -1,0 +1,47 @@
+{
+  "name": "Watermelon Mint Lemonade",
+  "description": "This refreshing summer drink will ward off the heat with the bright combination of watermelon, mint, and lemons.",
+  "keywords": [
+    "fruit",
+    "lemon",
+    "mint",
+    "non-alcoholic",
+    "healthy",
+    "watermelon"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "watermelon-mint-lemonade",
+  "ingredients": [
+    {
+      "name": "granulated sugar",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "seedless watermelon, cubed in 1-inch pieces",
+      "quantity": "10",
+      "measure": "cup"
+    },
+    {
+      "name": "fresh-squeezed lemon juice",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "loosely packed mint leaves",
+      "quantity": "0.5",
+      "measure": "cup"
+    },
+    {
+      "name": "lemon slices",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "fresh mint sprigs",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

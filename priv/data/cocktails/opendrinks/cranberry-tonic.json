@@ -1,0 +1,41 @@
+{
+  "name": "Cranberry Tonic",
+  "description": "When cranberry finds a tonic side to surprise us...",
+  "keywords": [
+    "gin",
+    "lime syrup",
+    "orange juice",
+    "cranberry juice",
+    "tonic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cranberry-tonic",
+  "ingredients": [
+    {
+      "name": "lime syrup",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "Gin",
+      "quantity": "1.5",
+      "measure": "oz"
+    },
+    {
+      "name": "cranberry juice",
+      "quantity": "3",
+      "measure": "oz"
+    },
+    {
+      "name": "tonic water soda",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

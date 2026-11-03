@@ -1,0 +1,33 @@
+{
+  "name": "Quick Milk Tea",
+  "description": "Milk tea that is very easy to make.",
+  "keywords": [
+    "tea",
+    "milk"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "quick-milk-tea",
+  "ingredients": [
+    {
+      "name": "tea bag",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "boiling water",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "some ice cubes",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "few teaspoons sweet condensed milk",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

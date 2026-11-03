@@ -1,0 +1,48 @@
+{
+  "name": "Blueberry Banana Smoothie",
+  "description": "Added wheat germ gives this a nutty taste!",
+  "keywords": [
+    "orange",
+    "banana",
+    "smoothie",
+    "vitamin",
+    "juice",
+    "non-alcoholic",
+    "fruit",
+    "cold",
+    "blueberry",
+    "flax",
+    "wheat germ",
+    "oil",
+    "flax seed",
+    "frozen",
+    "nut",
+    "nutty",
+    "fiber"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "blueberry-banana-smoothie",
+  "ingredients": [
+    {
+      "name": "banana",
+      "quantity": "1",
+      "measure": "peeled"
+    },
+    {
+      "name": "frozen blueberries",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "wheat germ",
+      "quantity": "1",
+      "measure": "tbsp"
+    }
+  ]
+}

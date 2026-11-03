@@ -1,0 +1,48 @@
+{
+  "name": "Vegan Iced Milk Tea",
+  "description": "Iced sweet black tea with a splash of your favorite dairy-free milk.",
+  "keywords": [
+    "black tea",
+    "tea",
+    "sweet",
+    "soy milk",
+    "milk tea",
+    "dairy-free",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "vegan-iced-milk-tea",
+  "ingredients": [
+    {
+      "name": "organic black tea",
+      "quantity": "1",
+      "measure": "tbsp (bag)"
+    },
+    {
+      "name": "boiled water",
+      "quantity": "4",
+      "measure": "oz"
+    },
+    {
+      "name": "cold water",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "ice cubes",
+      "quantity": "1",
+      "measure": "handful"
+    },
+    {
+      "name": "sweetener of choice",
+      "quantity": "1",
+      "measure": "tbsp"
+    },
+    {
+      "name": "soymilk or milk alternative",
+      "quantity": "1",
+      "measure": "splash"
+    }
+  ]
+}

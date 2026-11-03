@@ -1,0 +1,39 @@
+{
+  "name": "South African Ginger Beer",
+  "description": "We consider Ginger Beer good only if it slightly burns your throat.",
+  "keywords": [
+    "ginger beer",
+    "south african",
+    "fermented"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "south-african-ginger-beer",
+  "ingredients": [
+    {
+      "name": "White Sugar",
+      "quantity": "200",
+      "measure": "grams"
+    },
+    {
+      "name": "Water",
+      "quantity": "8",
+      "measure": "Cups"
+    },
+    {
+      "name": "Ground Ginger",
+      "quantity": "2-3",
+      "measure": "Teaspoons"
+    },
+    {
+      "name": "Grated Ginger",
+      "quantity": "75",
+      "measure": "grams"
+    },
+    {
+      "name": "Tartaric acid",
+      "quantity": "¼",
+      "measure": "Teaspoons"
+    }
+  ]
+}

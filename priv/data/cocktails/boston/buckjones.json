@@ -1,0 +1,25 @@
+{
+  "name": "Buckjones",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "buckjones",
+  "ingredients": [
+    {
+      "name": "Light Rum",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Sherry",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

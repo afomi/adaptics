@@ -1,0 +1,50 @@
+{
+  "name": "Hocus Pocus",
+  "description": "This insane dry ice cocktail combines vodka, melon liqueur, blue curacao, sweet & sour, and pineapple juice, and can be served in a glass skull cup for maximum spooky cocktail vibes.",
+  "keywords": [
+    "curaçao",
+    "melon",
+    "liqueur",
+    "vodka",
+    "halloween",
+    "holiday",
+    "fruity",
+    "sweet",
+    "blue curaçao"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hocus-pocus",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Melon Liqueur",
+      "quantity": "8",
+      "measure": "oz"
+    },
+    {
+      "name": "Blue Curaçao",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet & Sour",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Pineapple Juice",
+      "quantity": "6",
+      "measure": "oz"
+    },
+    {
+      "name": "Dry Ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

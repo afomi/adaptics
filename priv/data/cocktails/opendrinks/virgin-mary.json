@@ -1,0 +1,53 @@
+{
+  "name": "Virgin Mary",
+  "description": "",
+  "keywords": [
+    "virgin mary",
+    "tomato"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "virgin-mary",
+  "ingredients": [
+    {
+      "name": "tomato juice",
+      "quantity": "100",
+      "measure": "ml"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": "20",
+      "measure": "ml"
+    },
+    {
+      "name": "worcestershire sauce",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "celery salt",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "black pepper",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "hot sauce",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "celery",
+      "quantity": "1",
+      "measure": "stalk"
+    },
+    {
+      "name": "pickle spear",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

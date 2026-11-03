@@ -1,0 +1,25 @@
+{
+  "name": "Margarita Tequila",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Shooters",
+  "slug": "margarita-tequila",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Cointreau triple sec",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "3/4 oz",
+      "quantity": null
+    }
+  ]
+}

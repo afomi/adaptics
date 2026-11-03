@@ -1,0 +1,382 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #fcfcfb;
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+
+  #tariff-loop-container {
+    position: fixed;
+    inset: 0;
+  }
+
+  #scene-label {
+    position: fixed;
+    top: 1.8rem;
+    left: 2rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #898781;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  #controls {
+    position: fixed;
+    bottom: 1.6rem;
+    left: 2rem;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    max-width: 270px;
+  }
+
+  #controls .hint {
+    font-size: 0.68rem;
+    color: #898781;
+    margin-bottom: 0.3rem;
+    line-height: 1.5;
+  }
+
+  #controls button {
+    background: #fcfcfb;
+    border: 1px solid #c3c2b7;
+    text-align: left;
+    font-size: 0.74rem;
+    color: #0b0b0b;
+    padding: 0.45rem 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  #controls button:hover {
+    border-color: #52514e;
+  }
+
+  #controls label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.72rem;
+    color: #52514e;
+    padding: 0.35rem 0.1rem;
+    cursor: pointer;
+  }
+
+  #controls .reset {
+    color: #898781;
+    border-style: dashed;
+  }
+
+  #legend {
+    position: fixed;
+    top: 1.6rem;
+    right: 2rem;
+    z-index: 10;
+    font-size: 0.68rem;
+    color: #52514e;
+    line-height: 1.9;
+    pointer-events: none;
+  }
+
+  #legend .swatch {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    margin-right: 0.45rem;
+    vertical-align: -0.08rem;
+    border: 1.5px solid;
+  }
+
+  #legend .sign {
+    font-weight: 700;
+    margin-right: 0.45rem;
+  }
+
+  #story-open {
+    position: fixed;
+    bottom: 1.8rem;
+    right: 2rem;
+    z-index: 50;
+    background: none;
+    border: 1px solid #c3c2b7;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #898781;
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+  }
+
+  #story-open:hover {
+    color: #0b0b0b;
+    border-color: #52514e;
+  }
+
+  #story-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(252, 252, 251, 0.88);
+    backdrop-filter: blur(3px);
+  }
+
+  #story-modal.hidden {
+    display: none;
+  }
+
+  #story-modal-inner {
+    background: #fff;
+    border: 1px solid #e1e0d9;
+    max-width: 680px;
+    width: calc(100% - 3rem);
+    max-height: 82vh;
+    overflow-y: auto;
+    padding: 3rem 3.5rem;
+    position: relative;
+  }
+
+  #story-modal-inner h1 {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0b0b0b;
+    margin: 0 0 0.25rem;
+  }
+
+  #story-modal-inner .byline {
+    font-size: 0.68rem;
+    color: #898781;
+    letter-spacing: 0.06em;
+    margin-bottom: 2rem;
+  }
+
+  #story-modal-inner h2 {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #52514e;
+    margin: 1.8rem 0 0.5rem;
+    border-bottom: 1px solid #f0efec;
+    padding-bottom: 0.3rem;
+  }
+
+  #story-modal-inner p {
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: #52514e;
+    margin: 0 0 0.8rem;
+  }
+
+  #story-modal-inner a {
+    color: #256abf;
+  }
+
+  #story-close {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.4rem;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    color: #898781;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+  }
+
+  #story-close:hover {
+    color: #0b0b0b;
+  }
+</style>
+
+<div id="tariff-loop-container"></div>
+
+<div id="scene-label">Tariff Loop — who paid, who got refunded</div>
+
+<div id="legend">
+  <div>
+    <span
+      class="swatch"
+      style="border-color: #2a78d6; background: #2a78d626;"
+    ></span>
+    state + policy
+  </div>
+  <div>
+    <span
+      class="swatch"
+      style="border-color: #eb6834; background: #eb683426;"
+    ></span>
+    market + retail
+  </div>
+  <div>
+    <span
+      class="swatch"
+      style="border-color: #1baf7a; background: #1baf7a26;"
+    ></span>
+    households
+  </div>
+  <div>
+    <span
+      class="swatch"
+      style="border-color: #eda100; background: #eda10026;"
+    ></span>
+    courts + politics
+  </div>
+  <div>
+    <span
+      class="sign"
+      style="color: #2a78d6;"
+    >+</span>
+    same-direction link
+  </div>
+  <div>
+    <span
+      class="sign"
+      style="color: #e34948;"
+    >−</span>
+    inverse link
+  </div>
+</div>
+
+<div id="controls">
+  <div class="hint">
+    Click the top of any node to push it up, the bottom to push it down, and watch the pulse propagate — like Nicky Case's LOOPY.
+    Or replay the actual sequence:
+  </div>
+  <button id="scenario-1">
+    ① Apr 2025 — impose tariffs
+  </button>
+  <button id="scenario-2">
+    ② Feb 2026 — Supreme Court strikes them down
+  </button>
+  <button id="scenario-3">
+    ③ Aug 2026 — $2.9B refund lands at Walmart
+  </button>
+  <label>
+    <input
+      type="checkbox"
+      id="rebate-toggle"
+    />
+    Enact the consumer rebate (H.R. 7865 — still just a bill)
+  </label>
+  <button
+    id="sim-reset"
+    class="reset"
+  >
+    reset
+  </button>
+</div>
+
+<div
+  id="story-modal"
+  class="hidden"
+>
+  <div id="story-modal-inner">
+    <button
+      id="story-close"
+      aria-label="Close"
+    >
+      &times;
+    </button>
+
+    <h1>The Tariff Loop</h1>
+    <div class="byline">
+      Causal feedback model &mdash; August 2026
+    </div>
+
+    <p>
+      In April 2025 the White House imposed sweeping import duties under IEEPA emergency powers.
+      Importers paid roughly $168 billion at the border, and much of it passed through to shelf prices &mdash; about $2,500 per household per year by
+      <a
+        href="https://www.jec.senate.gov/public/_cache/files/4836e257-91a5-426b-95bb-3e575a855f5b/jec-fact-sheet-on-cost-of-tariffs-for-families-2026.pdf"
+        target="_blank"
+      >Joint Economic Committee estimates</a>.
+    </p>
+
+    <p>
+      Higher prices fed legal and political pushback.
+      In February 2026 the Supreme Court ruled the tariffs an unlawful use of emergency powers, and in May the government began refunding the $168 billion &mdash; to the roughly 330,000 <em>importers</em> who wrote the checks, not to the consumers who ultimately paid.
+    </p>
+
+    <p>
+      This week (August 20, 2026) Walmart reported its $2.9 billion refund and said it would use it to temporarily lower prices on 11,000 items
+      (<a
+        href="https://www.cnn.com/2026/08/20/business/walmart-tariff-refund"
+        target="_blank"
+      >CNN</a>,
+      <a
+        href="https://www.nbcnews.com/business/consumer/walmart-earnings-tariffs-sales-growth-rcna593450"
+        target="_blank"
+      >NBC</a>,
+      <a
+        href="https://www.cbsnews.com/news/walmart-tariff-refunds-lower-prices/"
+        target="_blank"
+      >CBS</a>,
+      <a
+        href="https://fortune.com/2026/08/20/walmart-tariff-refunds-prices/"
+        target="_blank"
+      >Fortune</a>).
+      Target received $994M, Home Depot $730M, TJX $331M, Lowe's $80M.
+      Goldman Sachs expects prices to fall far more slowly than they rose.
+    </p>
+
+    <h2>The three loops</h2>
+    <p>
+      <strong>B &mdash; relief loop (balancing).</strong>
+      Prices &rarr; pushback &rarr; courts &rarr; tariff rate (&minus;).
+      The system self-corrects, but with a year of lag.
+    </p>
+    <p>
+      <strong>R &mdash; rollback loop (reinforcing).</strong>
+      Refunds &rarr; margins &rarr; rollbacks &rarr; prices (&minus;) &rarr; budgets &rarr; demand &rarr; margins.
+      The refund only reaches households if retailers choose to route it through prices &mdash; and rollbacks are partial, temporary, and double as a market-share weapon.
+    </p>
+    <p>
+      <strong>The missing arc.</strong>
+      The dashed line from refunds to household budgets is the
+      <a
+        href="https://www.congress.gov/bill/119th-congress/house-bill/7865/all-info"
+        target="_blank"
+      >American Consumer Tariff Rebate Act</a> &mdash; a direct-payment path that exists on paper but has not become law.
+      Toggle it on to see how the loop would close.
+    </p>
+
+    <h2>Why "kickback"</h2>
+    <p>
+      The money flowed consumers &rarr; retailers &rarr; Treasury, but refunds flow Treasury &rarr; retailers &rarr; stop.
+      The asymmetry is structural: the legal claim belongs to whoever paid the duty at the border, not whoever paid it at the register.
+    </p>
+  </div>
+</div>
+
+<button id="story-open">The story</button>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const sim = window.tariffLoop();
+
+    document.getElementById("scenario-1").addEventListener("click", () => sim.inject("tariff", +1));
+    document.getElementById("scenario-2").addEventListener("click", () => sim.inject("scotus", +1));
+    document.getElementById("scenario-3").addEventListener("click", () => sim.inject("refunds", +1));
+    document.getElementById("sim-reset").addEventListener("click", () => sim.reset());
+    document.getElementById("rebate-toggle").addEventListener("change", (e) => sim.setRebate(e.target.checked));
+
+    const modal = document.getElementById("story-modal");
+    document.getElementById("story-open").addEventListener("click", () => modal.classList.remove("hidden"));
+    document.getElementById("story-close").addEventListener("click", () => modal.classList.add("hidden"));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") modal.classList.add("hidden");
+    });
+  });
+</script>

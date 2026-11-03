@@ -1,0 +1,40 @@
+{
+  "name": "Bianca",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "bianca",
+  "ingredients": [
+    {
+      "name": "Lime wedge, superfine sugar",
+      "measure": "For glass",
+      "quantity": null
+    },
+    {
+      "name": "Citrus-flavored vodka",
+      "measure": "1 1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Pomegranate juice",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh Lime Juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Simple Syrup",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon juice, lemon twiste, fresh pomegranate seeds",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cuban Cocktail No. 1",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "cuban-cocktail-no-1",
+  "ingredients": [
+    {
+      "name": "Juice of a Lime",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Powdered Sugar",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Light Rum",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

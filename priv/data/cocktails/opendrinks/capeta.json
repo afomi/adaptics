@@ -1,0 +1,52 @@
+{
+  "name": "Capeta",
+  "description": "Capeta, which means devil in Portugese, is the name of this Carnival must-have drink, very popular in northern Brazil. This calls for guarana powder, which comes from a berry grown in Brazil and Venezuela; you can find it sold in health food shops as an energy supplement.",
+  "keywords": [
+    "capeta",
+    "devil",
+    "alcoholic",
+    "vodka",
+    "guarana",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "capeta",
+  "ingredients": [
+    {
+      "name": "Sweetened condensed milk",
+      "quantity": "3",
+      "measure": "Tablespoon"
+    },
+    {
+      "name": "Vodka",
+      "quantity": "3",
+      "measure": "Tablespoon"
+    },
+    {
+      "name": "Ground cinnamon",
+      "quantity": "1",
+      "measure": "Tablespoon"
+    },
+    {
+      "name": "Honey",
+      "quantity": "1",
+      "measure": "Tablespoon"
+    },
+    {
+      "name": "Guarana powder",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Unsweetened cocoa powder",
+      "quantity": "1",
+      "measure": "Teaspoon"
+    },
+    {
+      "name": "Ice cubes",
+      "quantity": "1/2 or more",
+      "measure": "Cup"
+    }
+  ]
+}

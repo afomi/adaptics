@@ -38,3 +38,20 @@ npm-debug.log
 
 # Ignore installed npm packages
 /node_modules
+
+# Uploaded documents
+/priv/uploads/
+
+# Python virtual environment
+/priv/python/.venv/
+
+# Local debug scratch (scripts, captures; has its own nested git)
+/tmp/
+
+# phx.digest output: fingerprinted copies, gzips, manifest
+/priv/static/cache_manifest.json
+/priv/static/**/*.gz
+/priv/static/**/*-????????????????????????????????.*
+
+# Per-machine Claude Code settings
+/.claude/settings.local.json

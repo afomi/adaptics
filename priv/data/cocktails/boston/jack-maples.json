@@ -1,0 +1,25 @@
+{
+  "name": "Jack Maples",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "jack-maples",
+  "ingredients": [
+    {
+      "name": "Applejack",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "maple syrup (grade B or medium-amber)",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Aromatic bitters",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cold Deck Cocktail",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "cold-deck-cocktail",
+  "ingredients": [
+    {
+      "name": "Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "White creme de menthe",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

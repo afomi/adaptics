@@ -1,0 +1,29 @@
+{
+  "name": "Two-One-Two",
+  "description": "The 212, from beverage consultants Aisha Sharpe and Willy Shine, is a wonderfully refreshing long drink that's as easy to make as it is to sip. The 212 refers to the Manhattan area code, but also to the drink's proportions.",
+  "keywords": [
+    "alcoholic",
+    "aperol",
+    "grapefruit"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "two-one-two",
+  "ingredients": [
+    {
+      "name": "Reposado tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Aperol",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Grapefruit juice",
+      "quantity": "2",
+      "measure": "oz"
+    }
+  ]
+}

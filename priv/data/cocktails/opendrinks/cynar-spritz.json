@@ -1,0 +1,44 @@
+{
+  "name": "Cynar Spritz",
+  "description": "A really great cocktail for a summer weekend, slightly more bitter than classic spritz.",
+  "keywords": [
+    "alcoholic",
+    "vegan",
+    "savory"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "cynar-spritz",
+  "ingredients": [
+    {
+      "name": "Prosecco",
+      "quantity": "3",
+      "measure": "parts"
+    },
+    {
+      "name": "Cynar",
+      "quantity": "2",
+      "measure": "parts"
+    },
+    {
+      "name": "Club Soda",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1",
+      "measure": "slice"
+    },
+    {
+      "name": "Olives",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

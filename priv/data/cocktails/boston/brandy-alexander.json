@@ -1,0 +1,25 @@
+{
+  "name": "Brandy Alexander",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "brandy-alexander",
+  "ingredients": [
+    {
+      "name": "Creme de Cacao (Brown)",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Heavy cream",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

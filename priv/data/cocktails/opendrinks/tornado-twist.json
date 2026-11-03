@@ -1,0 +1,25 @@
+{
+  "name": "Tornado Twist",
+  "description": "Great drink for kids and adults who don't like the bitter taste of cranberry-raspberry juice.",
+  "keywords": [
+    "tornado",
+    "twist",
+    "raspberry",
+    "juice"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "tornado-twist",
+  "ingredients": [
+    {
+      "name": "cranberry-raspberry juice",
+      "quantity": "12",
+      "measure": "fluid onces"
+    },
+    {
+      "name": "lemon-lime flavored carbonated beverage",
+      "quantity": "1",
+      "measure": "can or bottle"
+    }
+  ]
+}

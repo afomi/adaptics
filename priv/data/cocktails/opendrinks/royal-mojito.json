@@ -1,0 +1,46 @@
+{
+  "name": "Royal Mojito",
+  "description": "A classy variation on the mojito recipe.",
+  "keywords": [
+    "rum",
+    "champagne",
+    "mint",
+    "lime",
+    "alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "royal-mojito",
+  "ingredients": [
+    {
+      "name": "lime juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    },
+    {
+      "name": "rum",
+      "quantity": "5",
+      "measure": "cl"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": "1",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "mint leaves",
+      "quantity": "6",
+      "measure": ""
+    },
+    {
+      "name": "champagne",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "crushed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

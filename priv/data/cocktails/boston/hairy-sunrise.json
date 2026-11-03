@@ -1,0 +1,35 @@
+{
+  "name": "Hairy Sunrise",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "hairy-sunrise",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Vodka",
+      "measure": "3/4 oz",
+      "quantity": null
+    },
+    {
+      "name": "Triple Sec",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Orange juice",
+      "measure": "3 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

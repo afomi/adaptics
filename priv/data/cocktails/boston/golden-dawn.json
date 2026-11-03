@@ -1,0 +1,35 @@
+{
+  "name": "Golden Dawn",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Brandy",
+  "slug": "golden-dawn",
+  "ingredients": [
+    {
+      "name": "Apple Brandy",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Apricot-Flavored Brandy",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Gin",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh orange juice",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Grenadine",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

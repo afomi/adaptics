@@ -1,0 +1,26 @@
+<div
+  id="math-container"
+  style="width: 100%; height: 100vh; overflow: hidden;">
+</div>
+
+<div
+  style="position: absolute; top: 20px; left: 20px; z-index: 100; color: #fff; font-family: monospace; background: rgba(10,10,20,0.85); padding: 16px; border-radius: 8px; border: 1px solid #333; max-width: 280px;">
+  <h3 style="margin: 0 0 8px 0; font-size: 14px; color: #ccddff;">
+    Math as Functions
+  </h3>
+  <p style="margin: 0 0 8px 0; font-size: 11px; color: #8888aa;">
+    Drag nodes to rearrange.
+  </p>
+  <p style="margin: 0 0 8px 0; font-size: 11px; color: #8888aa;">
+    Drag from output port (green) to input port (red) to connect.
+  </p>
+  <p style="margin: 0; font-size: 11px; color: #8888aa;">
+    Double-click a node to increment its first parameter.
+  </p>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.mathNodes();
+  });
+</script>

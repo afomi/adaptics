@@ -1,0 +1,29 @@
+<div class="grid grid-cols-1 gap-4 px-4">
+  <%= for file <- @files do %>
+    <div class="border rounded-lg p-3 shadow-sm">
+      <%= if file.image? && file.preview do %>
+        <img src={file.preview}
+          class="h-96 w-auto max-w-full object-contain mx-auto rounded mb-2" />
+      <% else %>
+        <div class="h-96 flex items-center justify-center bg-gray-100 rounded mb-2">
+          <span class="text-gray-500 text-sm">No preview</span>
+        </div>
+      <% end %>
+
+      <p class="font-medium truncate" title={file.name}><%= file.name %></p>
+      <p class="text-xs text-gray-500 mb-2"><%= file.size %> bytes</p>
+
+      <div class="flex flex-nowrap gap-1">
+        <%= for {label, dest} <- @destinations do %>
+          <button
+            phx-click="move"
+            phx-value-path={file.path}
+            phx-value-dest={dest}
+            class="px-2 py-1 text-xs rounded bg-indigo-600 hover:bg-indigo-700 text-white">
+            <%= label %>
+          </button>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

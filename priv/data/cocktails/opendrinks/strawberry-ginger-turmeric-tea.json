@@ -1,0 +1,40 @@
+{
+  "name": "Strawberry Ginger Turmeric  Tea",
+  "description": "This drink is fresh and healthy because the ingredients for the manufacture itself consist of ginger, turmeric, strawberry and honey which have anti-inflammatory properties. Of course, it's low in calories too, because you use honey instead of sugar. This drink is really delicious served with a mixture of ice cubes or cooled first in the refrigerator but it does not rule out if served warm",
+  "keywords": [
+    "strawberry",
+    "tea",
+    "ginger",
+    "turmeric"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "strawberry-ginger-turmeric-tea",
+  "ingredients": [
+    {
+      "name": "Turmeric",
+      "quantity": "3",
+      "measure": "knuckles"
+    },
+    {
+      "name": "Ginger",
+      "quantity": "2",
+      "measure": "knuckles"
+    },
+    {
+      "name": "Water",
+      "quantity": "500",
+      "measure": "ml"
+    },
+    {
+      "name": "Strawberry",
+      "quantity": "200",
+      "measure": "gr"
+    },
+    {
+      "name": "Honey",
+      "quantity": "100",
+      "measure": "ml"
+    }
+  ]
+}

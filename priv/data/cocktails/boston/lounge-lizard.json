@@ -1,0 +1,20 @@
+{
+  "name": "Lounge Lizard",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Rum - Daiquiris",
+  "slug": "lounge-lizard",
+  "ingredients": [
+    {
+      "name": "Dark rum",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Amaretto",
+      "measure": "1/2 oz",
+      "quantity": null
+    }
+  ]
+}

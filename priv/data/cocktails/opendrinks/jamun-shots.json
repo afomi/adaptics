@@ -1,0 +1,57 @@
+{
+  "name": "Jamun Shots",
+  "description": "Jamun shots is a refreshing summer drink prepared from jamun which is a summer fruit and has amazing health benefits.",
+  "keywords": [
+    "jamun",
+    "salt",
+    "lemon",
+    "non-alcoholic",
+    "vegan",
+    "fresh"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "jamun-shots",
+  "ingredients": [
+    {
+      "name": "Jamun",
+      "quantity": "12 to 15",
+      "measure": "count"
+    },
+    {
+      "name": "Chilled Water",
+      "quantity": "1.5",
+      "measure": "cup"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Black Salt",
+      "quantity": "0.25",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Lemon Wedges",
+      "quantity": "1 or 2",
+      "measure": ""
+    },
+    {
+      "name": "Salt",
+      "quantity": "2 to 3",
+      "measure": "teaspoon"
+    },
+    {
+      "name": "Mint Sprig",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

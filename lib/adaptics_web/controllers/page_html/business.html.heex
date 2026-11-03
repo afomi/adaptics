@@ -1,0 +1,555 @@
+<style>
+  .biz-panel {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
+    width: 380px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    padding: 20px 22px;
+    color: #d8dcec;
+    background: rgba(11, 14, 26, 0.86);
+    border: 1px solid rgba(216, 210, 192, 0.18);
+    border-radius: 4px;
+    backdrop-filter: blur(6px);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .biz-title {
+    margin: 0 0 2px 0;
+    font-family: Palatino, "Iowan Old Style", Georgia, serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #e8e4d4;
+  }
+  .biz-subtitle,
+  .biz-note {
+    margin: 0 0 12px 0;
+    font-size: 10.5px;
+    line-height: 1.55;
+    color: #8890a8;
+  }
+  .biz-note {
+    margin: 12px 0 0 0;
+    padding-top: 10px;
+    border-top: 1px solid rgba(216, 210, 192, 0.14);
+  }
+  .biz-note strong {
+    color: #c8ccdc;
+    font-weight: 500;
+  }
+  .biz-label,
+  .biz-subhead {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 5px 0;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8a090;
+  }
+  .biz-subhead {
+    margin: 8px 0 3px 0;
+    color: #6a7288;
+  }
+  .biz-label span:last-child {
+    color: #e8e4d4;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .biz-btn-group {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .biz-btn {
+    flex: 1 1 auto;
+    padding: 5px 8px;
+    font-family: inherit;
+    font-size: 10.5px;
+    color: #d8dcec;
+    background: rgba(216, 210, 192, 0.06);
+    border: 1px solid rgba(216, 210, 192, 0.18);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .biz-btn:hover {
+    background: rgba(216, 210, 192, 0.14);
+  }
+  .biz-btn-active,
+  .biz-btn-active:hover {
+    color: #0b0e1a;
+    background: #e8b84a;
+    border-color: #e8b84a;
+  }
+  .biz-panel input[type="range"] {
+    width: 100%;
+    accent-color: #e8b84a;
+  }
+  .biz-dial {
+    display: grid;
+    grid-template-columns: 8px 1fr 90px 36px;
+    align-items: center;
+    gap: 6px;
+    font-size: 10.5px;
+  }
+  .biz-dial-value {
+    text-align: right;
+    color: #e8e4d4;
+  }
+  .biz-swatch {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  #biz-stats {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(216, 210, 192, 0.14);
+    font-size: 10.5px;
+    line-height: 1.8;
+    color: #9aa2b8;
+  }
+  .biz-stat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .biz-stat em {
+    color: #6a7288;
+  }
+  .biz-stat-value {
+    margin-left: auto;
+    color: #e8e4d4;
+  }
+  .biz-net {
+    width: 70px;
+    text-align: right;
+  }
+  .biz-net.up {
+    color: #5ad19a;
+  }
+  .biz-net.down {
+    color: #e86f5a;
+  }
+  .biz-snap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 3px 0;
+  }
+  .biz-snap-name {
+    flex: 1;
+    min-width: 0;
+    padding: 2px 5px;
+    font: inherit;
+    font-size: 10.5px;
+    color: #e8e4d4;
+    background: rgba(216, 210, 192, 0.06);
+    border: 1px solid rgba(216, 210, 192, 0.14);
+    border-radius: 3px;
+  }
+  .biz-snap-t {
+    font-size: 10px;
+    color: #6a7288;
+  }
+  .biz-snap-x {
+    padding: 0 4px;
+    color: #8890a8;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .biz-section {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(216, 210, 192, 0.14);
+  }
+  .biz-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .biz-chip {
+    padding: 4px 9px;
+    font: inherit;
+    font-size: 10.5px;
+    color: #d8dcec;
+    background: rgba(216, 210, 192, 0.06);
+    border: 1px solid rgba(216, 210, 192, 0.18);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .biz-chip-active {
+    color: #0b0e1a;
+    background: #e8b84a;
+    border-color: #e8b84a;
+  }
+  .biz-add-row {
+    display: flex;
+    gap: 4px;
+    margin-top: 6px;
+  }
+  .biz-panel select,
+  .biz-panel input[type="number"],
+  .biz-panel input:not([type]),
+  .biz-panel textarea {
+    min-width: 0;
+    padding: 3px 5px;
+    font: inherit;
+    font-size: 10.5px;
+    color: #e8e4d4;
+    background: rgba(216, 210, 192, 0.06);
+    border: 1px solid rgba(216, 210, 192, 0.16);
+    border-radius: 3px;
+  }
+  .biz-add-row select {
+    flex: 1;
+  }
+  .biz-ed-head {
+    display: flex;
+    gap: 6px;
+  }
+  .biz-ed-name {
+    flex: 1;
+    font-size: 13px !important;
+  }
+  .biz-btn-quiet {
+    flex: 0 0 auto;
+  }
+  .biz-stocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+  }
+  .biz-stock-field {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10.5px;
+  }
+  .biz-stock-field input {
+    width: 62px;
+  }
+  .biz-stock-field span {
+    color: #6a7288;
+  }
+  .biz-flowbox {
+    margin: 4px 0 7px 0;
+  }
+  .biz-flow-row {
+    display: grid;
+    grid-template-columns: 1fr 76px 92px 18px;
+    gap: 4px;
+    align-items: center;
+  }
+  .biz-flow-row > span.biz-amount-note + input {
+    display: none;
+  }
+  .biz-flow-row:has(input[data-f="scale"]) {
+    grid-template-columns: 1fr 76px 52px 40px 18px;
+  }
+  .biz-flow-row:has(input[data-f="scale"]) > span.biz-amount-note + input {
+    display: block;
+  }
+  .biz-amount-note {
+    overflow: hidden;
+    font-size: 10px;
+    color: #8890a8;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .biz-feed {
+    margin: 3px 0 0 6px;
+    font-size: 10px;
+    line-height: 1.6;
+    color: #6a7288;
+  }
+  .biz-feed select {
+    max-width: 210px;
+  }
+  .biz-feed input[type="number"] {
+    width: 46px;
+    margin-left: 4px;
+  }
+  .biz-feed-bad select {
+    border-color: #ff4d4d;
+  }
+  .biz-add {
+    padding: 0 6px;
+    font: inherit;
+    font-size: 10px;
+    color: #e8b84a;
+    text-transform: none;
+    letter-spacing: 0;
+    background: none;
+    border: 1px solid rgba(232, 184, 74, 0.4);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .biz-x {
+    padding: 0 4px;
+    color: #8890a8;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .biz-x:hover {
+    color: #ff4d4d;
+  }
+  .biz-issue {
+    margin: 3px 0;
+    padding: 4px 7px;
+    font-size: 10.5px;
+    line-height: 1.45;
+    border-left: 2px solid;
+    border-radius: 2px;
+  }
+  .biz-issue-error {
+    color: #ffb4b4;
+    background: rgba(255, 77, 77, 0.08);
+    border-color: #ff4d4d;
+  }
+  .biz-issue-warning {
+    color: #f0d9a0;
+    background: rgba(232, 184, 74, 0.08);
+    border-color: #e8b84a;
+  }
+  .biz-issue-ok {
+    color: #a8e8c8;
+    background: rgba(90, 209, 154, 0.08);
+    border-color: #5ad19a;
+  }
+  .biz-stat-head {
+    margin-bottom: 2px;
+    color: #c8ccdc;
+  }
+  .biz-empty {
+    font-size: 10.5px;
+    color: #8890a8;
+  }
+  .biz-json summary {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8a090;
+    cursor: pointer;
+  }
+  .biz-json textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 140px;
+    margin: 6px 0;
+    font-size: 10px;
+  }
+  .biz-json-ok {
+    font-size: 10.5px;
+    color: #5ad19a;
+  }
+  .biz-json-bad {
+    font-size: 10.5px;
+    color: #ff4d4d;
+  }
+</style>
+
+<div
+  id="biz-container"
+  data-start-layout="parts"
+  data-start-view="single"
+  style="width: 100%; height: 100vh; background: #0b0e1a;">
+</div>
+
+<div
+  class="biz-panel">
+  <h3
+    class="biz-title">
+    Business Model
+  </h3>
+  <p
+    class="biz-subtitle">
+    Each model is what comes in, what goes out, and how much.
+    Link one model's output to another's input to combine them; only valid links are offered.
+    The combination is itself a model, so you can view it as its parts or as one whole.
+  </p>
+
+  <div
+    class="biz-label">
+    <span>
+      Models
+    </span>
+  </div>
+  <div
+    id="biz-models"
+    class="biz-chips">
+  </div>
+  <div
+    class="biz-add-row">
+    <select
+      id="biz-template"
+      aria-label="Template">
+    </select>
+    <button
+      id="biz-add"
+      class="biz-btn">
+      Add model
+    </button>
+  </div>
+
+  <div
+    id="biz-editor"
+    class="biz-section">
+  </div>
+
+  <div
+    class="biz-section">
+    <div
+      class="biz-label">
+      <span>
+        View
+      </span>
+    </div>
+    <div
+      id="biz-layouts"
+      class="biz-btn-group">
+      <button
+        class="biz-btn"
+        data-layout="parts">
+        Parts
+      </button>
+      <button
+        class="biz-btn"
+        data-layout="whole">
+        Whole
+      </button>
+    </div>
+    <div
+      id="biz-views"
+      class="biz-btn-group"
+      style="margin-top: 4px;">
+      <button
+        class="biz-btn"
+        data-view="single">
+        One moment
+      </button>
+      <button
+        class="biz-btn"
+        data-view="snapshots">
+        Snapshots side by side
+      </button>
+    </div>
+
+    <label
+      class="biz-label"
+      for="biz-time">
+      <span>
+        Time
+      </span>
+      <span
+        id="biz-time-value">
+      </span>
+    </label>
+    <input
+      type="range"
+      id="biz-time"
+      min="0"
+      max="24"
+      step="0.1"
+      value="0" />
+    <div
+      class="biz-btn-group">
+      <button
+        id="biz-play"
+        class="biz-btn">
+        Play months
+      </button>
+      <button
+        id="biz-pin"
+        class="biz-btn">
+        Pin this month
+      </button>
+    </div>
+    <div
+      class="biz-label">
+      <span>
+        Snapshots
+      </span>
+    </div>
+    <div
+      id="biz-snapshots">
+    </div>
+  </div>
+
+  <div
+    class="biz-section">
+    <div
+      class="biz-label">
+      <span>
+        Checks
+      </span>
+    </div>
+    <div
+      id="biz-issues">
+    </div>
+  </div>
+
+  <div
+    id="biz-stats">
+  </div>
+
+  <details
+    id="biz-json-panel"
+    class="biz-json biz-section">
+    <summary>
+      Workspace JSON
+    </summary>
+    <textarea
+      id="biz-json"
+      spellcheck="false"
+      aria-label="Workspace JSON">
+    </textarea>
+    <div
+      class="biz-btn-group">
+      <button
+        id="biz-copy"
+        class="biz-btn">
+        Copy
+      </button>
+      <button
+        id="biz-load"
+        class="biz-btn">
+        Load
+      </button>
+      <button
+        id="biz-reset"
+        class="biz-btn">
+        Reset to example
+      </button>
+    </div>
+    <p
+      id="biz-json-status">
+    </p>
+  </details>
+
+  <p
+    class="biz-note">
+    <strong>Reading it.</strong>
+    Column height is a stock, scaled to its peak over the run; the ring marks that peak.
+    Particle speed and density are a flow's rate.
+    Arcs between models are links, labelled with the share they carry.
+    Red means an output wanted more than its stock held.
+    Interest is latent, so it is drawn as a ghost; a diamond port (◇) is not conserved.
+    Your workspace is saved in this browser.
+  </p>
+  <p
+    class="biz-note">
+    Drag to orbit, scroll to zoom, click a model to edit it, hover for values.
+  </p>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.business = window.businessModel();
+  });
+</script>

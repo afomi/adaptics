@@ -1,0 +1,44 @@
+{
+  "name": "Gazpacho",
+  "description": "A refreshing and healthy drink that is cheap and easy to make.",
+  "keywords": [
+    "fresh",
+    "healthy",
+    "vegan"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "gazpacho",
+  "ingredients": [
+    {
+      "name": "tomatoes",
+      "quantity": "4",
+      "measure": "big"
+    },
+    {
+      "name": "pepper",
+      "quantity": "1/2",
+      "measure": "normal"
+    },
+    {
+      "name": "garlic",
+      "quantity": "1",
+      "measure": "tooth"
+    },
+    {
+      "name": "olive oil",
+      "quantity": "2",
+      "measure": "spoons"
+    },
+    {
+      "name": "vinegar",
+      "quantity": "30",
+      "measure": "ml"
+    },
+    {
+      "name": "water",
+      "quantity": "250",
+      "measure": "ml"
+    }
+  ]
+}

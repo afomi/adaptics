@@ -1,0 +1,35 @@
+{
+  "name": "Butter Coffee",
+  "description": "Butter coffee is a drink consisting of brewed coffee, unsalted butter, and medium-chain triglycerides (MCTs), an easily digested type of fat.",
+  "keywords": [
+    "non-alcoholic",
+    "coffee",
+    "butter",
+    "hot"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "butter-coffee",
+  "ingredients": [
+    {
+      "name": "fresh brewed coffee",
+      "quantity": "1",
+      "measure": "cup"
+    },
+    {
+      "name": "of coconut or MCT oil",
+      "quantity": "1–2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "of unsalted butter or ghee",
+      "quantity": "1–2",
+      "measure": "tablespoons"
+    },
+    {
+      "name": "Optional sprikle of cinnamon",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

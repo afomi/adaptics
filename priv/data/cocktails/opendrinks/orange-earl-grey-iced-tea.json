@@ -1,0 +1,45 @@
+{
+  "name": "Orange Earl Grey Iced Tea",
+  "description": "Get a little pick-me-up with this orange-infused Earl Grey iced tea.",
+  "keywords": [
+    "iced tea",
+    "orange",
+    "tea",
+    "earl grey"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "orange-earl-grey-iced-tea",
+  "ingredients": [
+    {
+      "name": "Loose Earl Grey tea",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "from one orange",
+      "quantity": "1",
+      "measure": "peel"
+    },
+    {
+      "name": "boiling water",
+      "quantity": "4",
+      "measure": "cup"
+    },
+    {
+      "name": "orange juice",
+      "quantity": "3/4",
+      "measure": "cup"
+    },
+    {
+      "name": "cold water",
+      "quantity": "4",
+      "measure": "cup"
+    },
+    {
+      "name": "sugar",
+      "quantity": "1/4",
+      "measure": "cup"
+    }
+  ]
+}

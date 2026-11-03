@@ -1,0 +1,30 @@
+{
+  "name": "Dirty Harry",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Whiskies",
+  "slug": "dirty-harry",
+  "ingredients": [
+    {
+      "name": "Absinthe",
+      "measure": "1 oz",
+      "quantity": null
+    },
+    {
+      "name": "Straight rye whiskey",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Sweet Vermouth",
+      "measure": "1/2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Maraschino liqueur",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

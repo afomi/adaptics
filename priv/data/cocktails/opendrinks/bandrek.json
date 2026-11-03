@@ -1,0 +1,49 @@
+{
+  "name": "Bandrek",
+  "description": "Bandrek is a Sundanese-based spicy drink from Indonesia that can warm the body and relax.",
+  "keywords": [
+    "fresh",
+    "vegan",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bandrek",
+  "ingredients": [
+    {
+      "name": "mineral water",
+      "quantity": "1",
+      "measure": "liter"
+    },
+    {
+      "name": "refined brown sugar",
+      "quantity": "350",
+      "measure": "grams"
+    },
+    {
+      "name": "lemongrass stems then rubbed",
+      "quantity": "3",
+      "measure": "sticks"
+    },
+    {
+      "name": "grilled ginger are then crushed",
+      "quantity": "80",
+      "measure": "grams"
+    },
+    {
+      "name": "salt",
+      "quantity": "1/2",
+      "measure": "tablespoon"
+    },
+    {
+      "name": "pandan leaves (before use, clean first)",
+      "quantity": "1",
+      "measure": "sheet"
+    },
+    {
+      "name": "Vanilla sweetened condensed milk (optional)",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

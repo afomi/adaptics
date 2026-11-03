@@ -1,0 +1,15 @@
+{
+  "name": "Tropical Heart",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Cocktail Classics",
+  "slug": "tropical-heart",
+  "ingredients": [
+    {
+      "name": "Hot Shot Tropical Fruit Liqueur",
+      "measure": "1 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Watermelon Agua Fresca",
+  "description": "This is a drink served throughout Mexico. It is made with several different fruits. This is a watermelon drink.",
+  "keywords": [
+    "mint leaves",
+    "lime",
+    "sugar",
+    "watermelon",
+    "mexican"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "watermelon-agua-fresca",
+  "ingredients": [
+    {
+      "name": "cubed seeded watermelon",
+      "quantity": "4",
+      "measure": "cups"
+    },
+    {
+      "name": "white sugar, or to taste",
+      "quantity": "½",
+      "measure": "cup"
+    },
+    {
+      "name": "lime",
+      "quantity": "½",
+      "measure": "slimes"
+    },
+    {
+      "name": "fresh mint leaves",
+      "quantity": "24",
+      "measure": ""
+    },
+    {
+      "name": "ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Tequonic",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Tequila",
+  "slug": "tequonic",
+  "ingredients": [
+    {
+      "name": "Blanco tequila",
+      "measure": "2 oz",
+      "quantity": null
+    },
+    {
+      "name": "Fresh lemon or lime juice",
+      "measure": "1/4 oz",
+      "quantity": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Black Velvet",
+  "description": "The Black Velvet is a beer cocktail made from a stout and white sparkling wine or champagne.",
+  "keywords": [
+    "stout",
+    "champagne",
+    "sparkling wine"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "black-velvet",
+  "ingredients": [
+    {
+      "name": "Sparkling Wine or Champagne",
+      "quantity": "1",
+      "measure": "part"
+    },
+    {
+      "name": "Stout Beer",
+      "quantity": "1",
+      "measure": "part"
+    }
+  ]
+}

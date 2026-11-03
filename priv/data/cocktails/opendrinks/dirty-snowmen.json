@@ -1,0 +1,45 @@
+{
+  "name": "Dirty Snowmen",
+  "description": "For when you can't take the snow any longer.",
+  "keywords": [
+    "chocolate",
+    "vanila",
+    "ice",
+    "baileys"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "dirty-snowmen",
+  "ingredients": [
+    {
+      "name": "melted chocolate, for rim",
+      "quantity": "1/4",
+      "measure": "cup"
+    },
+    {
+      "name": "chocolate shavings",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "vanilla ice cream",
+      "quantity": "1",
+      "measure": "pint"
+    },
+    {
+      "name": "hot chocolate",
+      "quantity": "2",
+      "measure": "cup"
+    },
+    {
+      "name": "Baileys",
+      "quantity": "1/2",
+      "measure": "cup"
+    },
+    {
+      "name": "Whipped cream, for serving",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

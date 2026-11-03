@@ -1,0 +1,31 @@
+{
+  "name": "Madeleine",
+  "description": "A sweet cocktail tasting like the eponymous French cake. Delicious both as a full drink and as a shooter.",
+  "keywords": [
+    "amaretto",
+    "cointreau",
+    "sweet",
+    "vegan",
+    "french"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "madeleine",
+  "ingredients": [
+    {
+      "name": "Amaretto",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Cointreau",
+      "quantity": "1",
+      "measure": "cl"
+    },
+    {
+      "name": "Ananas Juice",
+      "quantity": "10",
+      "measure": "cl"
+    }
+  ]
+}

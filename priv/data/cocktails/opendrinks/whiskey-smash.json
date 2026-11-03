@@ -1,0 +1,40 @@
+{
+  "name": "Whiskey Smash",
+  "description": "Like Mint Juleps? You’ll love the Whiskey Smash, a citrusy 19th-century cooler. Legendary bartender Dale DeGroff at the Rainbow Room in New York modified the classic recipe by adding muddled lemon wedges. DeGroff calls the citrus-and-mint combination the perfect cocktail for those who say they’ll never drink whiskey.",
+  "keywords": [
+    "alcoholic",
+    "whiskey",
+    "lemon",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "whiskey-smash",
+  "ingredients": [
+    {
+      "name": "Bourbon",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Lemon Juice",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "Sugar Syrup",
+      "quantity": "22.5",
+      "measure": "ml"
+    },
+    {
+      "name": "Mint Leaves",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cubed ice",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

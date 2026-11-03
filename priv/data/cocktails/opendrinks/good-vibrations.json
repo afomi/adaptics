@@ -1,0 +1,30 @@
+{
+  "name": "Good Vibrations",
+  "description": "A sweet alcoholic beverage for the Orange Soda lovers in life.",
+  "keywords": [
+    "alcoholic",
+    "tequila",
+    "orange soda",
+    "sweet"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "good-vibrations",
+  "ingredients": [
+    {
+      "name": "Tequila",
+      "quantity": "2",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Soda (to fill rest of glass)",
+      "quantity": "1",
+      "measure": ""
+    },
+    {
+      "name": "Ice",
+      "quantity": "1",
+      "measure": "cup"
+    }
+  ]
+}

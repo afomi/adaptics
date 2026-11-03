@@ -1,0 +1,35 @@
+{
+  "name": "Hiroshima",
+  "description": "Do you like shots? Then try this creamy, herbal and sweet, absinthe and sambuca-based cocktail, alcoholic and strong.",
+  "keywords": [
+    "hiroshima",
+    "irish cream liqueur",
+    "absinte",
+    "sambuca"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "hiroshima",
+  "ingredients": [
+    {
+      "name": "Sambuca",
+      "quantity": "0.75",
+      "measure": "oz"
+    },
+    {
+      "name": "Absinte",
+      "quantity": "0.75",
+      "measure": "oz"
+    },
+    {
+      "name": "Irish cream liqueur",
+      "quantity": "0.35",
+      "measure": "oz"
+    },
+    {
+      "name": "Grenadine syrup",
+      "quantity": "0.15",
+      "measure": "oz"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Golden Brown",
+  "description": "Gin, Coffee and Orange for dessert",
+  "keywords": [
+    "gin",
+    "coffee",
+    "espresso",
+    "orange"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "golden-brown",
+  "ingredients": [
+    {
+      "name": "Gin",
+      "quantity": "40",
+      "measure": "ml"
+    },
+    {
+      "name": "Coffee liqueur",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Espresso Coffee",
+      "quantity": "50",
+      "measure": "ml"
+    },
+    {
+      "name": "Orange Juice",
+      "quantity": "10",
+      "measure": "ml"
+    },
+    {
+      "name": "slide of orange peel",
+      "quantity": "1",
+      "measure": ""
+    }
+  ]
+}

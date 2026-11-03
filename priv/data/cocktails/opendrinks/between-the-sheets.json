@@ -1,0 +1,35 @@
+{
+  "name": "Between the Sheets",
+  "description": "Also known as the Maiden’s Prayer, Between the Sheets is a flirty cocktail for sexy people!",
+  "keywords": [
+    "lime",
+    "strong",
+    "sour",
+    "cocktail"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "between-the-sheets",
+  "ingredients": [
+    {
+      "name": "Light rum",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Brandy",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Triple sec",
+      "quantity": "3/4",
+      "measure": "oz"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1/2",
+      "measure": "oz"
+    }
+  ]
+}

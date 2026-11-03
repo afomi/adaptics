@@ -1,0 +1,42 @@
+{
+  "name": "Bijou",
+  "description": "Pronounced Bee-Jew, this is a somewhat drier version of the classic cocktail included in the Harry Johnson's Bartender Manual from 1900",
+  "keywords": [
+    "gin",
+    "vermouth",
+    "alcoholic",
+    "simple",
+    "chartreuse",
+    "dry"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "bijou",
+  "ingredients": [
+    {
+      "name": "dry Gin",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Chartreuse",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "quantity": "1",
+      "measure": "oz"
+    },
+    {
+      "name": "Orange Bitters",
+      "quantity": "1",
+      "measure": "dash"
+    },
+    {
+      "name": "Lemon Peel",
+      "quantity": "1",
+      "measure": "piece"
+    }
+  ]
+}

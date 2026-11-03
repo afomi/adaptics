@@ -1,0 +1,34 @@
+{
+  "name": "Rysgaard's Corona Special",
+  "description": "A drink for drinking alone in your apartment when quarantined.",
+  "keywords": [
+    "whiskey",
+    "corona",
+    "old danish"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "rysgaard-s-corona-special",
+  "ingredients": [
+    {
+      "name": "Cheap Whiskey",
+      "quantity": "4",
+      "measure": "cL"
+    },
+    {
+      "name": "Soda with sport taste",
+      "quantity": "33",
+      "measure": "cL"
+    },
+    {
+      "name": "Old Danish",
+      "quantity": "1",
+      "measure": "cL"
+    },
+    {
+      "name": "Dark coloring for sauce",
+      "quantity": "3",
+      "measure": "drops"
+    }
+  ]
+}

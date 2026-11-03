@@ -1,0 +1,82 @@
+{
+  "kinetic_energy": {
+    "id": "kinetic_energy",
+    "name": "Kinetic Energy",
+    "notes": "Energy of motion. Depends on mass and the square of velocity.",
+    "formula": {
+      "display": "KE = ½mv²"
+    },
+    "params": [
+      { "name": "m", "label": "mass", "unit": "kg", "default": 1 },
+      { "name": "v", "label": "velocity", "unit": "m/s", "default": 1 }
+    ],
+    "returns": { "label": "kinetic energy", "unit": "J" }
+  },
+  "potential_energy": {
+    "id": "potential_energy",
+    "name": "Potential Energy",
+    "notes": "Stored energy due to position in a gravitational field.",
+    "formula": {
+      "display": "PE = mgh"
+    },
+    "params": [
+      { "name": "m", "label": "mass", "unit": "kg", "default": 1 },
+      { "name": "g", "label": "gravitational acceleration", "unit": "m/s²", "default": 9.81 },
+      { "name": "h", "label": "height", "unit": "m", "default": 1 }
+    ],
+    "returns": { "label": "potential energy", "unit": "J" }
+  },
+  "work": {
+    "id": "work",
+    "name": "Work",
+    "notes": "Energy transferred by a force acting over a distance.",
+    "formula": {
+      "display": "W = Fd cos(θ)"
+    },
+    "params": [
+      { "name": "F", "label": "force", "unit": "N", "default": 1 },
+      { "name": "d", "label": "distance", "unit": "m", "default": 1 },
+      { "name": "theta", "label": "angle", "unit": "rad", "default": 0 }
+    ],
+    "returns": { "label": "work", "unit": "J" }
+  },
+  "power": {
+    "id": "power",
+    "name": "Power",
+    "notes": "Rate of energy transfer or work done per unit time.",
+    "formula": {
+      "display": "P = W/t"
+    },
+    "params": [
+      { "name": "W", "label": "work", "unit": "J", "default": 1 },
+      { "name": "t", "label": "time", "unit": "s", "default": 1 }
+    ],
+    "returns": { "label": "power", "unit": "W" }
+  },
+  "momentum": {
+    "id": "momentum",
+    "name": "Momentum",
+    "notes": "Product of mass and velocity. Conserved in closed systems.",
+    "formula": {
+      "display": "p = mv"
+    },
+    "params": [
+      { "name": "m", "label": "mass", "unit": "kg", "default": 1 },
+      { "name": "v", "label": "velocity", "unit": "m/s", "default": 1 }
+    ],
+    "returns": { "label": "momentum", "unit": "kg·m/s" }
+  },
+  "force": {
+    "id": "force",
+    "name": "Force",
+    "notes": "Newton's second law. Force equals mass times acceleration.",
+    "formula": {
+      "display": "F = ma"
+    },
+    "params": [
+      { "name": "m", "label": "mass", "unit": "kg", "default": 1 },
+      { "name": "a", "label": "acceleration", "unit": "m/s²", "default": 1 }
+    ],
+    "returns": { "label": "force", "unit": "N" }
+  }
+}

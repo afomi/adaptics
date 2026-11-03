@@ -1,0 +1,46 @@
+{
+  "name": "Turkish Buttermilk (Ayran)",
+  "description": "Turkish Buttermilk (Ayran) is a Turkish yoghurt drink frothed to perfection in seconds and served up icy cold. It pairs perfectly with a greasy meal like Kebab.",
+  "keywords": [
+    "simple",
+    "soda",
+    "yogurt",
+    "mint leaves",
+    "non-alcoholic"
+  ],
+  "source": "opendrinks",
+  "category": null,
+  "slug": "turkish-buttermilk-ayran",
+  "ingredients": [
+    {
+      "name": "Natural Yoghurt",
+      "quantity": "400",
+      "measure": "g"
+    },
+    {
+      "name": "Soda Water",
+      "quantity": "2",
+      "measure": "cups"
+    },
+    {
+      "name": "Sea Salt",
+      "quantity": "1",
+      "measure": "pinch"
+    },
+    {
+      "name": "Cubed ice",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Cucumber to garnish",
+      "quantity": "",
+      "measure": ""
+    },
+    {
+      "name": "Mint to garnish",
+      "quantity": "",
+      "measure": ""
+    }
+  ]
+}

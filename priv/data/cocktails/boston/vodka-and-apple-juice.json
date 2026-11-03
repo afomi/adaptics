@@ -1,0 +1,15 @@
+{
+  "name": "Vodka and Apple Juice",
+  "description": null,
+  "keywords": [],
+  "source": "boston",
+  "category": "Vodka",
+  "slug": "vodka-and-apple-juice",
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "measure": "2 oz",
+      "quantity": null
+    }
+  ]
+}

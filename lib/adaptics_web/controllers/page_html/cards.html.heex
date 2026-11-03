@@ -1,0 +1,210 @@
+<style>
+  .cards-panel {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
+    width: 280px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    padding: 20px 22px;
+    color: #d8dcec;
+    background: rgba(11, 14, 26, 0.84);
+    border: 1px solid rgba(216, 210, 192, 0.18);
+    border-radius: 4px;
+    backdrop-filter: blur(6px);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .cards-title {
+    margin: 0 0 2px 0;
+    font-family: Palatino, "Iowan Old Style", Georgia, serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #e8e4d4;
+  }
+  .cards-hint {
+    margin: 10px 0 0 0;
+    font-size: 10px;
+    line-height: 1.6;
+    color: #6a7288;
+  }
+  .cards-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 5px 8px;
+    font-size: 11px;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  .cards-item:hover {
+    border-color: rgba(232, 200, 114, 0.4);
+  }
+  .cards-item[data-selected="true"] {
+    color: #e8c872;
+    border-color: rgba(232, 200, 114, 0.6);
+    background: rgba(232, 200, 114, 0.08);
+  }
+  .cards-swatch {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+  }
+  #cards-crowd-status[data-tone="error"] {
+    color: #e8595a;
+  }
+  #cards-url-form[data-disabled="true"] {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+</style>
+
+<div
+  id="cards-container"
+  style="width: 100%; height: 100vh; background: #0b0e1a;">
+</div>
+
+<div
+  class="cards-panel">
+  <h3
+    class="cards-title">
+    Cards
+  </h3>
+  <p
+    class="cards-hint">
+    Click a card to select it.
+    WASD moves it, E / Q rise and sink, shift to hurry.
+    Click the ground to send it there.
+    Double-click (or Enter) opens its view.
+  </p>
+
+  <div
+    id="cards-list"
+    class="mt-4 flex flex-col gap-1">
+  </div>
+
+  <form
+    id="cards-url-form"
+    data-disabled="true"
+    class="mt-4 flex flex-col gap-2">
+    <label
+      for="cards-url"
+      class="text-[10px] uppercase tracking-[0.14em] text-slate-400">
+      Card URL
+    </label>
+    <input
+      id="cards-url"
+      type="text"
+      placeholder="votesmash.app"
+      autocomplete="off"
+      class="w-full rounded border border-white/20 bg-slate-950/80 px-2 py-1 font-mono text-[11px] text-slate-200" />
+    <button
+      id="cards-view-toggle"
+      type="button"
+      data-open="false"
+      class="rounded border border-white/20 bg-slate-950/80 px-3 py-2 font-mono text-[11px] tracking-wide text-slate-200 transition-colors hover:border-amber-400/60 hover:text-amber-300 disabled:opacity-40 data-[open=true]:border-amber-400/60 data-[open=true]:text-amber-300">
+      Open view
+    </button>
+  </form>
+
+  <section
+    id="cards-crowd"
+    class="mt-5 flex flex-col gap-2 border-t border-white/10 pt-4">
+    <div
+      class="text-[10px] uppercase tracking-[0.14em] text-[#6fd3c4]">
+      Crowd run
+    </div>
+    <p
+      class="cards-hint mt-0">
+      Replay a VoteSmash crowd run: one card per agent, placed by tour phase.
+      Drop the runner's JSONL transcripts anywhere on the page.
+    </p>
+    <div
+      class="flex gap-2">
+      <button
+        id="cards-crowd-sample"
+        type="button"
+        data-src={~p"/fixtures/crowd_transcript_sample.jsonl"}
+        class="flex-1 rounded border border-white/20 bg-slate-950/80 px-2 py-1.5 font-mono text-[11px] text-slate-200 transition-colors hover:border-[#6fd3c4]/60 hover:text-[#6fd3c4]">
+        Load sample
+      </button>
+      <label
+        for="cards-crowd-file"
+        class="flex-1 cursor-pointer rounded border border-white/20 bg-slate-950/80 px-2 py-1.5 text-center font-mono text-[11px] text-slate-200 transition-colors hover:border-[#6fd3c4]/60 hover:text-[#6fd3c4]">
+        Open JSONL…
+      </label>
+      <input
+        id="cards-crowd-file"
+        type="file"
+        accept=".jsonl,.ndjson,.json,.txt"
+        multiple
+        class="hidden" />
+    </div>
+    <div
+      class="flex items-center gap-2">
+      <button
+        id="cards-crowd-play"
+        type="button"
+        data-playing="false"
+        disabled
+        class="w-14 rounded border border-white/20 bg-slate-950/80 px-2 py-1 font-mono text-[11px] text-slate-200 disabled:opacity-40 data-[playing=true]:border-[#6fd3c4]/60 data-[playing=true]:text-[#6fd3c4]">
+        Play
+      </button>
+      <select
+        id="cards-crowd-speed"
+        class="flex-1 rounded border border-white/20 bg-slate-950/80 px-1 py-1 font-mono text-[11px] text-slate-200">
+        <option
+          value="fit"
+          selected>
+          fit (40s)
+        </option>
+        <option
+          value="1">
+          1×
+        </option>
+        <option
+          value="10">
+          10×
+        </option>
+        <option
+          value="60">
+          60×
+        </option>
+      </select>
+    </div>
+    <input
+      id="cards-crowd-scrub"
+      type="range"
+      min="0"
+      max="1000"
+      step="1"
+      value="0"
+      class="w-full accent-[#6fd3c4]" />
+    <div
+      id="cards-crowd-clock"
+      class="font-mono text-[10px] text-slate-400">
+      T+00:00
+    </div>
+    <p
+      id="cards-crowd-status"
+      class="cards-hint mt-0"
+      data-tone="ok">
+      No run loaded.
+    </p>
+  </section>
+
+  <p
+    class="cards-hint">
+    Bots drive cards via <code>window.cards</code>: moveTo, moveBy, setUrl, open, close, add.
+  </p>
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.cards = window.renderCards();
+    window.crowd = window.renderCrowdReplay(window.cards);
+  });
+</script>
